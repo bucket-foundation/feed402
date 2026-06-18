@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / TS
+node_modules/
+dist/
+build/
+.next/
+*.log
+index/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa*
+credentials

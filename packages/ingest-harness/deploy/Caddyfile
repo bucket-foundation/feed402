@@ -1,0 +1,26 @@
+# feed402.agfarms.dev — single subdomain, path-based provider routing.
+# Reuses the existing AGFarms wildcard cert pattern (same Hetzner CPX42, same
+# Cloudflare DNS). No new domain required.
+#
+# Routes:
+#   feed402.agfarms.dev/                        provider index
+#   feed402.agfarms.dev/health/global           combined health
+#   feed402.agfarms.dev/p/<provider>/raw        per-provider tiers
+#   feed402.agfarms.dev/p/<provider>/query
+#   feed402.agfarms.dev/p/<provider>/insight
+#   feed402.agfarms.dev/p/<provider>/.well-known/feed402.json
+
+feed402.agfarms.dev {
+	reverse_proxy ingest-harness:4400 {
+		header_up Host {http.request.host}
+		header_up X-Forwarded-Host {http.request.host}
+	}
+
+	# Surface 402 challenges + payment header through the proxy.
+	header {
+		Access-Control-Allow-Origin *
+		Access-Control-Allow-Headers "x-payment, content-type"
+		Access-Control-Expose-Headers "www-authenticate"
+		Access-Control-Allow-Methods "GET, POST, OPTIONS"
+	}
+}

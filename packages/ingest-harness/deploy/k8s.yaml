@@ -1,0 +1,87 @@
+# feed402.agfarms.dev — K3s manifest for the AGFarms Hetzner cluster.
+# Reuses the cluster-issuer + ingress-nginx that the rest of *.agfarms.dev uses.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: feed402
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ingest-harness
+  namespace: feed402
+spec:
+  replicas: 1
+  strategy: { type: RollingUpdate }
+  selector: { matchLabels: { app: ingest-harness } }
+  template:
+    metadata:
+      labels: { app: ingest-harness }
+    spec:
+      containers:
+        - name: app
+          image: farmera/feed402-ingest-harness:0.1.0
+          imagePullPolicy: IfNotPresent
+          args:
+            - "node"
+            - "dist/serve-all.js"
+            - "--datasets-root"
+            - "./datasets"
+            - "--port"
+            - "4400"
+          ports:
+            - containerPort: 4400
+          env:
+            - name: FEED402_FACILITATOR_URL
+              valueFrom:
+                secretKeyRef:
+                  name: feed402-secrets
+                  key: facilitator_url
+                  optional: true
+          resources:
+            requests: { cpu: "200m", memory: "256Mi" }
+            limits:   { cpu: "1",    memory: "1Gi"   }
+          readinessProbe:
+            httpGet: { path: "/health/global", port: 4400 }
+            initialDelaySeconds: 5
+          livenessProbe:
+            httpGet: { path: "/health/global", port: 4400 }
+            initialDelaySeconds: 30
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ingest-harness
+  namespace: feed402
+spec:
+  selector: { app: ingest-harness }
+  ports:
+    - port: 4400
+      targetPort: 4400
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: feed402
+  namespace: feed402
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/cors-allow-origin: "*"
+    nginx.ingress.kubernetes.io/cors-allow-headers: "x-payment, content-type"
+    nginx.ingress.kubernetes.io/cors-expose-headers: "www-authenticate"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "GET, POST, OPTIONS"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts: [ "feed402.agfarms.dev" ]
+      secretName: feed402-agfarms-tls
+  rules:
+    - host: "feed402.agfarms.dev"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend: { service: { name: ingest-harness, port: { number: 4400 } } }

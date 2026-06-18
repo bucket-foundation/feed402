@@ -1,0 +1,7 @@
+name: pharma-fda
+version: 0.1.0
+chain: base-sepolia
+wallet: 0x0000000000000000000000000000000000000000
+citation_policy: openFDA-public
+contact: ops@bucket.foundation
+schema_url: https://pharma-fda.feed402.dev/schema.json

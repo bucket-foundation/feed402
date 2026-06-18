@@ -1,0 +1,18 @@
+{
+  "fetched": 1359,
+  "kept": 828,
+  "chunks": 435,
+  "generated_at": "2026-04-27T14:28:57.509Z",
+  "slices": [
+    "battle",
+    "war",
+    "treaty",
+    "revolution",
+    "earthquake",
+    "epidemic",
+    "election",
+    "coup",
+    "expedition",
+    "founding"
+  ]
+}

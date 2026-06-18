@@ -1,0 +1,829 @@
+id,lat,lon,timestamp,source_url,license,title,kind,description
+wd-Q127038517-battle-of-ransbeek,50.910214,4.401392,http://www.wikidata.org/.well-known/genid/9794c3dc49590432e75966bb9d015c19,https://www.wikidata.org/wiki/Q127038517,CC-BY-SA-4.0,Battle of Ransbeek,battle,1142 or 1147 battle of the Grimbergen Wars fought at Ransbeek
+wd-Q470596-year-of-the-four-emperors,41.9,12.5,0068-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q470596,CC-BY-SA-4.0,Year of the Four Emperors,war,battles for succession to rule the Roman Empire (AD 69)
+wd-Q131697875-third-gupta-interregnum,25.566654,83.288943,0455-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131697875,CC-BY-SA-4.0,Third Gupta Interregnum,war,
+wd-Q18148539-tikal-calakmul-wars,19.5511,-89.2964,0537-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18148539,CC-BY-SA-4.0,Tikal–Calakmul wars,war,537–838 series of wars in Mesoamerica
+wd-Q85760625-fatimid-conquest-of-egypt,30,31.233333333,0969-02-11T00:00:00Z,https://www.wikidata.org/wiki/Q85760625,CC-BY-SA-4.0,Fatimid conquest of Egypt,war,10th-century conquest
+wd-Q1187448-zenkunen-war,38.9,140.683,1051-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1187448,CC-BY-SA-4.0,Zenkunen War,war,war
+wd-Q743768-the-anarchy,49,0,1135-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q743768,CC-BY-SA-4.0,The Anarchy,war,civil war in England and Normandy between 1135 and 1153
+wd-Q842357-h-gen-rebellion,35.0117,135.768,1156-07-28T00:00:00Z,https://www.wikidata.org/wiki/Q842357,CC-BY-SA-4.0,Hōgen rebellion,war,civil war in Japan (1156–1156)
+wd-Q1372308-j-ky-war,35.0116667,135.768333,1221-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1372308,CC-BY-SA-4.0,Jōkyū War,war,"Japanese civil war (1221) between Retired Emperor Go-Toba and the Hōjō clan, regents of the Kamakura shogunate"
+wd-Q20582803-khwarazmian-campaigns-in-georgia,41.45,44.533333333,1225-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q20582803,CC-BY-SA-4.0,Khwarazmian campaigns in Georgia,war,1225–1229 series of wars
+wd-Q4301653-mongol-conquest-of-anatolia,39,35,1241-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4301653,CC-BY-SA-4.0,Mongol conquest of Anatolia,war,1241–1335 Mongol conquests in Anatolia
+wd-Q1305130-war-of-saint-sabas,32.9275,35.08166667,1256-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1305130,CC-BY-SA-4.0,War of Saint Sabas,war,war
+wd-Q21081322-battle-of-the-strait,35.971666666,-5.485833333,1288-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21081322,CC-BY-SA-4.0,Battle of the Strait,war,1274–1350 war phase in the Reconquista
+wd-Q20875683-catalan-genoese-war,44.410833333,8.932222222,1330-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q20875683,CC-BY-SA-4.0,Catalan–Genoese War,war,1330–1336 war
+wd-Q638850-smyrniote-crusades,38.4,27.1,1343-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q638850,CC-BY-SA-4.0,Smyrniote crusades,war,14th-century crusades
+wd-Q698985-ottoman-wars-in-europe,42,22,1354-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q698985,CC-BY-SA-4.0,Ottoman Wars in Europe,war,series of military conflicts between the Ottoman Empire and various European states
+wd-Q1788506-alexandrian-crusade,31.19972222,29.87111111,1365-10-17T00:00:00Z,https://www.wikidata.org/wiki/Q1788506,CC-BY-SA-4.0,Alexandrian Crusade,war,14ht-century crusade
+wd-Q110425494-timur-s-conquest-of-zamindawar-and-war-with-the-qara-unas,32.4672,65.2745,1383-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q110425494,CC-BY-SA-4.0,Timur's conquest of Zamindawar and war with the Qara'unas,war,
+wd-Q18008303-crusade-of-tedelis,36.9167,3.88333,1398-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q18008303,CC-BY-SA-4.0,Crusade of Tedelis,war,1398 religious war
+wd-Q20640745-bona-crusade,36.9,7.766666666,1399-09-08T00:00:00Z,https://www.wikidata.org/wiki/Q20640745,CC-BY-SA-4.0,Bona crusade,war,1399 religious war
+wd-Q1382146-everstein-feud,51.8995,9.54882,1404-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1382146,CC-BY-SA-4.0,Everstein Feud,war,
+wd-Q1112854-ming-h-war,20.078055555,105.604722222,1406-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1112854,CC-BY-SA-4.0,Ming–Hồ War,war,war
+wd-Q2506432-wars-in-lombardy,45.65,9.95,1423-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2506432,CC-BY-SA-4.0,Wars in Lombardy,war,wars in Northern Italy in the first half of the 15th century.
+wd-Q385676-nin-war,34.8819,135.8006,1467-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q385676,CC-BY-SA-4.0,Ōnin War,war,15th-century civil war in Japan
+wd-Q2318299-rorschacher-klosterbruch,47.466666666,9.483333333,1489-08-06T00:00:00Z,https://www.wikidata.org/wiki/Q2318299,CC-BY-SA-4.0,Rorschacher Klosterbruch,war,1489-90 Swiss conflict
+wd-Q1355145-italian-war-of-1494-1495,42.5,12.5,1494-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1355145,CC-BY-SA-4.0,Italian War of 1494–1495,war,war
+wd-Q165136-swabian-war,46.798562,8.231973,1499-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q165136,CC-BY-SA-4.0,Swabian War,war,war in 1499
+wd-Q9001174-second-war-of-naples,40.33333333,15.83333333,1501-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q9001174,CC-BY-SA-4.0,Second War of Naples,war,
+wd-Q923852-crimean-russian-wars,55.5,37.533333333,1507-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q923852,CC-BY-SA-4.0,Crimean-Russian Wars,war,1570-1572 war
+wd-Q131384776-kazakh-nogai-war,39.666666666,66.983333333,1515-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131384776,CC-BY-SA-4.0,Kazakh-Nogai War,war,1515-1521 war
+wd-Q1429256-war-of-the-league-of-cognac,42.5,12.5,1526-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1429256,CC-BY-SA-4.0,War of the League of Cognac,war,conflict
+wd-Q136192521-q136192521,36.551805555,140.415361111,1528-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q136192521,CC-BY-SA-4.0,Q136192521,war,
+wd-Q1763918-inca-civil-war,-9.4,-76,1529-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1763918,CC-BY-SA-4.0,Inca Civil War,war,war of succession just before the Spanish conquest
+wd-Q3298746-war-of-the-portuguese-succession,39,-9,1580-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3298746,CC-BY-SA-4.0,War of the Portuguese Succession,war,1580-1583 armed conflict in Portugal
+wd-Q1361199-conquest-of-the-khanate-of-sibir,60,105,1581-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1361199,CC-BY-SA-4.0,Conquest of the Khanate of Sibir,war,1582 first Russian conquest in Siberia
+wd-Q524189-cologne-war,50.733888888,7.1,1583-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q524189,CC-BY-SA-4.0,Cologne War,war,war
+wd-Q3119092-franco-savoyard-war-1600-1601,45.58333333,6.33333333,1600-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3119092,CC-BY-SA-4.0,Franco-Savoyard War (1600–1601),war,european war
+wd-Q1044829-polish-muscovite-war,50.05,19.93,1605-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1044829,CC-BY-SA-4.0,Polish–Muscovite War,war,1605–1618 sequence of military conflicts and eastward invasions
+wd-Q1962709-ingrian-war,59.6333,29.3,1610-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1962709,CC-BY-SA-4.0,Ingrian War,war,1610's military conflict
+wd-Q3778677-valtellina-war,46.16666667,9.86666667,1620-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q3778677,CC-BY-SA-4.0,Valtellina War,war,war in Northern Italy between pro-Habsburg and anti-Habsburg forces; part of the Thirty Years' War
+wd-Q15867770-naval-war-on-lake-constance,47.59371,9.424906,1632-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15867770,CC-BY-SA-4.0,Naval War on Lake Constance,war,series of conflicts during the Thirty Years' War
+wd-Q134877741-patani-siamese-war,6.866666666,101.25,1633-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134877741,CC-BY-SA-4.0,Patani–Siamese War,war,c. 1633–1634 war
+wd-Q699602-cretan-war-of-1645-1669,43.81276,16.21876,1645-06-23T00:00:00Z,https://www.wikidata.org/wiki/Q699602,CC-BY-SA-4.0,Cretan War of 1645-1669,war,conflict between the Republic of Venice against the Ottoman Empire from 1645 to 1669
+wd-Q1367977-esopus-wars,41.9338,-74.0197,1659-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q1367977,CC-BY-SA-4.0,Esopus Wars,war,two localized conflicts between Dutch settlers and the Esopus tribe of Lenape Indians during the latter half of the 17th century
+wd-Q660004-second-russo-turkish-war,49.08,32.67,1676-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q660004,CC-BY-SA-4.0,Second Russo-Turkish War,war,1676-1681 war between the Tsardom of Russia and the Ottoman Empire
+wd-Q26799687-austro-turkish-war-of-1716-1718,43.95,20.93,1716-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q26799687,CC-BY-SA-4.0,Austro-Turkish War of 1716–1718,war,fought between Habsburg Monarchy and the Ottoman Empire
+wd-Q5453254-first-maroon-war,17.983333,-76.8,1728-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5453254,CC-BY-SA-4.0,First Maroon War,war,slave revolts in Jamaica
+wd-Q2913821-ottoman-persian-war-of-1730-1735,42.26111111,44.12111111,1730-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2913821,CC-BY-SA-4.0,Ottoman–Persian War of 1730–1735,war,series of conflicts fought between the Ottoman Empire and Safavid Iran from 1730 to 1735
+wd-Q517578-king-george-s-war,50,-100,1744-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q517578,CC-BY-SA-4.0,King George's War,war,North American theater of the War of the Austrian Succession
+wd-Q124683233-cattle-war,11.029166666,79.849444444,1756-06-19T00:00:00Z,https://www.wikidata.org/wiki/Q124683233,CC-BY-SA-4.0,Cattle War,war,conflict between Danish India and the Thanjavur Maratha kingdom
+wd-Q617321-anglo-mysore-wars,13,77,1767-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q617321,CC-BY-SA-4.0,Anglo-Mysore wars,war,18th century wars between Mysore (Hyder Ali and Tipu sultan) and British
+wd-Q2632175-dunmore-s-war,39.918,-80.8048,1774-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q2632175,CC-BY-SA-4.0,Dunmore's War,war,1774 war between Virginian colonist and Native Americans
+wd-Q2656995-northwest-indian-war,41,-86,1785-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2656995,CC-BY-SA-4.0,Northwest Indian War,war,1785-1795 war between a confederation of Native Americans and the United States
+wd-Q7443152-second-carib-war,13.25,-61.2,1795-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7443152,CC-BY-SA-4.0,Second Carib War,war,Conflict on the island of Saint Vincent (1795–1797)
+wd-Q468293-first-barbary-war,32.958,13.164,1801-05-10T00:00:00Z,https://www.wikidata.org/wiki/Q468293,CC-BY-SA-4.0,First Barbary War,war,war against Barbary pirates
+wd-Q736268-finnish-war,62,22.966666666,1808-02-21T00:00:00Z,https://www.wikidata.org/wiki/Q736268,CC-BY-SA-4.0,Finnish War,war,1808–1809 war between Russia and Sweden
+wd-Q10356223-platine-wars,-32.25,-59.5,1810-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10356223,CC-BY-SA-4.0,Platine Wars,war,time period in Brazilian historiography
+wd-Q3063789-colombian-war-of-independence,5.4504,-73.4303,1810-07-20T00:00:00Z,https://www.wikidata.org/wiki/Q3063789,CC-BY-SA-4.0,Colombian War of Independence,war,1810 war leading to Colombian Independence
+wd-Q325314-tecumseh-s-war,41,-90,1810-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q325314,CC-BY-SA-4.0,Tecumseh's War,war,1810-13 conflict between the US and Tecumseh's Confederacy
+wd-Q2837436-battle-of-ayohuma,-18.855277777,-66.126666666,1813-11-14T00:00:00Z,https://www.wikidata.org/wiki/Q2837436,CC-BY-SA-4.0,Battle of Ayohuma,war,1813 battle in Spanish American Wars of Independence
+wd-Q123171269-akure-benin-war,7.25,5.195,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q123171269,CC-BY-SA-4.0,Akure–Benin War,war,Benin invasion of Akure
+wd-Q68478-peruvian-war-of-independence,-12.06,-77.0375,1821-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q68478,CC-BY-SA-4.0,Peruvian War of Independence,war,"1811–1824 war between Spanish Royalists and Patriot forces, which led to the Independence of Peru"
+wd-Q3082702-brazilian-war-of-independence,-14,-53,1822-01-09T00:00:00Z,https://www.wikidata.org/wiki/Q3082702,CC-BY-SA-4.0,Brazilian War of Independence,war,1822–1823 war between Portugal and Brazil
+wd-Q16573164-ochomogo-war,9.900155,-83.944142,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16573164,CC-BY-SA-4.0,Ochomogo War,war,1823 civil war in Costa Rica
+wd-Q722051-anglo-ashanti-wars,5.45,-0.97,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q722051,CC-BY-SA-4.0,Anglo-Ashanti wars,war,series of wars
+wd-Q7497420-shiners-war,45.417,-75.7,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7497420,CC-BY-SA-4.0,Shiners' War,war,military war
+wd-Q638530-texas-revolution,31,-100,1835-10-02T00:00:00Z,https://www.wikidata.org/wiki/Q638530,CC-BY-SA-4.0,Texas Revolution,war,"war between Texans and Mexico, 1835-1836, resulting in the independent Republic of Texas"
+wd-Q698312-aroostook-war,45.5,-69,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q698312,CC-BY-SA-4.0,Aroostook War,war,1830's UK-US war
+wd-Q772814-caste-war-of-yucat-n,19.5857,-87.984,1847-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q772814,CC-BY-SA-4.0,Caste War of Yucatán,war,1847-1901 armed conflicts on the Yucatán Peninsula in Mexico
+wd-Q6801418-mcgowan-s-war,49.5625,-121.4311111,1858-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6801418,CC-BY-SA-4.0,McGowan's War,war,"1858 war in Yale, British Colombia"
+wd-Q1064335-pig-war,48.46164167,-123.00661389,1859-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1064335,CC-BY-SA-4.0,Pig War,war,confrontation in 1859 between the United States and the British Empire
+wd-Q1352401-bombardment-of-kagoshima,31.595498,130.548134,1863-08-15T00:00:00Z,https://www.wikidata.org/wiki/Q1352401,CC-BY-SA-4.0,Bombardment of Kagoshima,war,1863 battle between Britain and the Satsuma Domain
+wd-Q184637-ten-years-war,21.5,-80,1868-10-10T00:00:00Z,https://www.wikidata.org/wiki/Q184637,CC-BY-SA-4.0,Ten Years' War,war,armed conflict in Cuba between 1868 and 1878
+wd-Q42326778-kake-war,56.970833333,-133.933888888,1869-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q42326778,CC-BY-SA-4.0,Kake War,war,conflict in Alaska
+wd-Q277450-aceh-war,4.59,97.41,1873-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q277450,CC-BY-SA-4.0,Aceh War,war,1873–1904 war resulting in Dutch annexation of Aceh
+wd-Q131191858-l-kur-s-war,42.766666666,20.816666666,1878-02-28T00:00:00Z,https://www.wikidata.org/wiki/Q131191858,CC-BY-SA-4.0,Lëkurës War,war,conflict in Southern Albania
+wd-Q31944-mahdist-war,15,32,1881-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q31944,CC-BY-SA-4.0,Mahdist War,war,British colonial war
+wd-Q2350166-war-of-canudos,-9.963888888,-39.163888888,1893-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2350166,CC-BY-SA-4.0,War of Canudos,war,1895–1898 internal conflict in Brazil
+wd-Q170850-anglo-zanzibar-war,-6.140555555,39.336547222,1896-08-27T00:00:00Z,https://www.wikidata.org/wiki/Q170850,CC-BY-SA-4.0,Anglo-Zanzibar War,war,Colonial war by the United Kingdom in East-Africa
+wd-Q2887801-adibo-dali,9.3024,0.0198,1896-12-04T00:00:00Z,https://www.wikidata.org/wiki/Q2887801,CC-BY-SA-4.0,Adibo dali,war,1896 battle in Adibo during the colonial German military expedition against the Kingdom of Dagbon
+wd-Q137339918-adamawa-wars,5.15,12.45,1899-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q137339918,CC-BY-SA-4.0,Adamawa Wars,war,"series of conflicts in which Imperial Germany expanded its Kamerun colony by conquering parts of the Sokoto Calipahte (principally the Adamawa Emirate) and other areas north of its colonial holding, and the subsequent native uprisings"
+wd-Q2606574-acre-war,-7.11416667,-73.80111111,1899-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2606574,CC-BY-SA-4.0,Acre War,war,bolivia-Brazil border war (1899-1903)
+wd-Q1676845-boer-wars,-29,24,1899-10-11T00:00:00Z,https://www.wikidata.org/wiki/Q1676845,CC-BY-SA-4.0,Boer Wars,war,war between the South African Republic and the United Kingdom
+wd-Q16512674-herero-wars,-22,17,1904-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16512674,CC-BY-SA-4.0,Herero Wars,war,series of German colonial wars in South West Africa
+wd-Q4408946-sasun-uprising,38.3803,41.3953,1904-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q4408946,CC-BY-SA-4.0,Sasun Uprising,war,1904 uprising by Armenian militia against the Ottoman Empire
+wd-Q134169831-q134169831,41.233938888,26.025030555,1913-08-08T00:00:00Z,https://www.wikidata.org/wiki/Q134169831,CC-BY-SA-4.0,Q134169831,war,
+wd-Q1362238-world-war-i-outside-europe,-16.8,-153.95,1914-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1362238,CC-BY-SA-4.0,World War I outside Europe,war,
+wd-Q8064768-zaian-war,33.5,-4.5,1914-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q8064768,CC-BY-SA-4.0,Zaian War,war,war between France and the Zaian confederation of Berber tribes in Morocco between 1914 and 1921
+wd-Q18586347-first-soviet-finnish-war,61.193667,32.397624,1918-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q18586347,CC-BY-SA-4.0,First Soviet-Finnish War,war,part of the Russian Civil War
+wd-Q1127302-estonian-war-of-independence,57.776944444,26.031111111,1918-11-28T00:00:00Z,https://www.wikidata.org/wiki/Q1127302,CC-BY-SA-4.0,Estonian War of Independence,war,1918–1920 war between Estonia and Soviet Russia
+wd-Q4560844-1920-jabal-al-gharbi-civil-war,31.8649,11.7933,1920-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4560844,CC-BY-SA-4.0,1920 Jabal al-Gharbi Civil War,war,early 20th Century war in Middle East North Africa region
+wd-Q3358934-klaip-da-revolt,55.7125,21.135,1923-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3358934,CC-BY-SA-4.0,Klaipėda Revolt,war,1923 uprising
+wd-Q7304835-red-river-bridge-war,33.81833333,-96.52333333,1931-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7304835,CC-BY-SA-4.0,Red River Bridge War,war,1931 boundary conflict between the U.S. states of Oklahoma and Texas
+wd-Q696389-soviet-japanese-border-conflicts,47.7303,118.59,1932-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q696389,CC-BY-SA-4.0,Soviet–Japanese border conflicts,war,"armed conflict in the 1930s between the Soviets, Mongolians, and Japanese"
+wd-Q223126-chaco-war,-21.32722222,-59.73666667,1932-09-09T00:00:00Z,https://www.wikidata.org/wiki/Q223126,CC-BY-SA-4.0,Chaco War,war,war between Bolivia and Paraguay
+wd-Q652285-indo-pakistani-war-of-1947-1948,34.5,76,1947-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q652285,CC-BY-SA-4.0,Indo-Pakistani War of 1947–1948,war,1947–1948 war between India and Pakistam
+wd-Q1413732-kashmir-conflict,34.0333,74.6667,1947-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1413732,CC-BY-SA-4.0,Kashmir conflict,war,Territoral dispute in South Asia
+wd-Q1542222-1958-lebanon-crisis,33.83333,35.76667,1958-07-15T00:00:00Z,https://www.wikidata.org/wiki/Q1542222,CC-BY-SA-4.0,1958 Lebanon crisis,war,Lebanese political crisis accompanied by military intervention in Lebanon by the United States
+wd-Q1282732-guatemalan-civil-war,14.633333333,-90.5,1965-03-03T00:00:00Z,https://www.wikidata.org/wiki/Q1282732,CC-BY-SA-4.0,Guatemalan Civil War,war,1960–1996 civil war in Guatemala
+wd-Q322607-war-of-attrition,29.5,33.83333333,1967-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q322607,CC-BY-SA-4.0,War of Attrition,war,"1967–1970 war between Israel and Egypt, Syria and Jordan"
+wd-Q4574793-1971-in-the-vietnam-war,11.195,104.074,1971-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4574793,CC-BY-SA-4.0,1971 in the Vietnam War,war,
+wd-Q257724-ethiopian-civil-war,9,40,1974-09-12T00:00:00Z,https://www.wikidata.org/wiki/Q257724,CC-BY-SA-4.0,Ethiopian Civil War,war,civil war in Ethiopia between 1974 and 1991
+wd-Q3290619-first-shaba-war,-10.36666667,23.45,1977-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q3290619,CC-BY-SA-4.0,First Shaba War,war,historical military conflict
+wd-Q48249-falklands-war,-51.75,-59,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q48249,CC-BY-SA-4.0,Falklands War,war,undeclared war between Argentina and the United Kingdom in 1982
+wd-Q213394-sri-lankan-civil-war,7,81,1983-07-23T00:00:00Z,https://www.wikidata.org/wiki/Q213394,CC-BY-SA-4.0,Sri Lankan civil war,war,armed conflict in Sri Lanka (1983–2009) between the government and the separatist organization Liberation Tigers of Tamil Eelam
+wd-Q4581203-1983-soviet-nuclear-false-alarm-incident,55.068333,37.041389,1983-09-26T00:00:00Z,https://www.wikidata.org/wiki/Q4581203,CC-BY-SA-4.0,1983 Soviet nuclear false alarm incident,war,incident which nearly precipitated nuclear warfare
+wd-Q68718107-moba-wars,-7.067,29.717,1984-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q68718107,CC-BY-SA-4.0,Moba Wars,war,wars in Zaire
+wd-Q580961-agacher-strip-war,14.9,-0.4,1985-12-14T00:00:00Z,https://www.wikidata.org/wiki/Q580961,CC-BY-SA-4.0,Agacher Strip War,war,war fought by Burkina Faso and Mali
+wd-Q10360270-bougainville-conflict,-6,155,1988-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q10360270,CC-BY-SA-4.0,Bougainville conflict,war,armed conflict in the North Solomons
+wd-Q7970684-warri-crisis,5.52,5.75,1990-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7970684,CC-BY-SA-4.0,Warri Crisis,war,"conflicts in Delta State, Nigeria, 1997 to 2003"
+wd-Q1070890-georgian-civil-war,42,44,1991-12-22T00:00:00Z,https://www.wikidata.org/wiki/Q1070890,CC-BY-SA-4.0,Georgian civil war,war,1991-1993 civil war
+wd-Q1209169-war-in-abkhazia,43.15,41,1992-08-14T00:00:00Z,https://www.wikidata.org/wiki/Q1209169,CC-BY-SA-4.0,War in Abkhazia,war,war in Abkhazia from 1992 to 1993
+wd-Q2002975-nepalese-civil-war,28,84,1996-02-13T00:00:00Z,https://www.wikidata.org/wiki/Q2002975,CC-BY-SA-4.0,Nepalese Civil War,war,civil war in Nepal between 1996 and 2006
+wd-Q832273-eritrean-ethiopian-war,15,39,1998-05-06T00:00:00Z,https://www.wikidata.org/wiki/Q832273,CC-BY-SA-4.0,Eritrean–Ethiopian War,war,1998–2000 war between Ethiopia and Eritrea
+wd-Q959303-1998-war-in-abkhazia,43.15,41,1998-05-20T00:00:00Z,https://www.wikidata.org/wiki/Q959303,CC-BY-SA-4.0,1998 War in Abkhazia,war,ethnic armed conflict in the western Georgian region of Abkhazia
+wd-Q643925-war-of-dagestan,42.9839,47.505,1999-08-02T00:00:00Z,https://www.wikidata.org/wiki/Q643925,CC-BY-SA-4.0,War of Dagestan,war,part of Russian-Chechen conflict
+wd-Q475678-mexican-drug-war,19.4194,-99.1456,2006-12-11T00:00:00Z,https://www.wikidata.org/wiki/Q475678,CC-BY-SA-4.0,Mexican drug war,war,asymmetric war between the Mexican Government and various drug trafficking syndicates
+wd-Q10292592-insurgency-in-ingushetia,43.2,45,2007-07-21T00:00:00Z,https://www.wikidata.org/wiki/Q10292592,CC-BY-SA-4.0,Insurgency in Ingushetia,war,"2007–2015 armed conflict in Ingushetia, Russia"
+wd-Q1354920-djiboutian-eritrean-border-conflict,12.70833333,43.13333333,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1354920,CC-BY-SA-4.0,Djiboutian–Eritrean border conflict,war,2008 armed conflict in East Africa
+wd-Q620735-russo-georgian-war,41.989444,44.417778,2008-08-07T00:00:00Z,https://www.wikidata.org/wiki/Q620735,CC-BY-SA-4.0,Russo-Georgian War,war,2008 Russian invasion of Georgia
+wd-Q5887732-war-against-drug-trafficking-in-tepic,21.51666667,-104.9,2009-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5887732,CC-BY-SA-4.0,War against drug trafficking in Tepic,war,
+wd-Q81545-libyan-civil-war,31.195623,16.52141,2011-02-15T00:00:00Z,https://www.wikidata.org/wiki/Q81545,CC-BY-SA-4.0,Libyan Civil War,war,2011 armed conflict in the North African country of Libya
+wd-Q178810-syrian-civil-war,35,38,2011-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q178810,CC-BY-SA-4.0,Syrian Civil War,war,2011–2024 armed conflict in Syria
+wd-Q2946372-mali-war,12.65,-8.000555555,2012-01-16T00:00:00Z,https://www.wikidata.org/wiki/Q2946372,CC-BY-SA-4.0,Mali War,war,armed conflicts that started from January 2012
+wd-Q3411181-central-african-republic-civil-war,6.7,20.9,2012-12-10T00:00:00Z,https://www.wikidata.org/wiki/Q3411181,CC-BY-SA-4.0,Central African Republic Civil War,war,conflict between the government of the Central African Republic and rebels
+wd-Q15353665-south-sudanese-civil-war,7,30,2013-12-15T00:00:00Z,https://www.wikidata.org/wiki/Q15353665,CC-BY-SA-4.0,South Sudanese Civil War,war,South Sudanese civil war/conflict
+wd-Q139236054-ngogo-chimpanzee-war,0.433333333,30.383333333,2015-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q139236054,CC-BY-SA-4.0,Ngogo chimpanzee war,war,violent conflict between the Western and Central factions of Ngogo chimpanzees
+wd-Q21730772-2015-zaria-massacre,11.066666666,7.7,2015-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q21730772,CC-BY-SA-4.0,2015 Zaria Massacre,war,"armed attack by the Nigerian military on the Shi'a community of Zaria, Kaduna State, Nigeria"
+wd-Q1647162-treaty-of-hudaybiyyah,21.583305555,39.683305555,0628-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q1647162,CC-BY-SA-4.0,Treaty of Hudaybiyyah,treaty,"treaty between prophet Muhammad, representing the state of Islam, and the Quraish tribe of Mecca"
+wd-Q2880684-treaty-of-heiligen,54.3739,10.9797,0811-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2880684,CC-BY-SA-4.0,Treaty of Heiligen,treaty,treaty
+wd-Q149734-peace-of-bautzen,51.1814,14.4239,1018-02-05T00:00:00Z,https://www.wikidata.org/wiki/Q149734,CC-BY-SA-4.0,Peace of Bautzen,treaty,1018 peace treaty ending the German–Polish War
+wd-Q8187832-treaty-of-ser-n-de-n-gima,41.49555556,-2.20138889,1158-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q8187832,CC-BY-SA-4.0,Treaty of Serón de Nágima,treaty,
+wd-Q693411-peace-of-constance,47.6633,9.1753,1183-07-02T00:00:00Z,https://www.wikidata.org/wiki/Q693411,CC-BY-SA-4.0,Peace of Constance,treaty,peace treaty
+wd-Q449076-treaty-of-le-goulet,49.093391,1.487363,1200-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q449076,CC-BY-SA-4.0,Treaty of Le Goulet,treaty,treaty between England and France
+wd-Q17586779-siege-of-alamut,36.45,50.5833,1256-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q17586779,CC-BY-SA-4.0,Siege of Alamut,treaty,1256 Mongol siege
+wd-Q1334924-treaty-of-br-tigny,48.420858,1.571161,1360-05-08T00:00:00Z,https://www.wikidata.org/wiki/Q1334924,CC-BY-SA-4.0,Treaty of Brétigny,treaty,treaty
+wd-Q3888436-q3888436,45.95694444,10.28861111,1397-12-31T00:00:00Z,https://www.wikidata.org/wiki/Q3888436,CC-BY-SA-4.0,Q3888436,treaty,
+wd-Q8349137-concord-of-alca-iz,41.0503,-0.133,1412-02-24T00:00:00Z,https://www.wikidata.org/wiki/Q8349137,CC-BY-SA-4.0,Concord of Alcañiz,treaty,
+wd-Q1541862-compromise-of-caspe,41.2367,-0.0396,1412-04-07T00:00:00Z,https://www.wikidata.org/wiki/Q1541862,CC-BY-SA-4.0,Compromise of Caspe,treaty,Aragonese parliamentary agreement on succession
+wd-Q693964-treaty-of-melno,53.432222222,18.9875,1422-10-06T00:00:00Z,https://www.wikidata.org/wiki/Q693964,CC-BY-SA-4.0,Treaty of Melno,treaty,"Peace treaty (1422) between the Teutonic Knights, the Kingdom of Poland and the Duchy of Lithuania"
+wd-Q1456629-treaty-of-pusarnitz,46.84111111,13.395,1460-02-03T00:00:00Z,https://www.wikidata.org/wiki/Q1456629,CC-BY-SA-4.0,Treaty of Pusarnitz,treaty,
+wd-Q4891129-concord-of-segovia,40.9525,-4.1325,1475-01-24T00:00:00Z,https://www.wikidata.org/wiki/Q4891129,CC-BY-SA-4.0,Concord of Segovia,treaty,agreement that unified the kingdoms of Castilla and Aragón
+wd-Q2165331-treaty-of-picquigny,49.945206,2.142408,1475-09-16T00:00:00Z,https://www.wikidata.org/wiki/Q2165331,CC-BY-SA-4.0,Treaty of Picquigny,treaty,peace treaty
+wd-Q593355-treaty-of-alc-ovas,38.39527,-8.15701,1479-09-04T00:00:00Z,https://www.wikidata.org/wiki/Q593355,CC-BY-SA-4.0,Treaty of Alcáçovas,treaty,peace treaty
+wd-Q2467248-treaty-of-granada,37.1775,-3.59,1491-12-04T00:00:00Z,https://www.wikidata.org/wiki/Q2467248,CC-BY-SA-4.0,Treaty of Granada,treaty,treaty that ended the Granada War
+wd-Q2414192-treaty-of-barcelona,41.3825,2.1769,1493-01-28T00:00:00Z,https://www.wikidata.org/wiki/Q2414192,CC-BY-SA-4.0,Treaty of Barcelona,treaty,1493 treaty between France and Aragon
+wd-Q622844-treaty-of-nagyv-rad,47.05138889,21.94027778,1540-03-05T00:00:00Z,https://www.wikidata.org/wiki/Q622844,CC-BY-SA-4.0,Treaty of Nagyvárad,treaty,peace treaty
+wd-Q374723-treaty-of-cr-py,49.605,3.514722,1544-09-28T00:00:00Z,https://www.wikidata.org/wiki/Q374723,CC-BY-SA-4.0,Treaty of Crépy,treaty,German-French treaty (1544)
+wd-Q3536730-q3536730,50.854722222,1.9775,1546-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3536730,CC-BY-SA-4.0,Q3536730,treaty,
+wd-Q1414387-treaty-of-chambord,47.61597222,1.51722222,1552-01-25T00:00:00Z,https://www.wikidata.org/wiki/Q1414387,CC-BY-SA-4.0,Treaty of Chambord,treaty,1552 treaty
+wd-Q703081-peace-of-passau,50.121666666,8.612222222,1552-08-12T00:00:00Z,https://www.wikidata.org/wiki/Q703081,CC-BY-SA-4.0,Peace of Passau,treaty,peace treaty
+wd-Q693496-treaty-of-xanten,51.661975,6.452687,1614-11-12T00:00:00Z,https://www.wikidata.org/wiki/Q693496,CC-BY-SA-4.0,Treaty of Xanten,treaty,1614 treaty ending the War of the Jülich Succession
+wd-Q763198-treaty-of-the-hague,52.08,4.31,1625-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q763198,CC-BY-SA-4.0,Treaty of The Hague,treaty,treaty signed on 9 December 1625 between England and the Dutch Empire
+wd-Q386038-treaty-of-hadiach,50.37,34,1658-09-16T00:00:00Z,https://www.wikidata.org/wiki/Q386038,CC-BY-SA-4.0,Treaty of Hadiach,treaty,1658 treaty between Poland–Lithuania and Cossacks
+wd-Q829702-treaty-of-copenhagen,55.6761,12.5689,1660-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q829702,CC-BY-SA-4.0,Treaty of Copenhagen,treaty,peace treaty
+wd-Q721168-truce-of-andrusovo,54.2964,31.5122,1667-01-30T00:00:00Z,https://www.wikidata.org/wiki/Q721168,CC-BY-SA-4.0,Truce of Andrusovo,treaty,peace treaty
+wd-Q171374-shackamaxon,39.966,-75.129,1682-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q171374,CC-BY-SA-4.0,Shackamaxon,treaty,treaty between William Penn and the Delaware Indians
+wd-Q192303-treaty-of-karlowitz,45.2,19.93,1699-01-26T00:00:00Z,https://www.wikidata.org/wiki/Q192303,CC-BY-SA-4.0,treaty of Karlowitz,treaty,peace treaty
+wd-Q3360285-pact-of-genoa,44.407186,8.933983,1705-06-20T00:00:00Z,https://www.wikidata.org/wiki/Q3360285,CC-BY-SA-4.0,Pact of Genoa,treaty,
+wd-Q2671292-surrender-at-perevolochna,48.816667,34.116667,1709-07-12T00:00:00Z,https://www.wikidata.org/wiki/Q2671292,CC-BY-SA-4.0,surrender at Perevolochna,treaty,capitulation of Swedish forces in 1709
+wd-Q2331686-treaty-of-copenhagen,55.6761,12.5689,1709-10-22T00:00:00Z,https://www.wikidata.org/wiki/Q2331686,CC-BY-SA-4.0,Treaty of Copenhagen,treaty,renewal of the alliance between the Russian Empire and Denmark-Norway
+wd-Q5785554-q5785554,41.3589,2.0992,1713-06-22T00:00:00Z,https://www.wikidata.org/wiki/Q5785554,CC-BY-SA-4.0,Q5785554,treaty,
+wd-Q1893619-treaty-of-the-hague,52.08,4.31,1720-02-17T00:00:00Z,https://www.wikidata.org/wiki/Q1893619,CC-BY-SA-4.0,Treaty of The Hague,treaty,1720 treaty ending the War of the Quadruple Alliance
+wd-Q699753-treaty-of-frederiksborg,55.935,12.30083333,1720-07-03T00:00:00Z,https://www.wikidata.org/wiki/Q699753,CC-BY-SA-4.0,Treaty of Frederiksborg,treaty,peace treaty
+wd-Q2472006-treaty-of-hanover,52.39082,9.69767,1725-09-03T00:00:00Z,https://www.wikidata.org/wiki/Q2472006,CC-BY-SA-4.0,Treaty of Hanover,treaty,"1725 alliance between Britain, Hanover, France, and Prussia"
+wd-Q11821309-treaty-of-belgrade,44.8178,20.4569,1739-09-18T00:00:00Z,https://www.wikidata.org/wiki/Q11821309,CC-BY-SA-4.0,Treaty of Belgrade,treaty,1739 treaty between Austria and the Ottomans
+wd-Q156086-treaty-of-aix-la-chapelle,50.7762,6.0838,1748-10-18T00:00:00Z,https://www.wikidata.org/wiki/Q156086,CC-BY-SA-4.0,Treaty of Aix-la-Chapelle,treaty,peace treaty
+wd-Q1422396-treaty-of-madrid,40.4169,-3.7033,1750-01-13T00:00:00Z,https://www.wikidata.org/wiki/Q1422396,CC-BY-SA-4.0,Treaty of Madrid,treaty,"signed by Spain and Portugal on 1750, concerning their empires and status of their territories of what is now Brazil"
+wd-Q2628377-treaty-of-fontainebleau,48.4089,2.7017,1762-11-03T00:00:00Z,https://www.wikidata.org/wiki/Q2628377,CC-BY-SA-4.0,Treaty of Fontainebleau,treaty,"act of cession of Louisiana by France to Spain, signed in 1762"
+wd-Q698686-treaty-of-hubertusburg,51.2774,12.9398,1763-02-15T00:00:00Z,https://www.wikidata.org/wiki/Q698686,CC-BY-SA-4.0,Treaty of Hubertusburg,treaty,"1763 peace treaty ending the Third Silesian War, part of the Seven Years' War"
+wd-Q123227-treaty-of-k-k-kaynarca,43.992962,27.506482,1774-07-21T00:00:00Z,https://www.wikidata.org/wiki/Q123227,CC-BY-SA-4.0,Treaty of Küçük Kaynarca,treaty,1774 peace treaty ending the Russo-Turkish War of 1768–74
+wd-Q2985337-treaty-of-salbai,25.85,78.317,1782-05-17T00:00:00Z,https://www.wikidata.org/wiki/Q2985337,CC-BY-SA-4.0,Treaty of Salbai,treaty,treaty between representatives of the Maratha Empire and the British East India Company
+wd-Q139557939-treaty-of-fort-finney,39.114444444,-84.800555555,1786-01-31T00:00:00Z,https://www.wikidata.org/wiki/Q139557939,CC-BY-SA-4.0,Treaty of Fort Finney,treaty,1786 treaty between the United States and Shawnee leaders
+wd-Q767317-treaty-of-greenville,40.1078,-84.6316,1795-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q767317,CC-BY-SA-4.0,Treaty of Greenville,treaty,1795 treaty ending the Northwest Indian War
+wd-Q284553-convention-of-1800,49.11,2.603611111,1800-09-30T00:00:00Z,https://www.wikidata.org/wiki/Q284553,CC-BY-SA-4.0,Convention of 1800,treaty,Treaty between the U.S. and France
+wd-Q127163493-capture-of-serampore,22.75,88.34,1801-05-08T00:00:00Z,https://www.wikidata.org/wiki/Q127163493,CC-BY-SA-4.0,Capture of Serampore,treaty,1801 capture of a Danish colony in India
+wd-Q126095083-capture-of-tranquebar,11.029166666,79.849444444,1801-05-12T00:00:00Z,https://www.wikidata.org/wiki/Q126095083,CC-BY-SA-4.0,Capture of Tranquebar,treaty,capture of Tranquebar by British forces in 1801
+wd-Q1428015-concordat-of-1801,48.8567,2.3522,1801-07-15T00:00:00Z,https://www.wikidata.org/wiki/Q1428015,CC-BY-SA-4.0,Concordat of 1801,treaty,peace treaty
+wd-Q112183-treaty-of-amiens,49.8919,2.2978,1802-03-25T00:00:00Z,https://www.wikidata.org/wiki/Q112183,CC-BY-SA-4.0,Treaty of Amiens,treaty,1802 Treaty during the War of the Second Coalition
+wd-Q154596-treaties-of-tilsit,55.090833333,21.886944444,1807-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q154596,CC-BY-SA-4.0,Treaties of Tilsit,treaty,peace treaties between Napoleonic France and (a) Russia and (b) Prussia
+wd-Q1541473-treaty-of-fontainebleau,48.4022,2.7006,1807-10-27T00:00:00Z,https://www.wikidata.org/wiki/Q1541473,CC-BY-SA-4.0,Treaty of Fontainebleau,treaty,secret agreement
+wd-Q127163443-surrender-of-tranquebar,11.029166666,79.849444444,1808-02-12T00:00:00Z,https://www.wikidata.org/wiki/Q127163443,CC-BY-SA-4.0,Surrender of Tranquebar,treaty,1808 capture of a European fort in India
+wd-Q1130792-treaty-of-fredrikshamn,60.566666666,27.183333333,1809-09-17T00:00:00Z,https://www.wikidata.org/wiki/Q1130792,CC-BY-SA-4.0,Treaty of Fredrikshamn,treaty,September 1809 peace treaty between Russia and Sweden
+wd-Q849286-treaty-of-bucharest,44.41336,26.09778,1812-05-28T00:00:00Z,https://www.wikidata.org/wiki/Q849286,CC-BY-SA-4.0,Treaty of Bucharest,treaty,peace treaty in 1812
+wd-Q33773-convention-of-moss,59.43944444,10.66944444,1814-08-14T00:00:00Z,https://www.wikidata.org/wiki/Q33773,CC-BY-SA-4.0,Convention of Moss,treaty,1814 ceasefire agreement between Sweden and Norway
+wd-Q46362-congress-of-vienna,48.2085,16.363805555,1814-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q46362,CC-BY-SA-4.0,Congress of Vienna,treaty,conference of ambassadors of European states (September/November 1814 to June 1815)
+wd-Q2131435-treaty-of-kortrijk,50.828045748,3.264749675,1820-03-28T00:00:00Z,https://www.wikidata.org/wiki/Q2131435,CC-BY-SA-4.0,Treaty of Kortrijk,treaty,1820 treaty between France and the Netherlands
+wd-Q928799-treaty-of-chicago,41.85003,-87.65005,1821-08-29T00:00:00Z,https://www.wikidata.org/wiki/Q928799,CC-BY-SA-4.0,Treaty of Chicago,treaty,"1821 treaty between the United States and representatives of the Odawa, Ojibwe, and Potawatomi peoples"
+wd-Q1993653-akkerman-convention,46.1833,30.3333,1826-10-07T00:00:00Z,https://www.wikidata.org/wiki/Q1993653,CC-BY-SA-4.0,Akkerman Convention,treaty,"treaty signed on October 7, 1826, between the Russian and the Ottoman Empires"
+wd-Q24202-1828-treaty-of-montevideo,-22.9111,-43.2056,1828-08-27T00:00:00Z,https://www.wikidata.org/wiki/Q24202,CC-BY-SA-4.0,1828 Treaty of Montevideo,treaty,August 1828 treaty to recognize the independence of Uruguay
+wd-Q137847-treaty-of-adrianople,41.67304,26.57361,1829-09-14T00:00:00Z,https://www.wikidata.org/wiki/Q137847,CC-BY-SA-4.0,treaty of Adrianople,treaty,peace treaty
+wd-Q879963-black-hawk-purchase,41.9,-90.4,1832-09-21T00:00:00Z,https://www.wikidata.org/wiki/Q879963,CC-BY-SA-4.0,Black Hawk Purchase,treaty,1832 land transfer in eastern Iowa
+wd-Q810862-batman-s-treaty,-37.7825,144.992,1835-06-06T00:00:00Z,https://www.wikidata.org/wiki/Q810862,CC-BY-SA-4.0,Batman's Treaty,treaty,1835 treaty between John Batman and Aboriginal Australians
+wd-Q1160895-treaty-of-london,51.5072,-0.1275,1839-04-19T00:00:00Z,https://www.wikidata.org/wiki/Q1160895,CC-BY-SA-4.0,Treaty of London,treaty,treaty signed on 19 April 1839
+wd-Q7836989-treaty-of-bird-s-fort,32.79916667,-97.08305556,1843-09-29T00:00:00Z,https://www.wikidata.org/wiki/Q7836989,CC-BY-SA-4.0,Treaty of Bird's Fort,treaty,1843 treaty between Texas and Native Americans
+wd-Q827212-gadsden-purchase,33.1,-110.6,1853-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q827212,CC-BY-SA-4.0,Gadsden Purchase,treaty,land purchase from Mexico by the United States
+wd-Q2315131-orange-river-convention,-29.1,26.22,1854-02-23T00:00:00Z,https://www.wikidata.org/wiki/Q2315131,CC-BY-SA-4.0,Orange River Convention,treaty,treaty 23 February 1854
+wd-Q618292-treaty-of-aigun,50.27,127.47,1858-05-28T00:00:00Z,https://www.wikidata.org/wiki/Q618292,CC-BY-SA-4.0,Treaty of Aigun,treaty,1858 treaty between Russian Empire and Manchu Chinese Empire
+wd-Q614086-treaty-of-dappes,46.43447222,6.07677778,1862-12-08T00:00:00Z,https://www.wikidata.org/wiki/Q614086,CC-BY-SA-4.0,Treaty of Dappes,treaty,1862 treaty between France and Switzerland
+wd-Q309029-alaska-purchase,38.895,-77.0367,1867-03-30T00:00:00Z,https://www.wikidata.org/wiki/Q309029,CC-BY-SA-4.0,Alaska Purchase,treaty,1867 sale of Alaska to the USA by Russia
+wd-Q217398-berne-convention-for-the-protection-of-literary-and-artistic-works,46.94798,7.44743,1880-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q217398,CC-BY-SA-4.0,Berne Convention for the Protection of Literary and Artistic Works,treaty,1880s international copyright treaty adopted by 160+ countries
+wd-Q1794609-pretoria-convention,-27.500277777,29.856666666,1881-08-03T00:00:00Z,https://www.wikidata.org/wiki/Q1794609,CC-BY-SA-4.0,Pretoria Convention,treaty,1881 treaty ending the First Boer War
+wd-Q1567243-anglo-ethiopian-treaty-of-1897,9,44,1897-05-14T00:00:00Z,https://www.wikidata.org/wiki/Q1567243,CC-BY-SA-4.0,Anglo-Ethiopian Treaty of 1897,treaty,1897 treaty between the United Kingdom and Ethiopia
+wd-Q1632568-q1632568,59.37868806,13.49807694,1905-09-23T00:00:00Z,https://www.wikidata.org/wiki/Q1632568,CC-BY-SA-4.0,Q1632568,treaty,
+wd-Q751398-international-opium-convention,52.08,4.31,1912-01-23T00:00:00Z,https://www.wikidata.org/wiki/Q751398,CC-BY-SA-4.0,International Opium Convention,treaty,1912 document which became the first international drug control treaty
+wd-Q500067-treaty-of-bucharest,44.41336,26.09778,1913-08-10T00:00:00Z,https://www.wikidata.org/wiki/Q500067,CC-BY-SA-4.0,Treaty of Bucharest,treaty,1913 peace treaty in the Second Balkan War
+wd-Q2268427-treaty-of-bucharest,44.41336,26.09778,1916-07-27T00:00:00Z,https://www.wikidata.org/wiki/Q2268427,CC-BY-SA-4.0,Treaty of Bucharest,treaty,World War I military treaty
+wd-Q122371-treaty-of-brest-litovsk,52.0847,23.6569,1918-03-03T00:00:00Z,https://www.wikidata.org/wiki/Q122371,CC-BY-SA-4.0,Treaty of Brest-Litovsk,treaty,peace treaty between the Soviet Russia and the Central Powers (3 March 1918)
+wd-Q165755-treaty-of-bucharest,44.57,25.95,1918-05-07T00:00:00Z,https://www.wikidata.org/wiki/Q165755,CC-BY-SA-4.0,Treaty of Bucharest,treaty,1918 peace treaty
+wd-Q328499-armistice-of-mudros,39.8744,25.2706,1918-10-30T00:00:00Z,https://www.wikidata.org/wiki/Q328499,CC-BY-SA-4.0,Armistice of Mudros,treaty,armistice ending the war between Ottoman Turkey and the Allies of World War I
+wd-Q701518-armistice-of-villa-giusti,45.37,11.84,1918-11-03T00:00:00Z,https://www.wikidata.org/wiki/Q701518,CC-BY-SA-4.0,Armistice of Villa Giusti,treaty,1918 armistice between Italy and Austria-Hungary
+wd-Q253224-armistice-of-compi-gne,49.4275,2.906111111,1918-11-11T00:00:00Z,https://www.wikidata.org/wiki/Q253224,CC-BY-SA-4.0,Armistice of Compiègne,treaty,armistice during First World War between Allies and Germany
+wd-Q1456454-anglo-afghan-treaty-of-1919,33.6,73.1,1919-08-08T00:00:00Z,https://www.wikidata.org/wiki/Q1456454,CC-BY-SA-4.0,Anglo-Afghan Treaty of 1919,treaty,peace treaty of the 1919 Anglo-Afghan War
+wd-Q1347812-treaty-of-alexandropol,40.7833,43.8333,1920-12-02T00:00:00Z,https://www.wikidata.org/wiki/Q1347812,CC-BY-SA-4.0,Treaty of Alexandropol,treaty,peace treaty
+wd-Q155796-treaty-of-rapallo,44.336111111,9.219444444,1922-04-16T00:00:00Z,https://www.wikidata.org/wiki/Q155796,CC-BY-SA-4.0,Treaty of Rapallo,treaty,1922 treaty between Germany and Russia
+wd-Q6541445-armistice-of-mudanya,40.3753,28.8839,1922-10-11T00:00:00Z,https://www.wikidata.org/wiki/Q6541445,CC-BY-SA-4.0,Armistice of Mudanya,treaty,"armistice ending the Turkish Liberation War signed in Mudanya, Turkey"
+wd-Q977657-nyon-conference,46.383333333,6.233333333,1937-09-14T00:00:00Z,https://www.wikidata.org/wiki/Q977657,CC-BY-SA-4.0,Nyon Conference,treaty,1937 diplomatic conference in Switzerland
+wd-Q154255-munich-agreement,48.1461,11.5678,1938-09-30T00:00:00Z,https://www.wikidata.org/wiki/Q154255,CC-BY-SA-4.0,Munich agreement,treaty,1938 cession of German-speaking Czechoslovakia to the German Reich
+wd-Q170360-armistice-of-22-june-1940,49.42736111,2.90641944,1940-06-22T00:00:00Z,https://www.wikidata.org/wiki/Q170360,CC-BY-SA-4.0,Armistice of 22 June 1940,treaty,armistice between France and Nazi Germany in World War II
+wd-Q196502-armistice-of-cassibile,36.9764,15.1975,1943-09-03T00:00:00Z,https://www.wikidata.org/wiki/Q196502,CC-BY-SA-4.0,Armistice of Cassibile,treaty,armistice between the Kingdom of Italy and the Allies of World War II
+wd-Q188532-bretton-woods-system,44.25436,-71.44787,1944-07-22T00:00:00Z,https://www.wikidata.org/wiki/Q188532,CC-BY-SA-4.0,Bretton Woods system,treaty,financial-economic agreement reached in 1944
+wd-Q171328-charter-of-the-united-nations,37.7775,-122.4164,1945-06-26T00:00:00Z,https://www.wikidata.org/wiki/Q171328,CC-BY-SA-4.0,Charter of the United Nations,treaty,1945 foundational treaty of the United Nations
+wd-Q151187-potsdam-conference,52.419169444,13.070830555,1945-07-17T00:00:00Z,https://www.wikidata.org/wiki/Q151187,CC-BY-SA-4.0,Potsdam Conference,treaty,meeting of the Allied heads of state near the end of World War II
+wd-Q6540361-surrender-of-japan,35.354722222,139.76,1945-09-02T00:00:00Z,https://www.wikidata.org/wiki/Q6540361,CC-BY-SA-4.0,surrender of Japan,treaty,"end of World War II, 2 September 1945"
+wd-Q665554-japanese-instrument-of-surrender,35.35472222,139.76,1945-09-02T00:00:00Z,https://www.wikidata.org/wiki/Q665554,CC-BY-SA-4.0,Japanese Instrument of Surrender,treaty,1945 agreement ending hostilities in WWII
+wd-Q701092-gruber-de-gasperi-agreement,48.8567,2.3522,1946-09-05T00:00:00Z,https://www.wikidata.org/wiki/Q701092,CC-BY-SA-4.0,Gruber–De Gasperi Agreement,treaty,1946 treaty between Austria and Italy
+wd-Q845737-treaty-of-brussels,50.8467,4.3525,1948-03-17T00:00:00Z,https://www.wikidata.org/wiki/Q845737,CC-BY-SA-4.0,Treaty of Brussels,treaty,1948 Western European defence treaty
+wd-Q183191-european-convention-on-human-rights,41.8931,12.4828,1950-11-04T00:00:00Z,https://www.wikidata.org/wiki/Q183191,CC-BY-SA-4.0,European Convention on Human Rights,treaty,international treaty to protect human rights and fundamental freedoms in Europe
+wd-Q2862267-korean-armistice-agreement,37.9611088,126.6644669,1953-07-27T00:00:00Z,https://www.wikidata.org/wiki/Q2862267,CC-BY-SA-4.0,Korean Armistice Agreement,treaty,"armistice signed July 27, 1953 ending hostilities in Korean War"
+wd-Q2992093-concordat-of-1953,41.904,12.453,1953-08-27T00:00:00Z,https://www.wikidata.org/wiki/Q2992093,CC-BY-SA-4.0,Concordat of 1953,treaty,1953 concordat between Spain and the Vatican
+wd-Q306535-austrian-state-treaty,48.1934,16.380519,1955-05-15T00:00:00Z,https://www.wikidata.org/wiki/Q306535,CC-BY-SA-4.0,Austrian State Treaty,treaty,multilateral 1955 treaty regarding the international status of Austria
+wd-Q7888320-united-nations-1956-supplementary-convention-on-the-abolition-of-slavery,46.2,6.15,1956-09-07T00:00:00Z,https://www.wikidata.org/wiki/Q7888320,CC-BY-SA-4.0,United Nations 1956 Supplementary Convention on the Abolition of Slavery,treaty,1956 United Nations treaty which builds upon the 1926 Slavery Convention
+wd-Q659717-vienna-convention-on-diplomatic-relations,48.2083,16.3725,1961-04-18T00:00:00Z,https://www.wikidata.org/wiki/Q659717,CC-BY-SA-4.0,Vienna Convention on Diplomatic Relations,treaty,treaty that lays the framework for most diplomatic relationships
+wd-Q15804132-cuxhaven-treaty,53.86492778,8.71558889,1961-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q15804132,CC-BY-SA-4.0,Cuxhaven Treaty,treaty,Treaty between Loxer Saxony and Hamburg
+wd-Q1471139-evian-accords,46.4006,6.59,1962-03-18T00:00:00Z,https://www.wikidata.org/wiki/Q1471139,CC-BY-SA-4.0,Evian Accords,treaty,treaty signed by France and the Provisional Government of the Algerian Republic to end the Algerian War
+wd-Q700855-vienna-convention-on-consular-relations,48.2083,16.3725,1963-04-24T00:00:00Z,https://www.wikidata.org/wiki/Q700855,CC-BY-SA-4.0,Vienna Convention on Consular Relations,treaty,treaty
+wd-Q3536950-columbia-river-treaty,50.2508,-116.951,1964-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3536950,CC-BY-SA-4.0,Columbia River Treaty,treaty,1964 agreement between Canada and the United States
+wd-Q239768-vienna-convention-on-the-law-of-treaties,48.2083,16.3725,1969-05-23T00:00:00Z,https://www.wikidata.org/wiki/Q239768,CC-BY-SA-4.0,Vienna Convention on the Law of Treaties,treaty,1969 United Nations treaty
+wd-Q321859-cartagena-agreement,10.4236,-75.5253,1969-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q321859,CC-BY-SA-4.0,Cartagena Agreement,treaty,
+wd-Q170170-ramsar-convention,36.9181,50.6481,1971-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q170170,CC-BY-SA-4.0,Ramsar Convention,treaty,international treaty for the conservation and sustainable utilization of wetlands
+wd-Q696802-paris-peace-accords,48.8567,2.3522,1973-01-27T00:00:00Z,https://www.wikidata.org/wiki/Q696802,CC-BY-SA-4.0,Paris Peace Accords,treaty,"peace treaty between United States, South Vietnam and North Vietnam"
+wd-Q449550-alvor-agreement,37.161166666,-8.580222222,1975-01-15T00:00:00Z,https://www.wikidata.org/wiki/Q449550,CC-BY-SA-4.0,Alvor Agreement,treaty,peace treaty
+wd-Q321865-1975-algiers-agreement,29.865,48.751944,1975-03-06T00:00:00Z,https://www.wikidata.org/wiki/Q321865,CC-BY-SA-4.0,1975 Algiers Agreement,treaty,between Iraq and Iran
+wd-Q488546-environmental-modification-convention,46.2,6.15,1977-05-18T00:00:00Z,https://www.wikidata.org/wiki/Q488546,CC-BY-SA-4.0,Environmental Modification Convention,treaty,1976 international treaty on environmental modification
+wd-Q1248976-vienna-convention-on-succession-of-states-in-respect-of-treaties,48.2083,16.3725,1978-08-23T00:00:00Z,https://www.wikidata.org/wiki/Q1248976,CC-BY-SA-4.0,Vienna Convention on Succession of States in Respect of Treaties,treaty,1978 United Nations treaty
+wd-Q125371-bonn-convention,50.7339,7.0997,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q125371,CC-BY-SA-4.0,Bonn Convention,treaty,treaty
+wd-Q623994-strategic-arms-limitation-talks,48.2083,16.3725,1979-06-18T00:00:00Z,https://www.wikidata.org/wiki/Q623994,CC-BY-SA-4.0,Strategic Arms Limitation Talks,treaty,two rounds of bilateral conferences and corresponding international treaties involving the United States and the Soviet Union
+wd-Q3088733-australia-france-border,-15.735,158.760833333,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3088733,CC-BY-SA-4.0,Australia–France border,treaty,international maritime border
+wd-Q216996-united-nations-convention-on-the-law-of-the-sea,18.47,-77.92,1982-12-10T00:00:00Z,https://www.wikidata.org/wiki/Q216996,CC-BY-SA-4.0,United Nations Convention on the Law of the Sea,treaty,international maritime law
+wd-Q1301424-nkomati-accord,-25.43,31.95,1984-03-16T00:00:00Z,https://www.wikidata.org/wiki/Q1301424,CC-BY-SA-4.0,Nkomati Accord,treaty,peace treaty
+wd-Q2822795-schengen-agreement,49.47,6.36,1985-06-14T00:00:00Z,https://www.wikidata.org/wiki/Q2822795,CC-BY-SA-4.0,Schengen Agreement,treaty,"treaty which led to the creation of Europe's Schengen Area, in which internal border checks have largely been abolished"
+wd-Q622649-single-european-act,49.6106,6.1328,1986-02-17T00:00:00Z,https://www.wikidata.org/wiki/Q622649,CC-BY-SA-4.0,Single European Act,treaty,the first major revision of the 1957 Treaty of Rome
+wd-Q7843235-tripartite-accord,40.7496292,-73.96739,1988-12-22T00:00:00Z,https://www.wikidata.org/wiki/Q7843235,CC-BY-SA-4.0,Tripartite Accord,treaty,"1988 treaty between Angola, Cuba and South Africa"
+wd-Q775865-basel-convention,47.5606,7.5906,1989-03-21T00:00:00Z,https://www.wikidata.org/wiki/Q775865,CC-BY-SA-4.0,Basel Convention,treaty,international treaty to prevent transfer of hazardous waste from developed to less developed countries
+wd-Q917606-brioni-agreement,44.92,13.77,1991-07-07T00:00:00Z,https://www.wikidata.org/wiki/Q917606,CC-BY-SA-4.0,Brioni Agreement,treaty,agreement which facilitated the cessation of hostilities between the JNA and Slovene forces in the Ten-Day War
+wd-Q76986-belovezh-accords,52.6231,23.9554,1991-12-08T00:00:00Z,https://www.wikidata.org/wiki/Q76986,CC-BY-SA-4.0,Belovezh Accords,treaty,agreement that declared dissolution of the USSR by its founder states (denunciation of 1922 Treaty on the Creation of the USSR) and established the CIS
+wd-Q1928989-treaty-on-open-skies,60.1708,24.9375,1992-03-24T00:00:00Z,https://www.wikidata.org/wiki/Q1928989,CC-BY-SA-4.0,Treaty on Open Skies,treaty,international treaty promoting openness and transparency of military forces and activities
+wd-Q1568540-rome-general-peace-accords,41.8931,12.4828,1992-10-04T00:00:00Z,https://www.wikidata.org/wiki/Q1568540,CC-BY-SA-4.0,Rome General Peace Accords,treaty,peace treaty
+wd-Q1429076-arusha-accords,-3.3667,36.6833,1993-08-04T00:00:00Z,https://www.wikidata.org/wiki/Q1429076,CC-BY-SA-4.0,Arusha Accords,treaty,peace treaty
+wd-Q321961-agreement-on-the-conservation-of-african-eurasian-migratory-waterbirds,52.08,4.31,1995-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q321961,CC-BY-SA-4.0,Agreement on the Conservation of African-Eurasian Migratory Waterbirds,treaty,international treaty for bird conservation
+wd-Q321885-erdut-agreement,45.53,19.07,1995-11-12T00:00:00Z,https://www.wikidata.org/wiki/Q321885,CC-BY-SA-4.0,Erdut Agreement,treaty,1995 treaty ending the Croatian War of Independence
+wd-Q190315-dayton-agreement,39.8231,-84.0494,1995-11-21T00:00:00Z,https://www.wikidata.org/wiki/Q190315,CC-BY-SA-4.0,Dayton Agreement,treaty,late-1995 treaty ending the Bosnian War
+wd-Q838958-rome-statute-of-the-international-criminal-court,41.8931,12.4828,1998-07-17T00:00:00Z,https://www.wikidata.org/wiki/Q838958,CC-BY-SA-4.0,Rome Statute of the International Criminal Court,treaty,1998 international treaty establishing the International Criminal Court
+wd-Q94947-rotterdam-convention,51.92,4.48,1998-09-10T00:00:00Z,https://www.wikidata.org/wiki/Q94947,CC-BY-SA-4.0,Rotterdam Convention,treaty,United Nations treaty
+wd-Q28479-kumanovo-agreement,42.15406,21.70364,1999-06-09T00:00:00Z,https://www.wikidata.org/wiki/Q28479,CC-BY-SA-4.0,Kumanovo Agreement,treaty,agreement that concluded the Kosovo war
+wd-Q832200-cotonou-agreement,6.37,2.42,2000-06-23T00:00:00Z,https://www.wikidata.org/wiki/Q832200,CC-BY-SA-4.0,Cotonou Agreement,treaty,"2000 EU economic and legal treaty with African, Caribbean and Pacific states"
+wd-Q331504-convention-against-transnational-organized-crime,38.1156581,13.3612619,2000-11-15T00:00:00Z,https://www.wikidata.org/wiki/Q331504,CC-BY-SA-4.0,Convention against Transnational Organized Crime,treaty,organized crime
+wd-Q208688-treaty-of-nice,43.701944444,7.268333333,2001-02-26T00:00:00Z,https://www.wikidata.org/wiki/Q208688,CC-BY-SA-4.0,Treaty of Nice,treaty,EU treaty of 2001
+wd-Q82908-stockholm-convention-on-persistent-organic-pollutants,59.3294,18.0686,2001-05-22T00:00:00Z,https://www.wikidata.org/wiki/Q82908,CC-BY-SA-4.0,Stockholm Convention on Persistent Organic Pollutants,treaty,treaty
+wd-Q547979-united-nations-convention-against-corruption,20.97,-89.62,2003-12-09T00:00:00Z,https://www.wikidata.org/wiki/Q547979,CC-BY-SA-4.0,United Nations Convention Against Corruption,treaty,Anti-corruption treaty
+wd-Q1632164-hoyv-k-agreement,62.0256,-6.7589,2005-08-31T00:00:00Z,https://www.wikidata.org/wiki/Q1632164,CC-BY-SA-4.0,Hoyvík Agreement,treaty,trade agreement between the Faroe Islands and Iceland
+wd-Q15767316-council-of-europe-convention-on-the-protection-of-children-against-sexual-exp,29.035,-13.635,2007-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q15767316,CC-BY-SA-4.0,Council of Europe Convention on the Protection of Children against Sexual Exploitation and Sexual Abuse,treaty,European treaty to criminalise forms of child sexual abuse
+wd-Q1697391-convention-on-preventing-and-combating-violence-against-women-and-domestic-vio,41.01,28.9603,2011-05-11T00:00:00Z,https://www.wikidata.org/wiki/Q1697391,CC-BY-SA-4.0,Convention on preventing and combating violence against women and domestic violence,treaty,"Council of Europe convention against gender violence signed in Istanbul, Turkey"
+wd-Q5166292-convention-on-domestic-workers,46.2,6.15,2011-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q5166292,CC-BY-SA-4.0,Convention on Domestic Workers,treaty,2011 ILO convention regarding domestic workers
+wd-Q12163419-ukraine-european-union-association-agreement,50.8467,4.3525,2014-03-21T00:00:00Z,https://www.wikidata.org/wiki/Q12163419,CC-BY-SA-4.0,Ukraine–European Union Association Agreement,treaty,2014 treaty
+wd-Q21707860-paris-agreement,48.8567,2.3522,2015-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q21707860,CC-BY-SA-4.0,Paris Agreement,treaty,"international agreement from 12 December 2015 within the United Nations Framework Convention on Climate Change (UNFCCC) dealing with greenhouse gas emissions mitigation, adaptation and finance starting in the year 2020"
+wd-Q1366688-trans-pacific-partnership,-41.2889,174.7772,2016-02-04T00:00:00Z,https://www.wikidata.org/wiki/Q1366688,CC-BY-SA-4.0,Trans-Pacific Partnership,treaty,2016 proposed trade agreement
+wd-Q50822331-african-continental-free-trade-agreement,-1.9536,30.0606,2018-03-21T00:00:00Z,https://www.wikidata.org/wiki/Q50822331,CC-BY-SA-4.0,African Continental Free Trade Agreement,treaty,trade agreement
+wd-Q55153903-prespa-agreement,40.830186,21.029454,2018-06-17T00:00:00Z,https://www.wikidata.org/wiki/Q55153903,CC-BY-SA-4.0,Prespa agreement,treaty,2018 settlement of the Macedonia naming dispute
+wd-Q98371472-israel-united-arab-emirates-normalization-agreement,38.895,-77.0367,2020-09-15T00:00:00Z,https://www.wikidata.org/wiki/Q98371472,CC-BY-SA-4.0,Israel–United Arab Emirates normalization agreement,treaty,2020 agreement between Israel and the UAE
+wd-Q99207513-bahrain-israel-peace-agreement,38.8978,-77.0367,2020-09-15T00:00:00Z,https://www.wikidata.org/wiki/Q99207513,CC-BY-SA-4.0,Bahrain–Israel peace agreement,treaty,peace agreement between the countries of Bahrain and Israel
+wd-Q101429497-2020-nagorno-karabakh-ceasefire-agreement,40.366656,49.835183,2020-11-09T00:00:00Z,https://www.wikidata.org/wiki/Q101429497,CC-BY-SA-4.0,2020 Nagorno-Karabakh ceasefire agreement,treaty,armistice agreement ending the Nagorno-Karabakh war
+wd-Q122852318-2023-nagorno-karabakh-ceasefire-agreement,39.81528,46.75194,2023-09-20T00:00:00Z,https://www.wikidata.org/wiki/Q122852318,CC-BY-SA-4.0,2023 Nagorno-Karabakh ceasefire agreement,treaty,Ceasefire agreement ending Azerbaijani military offensive
+wd-Q1527921-li-ge-revolution,50.645280555,5.575680555,1789-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1527921,CC-BY-SA-4.0,Liège Revolution,revolution,conflict
+wd-Q12203914-revolt-of-cairo-1800,30.042777777,31.246666666,1800-03-20T00:00:00Z,https://www.wikidata.org/wiki/Q12203914,CC-BY-SA-4.0,Revolt of Cairo (1800),revolution,A revolt during the French Campaign in Egypt
+wd-Q16422057-j-rgen-j-rgensen-s-revolution,64.146666666,-21.94,1809-06-26T00:00:00Z,https://www.wikidata.org/wiki/Q16422057,CC-BY-SA-4.0,Jørgen Jørgensen's Revolution,revolution,revolution in Iceland
+wd-Q3571687-cry-of-asencio,-33.5228,-57.7528,1811-02-28T00:00:00Z,https://www.wikidata.org/wiki/Q3571687,CC-BY-SA-4.0,Cry of Asencio,revolution,Spanish Rebellion
+wd-Q9068534-revolution-of-11-september-1852,-34.608333333,-58.371944444,1852-09-11T00:00:00Z,https://www.wikidata.org/wiki/Q9068534,CC-BY-SA-4.0,Revolution of 11 September 1852,revolution,"coup d'etat by the ruling class of Buenos Aires against the rest of the Argentine Confederation. It resulted in the Province of Buenos Aires declaring independence as the State of Buenos Aires, which lasted for ten years"
+wd-Q2294549-proclamation-of-the-republic,-22.906669444,-43.188611111,1889-11-15T00:00:00Z,https://www.wikidata.org/wiki/Q2294549,CC-BY-SA-4.0,Proclamation of the Republic,revolution,November 1889 historical event in Brazil
+wd-Q19688873-tragic-week,14.622777777,-90.531388888,1920-04-08T00:00:00Z,https://www.wikidata.org/wiki/Q19688873,CC-BY-SA-4.0,Tragic Week,revolution,
+wd-Q75844-zanzibar-revolution,-6.16,39.190555555,1964-01-12T00:00:00Z,https://www.wikidata.org/wiki/Q75844,CC-BY-SA-4.0,Zanzibar Revolution,revolution,revolution in Zanzibar in 1964
+wd-Q193245-carnation-revolution,39,-9,1974-04-25T00:00:00Z,https://www.wikidata.org/wiki/Q193245,CC-BY-SA-4.0,Carnation Revolution,revolution,1974 revolution in Portugal
+wd-Q1341539-saur-revolution,34.525277777,69.178333333,1978-04-27T00:00:00Z,https://www.wikidata.org/wiki/Q1341539,CC-BY-SA-4.0,Saur Revolution,revolution,April 1978 coup in Afghanistan
+wd-Q15733401-revolution-of-dignity,50.45,30.524166666,2010-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15733401,CC-BY-SA-4.0,Revolution of Dignity,revolution,2014 revolution in Ukraine
+wd-Q15634716-june-2013-egyptian-protests,30.0444,31.2356,2013-06-30T00:00:00Z,https://www.wikidata.org/wiki/Q15634716,CC-BY-SA-4.0,June 2013 Egyptian protests,revolution,Protests occurred in Egypt on 30 June 2013
+wd-Q4651215-ad-17-lydia-earthquake,38.49,28.04,0017-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4651215,CC-BY-SA-4.0,AD 17 Lydia earthquake,earthquake,17 AD earthquake in the Roman province of Asia
+wd-Q3718708-62-pompeii-earthquake,40.7,14.5,0062-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3718708,CC-BY-SA-4.0,62 Pompeii earthquake,earthquake,earthquake in Italy in 62 AD
+wd-Q4547511-antioch-earthquake-of-115,36.1,36.1,0115-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q4547511,CC-BY-SA-4.0,Antioch earthquake of 115,earthquake,"7.5-magnitude earthquake that struck Antakya in south-central Turkey on December 13, 115"
+wd-Q85719675-139-mcurn-earthquake,38.999,39.4,0139-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85719675,CC-BY-SA-4.0,139 Mcurn earthquake,earthquake,"earthquake that affected the city of Mcurn (modern Hösnek, Turkey)"
+wd-Q19903045-141-lycia-earthquake,36.737,29.899,0141-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q19903045,CC-BY-SA-4.0,141 Lycia earthquake,earthquake,141 earthquake affecting the Roman provinces of Lycia and Caria
+wd-Q1348790-q1348790,35,104,0143-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1348790,CC-BY-SA-4.0,Q1348790,earthquake,
+wd-Q121294771-earthquake-of-160-ce-at-dura-europos,34.7475,40.73,0160-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q121294771,CC-BY-SA-4.0,Earthquake of 160 CE at Dura-Europos,earthquake,earthquake archaeologically attested at Dura-Europos (Syria)
+wd-Q1348794-q1348794,39.4,99.5,0180-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1348794,CC-BY-SA-4.0,Q1348794,earthquake,
+wd-Q28220677-262-southwest-anatolia-earthquake,36.5,27.8,0262-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28220677,CC-BY-SA-4.0,262 Southwest Anatolia earthquake,earthquake,Earthquake which devastated cities on the west and south coasts of Anatolia (262)
+wd-Q5518608-galilee-earthquake-of-363,32.999,35.366,0363-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5518608,CC-BY-SA-4.0,Galilee earthquake of 363,earthquake,Pair of earthquakes affecting the Galilee region
+wd-Q85738258-363-arsakawan-earthquake,39.5,44.1,0363-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738258,CC-BY-SA-4.0,363 Arsakawan earthquake,earthquake,363 earthquake affecting the cities of cities of Arsakawan and Salat
+wd-Q1348954-365-crete-earthquake,35,23,0365-07-22T00:00:00Z,https://www.wikidata.org/wiki/Q1348954,CC-BY-SA-4.0,365 Crete earthquake,earthquake,"earthquake which occurred on 21 July 365 AD in the Eastern Mediterranean, with an assumed epicentre near Crete"
+wd-Q101279639-constantinople-earthquake-of-447,41,29,0447-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q101279639,CC-BY-SA-4.0,Constantinople earthquake of 447,earthquake,"7.3-magnitude earthquake that struck İstanbul in northwestern Turkey on January 26, 447"
+wd-Q85738344-461-apahunik-earthquake,38.855,42.754,0461-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738344,CC-BY-SA-4.0,461 Apahunik' earthquake,earthquake,
+wd-Q85738394-499-nicopolis-earthquake,40.554,36.949,0499-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738394,CC-BY-SA-4.0,499 Nicopolis earthquake,earthquake,
+wd-Q1315703-q1315703,38.9,112.8,0512-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q1315703,CC-BY-SA-4.0,Q1315703,earthquake,
+wd-Q60285231-518-scupi-earthquake,42.016666666,21.391944444,0518-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q60285231,CC-BY-SA-4.0,518 Scupi earthquake,earthquake,earthquake
+wd-Q541723-antioch-earthquake-of-526,36.23,36.12,0526-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q541723,CC-BY-SA-4.0,Antioch earthquake of 526,earthquake,"7.0-magnitude earthquake that struck Antakya in south-central Turkey on May 29, 526"
+wd-Q130050710-antioch-earthquake-of-528,36.25,36.1,0528-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q130050710,CC-BY-SA-4.0,Antioch earthquake of 528,earthquake,"7.1-magnitude earthquake that struck Antakya in south-central Turkey on November 29, 528"
+wd-Q589853-551-beirut-earthquake,33.9,35.5,0551-07-11T00:00:00Z,https://www.wikidata.org/wiki/Q589853,CC-BY-SA-4.0,551 Beirut earthquake,earthquake,earthquake
+wd-Q85738459-554-anatolia-earthquake,37.116,27.47,0554-08-17T00:00:00Z,https://www.wikidata.org/wiki/Q85738459,CC-BY-SA-4.0,554 Anatolia earthquake,earthquake,natural Disaster
+wd-Q1491406-constantinople-earthquake-of-557,41.03,28.95,0557-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1491406,CC-BY-SA-4.0,Constantinople earthquake of 557,earthquake,"7.0-magnitude earthquake that struck İstanbul in northwestern Turkey on October 14, 557"
+wd-Q85738526-602-surb-karapet-monastery-earthquake,38.961,41.192,0602-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738526,CC-BY-SA-4.0,602 Surb Karapet Monastery earthquake,earthquake,7th-century Armenian earthquake
+wd-Q85738538-632-armenia-earthquake,39.28,43.372,0632-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738538,CC-BY-SA-4.0,632 Armenia earthquake,earthquake,7th-century Armenia earthquake
+wd-Q11580616-684-hakuh-earthquake-and-tsunami,32.8,134.3,0684-11-29T00:00:00Z,https://www.wikidata.org/wiki/Q11580616,CC-BY-SA-4.0,684 Hakuhō earthquake and tsunami,earthquake,earthquake in Japan
+wd-Q1348820-q1348820,34.6,105.6,0734-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q1348820,CC-BY-SA-4.0,Q1348820,earthquake,
+wd-Q85738597-735-vayots-dzor-province-earthquake,39.75,45.5,0735-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738597,CC-BY-SA-4.0,735 Vayots Dzor Province earthquake,earthquake,8th-century Armenian earthquake
+wd-Q85738600-constantinople-earthquake-of-740,41.0082,28.9784,0740-10-30T00:00:00Z,https://www.wikidata.org/wiki/Q85738600,CC-BY-SA-4.0,Constantinople earthquake of 740,earthquake,"7.3-magnitude earthquake that struck İstanbul in northwestern Turkey on October 26, 740"
+wd-Q85738601-743-caspian-gates-earthquake,37.7994,48.9247,0743-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738601,CC-BY-SA-4.0,743 Caspian Gates earthquake,earthquake,earthquake in the Caspian Gates occuring around the year 743
+wd-Q2920370-the-seventh-earthquake,32,35.5,0749-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2920370,CC-BY-SA-4.0,The Seventh Earthquake,earthquake,earthquake in the Levant
+wd-Q1348879-q1348879,34.5,107.8,0780-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1348879,CC-BY-SA-4.0,Q1348879,earthquake,
+wd-Q117751606-801-apennine-earthquake,42.468,13.566,0801-05-03T00:00:00Z,https://www.wikidata.org/wiki/Q117751606,CC-BY-SA-4.0,801 Apennine earthquake,earthquake,
+wd-Q85738645-803-mopsuestia-earthquake,36.957,35.621,0803-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738645,CC-BY-SA-4.0,803 Mopsuestia earthquake,earthquake,
+wd-Q1348777-q1348777,27.9,102.2,0814-04-10T00:00:00Z,https://www.wikidata.org/wiki/Q1348777,CC-BY-SA-4.0,Q1348777,earthquake,
+wd-Q85738655-840-erzurum-earthquake,39.913,41.264,0840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738655,CC-BY-SA-4.0,840 Erzurum earthquake,earthquake,possible earthquake
+wd-Q4644763-847-antioch-earthquake,34.4,36.3,0847-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4644763,CC-BY-SA-4.0,847 Antioch earthquake,earthquake,Earthquake affecting Syria and Lebanon
+wd-Q1170278-q1170278,40.8,109.8,0849-10-28T00:00:00Z,https://www.wikidata.org/wiki/Q1170278,CC-BY-SA-4.0,Q1170278,earthquake,
+wd-Q3544130-856-damghan-earthquake,36.2,54.3,0856-12-26T00:00:00Z,https://www.wikidata.org/wiki/Q3544130,CC-BY-SA-4.0,856 Damghan earthquake,earthquake,"earthquake in Damghan County, Iran"
+wd-Q85738658-859-syrian-coasts-earthquake,36,36,0859-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738658,CC-BY-SA-4.0,859 Syrian coasts earthquake,earthquake,Earthquake affected the Mediterranean coast of Syria in the year 859 or 860 CE (Hijri year 245)
+wd-Q1400684-869-j-gan-earthquake,38.5,143.8,0869-07-13T00:00:00Z,https://www.wikidata.org/wiki/Q1400684,CC-BY-SA-4.0,869 Jōgan earthquake,earthquake,earthquake
+wd-Q85738678-881-acre-earthquake,32.928,35.085,0881-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738678,CC-BY-SA-4.0,881 Acre earthquake,earthquake,
+wd-Q4352841-893-dvin-earthquake,40,44.6,0893-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4352841,CC-BY-SA-4.0,893 Dvin earthquake,earthquake,earthquake in Armenia
+wd-Q4645112-893-ardabil-earthquake,38.2,48.2,0893-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q4645112,CC-BY-SA-4.0,893 Ardabil earthquake,earthquake,earthquake in Iran
+wd-Q85738722-906-k-argop-earthquake,39.724,45.475,0906-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85738722,CC-BY-SA-4.0,906 K'argop' earthquake,earthquake,earthquake in Armenia
+wd-Q65045104-957-caspian-sea-earthquake,35.95,52.1,0957-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q65045104,CC-BY-SA-4.0,957 Caspian Sea earthquake,earthquake,Earthquake in Iran
+wd-Q65043213-991-damascus-earthquake,33.2,36.2,0991-04-10T00:00:00Z,https://www.wikidata.org/wiki/Q65043213,CC-BY-SA-4.0,991 Damascus earthquake,earthquake,Terremoto en Siria en 991
+wd-Q11353814-1026-manju-earthquake,34.8,131.8,1026-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q11353814,CC-BY-SA-4.0,1026 Manju earthquake,earthquake,Tsunami affecting Japan
+wd-Q112958123-1033-jordan-rift-valley-earthquake,32.5,35.5,1033-12-11T00:00:00Z,https://www.wikidata.org/wiki/Q112958123,CC-BY-SA-4.0,1033 Jordan Rift Valley earthquake,earthquake,earthquake in the Levant
+wd-Q124381819-1038-dingxiang-earthquake,38.4,112.92,1038-01-15T00:00:00Z,https://www.wikidata.org/wiki/Q124381819,CC-BY-SA-4.0,1038 Dingxiang earthquake,earthquake,earthquake in China
+wd-Q43861629-1046-middle-adige-earthquake,45.83333,11.067,1046-11-15T00:00:00Z,https://www.wikidata.org/wiki/Q43861629,CC-BY-SA-4.0,1046 Middle Adige Earthquake,earthquake,
+wd-Q137291655-1063-marmara-earthquake,40.867,27.411,1063-09-29T00:00:00Z,https://www.wikidata.org/wiki/Q137291655,CC-BY-SA-4.0,1063 Marmara earthquake,earthquake,
+wd-Q16000534-1068-near-east-earthquake,28.5,36.7,1068-03-24T00:00:00Z,https://www.wikidata.org/wiki/Q16000534,CC-BY-SA-4.0,1068 Near East earthquake,earthquake,series of earthquakes in the Arabian Peninsula and Palestine
+wd-Q2988306-1088-tmogvi-earthquake,41.23,44,1088-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2988306,CC-BY-SA-4.0,1088 Tmogvi earthquake,earthquake,"earthquake that occurred on April 16 or April 22, 1088, on Easter Sunday, in the southern provinces of the Kingdom of Georgia"
+wd-Q11550461-1096-eich-earthquake,39.5,140.4,1096-12-17T00:00:00Z,https://www.wikidata.org/wiki/Q11550461,CC-BY-SA-4.0,1096 Eichō earthquake,earthquake,earthquake and tsunami in Japan
+wd-Q114773654-marash-earthquake-of-1114,37.9,36.97,1114-08-10T00:00:00Z,https://www.wikidata.org/wiki/Q114773654,CC-BY-SA-4.0,Marash earthquake of 1114,earthquake,"7.4-magnitude earthquake that struck Kahramanmaraş in southern Turkey on March 12, 1114"
+wd-Q260775-1117-verona-earthquake,45.5,11,1117-01-10T00:00:00Z,https://www.wikidata.org/wiki/Q260775,CC-BY-SA-4.0,1117 Verona earthquake,earthquake,earthquake
+wd-Q733739-1138-aleppo-earthquake,36.2167,37.1667,1138-10-18T00:00:00Z,https://www.wikidata.org/wiki/Q733739,CC-BY-SA-4.0,1138 Aleppo earthquake,earthquake,earthquake in 12th century Syria
+wd-Q4191053-1139-ganja-earthquake,40.3,46.3,1139-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4191053,CC-BY-SA-4.0,1139 Ganja earthquake,earthquake,natural disaster in Azerbaijan and Georgia
+wd-Q13414866-1157-hama-earthquake,35.1,36.5,1157-08-19T00:00:00Z,https://www.wikidata.org/wiki/Q13414866,CC-BY-SA-4.0,1157 Hama earthquake,earthquake,"earthquake in west-central Syria, 1157"
+wd-Q4547554-1169-sicily-earthquake,37.217,14.95,1169-02-11T00:00:00Z,https://www.wikidata.org/wiki/Q4547554,CC-BY-SA-4.0,1169 Sicily earthquake,earthquake,1169 earthquake in Sicily
+wd-Q55600341-1170-syria-earthquake,35.1,36.5,1170-07-06T00:00:00Z,https://www.wikidata.org/wiki/Q55600341,CC-BY-SA-4.0,1170 Syria earthquake,earthquake,One of the largest earthquakes to hit Syria. It occurred early in the morning of 29 June 1170.
+wd-Q4353506-1202-b-c-syria-earthshake,33.5,36,1202-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4353506,CC-BY-SA-4.0,1202 B.C. Syria Earthshake,earthquake,Earthquake affecting the Levant
+wd-Q4548221-1222-cyprus-earthquake,34.7,32.6,1222-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4548221,CC-BY-SA-4.0,1222 Cyprus earthquake,earthquake,Strong seismic event
+wd-Q20178861-1222-brescia-earthquake,45.5,10.2,1223-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q20178861,CC-BY-SA-4.0,1222 Brescia earthquake,earthquake,Terremoto en Italia en 1222
+wd-Q1439471-cilicia-earthquake-of-1268,37.5,35.5,1268-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1439471,CC-BY-SA-4.0,Cilicia earthquake of 1268,earthquake,"7.2-magnitude earthquake that struck Adana in south-central Turkey on May 14, 1269"
+wd-Q4548614-1290-chihli-earthquake,41.5,119.3,1290-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4548614,CC-BY-SA-4.0,1290 Chihli earthquake,earthquake,Earthquake in northeast China (27 September 1290)
+wd-Q4548624-1293-kamakura-earthquake,35.2,139.4,1293-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q4548624,CC-BY-SA-4.0,1293 Kamakura earthquake,earthquake,earthquake and tsunami in Japan
+wd-Q56640848-1293-samnium-earthquake,41.304,14.548,1293-09-11T00:00:00Z,https://www.wikidata.org/wiki/Q56640848,CC-BY-SA-4.0,1293 Samnium earthquake,earthquake,September 1293 earthquake in Southern Italy
+wd-Q48807512-1-december-1298-rieti-earthquake,42.574,12.906,1298-12-08T00:00:00Z,https://www.wikidata.org/wiki/Q48807512,CC-BY-SA-4.0,1 December 1298 Rieti earthquake,earthquake,
+wd-Q1485683-1303-crete-earthquake,35,27,1303-08-16T00:00:00Z,https://www.wikidata.org/wiki/Q1485683,CC-BY-SA-4.0,1303 Crete earthquake,earthquake,Earthquake (8 August 1303)
+wd-Q24231977-1303-hongdong-earthquake,36.3,111.7,1303-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q24231977,CC-BY-SA-4.0,1303 Hongdong earthquake,earthquake,earthquake in northern China (25 September 1303)
+wd-Q105591033-1328-norcia-earthquake,42.855,13.022,1328-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q105591033,CC-BY-SA-4.0,1328 Norcia earthquake,earthquake,"The 1328 earthquake in Norcia, Italy, caused substantial damage, including the destruction of buildings and structures in the region."
+wd-Q117487867-1344-syria-earthquake,36.527,37.956,1344-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q117487867,CC-BY-SA-4.0,1344 Syria earthquake,earthquake,earthquake
+wd-Q685849-1348-friuli-earthquake,46.37,13.58,1348-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q685849,CC-BY-SA-4.0,1348 Friuli earthquake,earthquake,1348 earthquake in Italy
+wd-Q3984657-1349-apennine-earthquakes,41.454308,14.123227,1349-09-17T00:00:00Z,https://www.wikidata.org/wiki/Q3984657,CC-BY-SA-4.0,1349 Apennine earthquakes,earthquake,earthquake sequence in Italy's Apennine Mountain region
+wd-Q48879682-1356-cape-st-vincent-earthquake,36.5,-10,1356-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q48879682,CC-BY-SA-4.0,1356 Cape St. Vincent earthquake,earthquake,"earthquake that affected Lisbon, Portugal"
+wd-Q672705-1356-basel-earthquake,47.4,7.6,1356-10-26T00:00:00Z,https://www.wikidata.org/wiki/Q672705,CC-BY-SA-4.0,1356 Basel earthquake,earthquake,natural disaster
+wd-Q51715279-1361-apulia-earthquake,41.2,15.567,1361-07-25T00:00:00Z,https://www.wikidata.org/wiki/Q51715279,CC-BY-SA-4.0,1361 Apulia earthquake,earthquake,"July 1361 earthquake in Apulia, Italy"
+wd-Q11545447-1361-sh-hei-earthquake,34.605,136.848,1361-08-03T00:00:00Z,https://www.wikidata.org/wiki/Q11545447,CC-BY-SA-4.0,1361 Shōhei earthquake,earthquake,earthquake in Japan
+wd-Q18008332-q18008332,42.6333,0.683333,1373-03-11T00:00:00Z,https://www.wikidata.org/wiki/Q18008332,CC-BY-SA-4.0,Q18008332,earthquake,
+wd-Q55600359-1382-dover-straits-earthquake,51.34,2,1382-05-29T00:00:00Z,https://www.wikidata.org/wiki/Q55600359,CC-BY-SA-4.0,1382 Dover Straits earthquake,earthquake,Magnitude 6 earthquake (21 May 1382)
+wd-Q65045870-1420-caldera-earthquake,-27,-71,1420-09-09T00:00:00Z,https://www.wikidata.org/wiki/Q65045870,CC-BY-SA-4.0,1420 Caldera earthquake,earthquake,1420 earthquake and tsunami centered in northern Chile
+wd-Q769031-1428-catalonia-earthquake,42.37,2.15,1428-02-11T00:00:00Z,https://www.wikidata.org/wiki/Q769031,CC-BY-SA-4.0,1428 Catalonia earthquake,earthquake,XV century earthquake
+wd-Q19545587-1453-florence-earthquake,43.783,11.287,1453-10-07T00:00:00Z,https://www.wikidata.org/wiki/Q19545587,CC-BY-SA-4.0,1453 Florence earthquake,earthquake,
+wd-Q11374165-1454-ky-toku-earthquake,38.5,143.8,1454-12-21T00:00:00Z,https://www.wikidata.org/wiki/Q11374165,CC-BY-SA-4.0,1454 Kyōtoku earthquake,earthquake,earthquake in japan
+wd-Q18289650-1456-central-italy-earthquakes,41.1396,14.7828,1456-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q18289650,CC-BY-SA-4.0,1456 Central Italy earthquakes,earthquake,earthquakes in Italy
+wd-Q3984659-1461-l-aquila-earthquake,42.308,13.543,1461-12-05T00:00:00Z,https://www.wikidata.org/wiki/Q3984659,CC-BY-SA-4.0,1461 L'Aquila earthquake,earthquake,earthquake in the Abruzzo region of Italy
+wd-Q50822774-1466-irpinia-earthquake,40.766,15.334,1466-01-24T00:00:00Z,https://www.wikidata.org/wiki/Q50822774,CC-BY-SA-4.0,1466 Irpinia earthquake,earthquake,January 1466 earthquake in Southern Italy
+wd-Q46437483-tenochtitlan-earthquake-of-1475,19.42,-99.181,1475-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q46437483,CC-BY-SA-4.0,Tenochtitlan Earthquake of 1475,earthquake,earthquake in México-Tenochtitlan
+wd-Q3984715-1481-rhodes-earthquake,36,28,1481-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3984715,CC-BY-SA-4.0,1481 Rhodes earthquake,earthquake,Magnitude 7 earthquake (3 May 1481) amongst a series that affected Rhodes in that year
+wd-Q110184545-1490-limagne-earthquake,45.87,2.94,1490-03-10T00:00:00Z,https://www.wikidata.org/wiki/Q110184545,CC-BY-SA-4.0,1490 Limagne earthquake,earthquake,
+wd-Q117195998-1491-cyprus-earthquake,35.148,34.527,1491-05-03T00:00:00Z,https://www.wikidata.org/wiki/Q117195998,CC-BY-SA-4.0,1491 Cyprus earthquake,earthquake,"On April 24, 1491, a significant earthquake struck Cyprus, causing extensive damage across the island, particularly in Nicosia, where approximately 4,000 buildings were destroyed."
+wd-Q4549898-1498-mei-earthquake,34,138,1498-09-29T00:00:00Z,https://www.wikidata.org/wiki/Q4549898,CC-BY-SA-4.0,1498 Meiō earthquake,earthquake,event near America
+wd-Q24929357-1505-lo-mustang-earthquake,29.5,83,1505-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q24929357,CC-BY-SA-4.0,1505 Lo Mustang earthquake,earthquake,1505 catastrophic earthquake centered in northern Nepal
+wd-Q1188930-i-stanbul-earthquake-of-1509,40.9,28.7,1509-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1188930,CC-BY-SA-4.0,İstanbul earthquake of 1509,earthquake,"7.7-magnitude earthquake that struck İstanbul in northwestern Turkey on September 10, 1509"
+wd-Q12799296-1511-idrija-earthquake,46.2,13.43,1511-04-05T00:00:00Z,https://www.wikidata.org/wiki/Q12799296,CC-BY-SA-4.0,1511 Idrija earthquake,earthquake,disastrous earthquake in Idrija (Slovenia) on 26 March 1511
+wd-Q116810812-marash-earthquake-of-1513,37.5,36.5,1513-04-07T00:00:00Z,https://www.wikidata.org/wiki/Q116810812,CC-BY-SA-4.0,Marash earthquake of 1513,earthquake,"7.4-magnitude earthquake that struck Kahramanmaraş in southern Turkey on March 28, 1513"
+wd-Q48809824-1517-irpinia-earthquake,41.012,15.21,1517-04-08T00:00:00Z,https://www.wikidata.org/wiki/Q48809824,CC-BY-SA-4.0,1517 Irpinia earthquake,earthquake,March 1517 earthquake in Italy
+wd-Q10374621-1522-vila-franca-earthquake,37.716068,-25.432244,1522-10-21T00:00:00Z,https://www.wikidata.org/wiki/Q10374621,CC-BY-SA-4.0,1522 Vila Franca earthquake,earthquake,Terremoto en Portugal en 1522
+wd-Q2877472-1531-lisbon-earthquake,39,-8,1531-02-05T00:00:00Z,https://www.wikidata.org/wiki/Q2877472,CC-BY-SA-4.0,1531 Lisbon earthquake,earthquake,Earthquake which occurred in Portugal on 26 January 1531
+wd-Q127691241-1536-xichang-earthquake,28.1,102.1,1536-03-30T00:00:00Z,https://www.wikidata.org/wiki/Q127691241,CC-BY-SA-4.0,1536 Xichang earthquake,earthquake,1536 earthquake in China
+wd-Q113253437-1542-val-di-noto-earthquake,37.233,15.3,1542-12-20T00:00:00Z,https://www.wikidata.org/wiki/Q113253437,CC-BY-SA-4.0,1542 Val di Noto earthquake,earthquake,"earthquake in southeastern Sicily, Italy"
+wd-Q60234732-1555-sk-b-earthquake,41.95,21.4,1555-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q60234732,CC-BY-SA-4.0,1555 Üsküb earthquake,earthquake,Earthquake in the Ottoman Empire
+wd-Q191293-1556-shaanxi-earthquake,34.5,109.7,1556-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q191293,CC-BY-SA-4.0,1556 Shaanxi earthquake,earthquake,"Magnitude 8 Earthquake (23 Janaury 1556) in Shaanxi, China; regarded as deadliest earthquake in recorded history"
+wd-Q50821436-1561-vallo-di-diano-earthquake,40.514,15.492,1561-08-29T00:00:00Z,https://www.wikidata.org/wiki/Q50821436,CC-BY-SA-4.0,1561 Vallo di Diano earthquake,earthquake,August 1561 earthquake in Southern Italy
+wd-Q1109042-1570-concepci-n-earthquake,-36.75,-73,1570-02-18T00:00:00Z,https://www.wikidata.org/wiki/Q1109042,CC-BY-SA-4.0,1570 Concepción earthquake,earthquake,earthquake in Chile
+wd-Q3373971-1570-ferrara-earthquake,44.817,11.633,1570-11-26T00:00:00Z,https://www.wikidata.org/wiki/Q3373971,CC-BY-SA-4.0,1570 Ferrara earthquake,earthquake,Earthquake in Italy
+wd-Q6143174-q6143174,-33.4,-70.6,1575-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q6143174,CC-BY-SA-4.0,Q6143174,earthquake,
+wd-Q1348911-1575-valdivia-earthquake,-39.8,-73.2,1575-12-26T00:00:00Z,https://www.wikidata.org/wiki/Q1348911,CC-BY-SA-4.0,1575 Valdivia earthquake,earthquake,earthquake in Chile
+wd-Q2081172-1580-dover-straits-earthquake,50.5,2.33,1580-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2081172,CC-BY-SA-4.0,1580 Dover Straits earthquake,earthquake,Magnitude 5 Earthquake (6 April 1580) affecting England and France
+wd-Q4550734-1582-ancuancu-earthquake,-16.569,-68.1627,1582-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4550734,CC-BY-SA-4.0,1582 Ancuancu earthquake,earthquake,an earthquake in Bolivia in 1582
+wd-Q117305691-1584-aigle-earthquake,46.33,6.97,1584-03-11T00:00:00Z,https://www.wikidata.org/wiki/Q117305691,CC-BY-SA-4.0,1584 Aigle earthquake,earthquake,earthquake in Switzerland
+wd-Q11442711-1586-tensh-earthquake,35,136.8,1586-01-18T00:00:00Z,https://www.wikidata.org/wiki/Q11442711,CC-BY-SA-4.0,1586 Tenshō earthquake,earthquake,Earthquake in Japan
+wd-Q6143073-1586-lima-callao-earthquake,-12.3,-77.7,1586-07-09T00:00:00Z,https://www.wikidata.org/wiki/Q6143073,CC-BY-SA-4.0,1586 Lima–Callao earthquake,earthquake,Earthquake and tsunami in Peru
+wd-Q1348877-1590-neulengbach-earthquake,48.3,15.5,1590-09-15T00:00:00Z,https://www.wikidata.org/wiki/Q1348877,CC-BY-SA-4.0,1590 Neulengbach earthquake,earthquake,destructive earthquake in 16th-century Austria
+wd-Q11495186-1596-fushimi-earthquake,34.65,135.6,1596-09-05T00:00:00Z,https://www.wikidata.org/wiki/Q11495186,CC-BY-SA-4.0,1596 Fushimi earthquake,earthquake,earthquake in Japan
+wd-Q117085798-amasya-orum-earthquake-of-1598,40.6,35.4,1598-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q117085798,CC-BY-SA-4.0,Amasya–Çorum earthquake of 1598,earthquake,6.7-magnitude earthquake that struck Amasya in northern Turkey on May 1598
+wd-Q6142905-1604-arica-earthquake,-18.5,-70.332,1604-11-24T00:00:00Z,https://www.wikidata.org/wiki/Q6142905,CC-BY-SA-4.0,1604 Arica earthquake,earthquake,earthquake in South America
+wd-Q55694855-1604-quanzhou-earthquake,23.54,117.24,1604-12-29T00:00:00Z,https://www.wikidata.org/wiki/Q55694855,CC-BY-SA-4.0,1604 Quanzhou earthquake,earthquake,"Magnitude 8 earthquake off Fujian, China"
+wd-Q3408503-1605-keich-earthquake,33.5,138.5,1605-02-03T00:00:00Z,https://www.wikidata.org/wiki/Q3408503,CC-BY-SA-4.0,1605 Keichō earthquake,earthquake,earthquake in Japan
+wd-Q96359663-1605-guangdong-earthquake,19.9,110.5,1605-07-13T00:00:00Z,https://www.wikidata.org/wiki/Q96359663,CC-BY-SA-4.0,1605 Guangdong earthquake,earthquake,Significant earthquake Guangdong province China 13 July 1605
+wd-Q11381230-1611-aizu-earthquake,37.6,139.8,1611-09-27T00:00:00Z,https://www.wikidata.org/wiki/Q11381230,CC-BY-SA-4.0,1611 Aizu earthquake,earthquake,historical earthquake in Japan
+wd-Q3388870-1611-keicho-sanriku-earthquake,39,144.4,1611-12-02T00:00:00Z,https://www.wikidata.org/wiki/Q3388870,CC-BY-SA-4.0,1611 Keicho Sanriku earthquake,earthquake,Earthquake and tsunami affecting Japan
+wd-Q16821763-1615-arica-earthquake,-18.5,-70.35,1615-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16821763,CC-BY-SA-4.0,1615 Arica earthquake,earthquake,Major earthquake in Peru
+wd-Q97210718-1615-edo-earthquake,35.7,139.7,1615-06-26T00:00:00Z,https://www.wikidata.org/wiki/Q97210718,CC-BY-SA-4.0,1615 Edo earthquake,earthquake,
+wd-Q21002558-1615-arica-earthquake,-18.5,-70.35,1615-09-16T00:00:00Z,https://www.wikidata.org/wiki/Q21002558,CC-BY-SA-4.0,1615 Arica earthquake,earthquake,major earthquake in Peru
+wd-Q20180097-1620-robben-island-earthquake,-33.81,18.352,1620-04-07T00:00:00Z,https://www.wikidata.org/wiki/Q20180097,CC-BY-SA-4.0,1620 Robben Island earthquake,earthquake,seismic event
+wd-Q19370856-1621-panama-earthquake,8.96667,-79.55,1621-05-02T00:00:00Z,https://www.wikidata.org/wiki/Q19370856,CC-BY-SA-4.0,1621 Panama earthquake,earthquake,
+wd-Q20180089-1622-north-guyuan-earthquake,36.5,106.3,1622-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q20180089,CC-BY-SA-4.0,1622 North Guyuan earthquake,earthquake,"earthquake on 25 October 1622 at Ningxia, China"
+wd-Q43342270-1624-argenta-earthquake,44.65,11.85,1624-03-19T00:00:00Z,https://www.wikidata.org/wiki/Q43342270,CC-BY-SA-4.0,1624 Argenta earthquake,earthquake,
+wd-Q122389022-1624-fez-earthquake,34.1,-5.1,1624-05-11T00:00:00Z,https://www.wikidata.org/wiki/Q122389022,CC-BY-SA-4.0,1624 Fez earthquake,earthquake,earthquake in Maroko
+wd-Q20180128-1625-el-salvador-earthquake,13.697,-89.198,1625-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q20180128,CC-BY-SA-4.0,1625 El Salvador earthquake,earthquake,
+wd-Q65041734-1626-girifalco-earthquake,38.852,16.456,1626-04-05T00:00:00Z,https://www.wikidata.org/wiki/Q65041734,CC-BY-SA-4.0,1626 Girifalco earthquake,earthquake,
+wd-Q109973449-1626-lingqiu-earthquake,39.4,114.2,1626-06-28T00:00:00Z,https://www.wikidata.org/wiki/Q109973449,CC-BY-SA-4.0,1626 Lingqiu earthquake,earthquake,1626 earthquake in China
+wd-Q20180119-1626-naples-earthquake,40.4,14.1,1626-07-30T00:00:00Z,https://www.wikidata.org/wiki/Q20180119,CC-BY-SA-4.0,1626 Naples earthquake,earthquake,
+wd-Q20180147-1627-gargano-earthquake,41.759083333,15.232805555,1627-07-30T00:00:00Z,https://www.wikidata.org/wiki/Q20180147,CC-BY-SA-4.0,1627 Gargano earthquake,earthquake,"July 1627 earthquake in Apulia, Italy"
+wd-Q20180175-1628-camarines-earthquake,13.2,123.7,1628-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q20180175,CC-BY-SA-4.0,1628 Camarines earthquake,earthquake,earthquake in the Philippines
+wd-Q20180189-1629-banda-sea-earthquake,-4.6,129.9,1629-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q20180189,CC-BY-SA-4.0,1629 Banda Sea earthquake,earthquake,natural disaster in Indonesia
+wd-Q16868865-1638-new-hampshire-earthquake,43.3,-71.6,1638-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16868865,CC-BY-SA-4.0,1638 New Hampshire earthquake,earthquake,Magnitude 6 Earthquake (June 1 1638) affecting New England USA
+wd-Q3984673-1638-calabrian-earthquakes,39.1752,16.2972,1638-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q3984673,CC-BY-SA-4.0,1638 Calabrian earthquakes,earthquake,"four earthquakes in Calabria, Italy"
+wd-Q3984674-q3984674,39.133,16.868,1638-06-08T00:00:00Z,https://www.wikidata.org/wiki/Q3984674,CC-BY-SA-4.0,Q3984674,earthquake,
+wd-Q26703059-1639-amatrice-earthquake,42.639,13.261,1639-10-08T00:00:00Z,https://www.wikidata.org/wiki/Q26703059,CC-BY-SA-4.0,1639 Amatrice earthquake,earthquake,"earthquake occurred on 7 October 1639 near Amatrice, in the Kingdom of Naples"
+wd-Q4551438-1641-caracas-earthquake,11,-67,1641-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551438,CC-BY-SA-4.0,1641 Caracas earthquake,earthquake,Earthquake in Venezuela
+wd-Q112672818-1641-tabriz-earthquake,37.9,46.1,1641-02-05T00:00:00Z,https://www.wikidata.org/wiki/Q112672818,CC-BY-SA-4.0,1641 Tabriz earthquake,earthquake,"earthquake in Osku County, Iran"
+wd-Q106960221-q106960221,44.019895559,7.311682833,1644-02-15T00:00:00Z,https://www.wikidata.org/wiki/Q106960221,CC-BY-SA-4.0,Q106960221,earthquake,
+wd-Q4551469-1645-luzon-earthquake,16.7414,121.75,1645-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551469,CC-BY-SA-4.0,1645 Luzon earthquake,earthquake,"earthquake on Luzon Island in the Philippines that occurred on November 30, 1645"
+wd-Q50364456-1646-gargano-earthquake,41.874,15.938,1646-05-31T00:00:00Z,https://www.wikidata.org/wiki/Q50364456,CC-BY-SA-4.0,1646 Gargano earthquake,earthquake,May 1646 earthquake in Italy
+wd-Q4551488-1647-santiago-earthquake,-33.4,-70.6,1647-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551488,CC-BY-SA-4.0,1647 Santiago earthquake,earthquake,
+wd-Q4551553-i-zmir-earthquake-of-1653,38.2,28.2,1653-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551553,CC-BY-SA-4.0,İzmir earthquake of 1653,earthquake,"7.5-magnitude earthquake that struck İzmir in western Turkey on February 23, 1653"
+wd-Q94587229-1657-concepci-n-earthquake,-36.682081,-73.033304,1657-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q94587229,CC-BY-SA-4.0,1657 Concepción earthquake,earthquake,1657 earthquake in Chile
+wd-Q3984671-q3984671,38.5226,16.2509,1659-11-06T00:00:00Z,https://www.wikidata.org/wiki/Q3984671,CC-BY-SA-4.0,Q3984671,earthquake,
+wd-Q109044139-earthquake-of-1660-in-bigorre,42.967,0.067,1660-06-21T00:00:00Z,https://www.wikidata.org/wiki/Q109044139,CC-BY-SA-4.0,earthquake of 1660 in  Bigorre,earthquake,
+wd-Q11457492-1662-kanbun-earthquake,35.2,135.95,1662-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q11457492,CC-BY-SA-4.0,1662 Kanbun earthquake,earthquake,
+wd-Q11430459-1662-tontokoro-earthquake,31.7,132,1662-10-31T00:00:00Z,https://www.wikidata.org/wiki/Q11430459,CC-BY-SA-4.0,1662 Tontokoro earthquake,earthquake,"earthquake struck Hyuga province, Japan on 31 October 1662"
+wd-Q4551650-1663-charlevoix-earthquake,47.6,-70.1,1663-02-05T00:00:00Z,https://www.wikidata.org/wiki/Q4551650,CC-BY-SA-4.0,1663 Charlevoix earthquake,earthquake,"Magnitude 7 earthquake (February 5, 1663) affecting New France (now Quebec, Canada)"
+wd-Q2576277-1667-dubrovnik-earthquake,42.6,18.1,1667-04-06T00:00:00Z,https://www.wikidata.org/wiki/Q2576277,CC-BY-SA-4.0,1667 Dubrovnik earthquake,earthquake,Earthquake in present-day Croatia
+wd-Q4551686-1667-shamakhi-earthquake,40.6,48.6,1667-11-25T00:00:00Z,https://www.wikidata.org/wiki/Q4551686,CC-BY-SA-4.0,1667 Shamakhi earthquake,earthquake,"1667 seismic event centered near present-day Shamakhi, Azerbaijan"
+wd-Q15935778-1668-shandong-earthquake,35.3,118.6,1668-07-25T00:00:00Z,https://www.wikidata.org/wiki/Q15935778,CC-BY-SA-4.0,1668 Shandong earthquake,earthquake,"1668 magnitude 8.5 earthquake during the rule of the Qing dynasty in Shandong Province, China"
+wd-Q85719776-1668-north-anatolia-earthquake,40.9,36,1668-08-17T00:00:00Z,https://www.wikidata.org/wiki/Q85719776,CC-BY-SA-4.0,1668 North Anatolia earthquake,earthquake,"8.0 magnitude earthquake in 1668 in North Anatolia, Ottoman Empire (present-day Turkey)"
+wd-Q106859969-1674-ambon-earthquake-and-megatsunami,-3.75,127.75,1674-02-17T00:00:00Z,https://www.wikidata.org/wiki/Q106859969,CC-BY-SA-4.0,1674 Ambon earthquake and megatsunami,earthquake,Earthquake and tsunami in Indonesia
+wd-Q11486511-1677-b-s-earthquake,35,141.5,1677-11-04T00:00:00Z,https://www.wikidata.org/wiki/Q11486511,CC-BY-SA-4.0,1677 Bōsō earthquake,earthquake,"earthquake occuring Bōsō offshore , Japan on 4 November 1677"
+wd-Q4551791-1679-armenia-earthquake,40.2,44.7,1679-06-04T00:00:00Z,https://www.wikidata.org/wiki/Q4551791,CC-BY-SA-4.0,1679 Armenia earthquake,earthquake,Earthquake in West Asia
+wd-Q38251808-1679-sanhe-pinggu-earthquake,40,116.98333333,1679-09-02T00:00:00Z,https://www.wikidata.org/wiki/Q38251808,CC-BY-SA-4.0,1679 Sanhe-Pinggu earthquake,earthquake,"Magnitude 8 Earthquake affecting the Zhili (Greater Beijing) region, China on September 2, 1679"
+wd-Q102185890-yangyang-earthquake,37.9,128.5,1681-06-26T00:00:00Z,https://www.wikidata.org/wiki/Q102185890,CC-BY-SA-4.0,Yangyang Earthquake,earthquake,earthquake in South Korea
+wd-Q4551867-1687-peru-earthquake,-15.216666666,-75.916666666,1687-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551867,CC-BY-SA-4.0,1687 Peru earthquake,earthquake,slismic event
+wd-Q3984653-1688-sannio-earthquake,41.210318,14.663472,1688-06-05T00:00:00Z,https://www.wikidata.org/wiki/Q3984653,CC-BY-SA-4.0,1688 Sannio earthquake,earthquake,Earthquake in southern Italy in 1688
+wd-Q4551876-i-zmir-earthquake-of-1688,38.4,26.9,1688-07-10T00:00:00Z,https://www.wikidata.org/wiki/Q4551876,CC-BY-SA-4.0,İzmir earthquake of 1688,earthquake,"7.0-magnitude earthquake that struck İzmir in western Turkey on July 10, 1688"
+wd-Q108565614-1690-villach-earthquake,46.6,13.8,1690-12-04T00:00:00Z,https://www.wikidata.org/wiki/Q108565614,CC-BY-SA-4.0,1690 Villach earthquake,earthquake,
+wd-Q4191082-1692-jamaica-earthquake,18,-76.5,1692-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4191082,CC-BY-SA-4.0,1692 Jamaica earthquake,earthquake,"1692 earthquake and tsunami centered on Port Royal, British Jamaica"
+wd-Q6143137-1692-salta-earthquake,-25.4,-64.8,1692-09-13T00:00:00Z,https://www.wikidata.org/wiki/Q6143137,CC-BY-SA-4.0,1692 Salta earthquake,earthquake,Earthquake in Argentina
+wd-Q2483366-1692-verviers-earthquake,50.617222222,5.865833333,1692-09-18T00:00:00Z,https://www.wikidata.org/wiki/Q2483366,CC-BY-SA-4.0,1692 Verviers earthquake,earthquake,
+wd-Q2706283-1693-sicily-earthquake,37.14,15.013055555,1693-01-11T00:00:00Z,https://www.wikidata.org/wiki/Q2706283,CC-BY-SA-4.0,1693 Sicily earthquake,earthquake,sismic event
+wd-Q4551940-1694-irpinia-basilicata-earthquake,40.9,15.43,1694-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4551940,CC-BY-SA-4.0,1694 Irpinia-Basilicata earthquake,earthquake,Earthquake in Italy
+wd-Q108857410-1695-linfen-earthquake,36,111.5,1695-05-18T00:00:00Z,https://www.wikidata.org/wiki/Q108857410,CC-BY-SA-4.0,1695 Linfen earthquake,earthquake,earthquake in China
+wd-Q118680029-terremoto-de-ambato-de-1698,-1.2,-78.7,1698-06-20T00:00:00Z,https://www.wikidata.org/wiki/Q118680029,CC-BY-SA-4.0,Terremoto de Ambato de 1698,earthquake,Terremoto en Ecuador en 1698
+wd-Q107354813-1699-java-earthquake,-6.078,105.913,1699-01-05T00:00:00Z,https://www.wikidata.org/wiki/Q107354813,CC-BY-SA-4.0,1699 Java earthquake,earthquake,Earthquake in the Dutch East Indies
+wd-Q1735004-1700-cascadia-earthquake,45,-125,1700-01-26T00:00:00Z,https://www.wikidata.org/wiki/Q1735004,CC-BY-SA-4.0,1700 Cascadia earthquake,earthquake,January 1700 megathrust earthquake affecting the North American Pacific North West coast
+wd-Q47109186-1702-irpinia-and-benevento-earthquake,41.121,14.989,1702-03-14T00:00:00Z,https://www.wikidata.org/wiki/Q47109186,CC-BY-SA-4.0,1702 Irpinia and Benevento earthquake,earthquake,March 1702 earthquake in Southern Italy
+wd-Q1631963-1703-apennine-earthquakes,42.7,13.07,1703-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q1631963,CC-BY-SA-4.0,1703 Apennine earthquakes,earthquake,Earthquakes in Italy
+wd-Q770728-1703-genroku-earthquake,34.7,139.8,1703-12-31T00:00:00Z,https://www.wikidata.org/wiki/Q770728,CC-BY-SA-4.0,1703 Genroku earthquake,earthquake,earthquake in Japan
+wd-Q3984678-1706-abruzzo-earthquake,42.060774,14.112726,1706-11-03T00:00:00Z,https://www.wikidata.org/wiki/Q3984678,CC-BY-SA-4.0,1706 Abruzzo earthquake,earthquake,earthquake in Italy
+wd-Q2001581-1707-h-ei-earthquake,33.2,135.9,1707-10-28T00:00:00Z,https://www.wikidata.org/wiki/Q2001581,CC-BY-SA-4.0,1707 Hōei earthquake,earthquake,earthquake in Japan
+wd-Q111942577-1709-zhongwei-earthquake,37.4,105.3,1709-10-14T00:00:00Z,https://www.wikidata.org/wiki/Q111942577,CC-BY-SA-4.0,1709 Zhongwei earthquake,earthquake,earthquake in China
+wd-Q109237454-1716-algiers-earthquake,36.8,3,1716-02-03T00:00:00Z,https://www.wikidata.org/wiki/Q109237454,CC-BY-SA-4.0,1716 Algiers earthquake,earthquake,earthquake in Algeria
+wd-Q10540838-1717-guatemala-earthquake,14.57,-90.73,1717-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10540838,CC-BY-SA-4.0,1717 Guatemala earthquake,earthquake,The Guatemalan earthquake of 1717 that destroyed much of the Guatemalan architecture and many buildings.
+wd-Q97180975-1718-tongwei-gansu-earthquake,35.05,105.03333333,1718-06-19T00:00:00Z,https://www.wikidata.org/wiki/Q97180975,CC-BY-SA-4.0,1718 Tongwei–Gansu earthquake,earthquake,1718 Earthquake in China
+wd-Q4552537-1721-tabriz-earthquake,38,46.3,1721-04-26T00:00:00Z,https://www.wikidata.org/wiki/Q4552537,CC-BY-SA-4.0,1721 Tabriz earthquake,earthquake,"1721 catastrophic earthquake centered near Tabriz, Iran"
+wd-Q107535424-1722-algarve-earthquake,37.127,-7.64,1722-12-27T00:00:00Z,https://www.wikidata.org/wiki/Q107535424,CC-BY-SA-4.0,1722 Algarve earthquake,earthquake,Major Portuguese earthquake and tsunami
+wd-Q16629618-q16629618,56.5,118.5,1725-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q16629618,CC-BY-SA-4.0,Q16629618,earthquake,
+wd-Q4552591-1727-tabriz-earthquake,38,46.3,1727-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4552591,CC-BY-SA-4.0,1727 Tabriz earthquake,earthquake,"earthquake near Tabriz, Iran on 18 November 1727"
+wd-Q4552629-1730-valpara-so-earthquake,-32.5,-71.5,1730-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4552629,CC-BY-SA-4.0,1730 Valparaíso earthquake,earthquake,"1730 earthquake and tsunami centered in Valparaíso Region, colonial Chile"
+wd-Q3984698-q3984698,41.27,15.75,1731-03-20T00:00:00Z,https://www.wikidata.org/wiki/Q3984698,CC-BY-SA-4.0,Q3984698,earthquake,
+wd-Q4552648-1732-montreal-earthquake,45.5,-73.6,1732-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4552648,CC-BY-SA-4.0,1732 Montreal earthquake,earthquake,Earthquake in Canada
+wd-Q47069660-1732-irpinia-earthquake,41.08,15.15,1732-11-29T00:00:00Z,https://www.wikidata.org/wiki/Q47069660,CC-BY-SA-4.0,1732 Irpinia earthquake,earthquake,November 1732 earthquake in Southern Italy
+wd-Q110109398-1736-tainan-eartquake,23.1,120.3,1736-01-30T00:00:00Z,https://www.wikidata.org/wiki/Q110109398,CC-BY-SA-4.0,1736 Tainan eartquake,earthquake,earthquake in Taiwan
+wd-Q107461106-1737-kamchatka-earthquake,52.5,159.5,1737-10-17T00:00:00Z,https://www.wikidata.org/wiki/Q107461106,CC-BY-SA-4.0,1737 Kamchatka earthquake,earthquake,Earthquake in present-day Russia
+wd-Q94598380-1737-valdivia-earthquake,-39.813889,-73.245833,1737-12-24T00:00:00Z,https://www.wikidata.org/wiki/Q94598380,CC-BY-SA-4.0,1737 Valdivia earthquake,earthquake,South-Central Chilean earthquake
+wd-Q18149027-1738-vrancea-earthquake,45.7,26.6,1738-06-11T00:00:00Z,https://www.wikidata.org/wiki/Q18149027,CC-BY-SA-4.0,1738 Vrancea earthquake,earthquake,1738 earthquake
+wd-Q127604043-1738-dangjiang-earthquake,33.3,96.6,1738-12-23T00:00:00Z,https://www.wikidata.org/wiki/Q127604043,CC-BY-SA-4.0,1738 Dangjiang earthquake,earthquake,earthquake in China
+wd-Q97180982-1739-yinchuan-pingluo-earthquake,38.9,106.5,1739-01-03T00:00:00Z,https://www.wikidata.org/wiki/Q97180982,CC-BY-SA-4.0,1739 Yinchuan–Pingluo earthquake,earthquake,M8.0 earthquake in China
+wd-Q3538414-nard-earthquake-of-1743,40.246,18.049,1743-02-20T00:00:00Z,https://www.wikidata.org/wiki/Q3538414,CC-BY-SA-4.0,Nardò earthquake of 1743,earthquake,disaster in Italy
+wd-Q4552798-1746-lima-callao-earthquake,-11.35,-77.28,1746-10-28T00:00:00Z,https://www.wikidata.org/wiki/Q4552798,CC-BY-SA-4.0,1746 Lima - Callao earthquake,earthquake,earthquake and tsunami in Peru
+wd-Q104670803-1750-rijeka-earthquake,45.32,14.44,1750-12-17T00:00:00Z,https://www.wikidata.org/wiki/Q104670803,CC-BY-SA-4.0,1750 Rijeka earthquake,earthquake,Earthquake in present-day Croatia
+wd-Q11672077-1751-takada-earthquake,37.2,138.1,1751-05-21T00:00:00Z,https://www.wikidata.org/wiki/Q11672077,CC-BY-SA-4.0,1751 Takada earthquake,earthquake,"On May 21, 1751, a magnitude 7.0–7.4 earthquake struck near Takada in present-day Jōetsu City, Niigata Prefecture, Japan, causing significant damage and resulting in approximately 2,100 fatalities"
+wd-Q4552872-1751-concepci-n-earthquake,-36.8,-73,1751-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q4552872,CC-BY-SA-4.0,1751 Concepción earthquake,earthquake,"In May 1751 a violent quake destroyed Concepción city. Según crónicas de la época, ""la tierra bramaba y a la media hora comenzó a hervir el mar"", pasando tres veces sobre la ciudad ""con más violencia que la carrera de un caballo""."
+wd-Q4552874-1751-port-au-prince-earthquake,18.5,-72.3,1751-11-21T00:00:00Z,https://www.wikidata.org/wiki/Q4552874,CC-BY-SA-4.0,1751 Port-au-Prince earthquake,earthquake,"magnitude 7-8 earthquake that occurred in Port-au-Prince, Haiti in 1751"
+wd-Q4552913-1755-cape-ann-earthquake,42.7,-70.2,1755-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4552913,CC-BY-SA-4.0,1755 Cape Ann Earthquake,earthquake,"Magnitude 6 earthquake (November 18, 1755) off the coast of the British Province of Massachusetts Bay (now Massachusetts)"
+wd-Q191055-1755-lisbon-earthquake,36,-11,1755-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q191055,CC-BY-SA-4.0,1755 Lisbon earthquake,earthquake,earthquake in 1755
+wd-Q115809087-1755-meknes-earthquake,34.08,-5,1755-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q115809087,CC-BY-SA-4.0,1755 Meknes earthquake,earthquake,earthquake in Morocco
+wd-Q1348771-1756-d-ren-earthquake,50.8,6.47,1756-02-18T00:00:00Z,https://www.wikidata.org/wiki/Q1348771,CC-BY-SA-4.0,1756 Düren earthquake,earthquake,"earthquake in Düren, Germany"
+wd-Q6984367-near-east-earthquakes-of-1759,33.1,35.6,1759-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6984367,CC-BY-SA-4.0,Near East earthquakes of 1759,earthquake,series of earthquakes in Levant
+wd-Q60850546-q60850546,44.737,-0.264,1759-08-10T00:00:00Z,https://www.wikidata.org/wiki/Q60850546,CC-BY-SA-4.0,Q60850546,earthquake,
+wd-Q105347709-1761-lisbon-earthquake,34.5,-13,1761-03-31T00:00:00Z,https://www.wikidata.org/wiki/Q105347709,CC-BY-SA-4.0,1761 Lisbon earthquake,earthquake,Earthquake and tsunami in the Atlantic Ocean
+wd-Q10540836-1762-arakan-earthquake,22,92,1762-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10540836,CC-BY-SA-4.0,1762 Arakan earthquake,earthquake,Earthquake in Bangladesh and Myanmar
+wd-Q1486433-1763-kom-rom-earthquake,47.735833333,18.156388888,1763-06-28T00:00:00Z,https://www.wikidata.org/wiki/Q1486433,CC-BY-SA-4.0,1763 Komárom earthquake,earthquake,Earthquake affecting Hungary
+wd-Q6051642-1766-istanbul-earthquake,40.8,29,1766-05-22T00:00:00Z,https://www.wikidata.org/wiki/Q6051642,CC-BY-SA-4.0,1766 Istanbul earthquake,earthquake,earthquake in Turkey
+wd-Q122452171-marmara-earthquake-of-1766,40.6,27.3,1766-08-05T00:00:00Z,https://www.wikidata.org/wiki/Q122452171,CC-BY-SA-4.0,Marmara earthquake of 1766,earthquake,earthquake with epicenter in the western part of the Sea of Marmara
+wd-Q1567823-plague-of-amwas,31.839166666,34.989444444,0638-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1567823,CC-BY-SA-4.0,Plague of Amwas,epidemic,epidemic in 7th century Syria
+wd-Q8051732-1793-philadelphia-yellow-fever-epidemic,39.951,-75.14,1793-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q8051732,CC-BY-SA-4.0,1793 Philadelphia yellow fever epidemic,epidemic,epidemic in the United States
+wd-Q87720284-1821-barcelona-yellow-fever-epidemic,41.3825,2.1769,1821-08-03T00:00:00Z,https://www.wikidata.org/wiki/Q87720284,CC-BY-SA-4.0,1821 Barcelona yellow fever epidemic,epidemic,
+wd-Q2361458-groningen-epidemic,53.2189,6.5675,1826-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2361458,CC-BY-SA-4.0,Groningen epidemic,epidemic,1826 malaria epidemic
+wd-Q4554489-1837-1838-smallpox-epidemic,37,-97,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4554489,CC-BY-SA-4.0,1837–1838 smallpox epidemic,epidemic,disease outbreak in the United States
+wd-Q8051877-yellow-fever-in-buenos-aires,-37,-60,1852-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q8051877,CC-BY-SA-4.0,yellow fever in Buenos Aires,epidemic,"series of yellow fever epidemics in 1852, 1858, 1870, and 1871"
+wd-Q2035019-1854-broad-street-cholera-outbreak,51.513333333,-0.136666666,1854-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2035019,CC-BY-SA-4.0,1854 Broad Street cholera outbreak,epidemic,Severe outbreak of cholera that occurred in London in 1854
+wd-Q59466726-1870-barcelona-yellow-fever-epidemic,41.3825,2.1769,1870-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q59466726,CC-BY-SA-4.0,1870 Barcelona yellow fever epidemic,epidemic,"disease outbreak in Barcelona, Spain"
+wd-Q45819176-malayan-filariasis-in-hachijo-kojima-island,33.12555556,139.68805556,1900-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q45819176,CC-BY-SA-4.0,Malayan filariasis in Hachijo-Kojima Island,epidemic,
+wd-Q65238303-giardia-outbreak-in-bergen-in-2004,60.3852075,5.3680645,2004-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q65238303,CC-BY-SA-4.0,giardia outbreak in Bergen in 2004,epidemic,
+wd-Q1075913-2010-2012-haiti-cholera-outbreak,19.1,-72.33333333,2010-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q1075913,CC-BY-SA-4.0,2010–2012 Haiti cholera outbreak,epidemic,cholera outbreak spread by UN peacekeepers in Haiti
+wd-Q21686043-2015-16-zika-virus-epidemic,20,-100,2015-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q21686043,CC-BY-SA-4.0,2015–16 Zika virus epidemic,epidemic,epidemic
+wd-Q36302993-gorakhpur-hospital-deaths,26.812222222,83.400833333,2017-08-07T00:00:00Z,https://www.wikidata.org/wiki/Q36302993,CC-BY-SA-4.0,Gorakhpur hospital deaths,epidemic,tragic events in India
+wd-Q90157034-2019-2020-dengue-fever-epidemic-in-venezuela,8,-67,2019-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q90157034,CC-BY-SA-4.0,2019-2020 dengue fever epidemic in Venezuela,epidemic,viral outbreak in Venezuela
+wd-Q64578193-q64578193,60.415777777,5.206055555,2019-06-05T00:00:00Z,https://www.wikidata.org/wiki/Q64578193,CC-BY-SA-4.0,Q64578193,epidemic,
+wd-Q87070975-covid-19-pandemic-in-israel,31,35,2020-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q87070975,CC-BY-SA-4.0,COVID-19 pandemic in Israel,epidemic,viral outbreak
+wd-Q2224419-1061-papal-election,41.89387222,12.49306944,1061-10-06T00:00:00Z,https://www.wikidata.org/wiki/Q2224419,CC-BY-SA-4.0,1061 papal election,election,1061 election of the Catholic pope
+wd-Q2912780-1073-papal-election,41.89387222,12.49306944,1073-04-28T00:00:00Z,https://www.wikidata.org/wiki/Q2912780,CC-BY-SA-4.0,1073 papal election,election,1073 election of the Catholic pope
+wd-Q3876452-1086-papal-election,37.072858,15.291694,1086-05-30T00:00:00Z,https://www.wikidata.org/wiki/Q3876452,CC-BY-SA-4.0,1086 papal election,election,1086 election of the Catholic pope
+wd-Q3722103-1088-papal-election,41.2919,13.2483,1088-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q3722103,CC-BY-SA-4.0,1088 papal election,election,1088 election of the Catholic pope
+wd-Q3876449-1099-papal-election,41.88944444,12.4975,1099-08-16T00:00:00Z,https://www.wikidata.org/wiki/Q3876449,CC-BY-SA-4.0,1099 papal election,election,Papal election
+wd-Q4546329-1118-papal-election,41.88833333,12.48694444,1118-01-28T00:00:00Z,https://www.wikidata.org/wiki/Q4546329,CC-BY-SA-4.0,1118 papal election,election,election of Pope Gelasius II
+wd-Q4546484-1119-papal-election,46.434843,4.659474,1119-02-05T00:00:00Z,https://www.wikidata.org/wiki/Q4546484,CC-BY-SA-4.0,1119 papal election,election,election of Pope Calixtus II
+wd-Q4546576-1124-papal-election,41.88489,12.45405,1124-12-19T00:00:00Z,https://www.wikidata.org/wiki/Q4546576,CC-BY-SA-4.0,1124 papal election,election,1124 election of the Catholic pope
+wd-Q1358726-1130-papal-election,41.88547,12.49064,1130-02-21T00:00:00Z,https://www.wikidata.org/wiki/Q1358726,CC-BY-SA-4.0,1130 papal election,election,1130 election of the Catholic pope
+wd-Q4546684-1143-papal-election,41.88590556,12.50615556,1143-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q4546684,CC-BY-SA-4.0,1143 papal election,election,1143 election of the Catholic pope
+wd-Q4575393-1153-papal-election,41.8931,12.4828,1153-07-19T00:00:00Z,https://www.wikidata.org/wiki/Q4575393,CC-BY-SA-4.0,1153 papal election,election,1153 election of the Catholic pope
+wd-Q3686285-1154-papal-election,41.9022,12.4533,1154-12-11T00:00:00Z,https://www.wikidata.org/wiki/Q3686285,CC-BY-SA-4.0,1154 papal election,election,1154 election of the Catholic pope
+wd-Q3686286-1159-papal-election,41.9022,12.4533,1159-09-11T00:00:00Z,https://www.wikidata.org/wiki/Q3686286,CC-BY-SA-4.0,1159 papal election,election,1159 election of the Catholic pope
+wd-Q630783-1181-papal-election,41.8931,12.4828,1181-09-08T00:00:00Z,https://www.wikidata.org/wiki/Q630783,CC-BY-SA-4.0,1181 papal election,election,1181 election of the Catholic pope
+wd-Q589109-1185-papal-election,45.4386,10.9928,1185-12-02T00:00:00Z,https://www.wikidata.org/wiki/Q589109,CC-BY-SA-4.0,1185 papal election,election,1185 election of the Catholic pope
+wd-Q2075701-october-1187-papal-election,44.835297,11.619865,1187-10-28T00:00:00Z,https://www.wikidata.org/wiki/Q2075701,CC-BY-SA-4.0,October 1187 papal election,election,October 1187 election of the Catholic pope
+wd-Q603424-december-1187-papal-election,43.72,10.4,1187-12-26T00:00:00Z,https://www.wikidata.org/wiki/Q603424,CC-BY-SA-4.0,December 1187 papal election,election,December 1187 election of the Catholic pope
+wd-Q4575781-1191-papal-election,41.8931,12.4828,1191-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q4575781,CC-BY-SA-4.0,1191 papal election,election,1191 election of the Catholic pope
+wd-Q4575837-1198-papal-election,41.885633,12.488719,1198-01-15T00:00:00Z,https://www.wikidata.org/wiki/Q4575837,CC-BY-SA-4.0,1198 papal election,election,1198 election of the Catholic pope
+wd-Q4575947-1216-papal-election,42.9561,12.7037,1216-07-25T00:00:00Z,https://www.wikidata.org/wiki/Q4575947,CC-BY-SA-4.0,1216 papal election,election,election of Pope Honorius III
+wd-Q4576010-1227-papal-election,41.885633,12.488719,1227-03-26T00:00:00Z,https://www.wikidata.org/wiki/Q4576010,CC-BY-SA-4.0,1227 papal election,election,election of Pope Gregory IX
+wd-Q4576160-1241-papal-election,41.885633,12.488719,1241-10-29T00:00:00Z,https://www.wikidata.org/wiki/Q4576160,CC-BY-SA-4.0,1241 papal election,election,election of Pope Celestine IV
+wd-Q4576386-1261-papal-election,42.4153,12.1008,1261-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q4576386,CC-BY-SA-4.0,1261 papal election,election,election of Pope Urban IV
+wd-Q4576434-1264-65-papal-election,42.9561,12.7037,1264-10-19T00:00:00Z,https://www.wikidata.org/wiki/Q4576434,CC-BY-SA-4.0,1264–65 papal election,election,election of Pope Clement IV
+wd-Q1765112-1268-71-papal-election,42.41574,12.100968,1268-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1765112,CC-BY-SA-4.0,1268–71 papal election,election,papal election (1268–1271)
+wd-Q14623082-january-1276-papal-conclave,43.467,11.8832,1276-01-28T00:00:00Z,https://www.wikidata.org/wiki/Q14623082,CC-BY-SA-4.0,January 1276 papal conclave,election,Papal election
+wd-Q2622938-july-1276-papal-conclave,41.88590556,12.50615556,1276-07-09T00:00:00Z,https://www.wikidata.org/wiki/Q2622938,CC-BY-SA-4.0,July 1276 papal conclave,election,election
+wd-Q427362-september-1276-papal-election,43.9508,4.8075,1276-09-10T00:00:00Z,https://www.wikidata.org/wiki/Q427362,CC-BY-SA-4.0,September 1276 papal election,election,election of Pope John XXI
+wd-Q4555953-1277-papal-election,42.41574,12.100968,1277-06-06T00:00:00Z,https://www.wikidata.org/wiki/Q4555953,CC-BY-SA-4.0,1277 papal election,election,election of Pope Nicholas III
+wd-Q4576963-1280-81-papal-election,42.41574,12.100968,1280-09-29T00:00:00Z,https://www.wikidata.org/wiki/Q4576963,CC-BY-SA-4.0,1280–81 papal election,election,election of Pope Martin IV
+wd-Q3722106-1285-papal-election,42.9561,12.7037,1285-04-08T00:00:00Z,https://www.wikidata.org/wiki/Q3722106,CC-BY-SA-4.0,1285 papal election,election,election of the Pope in 1285
+wd-Q2145024-1292-94-papal-election,43.1121,12.3888,1292-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2145024,CC-BY-SA-4.0,1292–94 papal election,election,1290s papal election
+wd-Q1781721-1294-papal-conclave,40.838376,14.253807,1294-12-30T00:00:00Z,https://www.wikidata.org/wiki/Q1781721,CC-BY-SA-4.0,1294 papal conclave,election,election of Pope Boniface VIII
+wd-Q2065653-1303-papal-conclave,41.88590556,12.50615556,1303-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2065653,CC-BY-SA-4.0,1303 papal conclave,election,1303 papal conclave that elected Pope Benedict XI
+wd-Q2445978-1304-05-papal-conclave,43.1127,12.3892,1304-07-18T00:00:00Z,https://www.wikidata.org/wiki/Q2445978,CC-BY-SA-4.0,1304–05 papal conclave,election,election of Pope Clement V
+wd-Q1516721-1314-16-papal-conclave,44.0542,5.0478,1314-05-09T00:00:00Z,https://www.wikidata.org/wiki/Q1516721,CC-BY-SA-4.0,1314–16 papal conclave,election,conclave
+wd-Q4582671-1334-papal-conclave,43.9508,4.8075,1334-12-21T00:00:00Z,https://www.wikidata.org/wiki/Q4582671,CC-BY-SA-4.0,1334 papal conclave,election,election of Pope Benedict XII
+wd-Q1566992-1342-papal-conclave,43.9508,4.8075,1342-05-13T00:00:00Z,https://www.wikidata.org/wiki/Q1566992,CC-BY-SA-4.0,1342 papal conclave,election,conclave
+wd-Q963693-1352-papal-conclave,43.9508,4.8075,1352-12-24T00:00:00Z,https://www.wikidata.org/wiki/Q963693,CC-BY-SA-4.0,1352 papal conclave,election,election of Pope Innocent VI
+wd-Q2457330-1362-papal-conclave,43.9508,4.8075,1362-09-30T00:00:00Z,https://www.wikidata.org/wiki/Q2457330,CC-BY-SA-4.0,1362 papal conclave,election,election of Pope Urban V
+wd-Q2354988-1370-papal-conclave,43.9508,4.8075,1371-01-06T00:00:00Z,https://www.wikidata.org/wiki/Q2354988,CC-BY-SA-4.0,1370 papal conclave,election,election of the Pope
+wd-Q1276561-1378-papal-conclave,41.9022,12.4533,1378-04-15T00:00:00Z,https://www.wikidata.org/wiki/Q1276561,CC-BY-SA-4.0,1378 papal conclave,election,conclave
+wd-Q1781736-1389-papal-conclave,41.90361111,12.45638889,1389-11-02T00:00:00Z,https://www.wikidata.org/wiki/Q1781736,CC-BY-SA-4.0,1389 papal conclave,election,election of Pope Boniface IX
+wd-Q111642-1404-papal-conclave,41.9,12.4875,1404-10-19T00:00:00Z,https://www.wikidata.org/wiki/Q111642,CC-BY-SA-4.0,1404 papal conclave,election,conclave
+wd-Q930975-1406-papal-conclave,41.9,12.4875,1406-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q930975,CC-BY-SA-4.0,1406 papal conclave,election,election of Pope Gregory XII
+wd-Q2261613-1431-papal-conclave,41.89805556,12.47833333,1431-03-11T00:00:00Z,https://www.wikidata.org/wiki/Q2261613,CC-BY-SA-4.0,1431 papal conclave,election,election of Pope Eugene IV
+wd-Q931024-1447-papal-conclave,41.89805556,12.47833333,1447-03-13T00:00:00Z,https://www.wikidata.org/wiki/Q931024,CC-BY-SA-4.0,1447 papal conclave,election,conclave
+wd-Q1637578-1455-papal-conclave,41.90361111,12.45638889,1455-04-13T00:00:00Z,https://www.wikidata.org/wiki/Q1637578,CC-BY-SA-4.0,1455 papal conclave,election,election of Pope Callixtus III
+wd-Q1781741-1458-papal-conclave,41.90361111,12.45638889,1458-08-25T00:00:00Z,https://www.wikidata.org/wiki/Q1781741,CC-BY-SA-4.0,1458 papal conclave,election,election of Pope Pius II
+wd-Q2233458-1464-papal-conclave,41.90361111,12.45638889,1464-09-06T00:00:00Z,https://www.wikidata.org/wiki/Q2233458,CC-BY-SA-4.0,1464 papal conclave,election,election of Pope Paul II
+wd-Q1638992-1471-papal-conclave,41.90361111,12.45638889,1471-08-15T00:00:00Z,https://www.wikidata.org/wiki/Q1638992,CC-BY-SA-4.0,1471 papal conclave,election,conclave
+wd-Q2322061-1484-papal-conclave,41.90361111,12.45638889,1484-09-04T00:00:00Z,https://www.wikidata.org/wiki/Q2322061,CC-BY-SA-4.0,1484 papal conclave,election,election of Pope Innocent VIII
+wd-Q177258-1492-papal-conclave,41.90305556,12.45444444,1492-08-15T00:00:00Z,https://www.wikidata.org/wiki/Q177258,CC-BY-SA-4.0,1492 papal conclave,election,conclave
+wd-Q660763-september-1503-papal-conclave,41.90305556,12.45444444,1503-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q660763,CC-BY-SA-4.0,September 1503 papal conclave,election,election of Pope Pius III
+wd-Q1147412-october-1503-papal-conclave,41.90305556,12.45444444,1503-11-10T00:00:00Z,https://www.wikidata.org/wiki/Q1147412,CC-BY-SA-4.0,October 1503 papal conclave,election,conclave
+wd-Q1781749-1513-papal-conclave,41.90305556,12.45444444,1513-03-13T00:00:00Z,https://www.wikidata.org/wiki/Q1781749,CC-BY-SA-4.0,1513 papal conclave,election,election of Pope Leo X
+wd-Q1305821-1521-22-papal-conclave,41.90361111,12.45638889,1522-01-07T00:00:00Z,https://www.wikidata.org/wiki/Q1305821,CC-BY-SA-4.0,1521–22 papal conclave,election,conclave
+wd-Q2399287-1534-papal-conclave,41.90305556,12.45444444,1534-10-21T00:00:00Z,https://www.wikidata.org/wiki/Q2399287,CC-BY-SA-4.0,1534 papal conclave,election,1534 gathering of cardinals to choose a new pope
+wd-Q1781743-april-1555-papal-conclave,41.90305556,12.45444444,1555-04-15T00:00:00Z,https://www.wikidata.org/wiki/Q1781743,CC-BY-SA-4.0,April 1555 papal conclave,election,election
+wd-Q1248981-may-1555-papal-conclave,41.90361111,12.45638889,1555-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q1248981,CC-BY-SA-4.0,May 1555 papal conclave,election,conclave
+wd-Q4540741-1559-papal-conclave,41.90361111,12.45638889,1559-09-15T00:00:00Z,https://www.wikidata.org/wiki/Q4540741,CC-BY-SA-4.0,1559 papal conclave,election,conclave
+wd-Q4541682-1565-66-papal-conclave,41.90361111,12.45638889,1565-12-30T00:00:00Z,https://www.wikidata.org/wiki/Q4541682,CC-BY-SA-4.0,1565–66 papal conclave,election,election of Pope Pius V
+wd-Q4541853-1572-papal-conclave,41.90361111,12.45638889,1572-05-22T00:00:00Z,https://www.wikidata.org/wiki/Q4541853,CC-BY-SA-4.0,1572 papal conclave,election,papal conclave convoked after the death of Pius V
+wd-Q4542246-1585-papal-conclave,41.90361111,12.45638889,1585-04-21T00:00:00Z,https://www.wikidata.org/wiki/Q4542246,CC-BY-SA-4.0,1585 papal conclave,election,election of Pope Sixtus V
+wd-Q4542665-september-1590-papal-conclave,41.90361111,12.45638889,1590-09-07T00:00:00Z,https://www.wikidata.org/wiki/Q4542665,CC-BY-SA-4.0,September 1590 papal conclave,election,election of Pope Urban VII
+wd-Q4543188-october-december-1590-papal-conclave,41.90361111,12.45638889,1590-10-08T00:00:00Z,https://www.wikidata.org/wiki/Q4543188,CC-BY-SA-4.0,October–December 1590 papal conclave,election,October – December 1590
+wd-Q4583478-1591-papal-conclave,41.90361111,12.45638889,1591-10-27T00:00:00Z,https://www.wikidata.org/wiki/Q4583478,CC-BY-SA-4.0,1591 papal conclave,election,election of Pope Innocent IX
+wd-Q4699923-1592-papal-conclave,41.90361111,12.45638889,1592-01-10T00:00:00Z,https://www.wikidata.org/wiki/Q4699923,CC-BY-SA-4.0,1592 papal conclave,election,election of Pope Clement VIII
+wd-Q1773050-march-1605-papal-conclave,41.90361111,12.45638889,1605-03-14T00:00:00Z,https://www.wikidata.org/wiki/Q1773050,CC-BY-SA-4.0,March 1605 papal conclave,election,one of two papal conclaves in 1605
+wd-Q4702067-may-1605-papal-conclave,41.90361111,12.45638889,1605-05-08T00:00:00Z,https://www.wikidata.org/wiki/Q4702067,CC-BY-SA-4.0,May 1605 papal conclave,election,Election
+wd-Q4702678-1621-papal-conclave,41.90361111,12.45638889,1621-02-08T00:00:00Z,https://www.wikidata.org/wiki/Q4702678,CC-BY-SA-4.0,1621 papal conclave,election,choice
+wd-Q1516968-1623-papal-conclave,41.90361111,12.45638889,1623-07-19T00:00:00Z,https://www.wikidata.org/wiki/Q1516968,CC-BY-SA-4.0,1623 papal conclave,election,conclave
+wd-Q1403160-1644-papal-conclave,41.90361111,12.45638889,1644-08-09T00:00:00Z,https://www.wikidata.org/wiki/Q1403160,CC-BY-SA-4.0,1644 papal conclave,election,conclave
+wd-Q2444352-1655-papal-conclave,41.90361111,12.45638889,1655-01-19T00:00:00Z,https://www.wikidata.org/wiki/Q2444352,CC-BY-SA-4.0,1655 papal conclave,election,Religious conclave
+wd-Q3297284-1667-conclave,41.90361111,12.45638889,1667-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q3297284,CC-BY-SA-4.0,1667 conclave,election,conclave
+wd-Q7132440-1669-70-papal-conclave,41.90361111,12.45638889,1669-12-20T00:00:00Z,https://www.wikidata.org/wiki/Q7132440,CC-BY-SA-4.0,1669–70 papal conclave,election,Religious conclave
+wd-Q1244450-1676-papal-conclave,41.90361111,12.45638889,1676-08-02T00:00:00Z,https://www.wikidata.org/wiki/Q1244450,CC-BY-SA-4.0,1676 papal conclave,election,conclave
+wd-Q2365166-1689-papal-conclave,41.90361111,12.45638889,1689-08-23T00:00:00Z,https://www.wikidata.org/wiki/Q2365166,CC-BY-SA-4.0,1689 papal conclave,election,Following the death of Pope Innocent XI
+wd-Q2079536-1691-papal-conclave,41.90361111,12.45638889,1691-02-12T00:00:00Z,https://www.wikidata.org/wiki/Q2079536,CC-BY-SA-4.0,1691 papal conclave,election,Following the death of Pope Alexander VIII
+wd-Q1636123-1700-papal-conclave,41.90361111,12.45638889,1700-10-09T00:00:00Z,https://www.wikidata.org/wiki/Q1636123,CC-BY-SA-4.0,1700 papal conclave,election,conclave
+wd-Q2389817-1721-papal-conclave,41.90361111,12.45638889,1721-03-31T00:00:00Z,https://www.wikidata.org/wiki/Q2389817,CC-BY-SA-4.0,1721 papal conclave,election,election of Pope Innocent XIII
+wd-Q1580637-1724-papal-conclave,41.90361111,12.45638889,1724-03-20T00:00:00Z,https://www.wikidata.org/wiki/Q1580637,CC-BY-SA-4.0,1724 papal conclave,election,conclave
+wd-Q2601104-1730-papal-conclave,41.905833333,12.455833333,1730-03-05T00:00:00Z,https://www.wikidata.org/wiki/Q2601104,CC-BY-SA-4.0,1730 papal conclave,election,election of Pope Clement XII
+wd-Q776813-1740-papal-conclave,41.905833333,12.455833333,1740-02-18T00:00:00Z,https://www.wikidata.org/wiki/Q776813,CC-BY-SA-4.0,1740 papal conclave,election,conclave
+wd-Q2601360-1758-papal-conclave,41.905833333,12.455833333,1758-05-15T00:00:00Z,https://www.wikidata.org/wiki/Q2601360,CC-BY-SA-4.0,1758 papal conclave,election,election
+wd-Q2735384-1769-papal-conclave,41.905833333,12.455833333,1769-02-15T00:00:00Z,https://www.wikidata.org/wiki/Q2735384,CC-BY-SA-4.0,1769 papal conclave,election,papal conclave
+wd-Q2408221-1774-75-papal-conclave,41.905833333,12.455833333,1774-10-05T00:00:00Z,https://www.wikidata.org/wiki/Q2408221,CC-BY-SA-4.0,1774–75 papal conclave,election,election of Pope Pius VI
+wd-Q2313661-1799-1800-papal-conclave,45.42888,12.34365,1799-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q2313661,CC-BY-SA-4.0,1799–1800 papal conclave,election,election of Pope Pius VII
+wd-Q2019678-1823-papal-conclave,41.905833333,12.455833333,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2019678,CC-BY-SA-4.0,1823 papal conclave,election,election
+wd-Q2448354-1829-papal-conclave,41.905833333,12.455833333,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2448354,CC-BY-SA-4.0,1829 papal conclave,election,election of Pope Pius VIII
+wd-Q2209841-1830-31-conclave,41.905833333,12.455833333,1830-12-14T00:00:00Z,https://www.wikidata.org/wiki/Q2209841,CC-BY-SA-4.0,1830–31 conclave,election,election of Pope Gregory XVI
+wd-Q954152-1846-conclave,41.905833333,12.455833333,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q954152,CC-BY-SA-4.0,1846 conclave,election,election of Pope Pius IX
+wd-Q374575-1878-papal-conclave,41.90305556,12.45444444,1878-02-16T00:00:00Z,https://www.wikidata.org/wiki/Q374575,CC-BY-SA-4.0,1878 papal conclave,election,conclave
+wd-Q1996652-1903-conclave,41.90305556,12.45444444,1903-07-31T00:00:00Z,https://www.wikidata.org/wiki/Q1996652,CC-BY-SA-4.0,1903 conclave,election,election of Pope Pius X
+wd-Q762715-1914-conclave,41.905833333,12.455833333,1914-08-31T00:00:00Z,https://www.wikidata.org/wiki/Q762715,CC-BY-SA-4.0,1914 conclave,election,conclave
+wd-Q993705-1922-conclave,41.905833333,12.455833333,1922-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q993705,CC-BY-SA-4.0,1922 conclave,election,conclave
+wd-Q1376234-1939-conclave,41.905833333,12.455833333,1939-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q1376234,CC-BY-SA-4.0,1939 conclave,election,conclave
+wd-Q5923952-1941-t-rkiye-earthquake,39.7,39.4,1941-11-12T00:00:00Z,https://www.wikidata.org/wiki/Q5923952,CC-BY-SA-4.0,1941 Türkiye earthquake,election,
+wd-Q520640-1958-conclave,41.90305556,12.45444444,1958-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q520640,CC-BY-SA-4.0,1958 conclave,election,conclave
+wd-Q1518358-1963-conclave,41.90305556,12.45444444,1963-06-19T00:00:00Z,https://www.wikidata.org/wiki/Q1518358,CC-BY-SA-4.0,1963 conclave,election,conclave
+wd-Q1754441-august-1978-conclave,41.90305556,12.45444444,1978-08-25T00:00:00Z,https://www.wikidata.org/wiki/Q1754441,CC-BY-SA-4.0,August 1978 conclave,election,1978 Conclave
+wd-Q1421431-october-1978-conclave,41.905833333,12.455833333,1978-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q1421431,CC-BY-SA-4.0,October 1978 conclave,election,conclave
+wd-Q20921801-1979-madrid-city-council-election,40.4169,-3.7033,1979-04-03T00:00:00Z,https://www.wikidata.org/wiki/Q20921801,CC-BY-SA-4.0,1979 Madrid City Council election,election,election in the Spanish municipality of Madrid
+wd-Q11918794-1979-spanish-local-elections,40.2,-3.5,1979-04-03T00:00:00Z,https://www.wikidata.org/wiki/Q11918794,CC-BY-SA-4.0,1979 Spanish local elections,election,
+wd-Q14508702-1983-spanish-local-elections,40.2,-3.5,1983-05-08T00:00:00Z,https://www.wikidata.org/wiki/Q14508702,CC-BY-SA-4.0,1983 Spanish local elections,election,
+wd-Q20921805-1987-madrid-city-council-election,40.4169,-3.7033,1987-06-10T00:00:00Z,https://www.wikidata.org/wiki/Q20921805,CC-BY-SA-4.0,1987 Madrid City Council election,election,election in the Spanish municipality of Madrid
+wd-Q28380-1991-spanish-local-elections,40.2,-3.5,1991-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q28380,CC-BY-SA-4.0,1991 Spanish local elections,election,municipal elections in 1991
+wd-Q5827482-1995-castilian-manchegan-regional-election,39.500011,-3.000033,1995-05-28T00:00:00Z,https://www.wikidata.org/wiki/Q5827482,CC-BY-SA-4.0,1995 Castilian-Manchegan regional election,election,Spanish election
+wd-Q40439-1995-spanish-local-elections,40.2,-3.5,1995-05-28T00:00:00Z,https://www.wikidata.org/wiki/Q40439,CC-BY-SA-4.0,1995 Spanish local elections,election,municipal elections held in Spain in 1995
+wd-Q11918798-1999-spanish-local-elections,40.2,-3.5,1999-06-13T00:00:00Z,https://www.wikidata.org/wiki/Q11918798,CC-BY-SA-4.0,1999 Spanish local elections,election,municipal and provincial elections in Spain in 1999
+wd-Q20921812-1999-madrid-city-council-election,40.4169,-3.7033,1999-06-13T00:00:00Z,https://www.wikidata.org/wiki/Q20921812,CC-BY-SA-4.0,1999 Madrid City Council election,election,municipal election in Madrid
+wd-Q48733075-2003-dehradun-municipal-corporation-election,30.3157,78.0336,2003-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q48733075,CC-BY-SA-4.0,2003 Dehradun Municipal Corporation election,election,
+wd-Q11918797-2003-spanish-local-elections,40.2,-3.5,2003-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q11918797,CC-BY-SA-4.0,2003 Spanish local elections,election,municipal elections in Spain
+wd-Q19921277-2003-madrid-city-council-election,40.4169,-3.7033,2003-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q19921277,CC-BY-SA-4.0,2003 Madrid City Council election,election,election in the Spanish municipality of Madrid
+wd-Q20103097-2003-l-hospitalet-de-llobregat-city-council-election,41.3589,2.0992,2003-05-25T00:00:00Z,https://www.wikidata.org/wiki/Q20103097,CC-BY-SA-4.0,2003 l'Hospitalet de Llobregat City Council election,election,
+wd-Q666536-2005-conclave,41.905833333,12.455833333,2005-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q666536,CC-BY-SA-4.0,2005 conclave,election,conclave
+wd-Q218675-2007-spanish-local-elections,40.2,-3.5,2007-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q218675,CC-BY-SA-4.0,2007 Spanish local elections,election,Spanish municipal elections
+wd-Q5827454-2007-madrilenian-regional-election,40.42526,-3.69063,2007-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q5827454,CC-BY-SA-4.0,2007 Madrilenian regional election,election,8th regional elections in Madrid
+wd-Q20921814-2007-madrid-city-council-election,40.4169,-3.7033,2007-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q20921814,CC-BY-SA-4.0,2007 Madrid City Council election,election,election in the Spanish municipality of Madrid
+wd-Q11918788-2007-l-hospitalet-de-llobregat-city-council-election,41.3589,2.0992,2007-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q11918788,CC-BY-SA-4.0,2007 l'Hospitalet de Llobregat City Council election,election,
+wd-Q48724236-2008-dehradun-municipal-corporation-election,30.3157,78.0336,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q48724236,CC-BY-SA-4.0,2008 Dehradun Municipal Corporation election,election,
+wd-Q21061584-2011-south-kesteven-district-council-election,52.8500835,-0.5084185,2011-05-05T00:00:00Z,https://www.wikidata.org/wiki/Q21061584,CC-BY-SA-4.0,2011 South Kesteven District Council election,election,2011 UK local government election
+wd-Q63968191-2011-l-hospitalet-de-llobregat-city-council-election,41.3589,2.0992,2011-05-22T00:00:00Z,https://www.wikidata.org/wiki/Q63968191,CC-BY-SA-4.0,2011 l'Hospitalet de Llobregat City Council election,election,
+wd-Q4422669-2013-conclave,41.9029,12.4544,2013-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q4422669,CC-BY-SA-4.0,2013 conclave,election,conclave convened to elect a pope to succeed Benedict XVI
+wd-Q16259041-2013-south-shields-by-election,54.9989,-1.42889,2013-05-02T00:00:00Z,https://www.wikidata.org/wiki/Q16259041,CC-BY-SA-4.0,2013 South Shields by-election,election,by-election in 2013
+wd-Q1285451-2014-lithuanian-presidential-election,55.2,24,2014-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q1285451,CC-BY-SA-4.0,2014 Lithuanian presidential election,election,6th election of the 1990 Republic of Lithuania
+wd-Q16975549-2015-extremaduran-regional-election,39.2,-6.15,2015-05-24T00:00:00Z,https://www.wikidata.org/wiki/Q16975549,CC-BY-SA-4.0,2015 Extremaduran regional election,election,The 2015 Extremaduran regional election included all 65 seats of the 9th assembly of the autonomous community.
+wd-Q19428848-2015-barcelona-city-council-election,41.3825,2.1769,2015-05-24T00:00:00Z,https://www.wikidata.org/wiki/Q19428848,CC-BY-SA-4.0,2015 Barcelona City Council election,election,City Council Election
+wd-Q19428852-2015-castilian-manchegan-regional-election,39.500011,-3.000033,2015-05-24T00:00:00Z,https://www.wikidata.org/wiki/Q19428852,CC-BY-SA-4.0,2015 Castilian-Manchegan regional election,election,regional election in Spain
+wd-Q22132591-q22132591,47.89611111,33.39333333,2015-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q22132591,CC-BY-SA-4.0,Q22132591,election,
+wd-Q23058677-2016-sheffield-brightside-and-hillsborough-by-election,53.411,-1.452,2016-05-05T00:00:00Z,https://www.wikidata.org/wiki/Q23058677,CC-BY-SA-4.0,2016 Sheffield Brightside and Hillsborough by-election,election,2016 UK Parliamentary by-election
+wd-Q62005938-provincial-elections-of-azuay-of-2019,-2.939789495,-79.279862593,2019-03-24T00:00:00Z,https://www.wikidata.org/wiki/Q62005938,CC-BY-SA-4.0,Provincial elections of Azuay of 2019,election,
+wd-Q63993971-2019-l-hospitalet-de-llobregat-city-council-election,41.3589,2.0992,2019-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q63993971,CC-BY-SA-4.0,2019 l'Hospitalet de Llobregat City Council election,election,
+wd-Q133999044-2025-conclave,41.903055555,12.454444444,2025-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q133999044,CC-BY-SA-4.0,2025 conclave,election,election of the sucessor of Pope Francis in 2025
+wd-Q1192865-xuanwu-gate-incident,34.277777777,108.943055555,0626-07-05T00:00:00Z,https://www.wikidata.org/wiki/Q1192865,CC-BY-SA-4.0,Xuanwu Gate Incident,coup,626 coup d'état in China
+wd-Q1062771-isshi-incident,34.473373,135.821009,0645-07-13T00:00:00Z,https://www.wikidata.org/wiki/Q1062771,CC-BY-SA-4.0,Isshi Incident,coup,"successful plot by Nakatomi no Kamatari, Prince Naka no Ōe and others who conspired to eliminate the main branch of the Soga clan"
+wd-Q113146104-coup-d-tat-attempt-in-prague,50.0868531,14.419495,1427-09-15T00:00:00Z,https://www.wikidata.org/wiki/Q113146104,CC-BY-SA-4.0,Coup d'état attempt in Prague,coup,episode of the Hussite Wars
+wd-Q169598-honn-ji-incident,35.00583333,135.75388889,1582-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q169598,CC-BY-SA-4.0,Honnō-ji Incident,coup,forced suicide of Oda Nobunaga at the hands of traitor Akechi Mitsuhide
+wd-Q720498-13-vend-miaire,48.865277777,2.3325,1795-10-05T00:00:00Z,https://www.wikidata.org/wiki/Q720498,CC-BY-SA-4.0,13 Vendémiaire,coup,1795 battle between French Revolutionary troops and Royalists
+wd-Q2826012-grenelle-camp-affair,48.84556,2.2917,1796-09-10T00:00:00Z,https://www.wikidata.org/wiki/Q2826012,CC-BY-SA-4.0,Grenelle camp affair,coup,
+wd-Q620965-coup-of-18-brumaire,48.8567,2.3522,1799-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q620965,CC-BY-SA-4.0,coup of 18 Brumaire,coup,1799 coup in Revolutionary France that brought Napoleon to power
+wd-Q126306-decembrist-revolt,59.9335,30.303,1825-12-26T00:00:00Z,https://www.wikidata.org/wiki/Q126306,CC-BY-SA-4.0,Decembrist revolt,coup,1825 revolt and attempted coup in the Russian Empire
+wd-Q11398434-k-zan-ji-revolt,33.995906,130.981908,1865-01-12T00:00:00Z,https://www.wikidata.org/wiki/Q11398434,CC-BY-SA-4.0,Kōzan-ji revolt,coup,
+wd-Q5882508-coup-d-tat-of-pav-a,40.415833333,-3.696666666,1874-01-03T00:00:00Z,https://www.wikidata.org/wiki/Q5882508,CC-BY-SA-4.0,Coup d'état of Pavía,coup,military coup in Spain in 1874
+wd-Q8022766-wilmington-insurrection-of-1898,34.22333333,-77.91222222,1898-11-10T00:00:00Z,https://www.wikidata.org/wiki/Q8022766,CC-BY-SA-4.0,Wilmington Insurrection of 1898,coup,"1898 white supremacist insurrection and coup d'état in North Carolina, United States"
+wd-Q760023-goudi-coup,37.988333333,23.775833333,1909-08-28T00:00:00Z,https://www.wikidata.org/wiki/Q760023,CC-BY-SA-4.0,Goudi coup,coup,coup d'état
+wd-Q134330727-1922-dhabyani-coup-d-tat,24.28,54.22,1922-08-22T00:00:00Z,https://www.wikidata.org/wiki/Q134330727,CC-BY-SA-4.0,1922 Dhabyani coup d'état,coup,coup in the United Arab Emirates
+wd-Q36749-beer-hall-putsch,48.1304,11.592,1923-11-08T00:00:00Z,https://www.wikidata.org/wiki/Q36749,CC-BY-SA-4.0,Beer Hall Putsch,coup,attempted coup d'état in Weimar Republic
+wd-Q2602809-1924-estonian-coup-d-tat-attempt,58.5953,25.0136,1924-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q2602809,CC-BY-SA-4.0,1924 Estonian coup d'état attempt,coup,coup attempt by communists infiltrated from the USSR
+wd-Q134299821-1926-dhabyani-coup-d-tat,24.28,54.22,1926-08-04T00:00:00Z,https://www.wikidata.org/wiki/Q134299821,CC-BY-SA-4.0,1926 Dhabyani coup d'état,coup,coup in the United Arab Emirates
+wd-Q134272981-1928-dhabyani-coup-d-tat,24.28,54.22,1928-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134272981,CC-BY-SA-4.0,1928 Dhabyani coup d'état,coup,coup in the United Arab Emirates
+wd-Q3091100-jaca-uprising,42.572476,-0.552388,1930-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q3091100,CC-BY-SA-4.0,Jaca uprising,coup,
+wd-Q244926-may-15-incident,35.6725,139.7438,1932-05-15T00:00:00Z,https://www.wikidata.org/wiki/Q244926,CC-BY-SA-4.0,May 15 Incident,coup,attempted coup d'état in Japan in 1932
+wd-Q108830836-1934-bolivian-coup-d-tat,-21.2649,-63.4718,1934-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q108830836,CC-BY-SA-4.0,1934 Bolivian coup d'état,coup,coup d'état in Bolivia on 27 November 1934
+wd-Q477958-february-26-incident,35.66416667,139.69694444,1936-02-26T00:00:00Z,https://www.wikidata.org/wiki/Q477958,CC-BY-SA-4.0,February 26 Incident,coup,failed 1936 coup d'état in Japan
+wd-Q105570-20-july-plot,54.080555555,21.496388888,1944-07-20T00:00:00Z,https://www.wikidata.org/wiki/Q105570,CC-BY-SA-4.0,20 July plot,coup,"attempt to assassinate Adolf Hitler, 1944"
+wd-Q5963044-august-16-1953-attempted-coup-d-tat-in-iran,35.69374781,51.401789846,1953-08-15T00:00:00Z,https://www.wikidata.org/wiki/Q5963044,CC-BY-SA-4.0,"August 16, 1953 attempted coup d'état in Iran",coup,
+wd-Q134190133-1954-1955-dhabyani-coup-attempt,24.28,54.22,1954-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134190133,CC-BY-SA-4.0,1954-1955 Dhabyani coup attempt,coup,coup in the United Arab Emirates
+wd-Q891808-bombing-of-plaza-de-mayo,-34.60833333,-58.37194444,1955-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q891808,CC-BY-SA-4.0,Bombing of Plaza de Mayo,coup,"1955 failed military coup and attack of a pro-Perón rally in Buenos Aires, Argentina"
+wd-Q38250782-1957-alleged-jordanian-military-coup-attempt,32.08333333,36.1,1957-04-13T00:00:00Z,https://www.wikidata.org/wiki/Q38250782,CC-BY-SA-4.0,1957 alleged Jordanian military coup attempt,coup,alleged coup attempt
+wd-Q1935163-1960-south-vietnamese-coup-attempt,10.775555555,106.701944444,1960-11-11T00:00:00Z,https://www.wikidata.org/wiki/Q1935163,CC-BY-SA-4.0,1960 South Vietnamese coup attempt,coup,failed coup against President Ngô Đình Diệm
+wd-Q19870163-1961-syrian-coup-d-tat,33.513055555,36.291944444,1961-09-28T00:00:00Z,https://www.wikidata.org/wiki/Q19870163,CC-BY-SA-4.0,1961 Syrian coup d'état,coup,"military coup in Syria, splitting it away from the UAR"
+wd-Q2627940-1962-south-vietnamese-independence-palace-bombing,10.7769,106.695,1962-02-27T00:00:00Z,https://www.wikidata.org/wiki/Q2627940,CC-BY-SA-4.0,1962 South Vietnamese Independence Palace bombing,coup,1962 aerial attack in Saigon
+wd-Q4571240-1963-togolese-coup-d-tat,6.121944444,1.210833333,1963-01-13T00:00:00Z,https://www.wikidata.org/wiki/Q4571240,CC-BY-SA-4.0,1963 Togolese coup d'état,coup,1963 coup in Togo
+wd-Q1078181-1963-south-vietnamese-coup,10.785,106.7025,1963-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q1078181,CC-BY-SA-4.0,1963 South Vietnamese coup,coup,1963 military coup in South Vietnam
+wd-Q2999015-1965-algerian-coup-d-tat,36.75388889,3.05888889,1965-06-19T00:00:00Z,https://www.wikidata.org/wiki/Q2999015,CC-BY-SA-4.0,1965 Algerian coup d'état,coup,overthrow of Ahmed Ben Bella by Houari Boumedienne
+wd-Q133855766-1965-sharjawi-coup-d-tat,25.3575,55.390833,1965-06-24T00:00:00Z,https://www.wikidata.org/wiki/Q133855766,CC-BY-SA-4.0,1965 Sharjawi coup d'état,coup,coup in the United Arab Emirates
+wd-Q16205928-1966-nigerian-coup-d-etat,9,8,1966-01-15T00:00:00Z,https://www.wikidata.org/wiki/Q16205928,CC-BY-SA-4.0,1966 Nigerian coup d'etat,coup,violent overthrow of Nigerian government
+wd-Q134119981-1966-dhabyani-coup-d-tat,25.5,54.5,1966-08-06T00:00:00Z,https://www.wikidata.org/wiki/Q134119981,CC-BY-SA-4.0,1966 Dhabyani coup d'état,coup,coup in the United Arab Emirates
+wd-Q16639048-1967-togolese-coup-d-tat,6.131944444,1.222777777,1967-01-13T00:00:00Z,https://www.wikidata.org/wiki/Q16639048,CC-BY-SA-4.0,1967 Togolese coup d'état,coup,1967 coup in Togo
+wd-Q11355226-mishima-incident,35.692778,139.728611,1970-11-25T00:00:00Z,https://www.wikidata.org/wiki/Q11355226,CC-BY-SA-4.0,Mishima incident,coup,attempted coup d'état in Japan on 25 November 1970 by writer Yukio Mishima
+wd-Q131551677-1972-sharjawi-coup-d-tat-attempt,25.3575,55.390833,1972-01-24T00:00:00Z,https://www.wikidata.org/wiki/Q131551677,CC-BY-SA-4.0,1972 Sharjawi coup d'état attempt,coup,political crisis in the United Arab Emirates
+wd-Q63123297-1972-dahomeyan-coup-d-tat,6.49722222,2.605,1972-10-26T00:00:00Z,https://www.wikidata.org/wiki/Q63123297,CC-BY-SA-4.0,1972 Dahomeyan coup d'état,coup,military coup
+wd-Q4575699-1973-rwandan-coup-d-tat,-1.9536,30.0606,1973-07-05T00:00:00Z,https://www.wikidata.org/wiki/Q4575699,CC-BY-SA-4.0,1973 Rwandan coup d'état,coup,1973 military coup in Rwanda
+wd-Q1048750-1976-argentine-coup-d-tat,-34,-64,1976-03-24T00:00:00Z,https://www.wikidata.org/wiki/Q1048750,CC-BY-SA-4.0,1976 Argentine coup d'état,coup,March 1976 military coup d'état in Argentina
+wd-Q63121298-1977-seychelles-coup-d-tat,-4.616666666,55.45,1977-06-04T00:00:00Z,https://www.wikidata.org/wiki/Q63121298,CC-BY-SA-4.0,1977 Seychelles coup d'état,coup,political coup in the (Seychelles)
+wd-Q1715348-operation-galaxia,40.43522,-3.71828,1978-11-11T00:00:00Z,https://www.wikidata.org/wiki/Q1715348,CC-BY-SA-4.0,Operation Galaxia,coup,codename for 1978 attempted coup d'état in Spain
+wd-Q20977839-1979-equatorial-guinea-coup-d-tat,3.752063888,8.7737,1979-08-18T00:00:00Z,https://www.wikidata.org/wiki/Q20977839,CC-BY-SA-4.0,1979 Equatorial Guinea coup d'état,coup,Military overthrow of President Francisco Macías Nguema
+wd-Q967981-1980-surinamese-coup-d-tat,5.85222222,-55.20388889,1980-02-25T00:00:00Z,https://www.wikidata.org/wiki/Q967981,CC-BY-SA-4.0,1980 Surinamese coup d'état,coup,violent overthrow of government in Suriname
+wd-Q123034298-administrative-coup-in-suriname,5.827444,-55.152444,1980-08-13T00:00:00Z,https://www.wikidata.org/wiki/Q123034298,CC-BY-SA-4.0,administrative coup in Suriname,coup,palace revolution of Bouterse
+wd-Q60750764-1980-guinea-bissau-coup-d-tat,11.85,-15.566666666,1980-11-14T00:00:00Z,https://www.wikidata.org/wiki/Q60750764,CC-BY-SA-4.0,1980 Guinea-Bissau coup d'état,coup,Coup that brought João Bernardo Vieira to power
+wd-Q215337-1981-spanish-coup-d-tat-attempt,40.4158,-3.69667,1981-02-23T00:00:00Z,https://www.wikidata.org/wiki/Q215337,CC-BY-SA-4.0,1981 Spanish coup d'état attempt,coup,February 1981 coup d'état attempt in Spain
+wd-Q29378733-1981-seychelles-coup-d-tat-attempt,-4.67434444,55.52185278,1981-11-25T00:00:00Z,https://www.wikidata.org/wiki/Q29378733,CC-BY-SA-4.0,1981 Seychelles coup d'état attempt,coup,failed coup attempt by South Africa
+wd-Q123148255-rambocus-coup,5.825194,-55.149861,1982-03-11T00:00:00Z,https://www.wikidata.org/wiki/Q123148255,CC-BY-SA-4.0,Rambocus coup,coup,failed counter-coup in Suriname
+wd-Q60750351-1984-guinean-coup-d-tat,9.516666666,-13.7,1984-04-03T00:00:00Z,https://www.wikidata.org/wiki/Q60750351,CC-BY-SA-4.0,1984 Guinean coup d'état,coup,Coup that brought Lansana Conté to power
+wd-Q63099653-1985-sudanese-coup-d-tat,15.500555555,32.56,1985-04-06T00:00:00Z,https://www.wikidata.org/wiki/Q63099653,CC-BY-SA-4.0,1985 Sudanese coup d'état,coup,Military overthrow of President Gaafar Nimeiry
+wd-Q63125602-1986-togolese-coup-d-tat-attempt,6.131944444,1.222777777,1986-09-23T00:00:00Z,https://www.wikidata.org/wiki/Q63125602,CC-BY-SA-4.0,1986 Togolese coup d'état attempt,coup,1986 coup attempt in Togo
+wd-Q25451842-1987-sharjawi-coup-d-tat-attempt,25.3575,-55.390833,1987-06-17T00:00:00Z,https://www.wikidata.org/wiki/Q25451842,CC-BY-SA-4.0,1987 Sharjawi coup d'état attempt,coup,political crisis in the United Arab Emirates
+wd-Q60764387-1987-burkinab-coup-d-tat,12.357222222,-1.535277777,1987-10-15T00:00:00Z,https://www.wikidata.org/wiki/Q60764387,CC-BY-SA-4.0,1987 Burkinabé coup d'état,coup,Coup that brought Blaise Compaoré to power
+wd-Q19601700-1989-paraguayan-coup-d-etat,-25.294386111,-57.611416666,1989-02-02T00:00:00Z,https://www.wikidata.org/wiki/Q19601700,CC-BY-SA-4.0,1989 Paraguayan coup d'etat,coup,democratic revolt in Paraguay on 1989
+wd-Q64786493-1989-ethiopian-coup-d-tat-attempt,9.03,38.74,1989-05-16T00:00:00Z,https://www.wikidata.org/wiki/Q64786493,CC-BY-SA-4.0,1989 Ethiopian coup d'état attempt,coup,coup d'etat attempt against Mengistu Haile Mariam
+wd-Q606081-1989-sudanese-coup-d-tat,15.50055556,32.56,1989-06-30T00:00:00Z,https://www.wikidata.org/wiki/Q606081,CC-BY-SA-4.0,1989 Sudanese coup d'état,coup,conflict
+wd-Q81364127-1990-sudanese-coup-d-tat-attempt,15.500555555,32.56,1990-04-23T00:00:00Z,https://www.wikidata.org/wiki/Q81364127,CC-BY-SA-4.0,1990 Sudanese coup d'état attempt,coup,
+wd-Q65047871-1990-chadian-coup-d-tat,12.13333333,15.05,1990-12-03T00:00:00Z,https://www.wikidata.org/wiki/Q65047871,CC-BY-SA-4.0,1990 Chadian coup d'état,coup,overthrow of Hissène Habré
+wd-Q14466700-1990-surinamese-coup-d-tat,5.85222222,-55.20388889,1990-12-24T00:00:00Z,https://www.wikidata.org/wiki/Q14466700,CC-BY-SA-4.0,1990 Surinamese coup d'état,coup,violent overthrow of government in Suriname
+wd-Q4586873-1991-haitian-coup-d-tat,18.53333333,-72.33333333,1991-09-29T00:00:00Z,https://www.wikidata.org/wiki/Q4586873,CC-BY-SA-4.0,1991 Haitian coup d'état,coup,Overthrow of recently-elected President Jean-Bertrand Aristide
+wd-Q5177982-1993-pakaun-mutiny,54.962777777,23.578333333,1993-07-31T00:00:00Z,https://www.wikidata.org/wiki/Q5177982,CC-BY-SA-4.0,1993 Pakaunė mutiny,coup,
+wd-Q7074336-oakwood-mutiny,14.551388888,121.026111111,2003-07-27T00:00:00Z,https://www.wikidata.org/wiki/Q7074336,CC-BY-SA-4.0,Oakwood mutiny,coup,2003 mutiny in the Philippines
+wd-Q61946226-2003-guinea-bissau-coup-d-tat,11.85,-15.566666666,2003-09-14T00:00:00Z,https://www.wikidata.org/wiki/Q61946226,CC-BY-SA-4.0,2003 Guinea-Bissau coup d'état,coup,
+wd-Q15224558-euromaidan,50.45025,30.52389,2010-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15224558,CC-BY-SA-4.0,Euromaidan,coup,2013–2014 pro-european protests in Ukraine
+wd-Q924625-2010-nigerien-coup-d-tat,13.5167,2.11667,2010-02-18T00:00:00Z,https://www.wikidata.org/wiki/Q924625,CC-BY-SA-4.0,2010 Nigerien coup d'état,coup,coup d'état
+wd-Q134142653-2011-dhabyani-coup-attempt,24.28,54.22,2011-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134142653,CC-BY-SA-4.0,2011 Dhabyani coup attempt,coup,coup in the United Arab Emirates
+wd-Q4620483-2011-bangladesh-coup-d-tat-attempt,23.777176,90.399452,2011-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q4620483,CC-BY-SA-4.0,2011 Bangladesh coup d'état attempt,coup,coup d'état attempt in Bangladesh
+wd-Q1525846-2012-tuareg-rebellion,12.64999962,-8,2012-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1525846,CC-BY-SA-4.0,2012 Tuareg rebellion,coup,early stage of the Northern Mali conflict
+wd-Q875912-2012-malian-coup-d-tat,12.65,-8,2012-03-21T00:00:00Z,https://www.wikidata.org/wiki/Q875912,CC-BY-SA-4.0,2012 Malian coup d'état,coup,coup d'état against the Tuareg rebellion of 2012
+wd-Q621827-2012-guinea-bissau-coup-d-tat,11.863888888,-15.585,2012-04-12T00:00:00Z,https://www.wikidata.org/wiki/Q621827,CC-BY-SA-4.0,2012 Guinea-Bissau coup d'état,coup,coup d'état
+wd-Q15234126-2012-malian-counter-coup-attempt,12.75,-8.066666666,2012-04-30T00:00:00Z,https://www.wikidata.org/wiki/Q15234126,CC-BY-SA-4.0,2012 Malian counter-coup attempt,coup,
+wd-Q15278872-battle-of-bangui,4.361388888,18.555277777,2013-03-24T00:00:00Z,https://www.wikidata.org/wiki/Q15278872,CC-BY-SA-4.0,Battle of Bangui,coup,March 2013 battle of the Central African Republic Civil War
+wd-Q13605743-2013-egyptian-coup-d-tat,31.2625,32.3061,2013-07-03T00:00:00Z,https://www.wikidata.org/wiki/Q13605743,CC-BY-SA-4.0,2013 Egyptian coup d'état,coup,Military coup overthrowing Mohamed Morsi
+wd-Q16914766-2014-thai-coup-d-tat,14,101,2014-05-22T00:00:00Z,https://www.wikidata.org/wiki/Q16914766,CC-BY-SA-4.0,2014 Thai coup d'état,coup,2014 military coup in Thailand
+wd-Q19905149-2015-burundian-coup-d-tat-attempt,-3.38164,29.3633,2015-05-13T00:00:00Z,https://www.wikidata.org/wiki/Q19905149,CC-BY-SA-4.0,2015 Burundian coup d'état attempt,coup,attempted military putsch in Burundi
+wd-Q43172549-2017-zimbabwean-coup-d-tat-attempt,-17.863889,31.029722,2017-11-14T00:00:00Z,https://www.wikidata.org/wiki/Q43172549,CC-BY-SA-4.0,2017 Zimbabwean coup d'état attempt,coup,overthrow of the Mugabe Regime in Zimbabwe
+wd-Q60474140-2019-gabonese-coup-d-etat-attempt,0.3901,9.4544,2019-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q60474140,CC-BY-SA-4.0,2019 Gabonese coup d'etat attempt,coup,Failed military coup against President Bongo
+wd-Q63096026-2019-sudanese-coup-d-tat,15.50055556,32.56,2019-04-11T00:00:00Z,https://www.wikidata.org/wiki/Q63096026,CC-BY-SA-4.0,2019 Sudanese coup d'état,coup,military coup against Sudanese President Omar al-Bashir on 10 April 2019
+wd-Q98457371-2020-malian-coup-d-tat,12.746666666,-8.071388888,2020-08-18T00:00:00Z,https://www.wikidata.org/wiki/Q98457371,CC-BY-SA-4.0,2020 Malian coup d'état,coup,Malí golpe de estado 2020
+wd-Q104705419-january-6-united-states-capitol-attack,38.889722222,-77.009166666,2021-01-06T00:00:00Z,https://www.wikidata.org/wiki/Q104705419,CC-BY-SA-4.0,January 6 United States Capitol attack,coup,2021 attempt to prevent the U.S. presidential electoral vote count
+wd-Q105672621-2021-armenian-political-crisis,40.1814,44.5144,2021-02-25T00:00:00Z,https://www.wikidata.org/wiki/Q105672621,CC-BY-SA-4.0,2021 Armenian political crisis,coup,military coup d'état attempt in Armenia
+wd-Q106305106-2021-niger-coup-d-tat-attempt,13.5167,2.1167,2021-03-31T00:00:00Z,https://www.wikidata.org/wiki/Q106305106,CC-BY-SA-4.0,2021 Niger coup d'état attempt,coup,2021 coup attempt in Niger
+wd-Q108419092-2021-guinean-coup-d-tat,9.516666666,-13.7,2021-09-05T00:00:00Z,https://www.wikidata.org/wiki/Q108419092,CC-BY-SA-4.0,2021 Guinean coup d'état,coup,Guinean military coup in September 2021
+wd-Q109229068-2021-sudanese-coup-d-tat,15.502777777,32.5625,2021-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q109229068,CC-BY-SA-4.0,2021 Sudanese coup d'état,coup,successful coup against the Sovereignty Council of Sudan
+wd-Q110778876-2022-guinea-bissau-coup-d-tat-attempt,11.8592,-15.5956,2022-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q110778876,CC-BY-SA-4.0,2022 Guinea-Bissau coup d'état attempt,coup,2022 coup d'état attempt in Guinea-Bissau
+wd-Q115438612-2022-s-o-tom-and-pr-ncipe-coup-d-tat-attempt,0.33,6.73,2022-11-25T00:00:00Z,https://www.wikidata.org/wiki/Q115438612,CC-BY-SA-4.0,2022 São Tomé and Príncipe coup d'état attempt,coup,2022 storming
+wd-Q116142348-2023-brazilian-congress-attack,-15.7997,-47.8641,2023-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q116142348,CC-BY-SA-4.0,2023 Brazilian Congress attack,coup,storming of government buildings in Brasília
+wd-Q117100709-2023-nigerien-coup-d-tat,13.515,2.1175,2023-07-26T00:00:00Z,https://www.wikidata.org/wiki/Q117100709,CC-BY-SA-4.0,2023 Nigerien coup d'état,coup,military coup against President Mohamed Bazoum
+wd-Q126913477-2024-bolivian-coup-attempt,-16.496111111,-68.133333333,2024-06-26T00:00:00Z,https://www.wikidata.org/wiki/Q126913477,CC-BY-SA-4.0,2024 Bolivian coup attempt,coup,military attempt to overthrow Luis Acre in La Paz
+wd-Q137036104-2025-guinea-bissau-coup-d-tat,11.864,-15.585,2025-11-26T00:00:00Z,https://www.wikidata.org/wiki/Q137036104,CC-BY-SA-4.0,2025 Guinea-Bissau coup d'état,coup,military coup
+wd-Q137266485-2025-beninese-coup-attempt,6.35,2.4,2025-12-07T00:00:00Z,https://www.wikidata.org/wiki/Q137266485,CC-BY-SA-4.0,2025 Beninese coup attempt,coup,thwarted coup in 7 Dec. 2025 when several soldiers of the Benin Armed Forces led by Pascal Tigri announced on national television the overthrow of the government
+wd-Q3124908-nakhla-raid,22.497722222,39.897472222,0623-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q3124908,CC-BY-SA-4.0,Nakhla raid,expedition,Muslim military expedition to Nakhla in October 623 AD
+wd-Q126895342-durr-s-expedition,41.31,19.45,1376-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q126895342,CC-BY-SA-4.0,Durrës Expedition,expedition,1376 military expedition
+wd-Q11921389-aragonese-expedition-to-tunisia-of-1424,33.78333333,10.88333333,1424-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11921389,CC-BY-SA-4.0,Aragonese expedition to Tunisia of 1424,expedition,1424 military expedition in Ifriqiya
+wd-Q16939424-portuguese-expedition-to-otranto,40.15,18.483333333,1481-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16939424,CC-BY-SA-4.0,Portuguese expedition to Otranto,expedition,1481 military expedition
+wd-Q97335158-1510-kerkennah-islands-expedition,34.75055556,11.0675,1510-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q97335158,CC-BY-SA-4.0,1510 Kerkennah Islands expedition,expedition,1510 military expedition
+wd-Q122879296-hern-ndez-de-c-rdoba-expedition,19.968,-88.976,1517-03-11T00:00:00Z,https://www.wikidata.org/wiki/Q122879296,CC-BY-SA-4.0,Hernández de Córdoba expedition,expedition,1517 Spanish maritime expedition
+wd-Q108542187-algiers-expedition-1518,36.75972222,3.05861111,1519-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q108542187,CC-BY-SA-4.0,Algiers Expedition (1518),expedition,1518 joint Spanish-Italian attack on Algiers
+wd-Q5420962-expedition-of-mostaganem,35.9333,0.08333,1558-09-02T00:00:00Z,https://www.wikidata.org/wiki/Q5420962,CC-BY-SA-4.0,Expedition of Mostaganem,expedition,1558 military expedition
+wd-Q112072876-francis-drake-s-expedition-of-1572-1573,14.18372391,-79.164479002,1572-06-03T00:00:00Z,https://www.wikidata.org/wiki/Q112072876,CC-BY-SA-4.0,Francis Drake's expedition of 1572–1573,expedition,1572–1573 English expedition in the Caribbean Sea
+wd-Q98768726-ottoman-expedition-against-the-druze,33.69555556,35.57916667,1585-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q98768726,CC-BY-SA-4.0,Ottoman expedition against the Druze,expedition,1585 military expedition
+wd-Q957491-singeing-the-king-of-spain-s-beard,36.535,-6.2975,1587-04-12T00:00:00Z,https://www.wikidata.org/wiki/Q957491,CC-BY-SA-4.0,Singeing the King of Spain's Beard,expedition,1587 series of attacks by Francis Drake against the Spanish
+wd-Q145934-english-armada,38.7,-9.18333,1589-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q145934,CC-BY-SA-4.0,English Armada,expedition,1589 fleet of warships sent to Spain by Queen Elizabeth I of England
+wd-Q7573363-spanish-expedition-to-formosa,25.133333333,121.733333333,1626-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7573363,CC-BY-SA-4.0,Spanish expedition to Formosa,expedition,1626 military expedition
+wd-Q112136746-jan-janszoon-van-hoorn-s-expedition-of-1633,18.102036294,-89.688023285,1633-04-26T00:00:00Z,https://www.wikidata.org/wiki/Q112136746,CC-BY-SA-4.0,Jan Janszoon van Hoorn's expedition of 1633,expedition,1633 Dutch privateering voyage against Mexico
+wd-Q5037054-capture-of-saint-martin,18.028967,-63.044733,1633-06-25T00:00:00Z,https://www.wikidata.org/wiki/Q5037054,CC-BY-SA-4.0,Capture of Saint Martin,expedition,1633 naval battle of the Eighty Years' War
+wd-Q112083686-capture-of-tortuga,20.004602721,-72.711911066,1635-01-21T00:00:00Z,https://www.wikidata.org/wiki/Q112083686,CC-BY-SA-4.0,Capture of Tortuga,expedition,1635 military expedition against Anglo-French Tortuga
+wd-Q6059673-invasion-of-jamaica,17.955,-76.8675,1655-05-27T00:00:00Z,https://www.wikidata.org/wiki/Q6059673,CC-BY-SA-4.0,Invasion of Jamaica,expedition,1655 invasion of Jamaica by the English
+wd-Q3062384-djidjelli-expedition,36.820555555,5.766666666,1664-07-22T00:00:00Z,https://www.wikidata.org/wiki/Q3062384,CC-BY-SA-4.0,Djidjelli expedition,expedition,1664 military expedition by Louis XIV to seize the port of Djidjelli
+wd-Q11688154-henry-morgan-s-panama-expedition,9.0075,-79.485,1670-12-16T00:00:00Z,https://www.wikidata.org/wiki/Q11688154,CC-BY-SA-4.0,Henry Morgan's Panama expedition,expedition,1670–1671 attack on Panama
+wd-Q109024298-constantine-campaign,36.35,6.6,1699-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q109024298,CC-BY-SA-4.0,Constantine campaign,expedition,1699–1700 military expedition and siege in Algeria
+wd-Q107354224-oran-expedition,35.622900681,-0.328469545,1703-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q107354224,CC-BY-SA-4.0,Oran Expedition,expedition,
+wd-Q5082999-lefebvre-s-charles-town-expedition,32.75,-79.97,1706-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q5082999,CC-BY-SA-4.0,Lefebvre's Charles Town expedition,expedition,1706 French-Spanish military expedition
+wd-Q108920499-cabinda-expedition,-5.550277777,12.183888888,1723-09-23T00:00:00Z,https://www.wikidata.org/wiki/Q108920499,CC-BY-SA-4.0,Cabinda expedition,expedition,1723 military expedition
+wd-Q131626186-affair-of-porto-novo,11.49,79.76,1733-10-20T00:00:00Z,https://www.wikidata.org/wiki/Q131626186,CC-BY-SA-4.0,Affair of Porto Novo,expedition,1733–1734 Anglo-French attack on Porto Novo
+wd-Q85789793-northwest-passage-expedition-of-1741,65.522959,-88.832844,1741-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q85789793,CC-BY-SA-4.0,Northwest Passage expedition of 1741,expedition,
+wd-Q3062404-louisbourg-expedition,45.8924,-59.9855,1757-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3062404,CC-BY-SA-4.0,Louisbourg Expedition,expedition,cancelled British plan to capture Louisbourg during the Seven Years' War
+wd-Q7414580-san-juan-expedition,11.01916667,-84.39638889,1780-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7414580,CC-BY-SA-4.0,San Juan Expedition,expedition,expedition in the American War of Independence
+wd-Q1283625-french-expedition-to-sardinia,40,9,1792-12-21T00:00:00Z,https://www.wikidata.org/wiki/Q1283625,CC-BY-SA-4.0,French expedition to Sardinia,expedition,1793 military expedition during the War of the First Coalition
+wd-Q15262148-newfoundland-expedition,52.62444444,-59.685,1796-08-28T00:00:00Z,https://www.wikidata.org/wiki/Q15262148,CC-BY-SA-4.0,Newfoundland expedition,expedition,1796 action of the War of the First Coalition
+wd-Q138022960-portuguese-expedition-to-tripoli,32.904166666,13.203055555,1799-05-11T00:00:00Z,https://www.wikidata.org/wiki/Q138022960,CC-BY-SA-4.0,Portuguese expedition to Tripoli,expedition,1799 military expedition
+wd-Q3393951-ferrol-expedition,43.479796,-8.297534,1800-08-25T00:00:00Z,https://www.wikidata.org/wiki/Q3393951,CC-BY-SA-4.0,Ferrol Expedition,expedition,
+wd-Q176653-baudin-expedition-to-australia,-35.8,136.58333333,1800-10-19T00:00:00Z,https://www.wikidata.org/wiki/Q176653,CC-BY-SA-4.0,Baudin expedition to Australia,expedition,French expedition to map the coast of Australia
+wd-Q505802-lewis-and-clark-expedition,38.80272,-90.10125,1804-05-14T00:00:00Z,https://www.wikidata.org/wiki/Q505802,CC-BY-SA-4.0,Lewis and Clark Expedition,expedition,American overland expedition to the Pacific coast
+wd-Q134522790-british-expedition-to-palembang,-2.9923,104.7597,1812-04-17T00:00:00Z,https://www.wikidata.org/wiki/Q134522790,CC-BY-SA-4.0,British expedition to Palembang,expedition,1812 military expedition
+wd-Q134384553-sambas-expeditions,1.361666666,109.315,1812-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q134384553,CC-BY-SA-4.0,Sambas expeditions,expedition,1812–1813 military expeditions
+wd-Q134522823-buleleng-expedition,-8.1266,115.0969,1814-05-12T00:00:00Z,https://www.wikidata.org/wiki/Q134522823,CC-BY-SA-4.0,Buleleng expedition,expedition,1814 military expedition
+wd-Q135772997-british-expedition-to-makassar,-5.1308,119.4215,1814-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q135772997,CC-BY-SA-4.0,British expedition to Makassar,expedition,1814 military expedition
+wd-Q4972547-broadway-expedition,22.78631111,113.27178889,1841-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q4972547,CC-BY-SA-4.0,Broadway expedition,expedition,
+wd-Q6099653-ivory-coast-expedition,4.676944444,-7.076111111,1842-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q6099653,CC-BY-SA-4.0,Ivory Coast Expedition,expedition,1842 military expedition
+wd-Q5453007-first-fiji-expedition,-17.624166666,177.452777777,1855-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q5453007,CC-BY-SA-4.0,First Fiji Expedition,expedition,1855 military expedition
+wd-Q6117098-jackson-expedition,32.310277777,-90.203611111,1863-07-05T00:00:00Z,https://www.wikidata.org/wiki/Q6117098,CC-BY-SA-4.0,Jackson Expedition,expedition,military campaign during the American Civil War
+wd-Q17108942-smith-s-expedition-to-tupelo,34.255666666,-88.737,1864-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q17108942,CC-BY-SA-4.0,Smith's Expedition to Tupelo,expedition,military campaign during the American Civil War
+wd-Q6123777-second-chilo-expedition,-42.6,-73.95,1866-02-17T00:00:00Z,https://www.wikidata.org/wiki/Q6123777,CC-BY-SA-4.0,Second Chiloé Expedition,expedition,
+wd-Q15221555-second-german-north-polar-expedition-1869-1870,70.53333333,-21,1869-06-15T00:00:00Z,https://www.wikidata.org/wiki/Q15221555,CC-BY-SA-4.0,Second German North Polar Expedition (1869-1870),expedition,second arctic German expedition
+wd-Q4985846-buffalo-soldier-tragedy-of-1877,33.296145,-102.2259488,1877-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4985846,CC-BY-SA-4.0,Buffalo Soldier tragedy of 1877,expedition,1877 U.S. military incident
+wd-Q16890896-sikkim-expedition,27.266667,88.8,1888-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q16890896,CC-BY-SA-4.0,Sikkim Expedition,expedition,1888 British military expedition to expel Tibetan forces from Sikkim
+wd-Q1265564-dundee-whaling-expedition,-63.5,-55.9167,1892-12-06T00:00:00Z,https://www.wikidata.org/wiki/Q1265564,CC-BY-SA-4.0,Dundee Whaling Expedition,expedition,research expedition
+wd-Q592550-british-expedition-to-tibet,26.08888889,89.27694444,1903-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q592550,CC-BY-SA-4.0,British expedition to Tibet,expedition,expedition to and invasion of Tibet 1903-1904
+wd-Q11964714-denmark-expedition,76.75865278,-18.60743056,1906-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11964714,CC-BY-SA-4.0,Denmark Expedition,expedition,1906–1908 expedition to Greenland
+wd-Q975593-british-antarctic-expedition-1907-1909,-72.25,155.266667,1907-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q975593,CC-BY-SA-4.0,British Antarctic Expedition (1907–1909),expedition,Antarctic expedition
+wd-Q973919-terra-nova-expedition,-77.636042,166.416974,1910-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q973919,CC-BY-SA-4.0,Terra Nova Expedition,expedition,Antarctic research expedition (1910–1913)
+wd-Q4530552-brusilov-expedition,82.925,60.75,1912-09-17T00:00:00Z,https://www.wikidata.org/wiki/Q4530552,CC-BY-SA-4.0,Brusilov Expedition,expedition,Russian maritime expedition to the Arctic
+wd-Q16146801-invasion-of-darfur,13,25,1916-03-16T00:00:00Z,https://www.wikidata.org/wiki/Q16146801,CC-BY-SA-4.0,Invasion of Darfur,expedition,1916 military operation by British Empire and the Sultanate of Egypt
+wd-Q560654-german-caucasus-expedition,41.716667,44.8,1918-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q560654,CC-BY-SA-4.0,German Caucasus Expedition,expedition,1918 research expedition
+wd-Q1631834-shackleton-rowett-expedition,-64.183333333,-46.066666666,1921-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1631834,CC-BY-SA-4.0,Shackleton–Rowett Expedition,expedition,"three-month cruise to the eastern Antarctic, under the leadership"
+wd-Q836048-german-meteor-expedition,-48.26666667,8.26666667,1925-04-16T00:00:00Z,https://www.wikidata.org/wiki/Q836048,CC-BY-SA-4.0,German Meteor expedition,expedition,research expedition
+wd-Q56278385-harvard-medical-african-expedition-1926-1927,6.246,-10.66,1926-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q56278385,CC-BY-SA-4.0,Harvard Medical African Expedition (1926-1927),expedition,research expedition from 1926 to 1927 to make a biological and medical survey of Liberia and cross Africa from coast to coast
+wd-Q18206493-1934-nanga-parbat-climbing-disaster,35.319,74.626,1934-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18206493,CC-BY-SA-4.0,1934 Nanga Parbat Climbing Disaster,expedition,Himalayan expedition
+wd-Q42578001-march-on-gondar,12.6075,37.459166666,1936-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q42578001,CC-BY-SA-4.0,March on Gondar,expedition,1936 military expedition
+wd-Q2299115-carstensz-expedition,-4.084621699,137.18665674,1936-10-29T00:00:00Z,https://www.wikidata.org/wiki/Q2299115,CC-BY-SA-4.0,Carstensz Expedition,expedition,Dutch geological expedition in Netherlands New Guinee (1936)
+wd-Q106363317-q106363317,-72,5,1938-12-17T00:00:00Z,https://www.wikidata.org/wiki/Q106363317,CC-BY-SA-4.0,Q106363317,expedition,
+wd-Q1747153-norwegian-british-swedish-antarctic-expedition,-71.05,-10.91666667,1949-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1747153,CC-BY-SA-4.0,Norwegian–British–Swedish Antarctic Expedition,expedition,research expedition involving an international team of scientists (1949–1952)
+wd-Q3062437-1950-french-annapurna-expedition,28.59527778,83.82555556,1950-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3062437,CC-BY-SA-4.0,1950 French Annapurna expedition,expedition,"First ascent of an 8,000-metre peak"
+wd-Q3437700-sixth-norwegian-antarctic-expedition,-70.5,-2.53333333,1956-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3437700,CC-BY-SA-4.0,Sixth Norwegian Antarctic Expedition,expedition,"scientific expedition to Queen Maud Land, Antarctica"
+wd-Q5853324-corynthia-expedition,20.747469,-75.473839,1957-05-19T00:00:00Z,https://www.wikidata.org/wiki/Q5853324,CC-BY-SA-4.0,Corynthia expedition,expedition,1957 Cuban revolutionary expedition
+wd-Q64871472-exp-dition-f-minine-de-1959-au-n-pal,28.0543,86.6608,1959-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q64871472,CC-BY-SA-4.0,Expédition féminine de 1959 au Népal,expedition,
+wd-Q56343327-1963-american-mount-everest-expedition,27.988333333,86.925277777,1963-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q56343327,CC-BY-SA-4.0,1963 American Mount Everest Expedition,expedition,first traverse and American ascent
+wd-Q3119888-operaci-n-90,-81.06805556,-40.60027778,1965-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q3119888,CC-BY-SA-4.0,Operación 90,expedition,
+wd-Q85723968-1970-british-annapurna-south-face-expedition,28.59527778,83.82555556,1970-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q85723968,CC-BY-SA-4.0,1970 British Annapurna South Face expedition,expedition,first ascent of Himalayan mountain face using rock climbing techniques
+wd-Q4576079-1974-french-mount-everest-expedition,27.988055555,86.925277777,1974-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4576079,CC-BY-SA-4.0,1974 French Mount Everest Expedition,expedition,Mountaineering expedition
+wd-Q18109188-1975-british-mount-everest-southwest-face-expedition,27.98,86.91,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18109188,CC-BY-SA-4.0,1975 British Mount Everest Southwest Face expedition,expedition,Himalayan ascent requiring rock climbing techniques
+wd-Q23073303-polish-antarctic-expedition,-62.15,-58.46666667,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q23073303,CC-BY-SA-4.0,Polish Antarctic Expedition,expedition,
+wd-Q12253719-apaizac-obeto-expedition,51.731944,-56.425556,2006-06-05T00:00:00Z,https://www.wikidata.org/wiki/Q12253719,CC-BY-SA-4.0,Apaizac Obeto expedition,expedition,Marine itinerary in 2006 between Quebec and Red Bay with 16th century boat and conditions

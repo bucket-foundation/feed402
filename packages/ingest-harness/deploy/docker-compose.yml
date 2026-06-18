@@ -1,0 +1,51 @@
+# feed402.agfarms.dev production stack.
+#
+# Single-subdomain deploy, path-based provider routing. Drops onto the existing
+# AGFarms Hetzner CPX42 box alongside Caddy + the x402 gateway.
+#
+# Required env (deploy/.env):
+#   FEED402_FACILITATOR_URL=https://x402-research.agfarms.dev/x402   # or leave empty for stub mode
+services:
+  ingest-harness:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    image: feed402/ingest-harness:0.1.0
+    restart: unless-stopped
+    environment:
+      FEED402_FACILITATOR_URL: ${FEED402_FACILITATOR_URL:-}
+    # No --host-suffix → everything routed via /p/<provider>/...
+    command:
+      - "node"
+      - "dist/serve-all.js"
+      - "--datasets-root"
+      - "./datasets"
+      - "--port"
+      - "4400"
+    expose:
+      - "4400"
+    networks:
+      - feed402
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - ingest-harness
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - feed402
+
+networks:
+  feed402:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:

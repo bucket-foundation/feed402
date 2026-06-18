@@ -1,0 +1,33 @@
+{
+  "name": "@feed402/ingest-harness",
+  "version": "0.1.0",
+  "description": "CSV+manifest → feed402/0.2-compliant x402 endpoint. Used by Bucket Foundation domain datasets.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "feed402-serve": "./dist/cli.js",
+    "feed402-serve-all": "./dist/serve-all.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "tsx test/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@x402/core": "^2.11.0",
+    "@x402/evm": "^2.11.0",
+    "@x402/hono": "^2.11.0",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

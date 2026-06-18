@@ -1,0 +1,14 @@
+{
+  "kept": 10401,
+  "skipped": 21149,
+  "indicators": [
+    "FB.AST.NPER.ZS",
+    "FB.BNK.CAPA.ZS",
+    "GFDD.SI.05",
+    "FS.AST.PRVT.GD.ZS",
+    "FB.CBK.DPTR.P3"
+  ],
+  "countries": 158,
+  "chunks": 158,
+  "generated_at": "2026-04-27T16:30:16.076Z"
+}

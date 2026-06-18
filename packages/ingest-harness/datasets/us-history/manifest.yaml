@@ -1,0 +1,7 @@
+name: us-history
+version: 0.1.0
+chain: base-sepolia
+wallet: 0x0000000000000000000000000000000000000000
+citation_policy: CC-BY-SA-4.0
+contact: ops@bucket.foundation
+schema_url: https://us-history.feed402.dev/schema.json

@@ -1,0 +1,13 @@
+id,lat,lon,timestamp,source_url,license,title,polity,kind
+fall-of-rome,41.9028,12.4964,0476-09-04T00:00:00Z,https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire,CC-BY-SA-4.0,Fall of Western Roman Empire,western-rome,collapse
+magna-carta,51.4435,-0.5667,1215-06-15T00:00:00Z,https://en.wikipedia.org/wiki/Magna_Carta,CC-BY-SA-4.0,Magna Carta sealed,england,charter
+black-death-arrival,38.1157,13.3615,1347-10-01T00:00:00Z,https://en.wikipedia.org/wiki/Black_Death,CC-BY-SA-4.0,Black Death reaches Sicily,kingdom-of-sicily,plague
+fall-of-constantinople,41.0082,28.9784,1453-05-29T00:00:00Z,https://en.wikipedia.org/wiki/Fall_of_Constantinople,CC-BY-SA-4.0,Fall of Constantinople,byzantium,collapse
+columbus-landfall,23.0876,-74.5036,1492-10-12T00:00:00Z,https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus,CC-BY-SA-4.0,Columbus landfall in Bahamas,castile,contact
+peace-of-westphalia,51.9626,7.6256,1648-10-24T00:00:00Z,https://en.wikipedia.org/wiki/Peace_of_Westphalia,CC-BY-SA-4.0,Peace of Westphalia,holy-roman-empire,treaty
+us-declaration,39.9489,-75.1500,1776-07-04T00:00:00Z,https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence,CC-BY-SA-4.0,US Declaration of Independence,united-states,founding
+french-revolution,48.8534,2.3488,1789-07-14T00:00:00Z,https://en.wikipedia.org/wiki/French_Revolution,CC-BY-SA-4.0,Storming of the Bastille,france,revolution
+meiji-restoration,35.0116,135.7681,1868-01-03T00:00:00Z,https://en.wikipedia.org/wiki/Meiji_Restoration,CC-BY-SA-4.0,Meiji Restoration,japan,reform
+sarajevo,43.8563,18.4131,1914-06-28T00:00:00Z,https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand,CC-BY-SA-4.0,Assassination at Sarajevo,austria-hungary,trigger
+moon-landing,28.6082,-80.6041,1969-07-20T00:00:00Z,https://en.wikipedia.org/wiki/Apollo_11,CC-BY-SA-4.0,Apollo 11 launch site (landing was at Mare Tranquillitatis),united-states,milestone
+berlin-wall-falls,52.5163,13.3777,1989-11-09T00:00:00Z,https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall,CC-BY-SA-4.0,Fall of the Berlin Wall,east-germany,collapse

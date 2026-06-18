@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>feed402.agfarms.dev — paid-per-row data over x402</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Geo + time coded datasets — pharmaceuticals, world history, banking, constitutions — sold by the row over the x402 payment protocol.">
+<style>
+  :root {
+    --bg: #05060c;
+    --fg: #d8e0ee;
+    --dim: #6f7d92;
+    --line: #1f2a3a;
+    --accent: #91d3ff;
+    --accent2: #cfd9ec;
+  }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+  body { line-height: 1.55; }
+  main { max-width: 880px; margin: 0 auto; padding: 56px 28px 96px; }
+  h1 { font-size: 28px; font-weight: 700; margin: 0 0 6px 0; letter-spacing: 0.01em; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--accent); margin-top: 56px; margin-bottom: 12px; font-weight: 600; }
+  p, li { font-size: 14px; }
+  small.tag { color: var(--dim); font-size: 12px; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: var(--accent); }
+  .lede { font-size: 16px; color: var(--accent2); margin-bottom: 8px; }
+  .stats { display: flex; gap: 32px; margin: 32px 0 0 0; padding: 18px 22px; border: 1px solid var(--line); border-radius: 6px; background: rgba(20,30,46,0.4); flex-wrap: wrap; }
+  .stat .n { font-size: 22px; font-weight: 700; color: var(--accent2); }
+  .stat .l { font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dim); }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+  td, th { padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  th { color: var(--dim); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; }
+  td.r { text-align: right; font-variant-numeric: tabular-nums; color: var(--accent2); }
+  pre { background: rgba(20,30,46,0.4); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; overflow-x: auto; font-size: 12.5px; line-height: 1.5; }
+  pre code .c  { color: var(--dim); }
+  pre code .k  { color: var(--accent); }
+  pre code .s  { color: #c8e6c9; }
+  .pill { display: inline-block; padding: 1px 8px; border: 1px solid var(--line); border-radius: 100px; font-size: 11px; color: var(--dim); margin-right: 6px; }
+  .ctas { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
+  .ctas a { display: inline-block; padding: 9px 16px; border: 1px solid var(--accent); border-radius: 4px; color: var(--accent); border-bottom: 1px solid var(--accent); }
+  .ctas a:hover { background: var(--accent); color: var(--bg); }
+  footer { margin-top: 80px; font-size: 11px; color: var(--dim); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <small class="tag">bucket foundation · build the past · build history</small>
+  <h1>feed402.agfarms.dev</h1>
+  <p class="lede">Geo + time coded primary research, sold by the row over the x402 payment protocol.</p>
+  <p>Every dataset answers <code>/raw</code>, <code>/query</code>, <code>/insight</code> on the same wire shape. Every response carries a mandatory citation envelope per <a href="https://github.com/gianyrox/feed402/blob/master/SPEC.md">feed402/0.2</a>. Every row is renderable on a globe with a time slider scrubbing 3000 BCE → 2030.</p>
+
+  <div class="stats" id="stats">
+    <div class="stat"><div class="n" id="s-providers">…</div><div class="l">providers</div></div>
+    <div class="stat"><div class="n" id="s-rows">…</div><div class="l">rows</div></div>
+    <div class="stat"><div class="n" id="s-chunks">…</div><div class="l">chunks (BM25)</div></div>
+    <div class="stat"><div class="n">$0.010 / $0.005 / $0.002</div><div class="l">raw / query / insight</div></div>
+  </div>
+
+  <div class="ctas">
+    <a href="/viz/">🌍 open the globe</a>
+    <a href="/index.json">↗ provider index (JSON)</a>
+    <a href="https://github.com/gianyrox/feed402">↗ source on github</a>
+    <a href="https://github.com/gianyrox/feed402/blob/master/SPEC.md">↗ feed402 spec</a>
+  </div>
+
+  <h2>Providers</h2>
+  <table id="providers"><thead>
+    <tr><th>name</th><th>rows</th><th>chunks</th><th>license</th><th>manifest</th></tr>
+  </thead><tbody></tbody></table>
+
+  <h2>How an agent pays for a query</h2>
+  <pre><code><span class="c"># 1. hit the endpoint without payment — get the 402 challenge</span>
+$ curl https://feed402.agfarms.dev/p/world-history/query?bbox=-15,35,40,60
+<span class="s">{"error":"payment_required","price_usd":0.005,"chain":"base-sepolia",...}</span>
+
+<span class="c"># 2. sign an x402 payment payload, replay with X-PAYMENT header</span>
+$ curl -H "x-payment: $(<span class="k">x402-sign</span> '$0.005' base-sepolia 0xYourAddr)" \
+       https://feed402.agfarms.dev/p/world-history/query?bbox=-15,35,40,60
+<span class="s">{"data":{"rows":[...]}, "citation":{...}, "receipt":{"tier":"query","price_usd":0.005,"tx":"0x..."}}</span></code></pre>
+
+  <h2>What's in here</h2>
+  <ul>
+    <li><strong>Pharmaceuticals</strong> — every FDA drug approval w/ sponsor HQ + approval date.</li>
+    <li><strong>World history</strong> — battles, treaties, revolutions, plagues, earthquakes (Wikidata, BCE-aware).</li>
+    <li><strong>US history</strong> — battles, laws, SCOTUS cases, civil rights events.</li>
+    <li><strong>Constitutions</strong> — every national charter w/ adoption year + capital.</li>
+    <li><strong>Math &amp; physics</strong> — birthplaces of every named mathematician + physicist 1500–2010.</li>
+    <li><strong>Banking</strong> — World Bank financial-stability indicators × 158 countries × 25 years.</li>
+    <li><strong>Banking history</strong> — 938 banks, central banks, exchanges by founding date + HQ.</li>
+    <li><strong>World politics</strong> — heads of state, treaties, summits, coups, referendums (1945–present).</li>
+    <li><strong>Medical history</strong> — epidemics, pandemics, outbreaks, famines, diseases.</li>
+    <li><strong>Per-nation</strong> — all of the above, sharded by ISO country (93% polygon-exact).</li>
+  </ul>
+
+  <h2>License</h2>
+  <p>Code is MIT. Spec is CC0. Per-source license decisions live in <a href="https://github.com/gianyrox/feed402/blob/master/packages/ingest-harness/LICENSES.md">LICENSES.md</a>. CC-BY-NC sources (ACLED, Slave Voyages, Constitute, DrugBank) are explicitly excluded.</p>
+
+  <h2>Status</h2>
+  <p>This is feed402 v0.2 reference implementation, running with the <span class="pill">base-sepolia</span> testnet. Mainnet flips on once we have one paying agent. <a href="https://feed402.agfarms.dev/health/global">Live health</a>.</p>
+
+  <footer>
+    bucket.foundation · agfarms · code: <a href="https://github.com/gianyrox/feed402">gianyrox/feed402</a> · built 2026
+  </footer>
+</main>
+
+<script>
+fetch("/index.json").then(r => r.json()).then(d => {
+  document.getElementById("s-providers").textContent = d.providers.length;
+  document.getElementById("s-rows").textContent = d.providers.reduce((s,p)=>s+p.rows,0).toLocaleString();
+  document.getElementById("s-chunks").textContent = d.providers.reduce((s,p)=>s+p.chunks,0).toLocaleString();
+  const tb = document.querySelector("#providers tbody");
+  for (const p of d.providers) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td><strong>${p.name}</strong></td>
+      <td class="r">${p.rows.toLocaleString()}</td>
+      <td class="r">${p.chunks.toLocaleString()}</td>
+      <td><small class="tag">${p.license || "—"}</small></td>
+      <td><a href="${p.manifest}">manifest ↗</a></td>`;
+    tb.appendChild(tr);
+  }
+}).catch(e => { document.getElementById("stats").innerHTML = "<div style='color:#ff6'>provider index unreachable: " + e.message + "</div>"; });
+</script>
+</body>
+</html>

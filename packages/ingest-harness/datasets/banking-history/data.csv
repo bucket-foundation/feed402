@@ -1,0 +1,939 @@
+id,lat,lon,timestamp,source_url,license,name,kind,description
+wd-Q806191-medici-bank,43.771388888,11.254166666,1397-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806191,CC-BY-SA-4.0,Medici Bank,bank,bank of the Medici family
+wd-Q134891586-compagnia-di-firenze,43.771388888,11.254166666,1397-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134891586,CC-BY-SA-4.0,Compagnia di Firenze,bank,italian investment bank and financial services company
+wd-Q46730-banca-monte-dei-paschi-di-siena,43.321429,11.33078,1472-03-13T00:00:00Z,https://www.wikidata.org/wiki/Q46730,CC-BY-SA-4.0,Banca Monte dei Paschi di Siena,bank,Italian bank
+wd-Q3633695-banca-carige,44.407186111,8.933983333,1483-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3633695,CC-BY-SA-4.0,Banca Carige,bank,former Italian bank
+wd-Q73732467-bank-of-venice,45.43908796,12.335262,1587-04-11T00:00:00Z,https://www.wikidata.org/wiki/Q73732467,CC-BY-SA-4.0,Bank of Venice,bank,first national bank in Europe
+wd-Q670792-berenberg-bank,53.55,10,1590-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q670792,CC-BY-SA-4.0,Berenberg Bank,bank,German private bank based in Hamburg
+wd-Q123385399-q123385399,45.133333,7.05,1600-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q123385399,CC-BY-SA-4.0,Q123385399,bank,
+wd-Q478744-bank-of-amsterdam,52.366666666,4.883333333,1609-01-31T00:00:00Z,https://www.wikidata.org/wiki/Q478744,CC-BY-SA-4.0,Bank of Amsterdam,bank,Early (Dutch) bank
+wd-Q23930611-mount-of-piety,50.846666666,4.351666666,1618-09-28T00:00:00Z,https://www.wikidata.org/wiki/Q23930611,CC-BY-SA-4.0,Mount of Piety,bank,mount of piety in Brussels
+wd-Q17622298-banco-del-giro,45.439722222,12.331944444,1619-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17622298,CC-BY-SA-4.0,Banco del Giro,bank,Venetian bank
+wd-Q878301-hamburger-bank,53.55,10,1619-03-02T00:00:00Z,https://www.wikidata.org/wiki/Q878301,CC-BY-SA-4.0,Hamburger Bank,bank,"bank in Germany, 1763-1875"
+wd-Q2009139-oberbank,48.305833333,14.286388888,1650-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2009139,CC-BY-SA-4.0,Oberbank,bank,Austrian banking company
+wd-Q1365713-stockholms-banco,59.329444444,18.068611111,1656-11-30T00:00:00Z,https://www.wikidata.org/wiki/Q1365713,CC-BY-SA-4.0,Stockholms Banco,bank,bank
+wd-Q5097688-child-co,51.507222222,-0.1275,1664-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5097688,CC-BY-SA-4.0,Child & Co.,bank,private bank in the City of London
+wd-Q3338624-q3338624,48.856666666,2.352222222,1667-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3338624,CC-BY-SA-4.0,Q3338624,bank,
+wd-Q564652-sveriges-riksbank,59.33174444,18.06596389,1668-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q564652,CC-BY-SA-4.0,Sveriges Riksbank,bank,central bank of Sweden
+wd-Q3371149-c-hoare-co,51.5139,-0.109819,1672-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3371149,CC-BY-SA-4.0,C. Hoare & Co,bank,"British private bank on Fleet Street, London, founded in 1672"
+wd-Q11354322-mitsui-bank,35.689444444,139.691666666,1680-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11354322,CC-BY-SA-4.0,Mitsui Bank,bank,business
+wd-Q245343-barclays,51.505277777,-0.014444444,1690-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q245343,CC-BY-SA-4.0,Barclays,bank,British bank
+wd-Q3696285-coutts,51.5114,-0.119,1692-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q3696285,CC-BY-SA-4.0,Coutts,bank,private bank and a wealth manager
+wd-Q183231-bank-of-england,51.514239,-0.088588,1694-07-27T00:00:00Z,https://www.wikidata.org/wiki/Q183231,CC-BY-SA-4.0,Bank of England,bank,central bank of the United Kingdom
+wd-Q627381-bank-of-scotland,55.953333333,-3.189166666,1695-07-17T00:00:00Z,https://www.wikidata.org/wiki/Q627381,CC-BY-SA-4.0,Bank of Scotland,bank,"commercial and clearing bank based in Edinburgh, Scotland"
+wd-Q63229914-monte-de-piedad-madrid,40.417806365,-3.706007766,1702-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q63229914,CC-BY-SA-4.0,"Monte de Piedad, Madrid",bank,"financial institution of Madrid, Spain"
+wd-Q1184020-bethmann-bank,50.110555555,8.682222222,1712-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1184020,CC-BY-SA-4.0,Bethmann Bank,bank,German private bank
+wd-Q16531262-banque-mallet,48.856666666,2.352222222,1713-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16531262,CC-BY-SA-4.0,Banque Mallet,bank,French Bank (1713-1966)
+wd-Q28494694-banque-go-in,47.392777777,0.688333333,1714-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28494694,CC-BY-SA-4.0,Banque Goüin,bank,
+wd-Q2747836-banco-etcheverr-a,43.37385694,-8.400027032,1717-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2747836,CC-BY-SA-4.0,Banco Etcheverría,bank,
+wd-Q116821506-mees-zoonen,51.92,4.48,1719-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q116821506,CC-BY-SA-4.0,Mees & Zoonen,bank,bank in Rotterdam
+wd-Q13218598-natwest-group,55.953333333,-3.189166666,1727-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q13218598,CC-BY-SA-4.0,NatWest Group,bank,British banking and insurance holding company
+wd-Q160126-the-royal-bank-of-scotland,55.953333333,-3.189166666,1727-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q160126,CC-BY-SA-4.0,The Royal Bank of Scotland,bank,Britain retail banking institution
+wd-Q108269312-evi-van-lanschot,51.7,5.316666666,1737-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q108269312,CC-BY-SA-4.0,Evi van Lanschot,bank,Investment company
+wd-Q2787088-van-lanschot,51.7,5.316666666,1737-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2787088,CC-BY-SA-4.0,Van Lanschot,bank,bank in the Netherlands
+wd-Q4970300-british-linen-bank,55.953333333,-3.189166666,1746-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4970300,CC-BY-SA-4.0,British Linen Bank,bank,former Scottish bank
+wd-Q26736675-bank-nagelmackers,50.846666666,4.351666666,1747-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q26736675,CC-BY-SA-4.0,Bank Nagelmackers,bank,bank in Belgium
+wd-Q2307658-q2307658,47.766666666,9.295833333,1749-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307658,CC-BY-SA-4.0,Q2307658,bank,
+wd-Q2127453-rahn-bodmer,47.374444444,8.541111111,1750-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2127453,CC-BY-SA-4.0,Rahn & Bodmer,bank,private bank
+wd-Q4229794-commercial-bank-for-merchants,59.95,30.316666666,1754-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4229794,CC-BY-SA-4.0,Commercial Bank for Merchants,bank,bank in the Russian Empire
+wd-Q806751-bankhaus-bondi-maron,51.0493286,13.7381437,1755-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806751,CC-BY-SA-4.0,Bankhaus Bondi & Maron,bank,Defunct private bank in Germany
+wd-Q121872423-bell-cookson-carr-and-airey,54.977777777,-1.613333333,1755-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q121872423,CC-BY-SA-4.0,"Bell, Cookson, Carr and Airey",bank,British banking partnership established in Newcastle upon Tyne (1755-1839)
+wd-Q6984029-neale-james-fordyce-and-down,51.507222222,-0.1275,1757-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6984029,CC-BY-SA-4.0,"Neale, James, Fordyce and Down",bank,British banking house
+wd-Q120489544-thistle-bank-of-scotland,55.861111111,-4.25,1761-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120489544,CC-BY-SA-4.0,Thistle Bank of Scotland,bank,former Scottish bank founded in 1761
+wd-Q806770-bankhaus-l-bbecke,52.5155,13.3938,1761-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806770,CC-BY-SA-4.0,Bankhaus Löbbecke,bank,
+wd-Q4856228-bank-y-llong,52.416666666,-4.066666666,1762-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4856228,CC-BY-SA-4.0,Bank y Llong,bank,Welsh bank (1806–1815)
+wd-Q790455-barings-bank,51.507222222,-0.1275,1762-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q790455,CC-BY-SA-4.0,Barings Bank,bank,English merchant bank
+wd-Q1627524-hope-co,52.366666666,4.883333333,1762-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1627524,CC-BY-SA-4.0,Hope & Co.,bank,Dutch bank with Scottish founders
+wd-Q902027-braunschweigische-landessparkasse,52.269166666,10.521111111,1765-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q902027,CC-BY-SA-4.0,Braunschweigische Landessparkasse,bank,
+wd-Q4831615-ayr-bank,55.463888888,-4.627777777,1769-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4831615,CC-BY-SA-4.0,Ayr Bank,bank,Defunct Scottish bank
+wd-Q806766-bankhaus-kaskel,51.0493286,13.7381437,1771-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806766,CC-BY-SA-4.0,Bankhaus Kaskel,bank,
+wd-Q2264898-preussische-staatsbank,52.516666666,13.383333333,1772-10-14T00:00:00Z,https://www.wikidata.org/wiki/Q2264898,CC-BY-SA-4.0,Preussische Staatsbank,bank,Seehandlung
+wd-Q97010308-peach-fowler-and-co,51.4554,-2.5917,1774-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q97010308,CC-BY-SA-4.0,"Peach, Fowler and Co",bank,"bank in Bristol, trading from Wine Street 1774–1781"
+wd-Q1483574-f-rstlich-castell-sche-bank,49.794444444,9.929444444,1774-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1483574,CC-BY-SA-4.0,Fürstlich Castell'sche Bank,bank,
+wd-Q806193-banco-pastor,43.37385694,-8.400027032,1776-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806193,CC-BY-SA-4.0,Banco Pastor,bank,Spanish banking institution
+wd-Q2554475-bank-insinger-de-beaufort,52.366666666,4.883333333,1779-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2554475,CC-BY-SA-4.0,Bank Insinger de Beaufort,bank,British-Dutch bank
+wd-Q812279-bayerische-staatsbank,49.45184772,11.079249392,1780-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q812279,CC-BY-SA-4.0,Bayerische Staatsbank,bank,central bak of Bavaria
+wd-Q52558309-q52558309,39.216666666,9.116666666,1780-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q52558309,CC-BY-SA-4.0,Q52558309,bank,
+wd-Q806690-bank-of-north-america,39.952777777,-75.163611111,1781-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806690,CC-BY-SA-4.0,Bank of North America,bank,"first chartered bank in the United States (established in 1781), and served as the country's first de facto central bank"
+wd-Q789966-bank-of-spain,40.418267,-3.694872,1782-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q789966,CC-BY-SA-4.0,Bank of Spain,bank,central bank
+wd-Q3633838-saint-charles-national-bank,40.416944444,-3.703333333,1782-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q3633838,CC-BY-SA-4.0,Saint Charles National Bank,bank,
+wd-Q806689-bank-of-ireland,53.349722222,-6.260277777,1783-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806689,CC-BY-SA-4.0,Bank of Ireland,bank,commercial bank operating in Ireland
+wd-Q120497895-paisley-banking-company,55.845555555,-4.423888888,1783-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120497895,CC-BY-SA-4.0,Paisley Banking Company,bank,former Scottish bank (1783-1837) based in Paisley
+wd-Q2882881-banque-adam,50.725555555,1.613888888,1784-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2882881,CC-BY-SA-4.0,Banque Adam,bank,
+wd-Q806767-q806767,49.487777777,8.466111111,1785-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806767,CC-BY-SA-4.0,Q806767,bank,
+wd-Q1802620-landessparkasse-zu-oldenburg,53.143888888,8.213888888,1786-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1802620,CC-BY-SA-4.0,Landessparkasse zu Oldenburg,bank,
+wd-Q7294036-raphaels-bank,51.507222222,-0.1275,1787-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7294036,CC-BY-SA-4.0,Raphaels Bank,bank,small British financial institution
+wd-Q1799085-la-roche-co,47.560555555,7.590555555,1787-10-15T00:00:00Z,https://www.wikidata.org/wiki/Q1799085,CC-BY-SA-4.0,La Roche & Co.,bank,Swiss private bank
+wd-Q1668993-ostpreu-ische-generallandschaftsdirektion,54.716666666,20.5,1788-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1668993,CC-BY-SA-4.0,Ostpreußische Generallandschaftsdirektion,bank,
+wd-Q131982088-city-public-bank,59.216666666,39.9,1788-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131982088,CC-BY-SA-4.0,City Public Bank,bank,"bank in Vologda, Russian Empire"
+wd-Q676520-sal-oppenheim,50.942222222,6.957777777,1789-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q676520,CC-BY-SA-4.0,Sal. Oppenheim,bank,"German private bank founded in 1789 and headquartered in Cologne, Germany"
+wd-Q806763-bank-j-h-stein,50.942222222,6.957777777,1790-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806763,CC-BY-SA-4.0,Bank J. H. Stein,bank,
+wd-Q1892894-q1892894,53.55,10,1790-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1892894,CC-BY-SA-4.0,Q1892894,bank,
+wd-Q112133467-riga-town-discount-bank,56.9475,24.106944444,1794-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q112133467,CC-BY-SA-4.0,Riga Town Discount Bank,bank,business
+wd-Q806754-bankhaus-seeliger,52.162222222,10.536944444,1794-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806754,CC-BY-SA-4.0,Bankhaus Seeliger,bank,
+wd-Q1589170-hauck-aufh-user,50.110555555,8.682222222,1796-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1589170,CC-BY-SA-4.0,Hauck & Aufhäuser,bank,German private bank Aryanized under the Nazis
+wd-Q23787039-bankhaus-z-h-gumpel,52.37609,9.73887,1796-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q23787039,CC-BY-SA-4.0,Bankhaus Z. H. Gumpel,bank,"Private bank founded in Lindhorst in 1799, later in Hanover; liquidated in the course of the ‘Aryanisation’ process from 1938 onwards"
+wd-Q2933300-q2933300,48.856666666,2.352222222,1796-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2933300,CC-BY-SA-4.0,Q2933300,bank,
+wd-Q55630455-prime-ward-king,40.712777777,-74.006111111,1796-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q55630455,CC-BY-SA-4.0,"Prime, Ward & King",bank,
+wd-Q16535073-caisse-d-escompte-du-commerce,48.856666666,2.352222222,1797-11-24T00:00:00Z,https://www.wikidata.org/wiki/Q16535073,CC-BY-SA-4.0,Caisse d'escompte du commerce,bank,French bank (1797-1803)
+wd-Q457241-m-m-warburg-co,53.55,10,1798-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q457241,CC-BY-SA-4.0,M. M. Warburg & Co.,bank,company
+wd-Q1241846-donner-reuschel,53.55,10,1798-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1241846,CC-BY-SA-4.0,Donner & Reuschel,bank,bank headquartered in Hamburg
+wd-Q524629-chase-bank,40.712777777,-74.006111111,1799-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q524629,CC-BY-SA-4.0,Chase Bank,bank,American bank
+wd-Q1346831-ephraim-meyer-sohn,52.374444444,9.738611111,1799-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1346831,CC-BY-SA-4.0,Ephraim Meyer & Sohn,bank,"former bank in Hannover, Germany"
+wd-Q11047329-black-beef-bank,51.995,-3.795,1799-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11047329,CC-BY-SA-4.0,Black Beef Bank,bank,UK business
+wd-Q16531324-q16531324,48.856666666,2.352222222,1799-07-19T00:00:00Z,https://www.wikidata.org/wiki/Q16531324,CC-BY-SA-4.0,Q16531324,bank,
+wd-Q806950-bank-of-france,48.859947,2.342059,1800-01-18T00:00:00Z,https://www.wikidata.org/wiki/Q806950,CC-BY-SA-4.0,Bank of France,bank,central bank of France
+wd-Q2307434-sparkasse-g-ttingen,51.533888888,9.935555555,1801-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307434,CC-BY-SA-4.0,Sparkasse Göttingen,bank,
+wd-Q7431227-scheurleer-zoonen,52.08,4.31,1804-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7431227,CC-BY-SA-4.0,Scheurleer & Zoonen,bank,Dutch banking company
+wd-Q1751833-nassauische-sparkasse,50.0825,8.24,1804-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1751833,CC-BY-SA-4.0,Nassauische Sparkasse,bank,
+wd-Q2307510-sparkasse-koblenz,50.359722222,7.597777777,1804-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307510,CC-BY-SA-4.0,Sparkasse Koblenz,bank,
+wd-Q17130594-william-brandt-s-sons-and-co,51.507222222,-0.1275,1805-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17130594,CC-BY-SA-4.0,William Brandt's Sons and Co,bank,German-English bank active in London from 1805 to 1960s
+wd-Q28001814-jacob-s-h-stern,50.110555555,8.682222222,1805-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28001814,CC-BY-SA-4.0,Jacob S.H. Stern,bank,German Jewish bank Aryanized by the Nazis in 1938
+wd-Q691481-the-pictet-group,46.2,6.15,1805-07-23T00:00:00Z,https://www.wikidata.org/wiki/Q691481,CC-BY-SA-4.0,The Pictet Group,bank,Swiss private bank
+wd-Q13767565-lissa-kann,52.08,4.31,1806-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q13767565,CC-BY-SA-4.0,Lissa & Kann,bank,Dutch bank in the Hague
+wd-Q1340361-state-bank-of-india,19.075833333,72.8775,1806-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q1340361,CC-BY-SA-4.0,State Bank of India,bank,Indian public sector bank and financial services organization
+wd-Q4856067-bank-of-calcutta,22.5675,88.37,1806-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q4856067,CC-BY-SA-4.0,Bank of Calcutta,bank,bank in British Raj
+wd-Q2307349-sparkasse-darmstadt,49.866666666,8.65,1808-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307349,CC-BY-SA-4.0,Sparkasse Darmstadt,bank,
+wd-Q25099410-the-bank-of-washington,38.895,-77.036666666,1809-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q25099410,CC-BY-SA-4.0,The Bank of Washington,bank,"former bank in Washington, D.C."
+wd-Q59268153-m-a-rothschild-s-hne,50.110555555,8.682222222,1810-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q59268153,CC-BY-SA-4.0,M. A. Rothschild & Söhne,bank,former German private bank
+wd-Q5152473-commercial-bank-of-scotland,55.953333333,-3.189166666,1810-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5152473,CC-BY-SA-4.0,Commercial Bank of Scotland,bank,Scottish Bank
+wd-Q109254063-ruthwell-savings-bank,55.00343463,-3.44525295,1810-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q109254063,CC-BY-SA-4.0,Ruthwell Savings Bank,bank,"1810 savings bank, the first of its kind, founded in Ruthwell near Dumfries, Scotland, UK"
+wd-Q3404595-aberystwyth-and-tregaron-bank,52.2196,-3.93517,1810-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3404595,CC-BY-SA-4.0,Aberystwyth and Tregaron Bank,bank,Welsh bank formed in late 18c.
+wd-Q181507-suntrust-banks,33.754444444,-84.389722222,1811-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q181507,CC-BY-SA-4.0,SunTrust Banks,bank,American bank holding company
+wd-Q2507148-q2507148,47.423333333,9.377222222,1811-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2507148,CC-BY-SA-4.0,Q2507148,bank,
+wd-Q857063-citibank,43.546055555,-96.731388888,1812-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q857063,CC-BY-SA-4.0,Citibank,bank,American multinational bank
+wd-Q122143900-banque-rothschild,48.856666666,2.352222222,1812-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q122143900,CC-BY-SA-4.0,Banque Rothschild,bank,former French bank
+wd-Q806758-q806758,51.333333333,6.566666666,1812-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806758,CC-BY-SA-4.0,Q806758,bank,
+wd-Q194060-bank-of-finland,60.172951144,24.962473177,1812-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q194060,CC-BY-SA-4.0,Bank of Finland,bank,the central bank of Finland
+wd-Q116153910-bank-of-america-new-york-city,40.712777777,-74.006111111,1812-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q116153910,CC-BY-SA-4.0,"Bank of America, New York City",bank,"US-Bank, established 1812"
+wd-Q2307494-sparkasse-karlsruhe,49.0096,8.40472,1812-12-12T00:00:00Z,https://www.wikidata.org/wiki/Q2307494,CC-BY-SA-4.0,Sparkasse Karlsruhe,bank,bank in the area of Karlsruhe/Germany
+wd-Q1258853-dreyfus-sons-co-ltd-banquiers,47.560555555,7.590555555,1813-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1258853,CC-BY-SA-4.0,"Dreyfus Sons & Co Ltd, Banquiers",bank,
+wd-Q1180205-de-nederlandsche-bank,52.366666666,4.883333333,1814-03-25T00:00:00Z,https://www.wikidata.org/wiki/Q1180205,CC-BY-SA-4.0,De Nederlandsche Bank,bank,The Netherlands' central bank
+wd-Q688112-banque-bonh-te,46.990277777,6.930555555,1815-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q688112,CC-BY-SA-4.0,Banque Bonhôte,bank,Swiss Private bank
+wd-Q108102535-aberdeen-savings-bank,57.15,-2.1,1815-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q108102535,CC-BY-SA-4.0,Aberdeen Savings Bank,bank,"Scottish bank, formed 1815"
+wd-Q670723-austrian-national-bank,48.225277777,16.356944444,1816-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q670723,CC-BY-SA-4.0,Austrian National Bank,bank,Austria’s central bank
+wd-Q5051884-cater-allen,51.507222222,-0.1275,1816-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5051884,CC-BY-SA-4.0,Cater Allen,bank,Subsidiary bank of Santander
+wd-Q17085414-philadelphia-savings-fund-society,39.952777777,-75.163611111,1816-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17085414,CC-BY-SA-4.0,Philadelphia Savings Fund Society,bank,former American bank
+wd-Q117199501-e-j-meyer-bank,52.516666666,13.383333333,1816-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q117199501,CC-BY-SA-4.0,E. J. Meyer Bank,bank,bank in Berlin
+wd-Q72429474-q72429474,47.323055555,5.041944444,1816-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q72429474,CC-BY-SA-4.0,Q72429474,bank,
+wd-Q970769-norges-bank,59.913333333,10.738888888,1816-06-14T00:00:00Z,https://www.wikidata.org/wiki/Q970769,CC-BY-SA-4.0,Norges Bank,bank,central bank of Norway
+wd-Q1243920-ersparniskasse-schaffhausen,47.69653,8.63386,1817-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1243920,CC-BY-SA-4.0,Ersparniskasse Schaffhausen,bank,bank
+wd-Q98381958-northwestern-bank-of-virginia,40.070277777,-80.698611111,1817-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q98381958,CC-BY-SA-4.0,Northwestern Bank of Virginia,bank,bank founded 1817 in the United States
+wd-Q2307753-sparkasse-zu-l-beck,53.869722222,10.686388888,1817-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307753,CC-BY-SA-4.0,Sparkasse zu Lübeck,bank,German savings bank
+wd-Q2882957-rothschild-banking-family-of-france,48.856666666,2.352222222,1817-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2882957,CC-BY-SA-4.0,Rothschild banking family of France,bank,French family of bankers
+wd-Q135338857-sns-bank,52.089025,5.104701,1817-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q135338857,CC-BY-SA-4.0,SNS Bank,bank,"former bank in the Netherlands, later brand of the Volksbank"
+wd-Q806693-bank-of-montreal,43.6486,-79.3817,1817-06-23T00:00:00Z,https://www.wikidata.org/wiki/Q806693,CC-BY-SA-4.0,Bank of Montreal,bank,Canadian investment bank
+wd-Q821760-berliner-sparkasse,52.516666666,13.383333333,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q821760,CC-BY-SA-4.0,Berliner Sparkasse,bank,Bank
+wd-Q4976076-brown-bros-co,39.952777777,-75.163611111,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4976076,CC-BY-SA-4.0,Brown Bros. & Co.,bank,Investment bank
+wd-Q1547738-groupe-caisse-d-pargne,48.856666666,2.352222222,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1547738,CC-BY-SA-4.0,Groupe Caisse d’épargne,bank,French banking group
+wd-Q5330003-eastern-bank,42.360277777,-71.057777777,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5330003,CC-BY-SA-4.0,Eastern Bank,bank,"large bank in New England, Massachusetts"
+wd-Q96197451-spaarbank-rotterdam,51.92,4.48,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q96197451,CC-BY-SA-4.0,Spaarbank Rotterdam,bank,"former bank from Rotterdam, the Netherlands"
+wd-Q2185454-nutsspaarbank-s-gravenhage,52.08,4.31,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2185454,CC-BY-SA-4.0,Nutsspaarbank 's Gravenhage,bank,former Dutch bank
+wd-Q3645421-brown-brothers-harriman-co,40.7086,-74.01,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3645421,CC-BY-SA-4.0,Brown Brothers Harriman & Co.,bank,private investment bank
+wd-Q136358094-newcastle-upon-tyne-savings-bank,54.977777777,-1.613333333,1818-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q136358094,CC-BY-SA-4.0,Newcastle upon Tyne Savings Bank,bank,Financial institution
+wd-Q683252-danmarks-nationalbank,55.67666667,12.58583333,1818-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q683252,CC-BY-SA-4.0,Danmarks Nationalbank,bank,Danish central bank
+wd-Q696867-erste-bank,48.208333333,16.3725,1819-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q696867,CC-BY-SA-4.0,Erste Bank,bank,Austrian bank
+wd-Q1937907-mirabaud-group,46.2,6.15,1819-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1937907,CC-BY-SA-4.0,Mirabaud Group,bank,Swiss private bank
+wd-Q1423495-q1423495,47.208055555,7.5375,1819-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1423495,CC-BY-SA-4.0,Q1423495,bank,
+wd-Q806650-q806650,47.260833333,8.5975,1820-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806650,CC-BY-SA-4.0,Q806650,bank,organization
+wd-Q7395360-s-m-von-rothschild,48.208333333,16.3725,1820-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7395360,CC-BY-SA-4.0,S M von Rothschild,bank,Austrian bank
+wd-Q16535095-caisse-hypoth-caire,48.856666666,2.352222222,1820-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16535095,CC-BY-SA-4.0,Caisse hypothécaire,bank,former French bank
+wd-Q135978333-q135978333,54.942777777,8.863888888,1820-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q135978333,CC-BY-SA-4.0,Q135978333,bank,
+wd-Q806623-q806623,46.94798,7.44743,1821-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806623,CC-BY-SA-4.0,Q806623,bank,
+wd-Q2036125-osts-chsische-sparkasse-dresden,51.0493286,13.7381437,1821-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2036125,CC-BY-SA-4.0,Ostsächsische Sparkasse Dresden,bank,
+wd-Q1385106-kreissparkasse-ravensburg,47.783055555,9.611388888,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1385106,CC-BY-SA-4.0,Kreissparkasse Ravensburg,bank,"bank in the district of Ravensburg, Germany"
+wd-Q18662480-turun-s-st-pankki,60.451666666,22.266944444,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18662480,CC-BY-SA-4.0,Turun Säästöpankki,bank,former Finnish bank
+wd-Q3661909-cassa-di-risparmio-del-veneto,45.407777777,11.873333333,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661909,CC-BY-SA-4.0,Cassa di Risparmio del Veneto,bank,former Italian savings bank
+wd-Q1445030-frankfurter-sparkasse,50.110555555,8.682222222,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1445030,CC-BY-SA-4.0,Frankfurter Sparkasse,bank,
+wd-Q2328081-stadtsparkasse-augsburg,48.368888888,10.897777777,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2328081,CC-BY-SA-4.0,Stadtsparkasse Augsburg,bank,
+wd-Q97579719-q97579719,58.365365715,12.324502708,1822-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q97579719,CC-BY-SA-4.0,Q97579719,bank,
+wd-Q1639934-stadtsparkasse-wuppertal,51.266666666,7.183333333,1822-01-05T00:00:00Z,https://www.wikidata.org/wiki/Q1639934,CC-BY-SA-4.0,Stadtsparkasse Wuppertal,bank,
+wd-Q123259455-q123259455,46.066666666,13.233333333,1822-02-12T00:00:00Z,https://www.wikidata.org/wiki/Q123259455,CC-BY-SA-4.0,Q123259455,bank,
+wd-Q341100-esk-spo-itelna,50.0875,14.421388888,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q341100,CC-BY-SA-4.0,Česká spořitelna,bank,Czech bank
+wd-Q2307270-sparkasse-aachen,50.776207,6.083788,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307270,CC-BY-SA-4.0,Sparkasse Aachen,bank,
+wd-Q2307363-sparkasse-donauw-rth,48.718430555,10.776988888,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307363,CC-BY-SA-4.0,Sparkasse Donauwörth,bank,
+wd-Q18334179-sparkasse-mittelsachsen,50.911944444,13.342777777,1823-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18334179,CC-BY-SA-4.0,Sparkasse Mittelsachsen,bank,
+wd-Q7573579-sparebank-1-smn,63.44,10.4,1823-05-26T00:00:00Z,https://www.wikidata.org/wiki/Q7573579,CC-BY-SA-4.0,SpareBank 1 SMN,bank,Norwegian savings bank
+wd-Q3661915-cariplo,45.468912,9.188851,1823-06-12T00:00:00Z,https://www.wikidata.org/wiki/Q3661915,CC-BY-SA-4.0,Cariplo,bank,Italian bank
+wd-Q1314048-sparkasse-eichst-tt,48.891944444,11.183888888,1823-11-24T00:00:00Z,https://www.wikidata.org/wiki/Q1314048,CC-BY-SA-4.0,Sparkasse Eichstätt,bank,
+wd-Q12002175-sparebanken-pluss,58.14672222,7.99561111,1824-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q12002175,CC-BY-SA-4.0,Sparebanken Pluss,bank,savings bank
+wd-Q2307552-q2307552,47.987777777,10.181111111,1824-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307552,CC-BY-SA-4.0,Q2307552,bank,
+wd-Q1438593-stadtsparkasse-m-nchen,48.1372,11.5754,1824-01-02T00:00:00Z,https://www.wikidata.org/wiki/Q1438593,CC-BY-SA-4.0,Stadtsparkasse München,bank,public savings bank of Munich
+wd-Q1423788-stadtsparkasse-d-sseldorf,51.225555555,6.776666666,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1423788,CC-BY-SA-4.0,Stadtsparkasse Düsseldorf,bank,"Sparkasse in Düsseldorf, Germany"
+wd-Q1740314-keybank,41.499166666,-81.694722222,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1740314,CC-BY-SA-4.0,KeyBank,bank,"American regional bank headquartered in Cleveland, Ohio"
+wd-Q1555572-steierm-rkische-sparkasse,47.070833333,15.438611111,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1555572,CC-BY-SA-4.0,Steiermärkische Sparkasse,bank,business
+wd-Q6970914-national-bank-of-scotland,55.953333333,-3.189166666,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6970914,CC-BY-SA-4.0,National Bank of Scotland,bank,former Scottish commercial bank (1825-1958) based in Edinburgh
+wd-Q131228458-charlotte-county-bank,45.073988888,-67.052088888,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228458,CC-BY-SA-4.0,Charlotte County Bank,bank,"former bank based in St. Andrews, New Brunswick, Canada"
+wd-Q1152211-q1152211,46.94798,7.44743,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1152211,CC-BY-SA-4.0,Q1152211,bank,
+wd-Q1337936-sparkasse-allg-u,47.733333333,10.316666666,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1337936,CC-BY-SA-4.0,Sparkasse Allgäu,bank,
+wd-Q1643208-sparkasse-bremen,53.075833333,8.807222222,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1643208,CC-BY-SA-4.0,Sparkasse Bremen,bank,
+wd-Q1767965-sparkasse-bielefeld,52.016666666,8.533333333,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1767965,CC-BY-SA-4.0,Sparkasse Bielefeld,bank,
+wd-Q2307502-q2307502,51.79,6.14,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307502,CC-BY-SA-4.0,Q2307502,bank,
+wd-Q4353753-aktia-bank,60.170833333,24.9375,1825-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4353753,CC-BY-SA-4.0,Aktia Bank,bank,Finnish banking institution
+wd-Q12336591-sparekassen-sj-lland,55.7181,11.7103,1825-12-23T00:00:00Z,https://www.wikidata.org/wiki/Q12336591,CC-BY-SA-4.0,Sparekassen Sjælland,bank,Danish bank
+wd-Q42143219-sparekassen-sj-lland-fyn,55.7181,11.7103,1825-12-23T00:00:00Z,https://www.wikidata.org/wiki/Q42143219,CC-BY-SA-4.0,Sparekassen Sjælland-Fyn,bank,Bank
+wd-Q1559993-q1559993,49.921388888,8.481805555,1826-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1559993,CC-BY-SA-4.0,Q1559993,bank,
+wd-Q15128927-sparkasse-freiburg-n-rdlicher-breisgau,47.994598,7.849706,1826-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15128927,CC-BY-SA-4.0,Sparkasse Freiburg-Nördlicher Breisgau,bank,
+wd-Q1573140-hamburger-sparkasse,53.55,10,1827-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1573140,CC-BY-SA-4.0,Hamburger Sparkasse,bank,Savings Bank in Germany
+wd-Q113903702-belfast-banking-company,54.596666666,-5.93,1827-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q113903702,CC-BY-SA-4.0,Belfast Banking Company,bank,bank in Northern Ireland
+wd-Q1698904-sparkasse-ingolstadt-eichst-tt,48.763055555,11.425,1827-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1698904,CC-BY-SA-4.0,Sparkasse Ingolstadt Eichstätt,bank,
+wd-Q2307547-sparkasse-mainz,49.999444444,8.273611111,1827-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307547,CC-BY-SA-4.0,Sparkasse Mainz,bank,
+wd-Q22674731-niederrheinische-sparkasse-rheinlippe,51.658611111,6.617777777,1827-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q22674731,CC-BY-SA-4.0,Niederrheinische Sparkasse RheinLippe,bank,
+wd-Q806756-bankhaus-carl-f-plump-co,53.075833333,8.807222222,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806756,CC-BY-SA-4.0,Bankhaus Carl F. Plump & CO,bank,"former private bank in Bremen, Germany"
+wd-Q5122694-citizens-financial-group,41.82399,-71.41283,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5122694,CC-BY-SA-4.0,Citizens Financial Group,bank,"American bank headquartered in Providence, Rhode Island"
+wd-Q9164996-bank-polski,52.242192,21.002302,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q9164996,CC-BY-SA-4.0,Bank Polski,bank,former bank in Poland
+wd-Q5223628-javasche-bank,-6.134836,106.813222,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5223628,CC-BY-SA-4.0,Javasche Bank,bank,bank in Netherlands East Indies and Indonesia
+wd-Q806783-bankhaus-sp-ngler,47.8,13.045,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806783,CC-BY-SA-4.0,Bankhaus Spängler,bank,
+wd-Q1488650-q1488650,47.85,10.416666666,1828-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1488650,CC-BY-SA-4.0,Q1488650,bank,
+wd-Q2602290-central-bank-of-cura-ao-and-sint-maarten,12.108,-68.935,1828-02-06T00:00:00Z,https://www.wikidata.org/wiki/Q2602290,CC-BY-SA-4.0,Central Bank of Curaçao and Sint Maarten,bank,
+wd-Q123509685-seamen-s-savings-bank,40.712777777,-74.006111111,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q123509685,CC-BY-SA-4.0,Seamen's Savings Bank,bank,"former bank in the United States that served people in the maritime industry, especially seamen. It was founded in 1829 and operated until 1990"
+wd-Q2882959-banque-veuve-morin-pons,45.7675,4.835,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2882959,CC-BY-SA-4.0,Banque Veuve Morin-Pons,bank,bank from France
+wd-Q12336588-sparekassen-kronjylland,56.456944444,10.039166666,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q12336588,CC-BY-SA-4.0,Sparekassen Kronjylland,bank,
+wd-Q15128978-sparkasse-waldeck-frankenberg,51.271944444,8.873055555,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15128978,CC-BY-SA-4.0,Sparkasse Waldeck-Frankenberg,bank,
+wd-Q31890142-q31890142,56.1748,14.8582,1829-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q31890142,CC-BY-SA-4.0,Q31890142,bank,
+wd-Q125490640-sparekassen-for-helsing-r-og-omegn,56.036,12.6106,1829-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q125490640,CC-BY-SA-4.0,Sparekassen for Helsingør og Omegn,bank,Danish savings bank
+wd-Q1101044-clientis-caisse-d-epargne-cec,47.179166666,7.072222222,1829-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q1101044,CC-BY-SA-4.0,Clientis Caisse d’Epargne CEC,bank,regional bank in Switzerland
+wd-Q7080847-ohio-life-insurance-and-trust-company,39.1,-84.5125,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7080847,CC-BY-SA-4.0,Ohio Life Insurance and Trust Company,bank,American banking institution
+wd-Q106798721-union-bank-of-scotland,55.861111111,-4.25,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q106798721,CC-BY-SA-4.0,Union Bank of Scotland,bank,former Scottish bank
+wd-Q131228232-arman-s-bank-of-montreal,45.5033426,-73.5868411,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228232,CC-BY-SA-4.0,Arman's Bank of Montreal,bank,"former bank in Montreal, Quebec, Canada"
+wd-Q131228378-banque-de-boucherville,45.6,-73.45,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228378,CC-BY-SA-4.0,Banque De Boucherville,bank,"former bank based in Boucherville, Quebec, Canada"
+wd-Q131244305-union-bank-of-montreal,45.5033426,-73.5868411,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131244305,CC-BY-SA-4.0,Union Bank of Montreal,bank,"former bank based in Montreal, Quebec, Canada"
+wd-Q131248103-merchants-bank-of-montreal,45.5033426,-73.5868411,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131248103,CC-BY-SA-4.0,Merchants Bank of Montreal,bank,"former bank based in Montreal, Quebec, Canada"
+wd-Q3661932-cassa-di-risparmio-di-san-miniato,43.683333333,10.85,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661932,CC-BY-SA-4.0,Cassa di Risparmio di San Miniato,bank,Italian savings bank
+wd-Q1230532-sparkasse-einbeck,51.816666666,9.866666666,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1230532,CC-BY-SA-4.0,Sparkasse Einbeck,bank,
+wd-Q2307319-sparkasse-bensheim,49.681111111,8.622777777,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307319,CC-BY-SA-4.0,Sparkasse Bensheim,bank,
+wd-Q2307691-q2307691,49.641527777,8.645,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307691,CC-BY-SA-4.0,Q2307691,bank,
+wd-Q17398310-dbv-s-sparbank,57.63952,18.29594,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17398310,CC-BY-SA-4.0,DBV:s sparbank,bank,
+wd-Q31890140-q31890140,59.849760548,17.638946597,1830-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q31890140,CC-BY-SA-4.0,Q31890140,bank,
+wd-Q1600996-stadtsparkasse-cuxhaven,53.866666666,8.7,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1600996,CC-BY-SA-4.0,Stadtsparkasse Cuxhaven,bank,"savings bank in Cuxhaven, Germany"
+wd-Q106499982-bank-of-new-hampshire,43.5275,-71.4703,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q106499982,CC-BY-SA-4.0,Bank of New Hampshire,bank,"bank with locations in New Hampshire and Maine, USA"
+wd-Q1443207-sparkasse-heidelberg,49.412222222,8.71,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1443207,CC-BY-SA-4.0,Sparkasse Heidelberg,bank,
+wd-Q2307468-sparkasse-hildesheim,52.15,9.95,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307468,CC-BY-SA-4.0,Sparkasse Hildesheim,bank,
+wd-Q108827972-q108827972,56.664286111,16.365633333,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q108827972,CC-BY-SA-4.0,Q108827972,bank,
+wd-Q29094168-national-grand-bank,42.5,-70.858333333,1831-03-17T00:00:00Z,https://www.wikidata.org/wiki/Q29094168,CC-BY-SA-4.0,National Grand Bank,bank,bank in Massachusetts
+wd-Q123701131-q123701131,45.9352,13.6193,1831-05-18T00:00:00Z,https://www.wikidata.org/wiki/Q123701131,CC-BY-SA-4.0,Q123701131,bank,
+wd-Q806782-bankhaus-schelhammer-schattera,48.208333333,16.3725,1832-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q806782,CC-BY-SA-4.0,Bankhaus Schelhammer & Schattera,bank,private bank
+wd-Q5276914-dillon-read-co,40.712777777,-74.006111111,1832-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5276914,CC-BY-SA-4.0,"Dillon, Read & Co.",bank,former investment bank in New York City
+wd-Q120489374-western-bank-of-scotland,55.861111111,-4.25,1832-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120489374,CC-BY-SA-4.0,Western Bank of Scotland,bank,former Scottish bank which failed in 1857
+wd-Q968300-kasseler-sparkasse,51.315777777,9.497916666,1832-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q968300,CC-BY-SA-4.0,Kasseler Sparkasse,bank,
+wd-Q7955609-wsfs-bank,39.748333333,-75.551388888,1832-02-18T00:00:00Z,https://www.wikidata.org/wiki/Q7955609,CC-BY-SA-4.0,WSFS Bank,bank,Delaware banking corporation
+wd-Q451476-scotiabank,43.6492,-79.3794,1832-03-30T00:00:00Z,https://www.wikidata.org/wiki/Q451476,CC-BY-SA-4.0,Scotiabank,bank,Canadian bank based in Toronto
+wd-Q1389719-sparkasse-emden,53.366944444,7.206111111,1833-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1389719,CC-BY-SA-4.0,Sparkasse Emden,bank,German savins bank
+wd-Q9645118-banco-carregosa,41.15,-8.610833333,1833-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q9645118,CC-BY-SA-4.0,Banco Carregosa,bank,"Portuguese private bank founded in 1833 in Porto, specialised in wealth management and and investment solutions."
+wd-Q5604878-greenwich-savings-bank,40.751111111,-73.988055555,1833-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5604878,CC-BY-SA-4.0,Greenwich Savings Bank,bank,"American savings bank in New York City, operated 1833-1981"
+wd-Q1807014-schoellerbank,48.208333333,16.3725,1833-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1807014,CC-BY-SA-4.0,Schoellerbank,bank,Austrian private bank
+wd-Q25381439-citizens-bank-of-louisiana,29.976111111,-90.078333333,1833-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q25381439,CC-BY-SA-4.0,Citizens' Bank of Louisiana,bank,
+wd-Q12002173-sparebank-1-ringerike-hadeland,60.16592,10.25576,1833-08-04T00:00:00Z,https://www.wikidata.org/wiki/Q12002173,CC-BY-SA-4.0,SpareBank 1 Ringerike Hadeland,bank,Norwegian savings bank
+wd-Q1446928-sparkasse-m-nden,51.416666666,9.65,1833-10-18T00:00:00Z,https://www.wikidata.org/wiki/Q1446928,CC-BY-SA-4.0,Sparkasse Münden,bank,savings bank in Germany
+wd-Q5090676-chemung-canal-trust-company,42.085277777,-76.809166666,1833-10-22T00:00:00Z,https://www.wikidata.org/wiki/Q5090676,CC-BY-SA-4.0,Chemung Canal Trust Company,bank,New York State chartered trust company based in Elmira
+wd-Q1101007-q1101007,47.416388888,8.05,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1101007,CC-BY-SA-4.0,Q1101007,bank,Swiss regional bank
+wd-Q824579-berner-kantonalbank,46.94798,7.44743,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q824579,CC-BY-SA-4.0,Berner Kantonalbank,bank,Swiss bank
+wd-Q4950939-bowery-savings-bank,40.718747,-73.995511,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4950939,CC-BY-SA-4.0,Bowery Savings Bank,bank,New York City bank chartered in 1834
+wd-Q1623858-q1623858,48.086944444,9.216666666,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1623858,CC-BY-SA-4.0,Q1623858,bank,Sparkasse
+wd-Q23641711-commercial-banking-company-of-sydney,-33.867777777,151.21,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q23641711,CC-BY-SA-4.0,Commercial Banking Company of Sydney,bank,former banking company
+wd-Q131228409-commercial-bank-of-new-brunswick,45.2796,-66.0628,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228409,CC-BY-SA-4.0,Commercial Bank of New Brunswick,bank,"former bank based in Saint John, New Brunswick, Canada"
+wd-Q1787778-q1787778,48.463333333,8.411111111,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787778,CC-BY-SA-4.0,Q1787778,bank,
+wd-Q2307358-sparkasse-dieburg,49.8683975,8.928993611,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307358,CC-BY-SA-4.0,Sparkasse Dieburg,bank,
+wd-Q2307612-sparkasse-parchim-l-bz,53.4277155,11.848212396,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307612,CC-BY-SA-4.0,Sparkasse Parchim-Lübz,bank,
+wd-Q18289502-q18289502,50.6,8.95,1834-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18289502,CC-BY-SA-4.0,Q18289502,bank,
+wd-Q806672-bank-of-australasia,-37.814166666,144.963055555,1834-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q806672,CC-BY-SA-4.0,Bank of Australasia,bank,commercial bank in Australia and New Zealand
+wd-Q3567530-westminster-bank,51.507222222,-0.1275,1834-03-10T00:00:00Z,https://www.wikidata.org/wiki/Q3567530,CC-BY-SA-4.0,Westminster Bank,bank,predecessor of National Westminster Bank
+wd-Q1656888-q1656888,48.576944444,10.493888888,1834-06-02T00:00:00Z,https://www.wikidata.org/wiki/Q1656888,CC-BY-SA-4.0,Q1656888,bank,
+wd-Q131247195-newfoundland-savings-bank,47.561388888,-52.711944444,1834-06-12T00:00:00Z,https://www.wikidata.org/wiki/Q131247195,CC-BY-SA-4.0,Newfoundland Savings Bank,bank,"former bank based in St. Johns, Newfoundland, Canada"
+wd-Q9645151-banco-econ-mico,-12.983055555,-38.492777777,1834-07-13T00:00:00Z,https://www.wikidata.org/wiki/Q9645151,CC-BY-SA-4.0,Banco Econômico,bank,
+wd-Q2307525-sparkasse-landsberg-die-en,49.078611111,11.385555555,1834-10-26T00:00:00Z,https://www.wikidata.org/wiki/Q2307525,CC-BY-SA-4.0,Sparkasse Landsberg-Dießen,bank,
+wd-Q812237-bayerische-hypotheken-und-wechsel-bank,48.1375,11.575,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q812237,CC-BY-SA-4.0,Bayerische Hypotheken- und Wechsel-Bank,bank,former German bank
+wd-Q714641-australia-and-new-zealand-banking-group,-37.814166666,144.963055555,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q714641,CC-BY-SA-4.0,Australia and New Zealand Banking Group,bank,Australian banking group
+wd-Q60969367-halmstad-savings-bank,56.673972222,12.857277777,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q60969367,CC-BY-SA-4.0,Halmstad Savings Bank,bank,"Savings Bank in Halmstad, Sweden"
+wd-Q6841941-middlesex-savings-bank,42.283333333,-71.35,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6841941,CC-BY-SA-4.0,Middlesex Savings Bank,bank,financial institution in the United States
+wd-Q122204695-national-bank-of-ireland,51.507222222,-0.1275,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q122204695,CC-BY-SA-4.0,National Bank of Ireland,bank,"founded in London in 1835, becoming The National Bank Limited in 1859"
+wd-Q3127963-hart-s-bank,46.35,-72.55,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3127963,CC-BY-SA-4.0,Hart's Bank,bank,"former bank based in Trois-Rivières, Quebec, Canada"
+wd-Q24936914-q24936914,44.837777777,-0.579444444,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q24936914,CC-BY-SA-4.0,Q24936914,bank,
+wd-Q138302559-q138302559,48.4045,2.70307,1835-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q138302559,CC-BY-SA-4.0,Q138302559,bank,
+wd-Q2883375-banque-du-peuple,45.5033426,-73.5868411,1835-02-12T00:00:00Z,https://www.wikidata.org/wiki/Q2883375,CC-BY-SA-4.0,Banque du Peuple,bank,defunct bank in Montréal
+wd-Q1686884-sparkasse-uecker-randow,53.50627,13.98997,1835-05-11T00:00:00Z,https://www.wikidata.org/wiki/Q1686884,CC-BY-SA-4.0,Sparkasse Uecker-Randow,bank,
+wd-Q125474255-sparekassen-for-roskilde-by-og-omegn,55.641666666,12.080833333,1835-11-03T00:00:00Z,https://www.wikidata.org/wiki/Q125474255,CC-BY-SA-4.0,Sparekassen for Roskilde By og Omegn,bank,Danish savings banks
+wd-Q106914825-north-of-scotland-bank,57.15,-2.1,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q106914825,CC-BY-SA-4.0,North of Scotland Bank,bank,business
+wd-Q16646055-john-munroe-company,40.712777777,-74.006111111,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16646055,CC-BY-SA-4.0,John Munroe & Company,bank,American bank
+wd-Q16839234-glasgow-and-ship-bank,55.861111111,-4.25,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16839234,CC-BY-SA-4.0,Glasgow and Ship Bank,bank,former Scottish bank (1836-43)
+wd-Q108102599-edinburgh-savings-bank,55.953333333,-3.189166666,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q108102599,CC-BY-SA-4.0,Edinburgh Savings Bank,bank,Scottish bank formed 1836
+wd-Q121863833-northumberland-and-durham-district-bank,54.977777777,-1.613333333,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q121863833,CC-BY-SA-4.0,Northumberland and Durham District Bank,bank,British bank (1836-1857)
+wd-Q131228299-bank-of-fredericton,45.95,-66.666666666,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228299,CC-BY-SA-4.0,Bank of Fredericton,bank,"former bank based in Fredericton, New Brunswick, Canada"
+wd-Q131244359-st-stephen-s-bank,45.192222222,-67.277222222,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131244359,CC-BY-SA-4.0,St. Stephen's Bank,bank,"former bank based in St. Stephen, New Brunswick, Canada"
+wd-Q131246601-niagara-suspension-bridge-bank,43.165,-79.055833333,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131246601,CC-BY-SA-4.0,Niagara Suspension Bridge Bank,bank,"former bank based in Queenston, Ontario, Canada"
+wd-Q131250654-gore-bank,43.256666666,-79.869166666,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131250654,CC-BY-SA-4.0,Gore Bank,bank,"former bank based in Hamilton, Ontario, Canada"
+wd-Q131251735-city-bank-of-st-john,45.2796,-66.0628,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131251735,CC-BY-SA-4.0,City Bank of St. John,bank,"former bank based in Saint John, New Brunswick, Canada"
+wd-Q1365877-q1365877,47.833333333,11.133333333,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1365877,CC-BY-SA-4.0,Q1365877,bank,
+wd-Q1787794-kreissparkasse-melle,52.203055555,8.336111111,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787794,CC-BY-SA-4.0,Kreissparkasse Melle,bank,
+wd-Q2307290-q2307290,49.9740542,9.1493636,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307290,CC-BY-SA-4.0,Q2307290,bank,
+wd-Q2307590-sparkasse-offenburg-ortenau,48.470833333,7.940833333,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307590,CC-BY-SA-4.0,Sparkasse Offenburg/Ortenau,bank,
+wd-Q2307734-sparkasse-zollernalb,48.273055555,8.850555555,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307734,CC-BY-SA-4.0,Sparkasse Zollernalb,bank,
+wd-Q2328109-stadtsparkasse-kaiserslautern,49.444722222,7.768888888,1836-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2328109,CC-BY-SA-4.0,Stadtsparkasse Kaiserslautern,bank,
+wd-Q2613366-ulster-bank,53.349722222,-6.260277777,1836-02-22T00:00:00Z,https://www.wikidata.org/wiki/Q2613366,CC-BY-SA-4.0,Ulster Bank,bank,Irish commercial bank
+wd-Q125474230-k-ge-savings-bank,55.45,12.183333333,1836-06-25T00:00:00Z,https://www.wikidata.org/wiki/Q125474230,CC-BY-SA-4.0,Køge Savings Bank,bank,Danish savings bank
+wd-Q13125712-the-north-and-south-wales-bank,53.407222222,-2.991666666,1836-08-10T00:00:00Z,https://www.wikidata.org/wiki/Q13125712,CC-BY-SA-4.0,The North and South Wales Bank,bank,independent Welsh Bank taken over in 1908 by the Midland Bank
+wd-Q854142-q854142,47.483611111,8.454166666,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q854142,CC-BY-SA-4.0,Q854142,bank,organization
+wd-Q1419320-union-bank-of-australia,51.507222222,-0.1275,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1419320,CC-BY-SA-4.0,Union Bank of Australia,bank,former banking company in Australia and New Zealand
+wd-Q105763474-sm-lands-bank,57.783333333,14.166666666,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q105763474,CC-BY-SA-4.0,Smålands Bank,bank,earlier Swedish Commercial Bank
+wd-Q3661937-carisbo,44.4916643,11.345992,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661937,CC-BY-SA-4.0,Carisbo,bank,former Italian savings bank
+wd-Q1290982-q1290982,46.583055555,7.649722222,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1290982,CC-BY-SA-4.0,Q1290982,bank,
+wd-Q2307278-q2307278,51.396666666,8.064444444,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307278,CC-BY-SA-4.0,Q2307278,bank,
+wd-Q2307651-q2307651,49.078611111,11.385555555,1837-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307651,CC-BY-SA-4.0,Q2307651,bank,
+wd-Q64217834-flekkefjord-sparebank,58.29722222,6.65861111,1837-05-20T00:00:00Z,https://www.wikidata.org/wiki/Q64217834,CC-BY-SA-4.0,Flekkefjord Sparebank,bank,"mutual savings bank in Flekkefjord, Agder, Norway"
+wd-Q971680-clydesdale-bank,55.861111111,-4.25,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q971680,CC-BY-SA-4.0,Clydesdale Bank,bank,commercial bank in Scotland
+wd-Q1026056-caja-madrid,40.416944444,-3.703333333,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1026056,CC-BY-SA-4.0,Caja Madrid,bank,Spanish savings bank
+wd-Q1435829-rheinhessen-sparkasse,49.6302618,8.3620898,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1435829,CC-BY-SA-4.0,Rheinhessen Sparkasse,bank,"Sparkasse with headquarters in Mainz and Worms, Germany"
+wd-Q1537151-rothschild-co,48.856666666,2.352222222,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1537151,CC-BY-SA-4.0,Rothschild & Co,bank,financial holding company listed on Euronext Paris and controlled by the French and English branch of the Rothschild family
+wd-Q81463056-clydesdale-bank-plc,55.861111111,-4.25,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q81463056,CC-BY-SA-4.0,Clydesdale Bank plc,bank,UK commercial bank
+wd-Q120489460-caledonian-bank,57.483888888,-4.225833333,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120489460,CC-BY-SA-4.0,Caledonian Bank,bank,former Scottish bank
+wd-Q1278775-q1278775,47.318055555,8.5825,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1278775,CC-BY-SA-4.0,Q1278775,bank,
+wd-Q1787808-q1787808,51.133333333,9.55,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787808,CC-BY-SA-4.0,Q1787808,bank,
+wd-Q1787817-kreissparkasse-walsrode,52.8592,9.58525,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787817,CC-BY-SA-4.0,Kreissparkasse Walsrode,bank,
+wd-Q2307321-sparkasse-bochum,51.483333333,7.216666666,1838-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307321,CC-BY-SA-4.0,Sparkasse Bochum,bank,
+wd-Q1815495-leipziger-bank,51.3406321,12.3747329,1838-09-05T00:00:00Z,https://www.wikidata.org/wiki/Q1815495,CC-BY-SA-4.0,Leipziger Bank,bank,Saxony's first private bank of issue (1838-1901)
+wd-Q5123693-city-of-glasgow-bank,55.861111111,-4.25,1839-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5123693,CC-BY-SA-4.0,City of Glasgow Bank,bank,former British bank
+wd-Q131228338-bank-of-lower-canada,46.816111,-71.224167,1839-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131228338,CC-BY-SA-4.0,Bank of Lower Canada,bank,former bank based in Lower Canada
+wd-Q1748989-q1748989,50.566666666,8.5,1839-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1748989,CC-BY-SA-4.0,Q1748989,bank,
+wd-Q2307701-sparkasse-uelzen-l-chow-dannenberg,52.964722222,10.565833333,1839-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307701,CC-BY-SA-4.0,Sparkasse Uelzen Lüchow-Dannenberg,bank,
+wd-Q15848097-q15848097,51.534722222,7.688888888,1839-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15848097,CC-BY-SA-4.0,Q15848097,bank,
+wd-Q1672068-ionian-and-popular-bank-of-greece,51.507222222,-0.1275,1839-01-17T00:00:00Z,https://www.wikidata.org/wiki/Q1672068,CC-BY-SA-4.0,Ionian and Popular Bank of Greece,bank,Greek bank institution
+wd-Q16537780-cassa-dei-risparmi-di-forl-e-della-romagna,44.222777777,12.041388888,1839-06-13T00:00:00Z,https://www.wikidata.org/wiki/Q16537780,CC-BY-SA-4.0,Cassa dei Risparmi di Forlì e della Romagna,bank,defunct Italian savings bank
+wd-Q1940058-mittelbrandenburgische-sparkasse,52.4,13.066666666,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1940058,CC-BY-SA-4.0,Mittelbrandenburgische Sparkasse,bank,"Savings bank in Potsdam, Germany"
+wd-Q1946091-banco-montepio,38.708042,-9.139016,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1946091,CC-BY-SA-4.0,Banco Montepio,bank,Portuguese mutual savings organization
+wd-Q3661921-cassa-di-risparmio-di-cesena,44.133333333,12.233333333,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661921,CC-BY-SA-4.0,Cassa di Risparmio di Cesena,bank,defunct Italian savings bank
+wd-Q3661927-banca-carim,44.059444444,12.568333333,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661927,CC-BY-SA-4.0,Banca Carim,bank,defunct Italian savings bank
+wd-Q854374-bezirkssparkasse-eppingen,49.133333333,8.916666666,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q854374,CC-BY-SA-4.0,Bezirkssparkasse Eppingen,bank,
+wd-Q15848092-sparkasse-krefeld,51.333333333,6.566666666,1840-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15848092,CC-BY-SA-4.0,Sparkasse Krefeld,bank,
+wd-Q18631057-stadt-sparkasse-solingen,51.171944444,7.084722222,1840-05-08T00:00:00Z,https://www.wikidata.org/wiki/Q18631057,CC-BY-SA-4.0,Stadt-Sparkasse Solingen,bank,
+wd-Q2307084-spar-und-leihkasse-zu-bredstedt,54.62,8.964444444,1840-06-28T00:00:00Z,https://www.wikidata.org/wiki/Q2307084,CC-BY-SA-4.0,Spar- und Leihkasse zu Bredstedt,bank,
+wd-Q19381319-melhusbanken,63.166666666,10.3,1840-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q19381319,CC-BY-SA-4.0,MelhusBanken,bank,Norwegian savings bank
+wd-Q1233417-pesti-magyar-kereskedelmi-bank,47.498333333,19.040833333,1841-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1233417,CC-BY-SA-4.0,Pesti Magyar Kereskedelmi Bank,bank,historically prominent bank in Hungary
+wd-Q19835190-simon-hirschland-bank,51.450833333,7.013055555,1841-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q19835190,CC-BY-SA-4.0,Simon Hirschland Bank,bank,"former bank in Essen, Germany"
+wd-Q1816028-national-bank-of-greece,37.984166666,23.728055555,1841-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1816028,CC-BY-SA-4.0,National Bank of Greece,bank,global Greek banking and financial services company
+wd-Q2307353-q2307353,48.835277777,12.964444444,1841-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307353,CC-BY-SA-4.0,Q2307353,bank,
+wd-Q2307400-sparkasse-essen,51.450833333,7.013055555,1841-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307400,CC-BY-SA-4.0,Sparkasse Essen,bank,
+wd-Q1493538-sparkasse-dortmund,51.513888888,7.465277777,1841-01-14T00:00:00Z,https://www.wikidata.org/wiki/Q1493538,CC-BY-SA-4.0,Sparkasse Dortmund,bank,
+wd-Q12002168-modum-sparebank,59.968378,9.991069,1841-02-27T00:00:00Z,https://www.wikidata.org/wiki/Q12002168,CC-BY-SA-4.0,Modum Sparebank,bank,"former savings bank in Norway (1841–2022), merged into SpareBank 1 Sørøst-Norge"
+wd-Q7165802-people-s-united-financial,41.183333333,-73.2,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7165802,CC-BY-SA-4.0,People's United Financial,bank,American bank holding company
+wd-Q2307745-sparkasse-feldkirch,47.238055555,9.598333333,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307745,CC-BY-SA-4.0,Sparkasse Feldkirch,bank,"a savings bank in Feldkirch, Vorarlberg, Austria"
+wd-Q3661911-carispezia,44.108044444,9.828880555,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661911,CC-BY-SA-4.0,Carispezia,bank,Italian bank
+wd-Q1573103-q1573103,51.666666666,8.35,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1573103,CC-BY-SA-4.0,Q1573103,bank,
+wd-Q1636321-sparkasse-neuburg-rain,49.078611111,11.385555555,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1636321,CC-BY-SA-4.0,Sparkasse Neuburg-Rain,bank,
+wd-Q1787770-q1787770,49.701944444,7.325277777,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787770,CC-BY-SA-4.0,Q1787770,bank,
+wd-Q48542168-q48542168,41.780556,3.030556,1842-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q48542168,CC-BY-SA-4.0,Q48542168,bank,
+wd-Q3661919-cassa-di-risparmio-di-asti,44.9,8.206944444,1842-01-25T00:00:00Z,https://www.wikidata.org/wiki/Q3661919,CC-BY-SA-4.0,Cassa di Risparmio di Asti,bank,Italian savings bank
+wd-Q2307671-q2307671,50.875555555,8.016666666,1842-10-17T00:00:00Z,https://www.wikidata.org/wiki/Q2307671,CC-BY-SA-4.0,Q2307671,bank,
+wd-Q11998914-r-rosbanken,62.57468,11.3842,1842-11-12T00:00:00Z,https://www.wikidata.org/wiki/Q11998914,CC-BY-SA-4.0,RørosBanken,bank,Norwegian savings bank
+wd-Q17081155-skue-sparebank,60.5337183,8.2089732,1842-11-26T00:00:00Z,https://www.wikidata.org/wiki/Q17081155,CC-BY-SA-4.0,Skue Sparebank,bank,Norwegian savings bank
+wd-Q17082672-sparebanken-st,59.745361111,10.205969444,1843-01-11T00:00:00Z,https://www.wikidata.org/wiki/Q17082672,CC-BY-SA-4.0,Sparebanken Øst,bank,"bank based in Drammen, Norway"
+wd-Q64152123-voss-sparebank,60.62869,6.41474,1843-11-15T00:00:00Z,https://www.wikidata.org/wiki/Q64152123,CC-BY-SA-4.0,Voss Sparebank,bank,"mutual savings bank in Voss, Vestland, Norway"
+wd-Q17118591-bordier-cie,46.2,6.15,1844-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17118591,CC-BY-SA-4.0,Bordier & Cie,bank,Swiss independent private bankers
+wd-Q17623427-caixa-de-barcelona,41.38285,2.17742,1844-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17623427,CC-BY-SA-4.0,Caixa de Barcelona,bank,Catalan bank
+wd-Q2307372-q2307372,51.432222222,6.761111111,1844-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307372,CC-BY-SA-4.0,Q2307372,bank,
+wd-Q5718058-banco-de-andaluc-a,36.7,-6.116666666,1844-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5718058,CC-BY-SA-4.0,Banco de Andalucía,bank,
+wd-Q8241302-q8241302,41.376797,2.177175,1844-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q8241302,CC-BY-SA-4.0,Q8241302,bank,
+wd-Q125490625-sparekassen-bornholm,55.1,14.7,1844-02-24T00:00:00Z,https://www.wikidata.org/wiki/Q125490625,CC-BY-SA-4.0,Sparekassen Bornholm,bank,
+wd-Q685533-banque-cantonale-vaudoise,46.533333333,6.633333333,1845-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q685533,CC-BY-SA-4.0,Banque cantonale vaudoise,bank,Swiss bank
+wd-Q1537090-q1537090,46.2,6.15,1845-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1537090,CC-BY-SA-4.0,Q1537090,bank,Swiss company
+wd-Q2882897-banque-dupuy-de-parseval,43.404444444,3.696666666,1845-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2882897,CC-BY-SA-4.0,Banque Dupuy de Parseval,bank,French banking institution
+wd-Q893433-sparkasse-bordesholm,54.183333333,10.016666666,1845-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q893433,CC-BY-SA-4.0,Sparkasse Bordesholm,bank,
+wd-Q38928-pnc-financial-services,40.4411,-80.0006,1845-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q38928,CC-BY-SA-4.0,PNC Financial Services,bank,North American bank
+wd-Q1360087-laurentian-bank-of-canada,45.5033426,-73.5868411,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1360087,CC-BY-SA-4.0,Laurentian Bank of Canada,bank,bank in the Canadian province of Quebec
+wd-Q113256532-frosta-sparebank,63.603888888,10.774444444,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q113256532,CC-BY-SA-4.0,Frosta sparebank,bank,Norwegian savings bank
+wd-Q1682874-sparkasse-herford,52.114569444,8.673430555,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1682874,CC-BY-SA-4.0,Sparkasse Herford,bank,
+wd-Q1768338-kreissparkasse-g-ppingen,48.7025,9.652777777,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1768338,CC-BY-SA-4.0,Kreissparkasse Göppingen,bank,
+wd-Q2307371-q2307371,51.5125,10.259722222,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2307371,CC-BY-SA-4.0,Q2307371,bank,
+wd-Q3661926-cassa-di-risparmio-di-rieti,42.40443,12.856702,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3661926,CC-BY-SA-4.0,Cassa di Risparmio di Rieti,bank,
+wd-Q18631341-q18631341,51.29045,7.297180555,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18631341,CC-BY-SA-4.0,Q18631341,bank,
+wd-Q48695806-q48695806,48.856666666,2.352222222,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q48695806,CC-BY-SA-4.0,Q48695806,bank,
+wd-Q136190252-q136190252,51.988611111,9.826944444,1846-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q136190252,CC-BY-SA-4.0,Q136190252,bank,
+wd-Q16912009-aurskog-sparebank,59.92676389,11.46809444,1846-08-24T00:00:00Z,https://www.wikidata.org/wiki/Q16912009,CC-BY-SA-4.0,Aurskog Sparebank,bank,Norwegian savings bank
+wd-Q378372-banco-de-portugal,38.708042,-9.139016,1846-11-19T00:00:00Z,https://www.wikidata.org/wiki/Q378372,CC-BY-SA-4.0,Banco de Portugal,bank,central bank
+wd-Q12313217-q12313217,55.4,10.383333333,1846-12-15T00:00:00Z,https://www.wikidata.org/wiki/Q12313217,CC-BY-SA-4.0,Q12313217,bank,
+wd-Q2109176-preussische-bank,52.519444,13.406667,1847-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2109176,CC-BY-SA-4.0,Preussische Bank,bank,former central bank
+wd-Q10593141-m-lareprovinsernas-enskilda-bank,59.32588611,18.07495556,1847-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10593141,CC-BY-SA-4.0,Mälareprovinsernas Enskilda Bank,bank,Swedish commercial bank
+wd-Q297214-asb-bank,-36.849166666,174.765277777,1847-06-05T00:00:00Z,https://www.wikidata.org/wiki/Q297214,CC-BY-SA-4.0,ASB Bank,bank,bank operating in New Zealand
+wd-Q499707-bnp-paribas,48.856666666,2.352222222,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q499707,CC-BY-SA-4.0,BNP Paribas,bank,French bank and financial services company
+wd-Q64151673-luster-sparebank,61.40472,7.29458,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q64151673,CC-BY-SA-4.0,Luster Sparebank,bank,"mutual savings bank in Luster, Vestland, Norway"
+wd-Q1787798-kreissparkasse-m-nchen-starnberg-ebersberg,48.1375,11.575,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1787798,CC-BY-SA-4.0,Kreissparkasse München Starnberg Ebersberg,bank,German bank
+wd-Q2990875-comptoir-national-d-escompte-de-paris,48.872306,2.346167,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2990875,CC-BY-SA-4.0,Comptoir national d'escompte de Paris,bank,French banking company (1848-1966)
+wd-Q3006209-credit-du-nord,50.631944444,3.0575,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3006209,CC-BY-SA-4.0,Credit du Nord,bank,French retail banking network
+wd-Q43386874-erlanger-son,50.110555555,8.682222222,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q43386874,CC-BY-SA-4.0,Erlanger & Son,bank,European bank
+wd-Q2328098-stadtsparkasse-felsberg,51.134608,9.421536,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2328098,CC-BY-SA-4.0,Stadtsparkasse Felsberg,bank,
+wd-Q2990866-q2990866,49.443055555,1.1025,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2990866,CC-BY-SA-4.0,Q2990866,bank,
+wd-Q12404666-q12404666,44.413361111,26.097777777,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q12404666,CC-BY-SA-4.0,Q12404666,bank,
+wd-Q15848096-sparkasse-neuwied,50.428611111,7.461388888,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15848096,CC-BY-SA-4.0,Sparkasse Neuwied,bank,
+wd-Q17490446-q17490446,55.70134,13.19547,1848-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17490446,CC-BY-SA-4.0,Q17490446,bank,
+wd-Q110089858-inflexion-games,53.533333333,-113.5,http://www.wikidata.org/.well-known/genid/09356f7275501d514d57a93637ae9055,https://www.wikidata.org/wiki/Q110089858,CC-BY-SA-4.0,Inflexion Games,investment-bank,Canadian video game developer
+wd-Q109908775-round-8-studio,37.5,127.25,http://www.wikidata.org/.well-known/genid/1dedb93497abc24aae88fe9275afbf2a,https://www.wikidata.org/wiki/Q109908775,CC-BY-SA-4.0,Round 8 Studio,investment-bank,South Korean video game developer
+wd-Q110619846-attitude-software,36.97205,-122.026252,http://www.wikidata.org/.well-known/genid/8572f374508217288d41cd37ad07bf94,https://www.wikidata.org/wiki/Q110619846,CC-BY-SA-4.0,Attitude Software,investment-bank,American software company
+wd-Q109234150-jetpack-interactive,49.260833333,-123.113888888,http://www.wikidata.org/.well-known/genid/a3284a0c0f5f6148f910a71b8e123a06,https://www.wikidata.org/wiki/Q109234150,CC-BY-SA-4.0,Jetpack Interactive,investment-bank,Canadian video game developer
+wd-Q109378418-pretty-good-privacy-inc,37.5318804,-122.2480219,http://www.wikidata.org/.well-known/genid/a48f17e5f74be6a7c1bd528bb66167fd,https://www.wikidata.org/wiki/Q109378418,CC-BY-SA-4.0,Pretty Good Privacy Inc.,investment-bank,American computer security software company
+wd-Q116823245-paradark-studio,50.061388888,19.937222222,http://www.wikidata.org/.well-known/genid/b7460aa0442ecfe0c8b92b9749fdcdbc,https://www.wikidata.org/wiki/Q116823245,CC-BY-SA-4.0,Paradark Studio,investment-bank,Polish video game developer
+wd-Q110096226-outerloop-games,47.771666666,-122.204444444,http://www.wikidata.org/.well-known/genid/d13f8fd090b55fd55a1186fde0c13f35,https://www.wikidata.org/wiki/Q110096226,CC-BY-SA-4.0,Outerloop Games,investment-bank,American video game developer
+wd-Q11942-eth-zurich,47.376481,8.548282,1855-10-16T00:00:00Z,https://www.wikidata.org/wiki/Q11942,CC-BY-SA-4.0,ETH Zurich,investment-bank,public research university in Zurich
+wd-Q1501379-parker-brothers,42.516845,-70.898503,1883-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1501379,CC-BY-SA-4.0,Parker Brothers,investment-bank,American toy and game manufacturer
+wd-Q8093-q8093,35.011611111,135.768111111,1889-09-23T00:00:00Z,https://www.wikidata.org/wiki/Q8093,CC-BY-SA-4.0,Q8093,investment-bank,Japanese multinational video game and consumer electronics company
+wd-Q219203-nec,35.689444444,139.691666666,1899-07-17T00:00:00Z,https://www.wikidata.org/wiki/Q219203,CC-BY-SA-4.0,NEC,investment-bank,Japanese technology corporation
+wd-Q37156-ibm,41.128611111,-73.707777777,1911-06-16T00:00:00Z,https://www.wikidata.org/wiki/Q37156,CC-BY-SA-4.0,IBM,investment-bank,American multinational technology corporation
+wd-Q58825555-n-v-philips-gloeilampenfabrieken,51.434444444,5.484166666,1912-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q58825555,CC-BY-SA-4.0,N.V. Philips Gloeilampenfabrieken,investment-bank,Dutch company; light bulb maker
+wd-Q5009583-cch,42.1708,-87.8958,1913-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5009583,CC-BY-SA-4.0,CCH,investment-bank,American financial publisher and software company
+wd-Q587502-tandy-corporation,32.756388888,-97.3325,1919-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q587502,CC-BY-SA-4.0,Tandy Corporation,investment-bank,trading company
+wd-Q2592867-wolters-kluwer-deutschland,50.8775,6.876111111,1924-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2592867,CC-BY-SA-4.0,Wolters Kluwer Deutschland,investment-bank,German information services provider
+wd-Q845330-zellers,43.683333333,-79.766666666,1931-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q845330,CC-BY-SA-4.0,Zellers,investment-bank,retail company
+wd-Q2373255-swisslos,47.560555555,7.590555555,1937-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2373255,CC-BY-SA-4.0,Swisslos,investment-bank,Swiss lottery company
+wd-Q80978-hewlett-packard,37.429166666,-122.138055555,1939-07-02T00:00:00Z,https://www.wikidata.org/wiki/Q80978,CC-BY-SA-4.0,Hewlett-Packard,investment-bank,American information technology company
+wd-Q1906072-marvin-glass-and-associates,41.881944444,-87.627777777,1941-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1906072,CC-BY-SA-4.0,Marvin Glass and Associates,investment-bank,"Chicago toy firm, 1941–1988"
+wd-Q29919441-williams-electronics-games,41.881944444,-87.627777777,1943-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q29919441,CC-BY-SA-4.0,Williams Electronics Games,investment-bank,American company specializing in the manufacture of pinball and arcade video games.
+wd-Q489080-automatic-data-processing,40.8199,-74.3102,1949-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q489080,CC-BY-SA-4.0,Automatic Data Processing,investment-bank,American human resources management software company
+wd-Q507269-bandai,35.712611111,139.779972222,1950-07-05T00:00:00Z,https://www.wikidata.org/wiki/Q507269,CC-BY-SA-4.0,Bandai,investment-bank,Japanese toy making and video game company
+wd-Q1054844-taito,35.693888888,139.703416666,1953-08-24T00:00:00Z,https://www.wikidata.org/wiki/Q1054844,CC-BY-SA-4.0,Taito,investment-bank,Japanese toy and video game company
+wd-Q15031115-kadokawa-future-publishing,35.693944444,139.753611111,1954-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15031115,CC-BY-SA-4.0,Kadokawa Future Publishing,investment-bank,Japanese company
+wd-Q1372258-tokuma-shoten,35.633844444,139.715575,1954-03-19T00:00:00Z,https://www.wikidata.org/wiki/Q1372258,CC-BY-SA-4.0,Tokuma Shoten,investment-bank,Japanese publisher
+wd-Q309996-namco,35.561277777,139.716027777,1955-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q309996,CC-BY-SA-4.0,Namco,investment-bank,"Japanese corporation, video game developer and publisher"
+wd-Q89676824-aims-multimedia,28.683333333,77.4,1957-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q89676824,CC-BY-SA-4.0,AIMS Multimedia,investment-bank,Indian creator of educational software
+wd-Q208305-commodore-international,39.9586,-75.605,1958-10-10T00:00:00Z,https://www.wikidata.org/wiki/Q208305,CC-BY-SA-4.0,Commodore International,investment-bank,former North American home computer and electronics manufacturer
+wd-Q54149161-pre-stage-inc,35.694555555,139.982555555,1959-06-09T00:00:00Z,https://www.wikidata.org/wiki/Q54149161,CC-BY-SA-4.0,Pre-Stage Inc.,investment-bank,
+wd-Q912291-mitchell-corporation,35.689444444,139.691666666,1960-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q912291,CC-BY-SA-4.0,Mitchell Corporation,investment-bank,Japanese video game developer
+wd-Q122741-q122741,35.609166666,139.730166666,1960-06-03T00:00:00Z,https://www.wikidata.org/wiki/Q122741,CC-BY-SA-4.0,Q122741,investment-bank,Japanese video game developer and publisher and subsidiary of Sega Sammy Holdings
+wd-Q4409-sinclair-research,51.507222222,-0.1275,1961-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4409,CC-BY-SA-4.0,Sinclair Research,investment-bank,British consumer electronics company
+wd-Q18635267-peterborough-software,52.5725,-0.243055555,1963-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18635267,CC-BY-SA-4.0,Peterborough Software,investment-bank,defunct software and services company
+wd-Q17082666-national-software,33.448333333,-112.073888888,1964-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17082666,CC-BY-SA-4.0,National Software,investment-bank,United States software corporation
+wd-Q513712-pony-canyon,35.689444444,139.691666666,1966-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q513712,CC-BY-SA-4.0,Pony Canyon,investment-bank,Japanese publishing company
+wd-Q847869-aveva,52.208055555,0.1225,1967-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q847869,CC-BY-SA-4.0,AVEVA,investment-bank,British software company
+wd-Q1423707-tietoevry,60.170833333,24.9375,1968-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1423707,CC-BY-SA-4.0,Tietoevry,investment-bank,Finnish software company
+wd-Q66049441-allied-s,25.860555555,-80.293888888,1968-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q66049441,CC-BY-SA-4.0,Allied's,investment-bank,Electronic company
+wd-Q567371-software-ag,49.866666666,8.65,1969-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q567371,CC-BY-SA-4.0,Software AG,investment-bank,German software producer
+wd-Q1045778-esri,34.054722222,-117.1825,1969-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1045778,CC-BY-SA-4.0,Esri,investment-bank,geospatial software & SaaS company
+wd-Q7679542-talis-group,52.48,-1.9025,1969-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7679542,CC-BY-SA-4.0,Talis Group,investment-bank,UK software company
+wd-Q45700-konami,35.689444444,139.691666666,1969-03-21T00:00:00Z,https://www.wikidata.org/wiki/Q45700,CC-BY-SA-4.0,Konami,investment-bank,Japanese entertainment and video game company
+wd-Q30298238-mathtech,38.882222222,-77.171111111,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q30298238,CC-BY-SA-4.0,Mathtech,investment-bank,American tech company (c. 1974-)
+wd-Q7663685-system-simulation,51.507222222,-0.1275,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7663685,CC-BY-SA-4.0,System Simulation,investment-bank,"company in London, United Kingdom"
+wd-Q2633052-nintendo-research-development-1,35,136,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2633052,CC-BY-SA-4.0,Nintendo Research & Development 1,investment-bank,former Japanese video game development team
+wd-Q2668532-nintendo-research-development-2,35,136,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2668532,CC-BY-SA-4.0,Nintendo Research & Development 2,investment-bank,former team within Nintendo that developed software and peripherals
+wd-Q5380509-entex-industries,39.828175,-98.5795,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5380509,CC-BY-SA-4.0,Entex Industries,investment-bank,"former American toy and electronic game manufacturer based in Compton, California"
+wd-Q5653765-apf-electronics-inc,40.713611111,-73.828055555,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5653765,CC-BY-SA-4.0,"APF Electronics, Inc.",investment-bank,American video game developer and video game console manufacturer
+wd-Q2659812-pack-in-video,35.663666666,139.697722222,1970-08-03T00:00:00Z,https://www.wikidata.org/wiki/Q2659812,CC-BY-SA-4.0,Pack-In-Video,investment-bank,video game developer
+wd-Q1637338-nichibutsu,34.69375,135.502111111,1970-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q1637338,CC-BY-SA-4.0,Nichibutsu,investment-bank,Japanese video game manufacturer
+wd-Q570212-anstalt-f-r-kommunale-datenverarbeitung-in-bayern,48.1375,11.575,1971-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q570212,CC-BY-SA-4.0,Anstalt für Kommunale Datenverarbeitung in Bayern,investment-bank,organization
+wd-Q7865507-upl,36.314611111,139.800166666,1972-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7865507,CC-BY-SA-4.0,UPL,investment-bank,Japanese video game developer
+wd-Q28975953-systems-applications-and-products-in-data-processing-united-states,39.952777777,-75.163611111,1972-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28975953,CC-BY-SA-4.0,Systems Applications and Products in Data Processing (United States),investment-bank,
+wd-Q28975959-systems-applications-and-products-in-data-processing-australia,-33.867777777,151.21,1972-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28975959,CC-BY-SA-4.0,Systems Applications and Products in Data Processing (Australia),investment-bank,
+wd-Q10502517-gammafon,59.329444444,18.068611111,1972-02-07T00:00:00Z,https://www.wikidata.org/wiki/Q10502517,CC-BY-SA-4.0,Gammafon,investment-bank,Swedish record label
+wd-Q552581-sap,49.3,8.65,1972-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q552581,CC-BY-SA-4.0,SAP,investment-bank,German software producer
+wd-Q13409231-atari-inc,37.368888888,-122.036944444,1972-06-09T00:00:00Z,https://www.wikidata.org/wiki/Q13409231,CC-BY-SA-4.0,"Atari, Inc.",investment-bank,defunct American video game and home computer company (1972–1984)
+wd-Q207922-atari,37,-120,1972-06-27T00:00:00Z,https://www.wikidata.org/wiki/Q207922,CC-BY-SA-4.0,Atari,investment-bank,brand name owned by Atari Interactive
+wd-Q1703172-juris-gmbh,49.233333333,7,1973-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1703172,CC-BY-SA-4.0,Juris GmbH,investment-bank,legal information services publisher of the Federal Republic of Germany
+wd-Q4765666-anite,51.2834,-0.8456,1973-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4765666,CC-BY-SA-4.0,Anite,investment-bank,"company in Fleet, United Kingdom"
+wd-Q1049502-hudson-soft,35.658027777,139.751527777,1973-05-18T00:00:00Z,https://www.wikidata.org/wiki/Q1049502,CC-BY-SA-4.0,Hudson Soft,investment-bank,Japanese video game publisher
+wd-Q617752-irem,35.694419444,139.773647222,1974-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q617752,CC-BY-SA-4.0,Irem,investment-bank,Japanese video game developer
+wd-Q1403157-wms-industries,41.881944444,-87.627777777,1974-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1403157,CC-BY-SA-4.0,WMS Industries,investment-bank,American gaming company and manufacturer of pinballs and slot machines
+wd-Q10854427-aph-technological-consulting,34.1475,-118.143888888,1974-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10854427,CC-BY-SA-4.0,APh Technological Consulting,investment-bank,
+wd-Q1344080-jaleco,35.689444444,139.691666666,1974-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q1344080,CC-BY-SA-4.0,Jaleco,investment-bank,Japanese video game publisher and developer
+wd-Q207784-square-enix,35.690919444,139.706063888,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q207784,CC-BY-SA-4.0,Square Enix,investment-bank,"Japanese video game developer, publisher, and distribution company"
+wd-Q587270-games-workshop,52.955,-1.149166666,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q587270,CC-BY-SA-4.0,Games Workshop,investment-bank,British maker of miniature wargames
+wd-Q742887-cinematronics,32.798333333,-116.96,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q742887,CC-BY-SA-4.0,Cinematronics,investment-bank,arcade game developer
+wd-Q1343212-enix,35.683889,139.774444,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1343212,CC-BY-SA-4.0,Enix,investment-bank,Japanese video game developer and publisher
+wd-Q1809330-q1809330,44.944166666,-93.093611111,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1809330,CC-BY-SA-4.0,Q1809330,investment-bank,software company
+wd-Q28973181-microsoft-israel,32.155555555,34.842222222,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28973181,CC-BY-SA-4.0,Microsoft Israel,investment-bank,Microsoft branch in Israel
+wd-Q3205974-liverpool-data-research-associates,53.407222222,-2.991666666,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3205974,CC-BY-SA-4.0,Liverpool Data Research Associates,investment-bank,software company
+wd-Q28973183-microsoft-united-kingdom,51.454166666,-0.973055555,1975-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28973183,CC-BY-SA-4.0,Microsoft (United Kingdom),investment-bank,
+wd-Q2283-microsoft,47.669444444,-122.123888888,1975-04-04T00:00:00Z,https://www.wikidata.org/wiki/Q2283,CC-BY-SA-4.0,Microsoft,investment-bank,American multinational technology corporation
+wd-Q600624-ca-technologies,40.8047,-73.1728,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q600624,CC-BY-SA-4.0,CA Technologies,investment-bank,"U.S. software company, also known as Computer Associates"
+wd-Q564275-red-entertainment,35.689444444,139.691666666,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q564275,CC-BY-SA-4.0,Red Entertainment,investment-bank,video game developer and publisher based in Japan
+wd-Q1655072-ivu-traffic-technologies,52.516666666,13.383333333,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1655072,CC-BY-SA-4.0,IVU Traffic Technologies,investment-bank,"company in Berlin, Germany"
+wd-Q1473820-sas-institute,35.778888888,-78.800277777,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1473820,CC-BY-SA-4.0,SAS Institute,investment-bank,American analytics and artificial intelligence company
+wd-Q1931458-micro-focus-international,51.4009,-1.3235,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1931458,CC-BY-SA-4.0,Micro Focus International,investment-bank,former British multinational software and information technology business
+wd-Q58101091-metier-management-systems,51.507222222,-0.1275,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q58101091,CC-BY-SA-4.0,Metier Management Systems,investment-bank,"British company which pioneered computer project management systems in the 1970s and 1980s, was sold in 1985 to Lockheed Corporation"
+wd-Q138749036-recodex,40,-74.5,1976-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q138749036,CC-BY-SA-4.0,RecodeX,investment-bank,American software company specializing in automated legacy code modernization
+wd-Q1172213-data-east,35.699444444,139.636388888,1976-04-20T00:00:00Z,https://www.wikidata.org/wiki/Q1172213,CC-BY-SA-4.0,Data East,investment-bank,former Japanese video game developer and publisher
+wd-Q11104438-unalis,25.068888888,121.533055555,1976-12-02T00:00:00Z,https://www.wikidata.org/wiki/Q11104438,CC-BY-SA-4.0,Unalis,investment-bank,
+wd-Q62027150-stern-electronics-inc,41.881944444,-87.627777777,1977-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q62027150,CC-BY-SA-4.0,"Stern Electronics, Inc.",investment-bank,American arcade game company
+wd-Q2456686-krome-studios-melbourne,-37.814166666,144.963055555,1977-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2456686,CC-BY-SA-4.0,Krome Studios Melbourne,investment-bank,former video game development studio
+wd-Q15070465-sublogic,40.1,-88.25,1977-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15070465,CC-BY-SA-4.0,Sublogic,investment-bank,video game developer
+wd-Q4826391-automata-uk,50.805833333,-1.087222222,1977-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4826391,CC-BY-SA-4.0,Automata UK,investment-bank,video game developer and publisher
+wd-Q1371744-banpresto,35.609166666,139.730166666,1977-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q1371744,CC-BY-SA-4.0,Banpresto,investment-bank,Japanese toy company and video game developer
+wd-Q6522253-lenar,35,136,1977-04-28T00:00:00Z,https://www.wikidata.org/wiki/Q6522253,CC-BY-SA-4.0,Lenar,investment-bank,
+wd-Q941340-muse-software,39.286388888,-76.615,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q941340,CC-BY-SA-4.0,Muse Software,investment-bank,American computer and video game developing company
+wd-Q1091035-success,35.609166666,139.730166666,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1091035,CC-BY-SA-4.0,Success,investment-bank,Japanese video game developer and publisher
+wd-Q1347787-epyx,37.775,-122.419444444,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1347787,CC-BY-SA-4.0,Epyx,investment-bank,video game developer and publisher
+wd-Q7917847-vectorbeam,39.828175,-98.5795,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7917847,CC-BY-SA-4.0,Vectorbeam,investment-bank,arcade game manufacturer
+wd-Q2298387-sun-corporation,35.332083333,136.870666666,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2298387,CC-BY-SA-4.0,Sun Corporation,investment-bank,Japanese video gaming publisher
+wd-Q3023462-synergistic-software,39.828175,-98.5795,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3023462,CC-BY-SA-4.0,Synergistic Software,investment-bank,video game developer
+wd-Q4686510-adventure-international,28.701944444,-81.345,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4686510,CC-BY-SA-4.0,Adventure International,investment-bank,video game publisher
+wd-Q126188663-jade-software-corporation,-43.531111111,172.636111111,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q126188663,CC-BY-SA-4.0,Jade Software Corporation,investment-bank,New Zealand software company
+wd-Q3777372-giochi-preziosi,42.5,12.5,1978-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3777372,CC-BY-SA-4.0,Giochi Preziosi,investment-bank,toy manufacturer
+wd-Q4733343-allumer,35.6415,139.698277777,1978-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q4733343,CC-BY-SA-4.0,Allumer,investment-bank,Japanese video game company
+wd-Q845047-koei,35.450333333,139.634222222,1978-07-25T00:00:00Z,https://www.wikidata.org/wiki/Q845047,CC-BY-SA-4.0,Koei,investment-bank,"Japanese video game publisher, developer, and distributor founded in 1978"
+wd-Q1268871-strategic-simulations,37.368888888,-122.036944444,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1268871,CC-BY-SA-4.0,Strategic Simulations,investment-bank,American video game developer and publisher
+wd-Q930222-sir-tech,44.7,-75.483333333,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q930222,CC-BY-SA-4.0,Sir-Tech,investment-bank,United States based video game developer and publisher
+wd-Q494614-sierra-entertainment,47.614444444,-122.1925,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q494614,CC-BY-SA-4.0,Sierra Entertainment,investment-bank,American video game company
+wd-Q780437-phoenix-technologies,34.1475,-118.143888888,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q780437,CC-BY-SA-4.0,Phoenix Technologies,investment-bank,American software company
+wd-Q16995070-ipl-information-processing-limited,51.381388888,-2.359722222,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16995070,CC-BY-SA-4.0,IPL Information Processing Limited,investment-bank,software companies of the United Kingdom
+wd-Q1939341-finastra,51.507222222,-0.1275,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1939341,CC-BY-SA-4.0,Finastra,investment-bank,FinTech Company
+wd-Q2704059-santa-cruz-operation,36.97205,-122.026252,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2704059,CC-BY-SA-4.0,Santa Cruz Operation,investment-bank,"software company based in Santa Cruz, California"
+wd-Q2044808-ptv-group,49.016666666,8.4,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2044808,CC-BY-SA-4.0,PTV Group,investment-bank,German company
+wd-Q4044250-midas,51.507222222,-0.1275,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4044250,CC-BY-SA-4.0,MIDAS,investment-bank,line of banking system solutions provided by Misys corporation that was initially developed in the 1970s
+wd-Q6279033-jorudan,35.693888888,139.703416666,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6279033,CC-BY-SA-4.0,Jorudan,investment-bank,Japanese video game company
+wd-Q6815220-memex-technology-limited,55.76667,-4.18333,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6815220,CC-BY-SA-4.0,Memex Technology Limited,investment-bank,UK software company
+wd-Q5013276-coda,51.4585,-2.1158,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5013276,CC-BY-SA-4.0,CODA,investment-bank,software company in United Kingdom
+wd-Q5157089-compsoft,51.1498,-0.9769,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5157089,CC-BY-SA-4.0,Compsoft,investment-bank,UK software company
+wd-Q14428-capcom,34.681111111,135.509722222,1979-05-30T00:00:00Z,https://www.wikidata.org/wiki/Q14428,CC-BY-SA-4.0,Capcom,investment-bank,Japanese developer and publisher of video games
+wd-Q742561-infocom,42.375,-71.106111111,1979-06-22T00:00:00Z,https://www.wikidata.org/wiki/Q742561,CC-BY-SA-4.0,Infocom,investment-bank,American company
+wd-Q200491-q200491,34.021944444,-118.481388888,1979-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q200491,CC-BY-SA-4.0,Q200491,investment-bank,American video game publisher
+wd-Q2271746-tose-co,35.011611111,135.768111111,1979-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q2271746,CC-BY-SA-4.0,Tose Co.,investment-bank,Japanese video game developer
+wd-Q671855-bug-byte,53.407222222,-2.991666666,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q671855,CC-BY-SA-4.0,Bug-Byte,investment-bank,"video game company active from 1980—1985, famous for Manic Miner"
+wd-Q995863-broderbund,38.1075,-122.569722222,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q995863,CC-BY-SA-4.0,Broderbund,investment-bank,American software company
+wd-Q1045344-the-learning-company,41.983333333,-91.668611111,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1045344,CC-BY-SA-4.0,The Learning Company,investment-bank,American educational software company
+wd-Q1172285-datasoft,34.25722,-118.60028,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1172285,CC-BY-SA-4.0,Datasoft,investment-bank,video game publisher
+wd-Q760096-culture-brain,35.689444444,139.691666666,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q760096,CC-BY-SA-4.0,Culture Brain,investment-bank,company
+wd-Q17042560-mindcraft,33.8358492,-118.3406288,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17042560,CC-BY-SA-4.0,Mindcraft,investment-bank,video game developer
+wd-Q1756771-psion,51.507222222,-0.1275,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1756771,CC-BY-SA-4.0,Psion,investment-bank,software company
+wd-Q2123113-quicksilva,50.906666666,-1.404444444,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2123113,CC-BY-SA-4.0,Quicksilva,investment-bank,British software publisher
+wd-Q2068881-penguin-software,41.89,-88.31,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2068881,CC-BY-SA-4.0,Penguin Software,investment-bank,1980s video game publisher
+wd-Q29576806-the-software-toolworks,38.1075,-122.569722222,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q29576806,CC-BY-SA-4.0,The Software Toolworks,investment-bank,software developer
+wd-Q54825484-svg-distribution,33.616666666,-117.8975,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q54825484,CC-BY-SA-4.0,SVG Distribution,investment-bank,video game developer and publisher
+wd-Q131631508-qnx-software-systems,45.424722222,-75.695,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131631508,CC-BY-SA-4.0,QNX Software Systems,investment-bank,software company acquired by BlackBerry in 2010
+wd-Q1989672-rockstar-toronto,43.45,-79.683333333,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1989672,CC-BY-SA-4.0,Rockstar Toronto,investment-bank,Canadian video game developer
+wd-Q3009079-mass-media-inc,34.28,-118.888888888,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3009079,CC-BY-SA-4.0,Mass Media Inc.,investment-bank,American independent game developer
+wd-Q3403919-prism-leisure-corporation-plc,51.652222222,-0.080833333,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3403919,CC-BY-SA-4.0,Prism Leisure Corporation Plc,investment-bank,UK distribution and publishing company
+wd-Q3600443-abas-software-ag,49.016666666,8.4,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3600443,CC-BY-SA-4.0,Abas Software AG,investment-bank,software company
+wd-Q3604604-acornsoft,52.208055555,0.1225,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3604604,CC-BY-SA-4.0,Acornsoft,investment-bank,former software division of Acorn Computers
+wd-Q4982198-bubble-bus-software,51.195833333,0.275,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4982198,CC-BY-SA-4.0,Bubble Bus Software,investment-bank,video game publisher
+wd-Q110271758-axiell,61,15,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q110271758,CC-BY-SA-4.0,Axiell,investment-bank,"Axiell’s solution (Collection Management) help institutions with software and services to assist them to manage their collections, encourage reading, preserve cultural heritage, improve learning and increase engagement with the public."
+wd-Q3952239-scisys,51.4585,-2.1158,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3952239,CC-BY-SA-4.0,SciSys,investment-bank,former UK software company
+wd-Q2012641-evryware,47.0425,-122.893055555,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2012641,CC-BY-SA-4.0,Evryware,investment-bank,
+wd-Q10906145-king-s-international-multimedia-co-ltd,25.0125,121.465,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10906145,CC-BY-SA-4.0,"King's International Multimedia Co., Ltd.",investment-bank,
+wd-Q135748003-q135748003,48.5575,7.683055555,1980-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q135748003,CC-BY-SA-4.0,Q135748003,investment-bank,
+wd-Q1296433-technosoft,33.18,129.715,1980-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q1296433,CC-BY-SA-4.0,Technosoft,investment-bank,Japanese video game company
+wd-Q1068734-hal-laboratory,35.693944444,139.753611111,1980-02-21T00:00:00Z,https://www.wikidata.org/wiki/Q1068734,CC-BY-SA-4.0,HAL Laboratory,investment-bank,Japanese video game developer
+wd-Q11320972-db-soft,43.061944444,141.354444444,1980-05-02T00:00:00Z,https://www.wikidata.org/wiki/Q11320972,CC-BY-SA-4.0,dB-SOFT,investment-bank,Japanese software company
+wd-Q2612323-kaneko,35.683555555,139.559527777,1980-06-25T00:00:00Z,https://www.wikidata.org/wiki/Q2612323,CC-BY-SA-4.0,Kaneko,investment-bank,Japanese video game publisher
+wd-Q2634015-adk,35.977388888,139.593194444,1980-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q2634015,CC-BY-SA-4.0,ADK,investment-bank,Japanese video game developer
+wd-Q6782763-nippon-computer-systems,35.689444444,139.691666666,1980-12-25T00:00:00Z,https://www.wikidata.org/wiki/Q6782763,CC-BY-SA-4.0,Nippon Computer Systems,investment-bank,Japanese company
+wd-Q666624-mikro-gen,51.416,-0.749,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q666624,CC-BY-SA-4.0,Mikro-Gen,investment-bank,former British video game developer
+wd-Q1172038-dassault-syst-mes,48.783333333,2.188333333,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1172038,CC-BY-SA-4.0,Dassault Systèmes,investment-bank,"French software company headquartered in Vélizy-Villacoublay, France"
+wd-Q453802-imagic,37.236111111,-121.961666666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q453802,CC-BY-SA-4.0,Imagic,investment-bank,video game developer
+wd-Q1457205-softdisk,32.508055555,-93.762777777,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1457205,CC-BY-SA-4.0,Softdisk,investment-bank,defunct company
+wd-Q1517179-system-3,51.507222222,-0.1275,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1517179,CC-BY-SA-4.0,System 3,investment-bank,British video game developer and publisher
+wd-Q1411344-fidessa,51.507222222,-0.1275,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1411344,CC-BY-SA-4.0,Fidessa,investment-bank,British financial services companies
+wd-Q1924660-metacomco,51.453611111,-2.5975,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1924660,CC-BY-SA-4.0,MetaComCo,investment-bank,English software company
+wd-Q1358743-techn-s-japan-corporation,35.689444444,139.691666666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1358743,CC-BY-SA-4.0,Technōs Japan Corporation,investment-bank,former Japanese video game publisher and developer
+wd-Q7663678-system-sacom,35.689444444,139.691666666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7663678,CC-BY-SA-4.0,System Sacom,investment-bank,Japanese electronics company
+wd-Q10269187-dynacom,-23.550394444,-46.633947222,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10269187,CC-BY-SA-4.0,Dynacom,investment-bank,"Brazilian company of videogames, microcomputers and consumer electronics in the area of telephones (Dynaphone), lighting (Dynalux) and consumer products such as digital cameras, MP3, MP4, MP5 and MP6"
+wd-Q64167842-destiny-software-productions,49.260833333,-123.113888888,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q64167842,CC-BY-SA-4.0,Destiny Software Productions,investment-bank,former video game developer
+wd-Q2375623-synapse-software,37.935833333,-122.347777777,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2375623,CC-BY-SA-4.0,Synapse Software,investment-bank,American video game-developing company
+wd-Q107400881-gallery-systems,40.712777777,-74.006111111,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q107400881,CC-BY-SA-4.0,Gallery Systems,investment-bank,collection management software developer
+wd-Q6770529-mark-of-the-unicorn,42.375,-71.106111111,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6770529,CC-BY-SA-4.0,Mark of the Unicorn,investment-bank,music software and hardware company
+wd-Q3759468-general-computer-corporation,41.636111111,-70.934722222,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3759468,CC-BY-SA-4.0,General Computer Corporation,investment-bank,American hardware and software company
+wd-Q7160591-pegasus-software,52.4,-0.733333333,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7160591,CC-BY-SA-4.0,Pegasus Software,investment-bank,UK software company
+wd-Q7170548-personal-software-services,52.416666666,-1.516666666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7170548,CC-BY-SA-4.0,Personal Software Services,investment-bank,former British video game company acquired by Mirrorsoft
+wd-Q5520107-q5520107,32.948333333,-96.729722222,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5520107,CC-BY-SA-4.0,Q5520107,investment-bank,American video game developer (1981–1983)
+wd-Q25377881-lti-gray-matter,34.270833333,-118.739166666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q25377881,CC-BY-SA-4.0,LTI Gray Matter,investment-bank,
+wd-Q5227451-datamost,34.25722,-118.60028,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5227451,CC-BY-SA-4.0,Datamost,investment-bank,American video game publisher
+wd-Q1142226-nihon-falcom,35.713944444,139.407916666,1981-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q1142226,CC-BY-SA-4.0,Nihon Falcom,investment-bank,Japanese video game developer
+wd-Q979198-icom-simulations,42.1314,-87.9297,1981-03-04T00:00:00Z,https://www.wikidata.org/wiki/Q979198,CC-BY-SA-4.0,ICOM Simulations,investment-bank,company
+wd-Q1469903-sage-group,54.977777777,-1.613333333,1981-04-27T00:00:00Z,https://www.wikidata.org/wiki/Q1469903,CC-BY-SA-4.0,Sage Group,investment-bank,British multinational enterprise accounting software company
+wd-Q11838854-xara,51.507222222,-0.1275,1981-07-25T00:00:00Z,https://www.wikidata.org/wiki/Q11838854,CC-BY-SA-4.0,Xara,investment-bank,UK-based software company founded in 1981
+wd-Q138329936-falcon,35.689444444,139.691666666,1981-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q138329936,CC-BY-SA-4.0,Falcon,investment-bank,Japanese video game company
+wd-Q662567-ariolasoft,51.8,8.433333333,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q662567,CC-BY-SA-4.0,Ariolasoft,investment-bank,German video game developer
+wd-Q878724-bit-corporation,25.0375,121.5625,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q878724,CC-BY-SA-4.0,Bit Corporation,investment-bank,Taiwanese game developer and console manufacturer
+wd-Q907331-distinctive-software,49.260833333,-123.113888888,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q907331,CC-BY-SA-4.0,Distinctive Software,investment-bank,Canadian video game developer
+wd-Q577108-fox-interactive,34.05223,-118.24368,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q577108,CC-BY-SA-4.0,Fox Interactive,investment-bank,American video game publisher and developer
+wd-Q752317-ea-vancouver,49.25,-122.949167,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q752317,CC-BY-SA-4.0,EA Vancouver,investment-bank,"video game developer based in Vancouver, British Columbia, Canada"
+wd-Q256907-argonaut-games,51.6185,-0.2729,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q256907,CC-BY-SA-4.0,Argonaut Games,investment-bank,British video game developer
+wd-Q17048327-us-games,37.35,-121.966666666,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17048327,CC-BY-SA-4.0,US Games,investment-bank,video games company
+wd-Q7777579-theatrix-interactive,39.828175,-98.5795,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7777579,CC-BY-SA-4.0,Theatrix Interactive,investment-bank,defunct software company
+wd-Q652421-microprose,39.4922608,-76.6589528,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q652421,CC-BY-SA-4.0,MicroProse,investment-bank,American video game company
+wd-Q1884327-q1884327,53.2,-2.883333333,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1884327,CC-BY-SA-4.0,Q1884327,investment-bank,video game developer
+wd-Q2077322-peter-norton-computing,34.021944444,-118.481388888,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2077322,CC-BY-SA-4.0,Peter Norton Computing,investment-bank,Software company
+wd-Q7643562-superior-software,53.7975,-1.543611111,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7643562,CC-BY-SA-4.0,Superior Software,investment-bank,video game publisher
+wd-Q2605613-ultimate-play-the-game,52.746,-1.476,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2605613,CC-BY-SA-4.0,Ultimate Play the Game,investment-bank,defunct video games developer and publisher
+wd-Q3030624-technology-and-entertainment-software,35.18147,136.90641,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3030624,CC-BY-SA-4.0,Technology and Entertainment Software,investment-bank,former Japanese video game developer
+wd-Q2288948-seibu-kaihatsu,35.689444444,139.691666666,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2288948,CC-BY-SA-4.0,Seibu Kaihatsu,investment-bank,Japanese arcade game manufacturer
+wd-Q120694078-romik-software,51.509722222,-0.593055555,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120694078,CC-BY-SA-4.0,Romik Software,investment-bank,UK video game publisher
+wd-Q3316179-mirrorsoft,51.507222222,-0.1275,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3316179,CC-BY-SA-4.0,Mirrorsoft,investment-bank,"computer game software publisher in the United Kingdom, owned by Mirror Group Newspapers"
+wd-Q4681127-addictive-games,50.72,-1.88,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4681127,CC-BY-SA-4.0,Addictive Games,investment-bank,video game publisher
+wd-Q4732637-alligata-software-ltd,53.380833333,-1.470277777,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4732637,CC-BY-SA-4.0,Alligata Software Ltd.,investment-bank,"English video game developer and publisher, based in Sheffield, England in the 1980s"
+wd-Q2845995-anco-software,51.444444444,0.217222222,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2845995,CC-BY-SA-4.0,Anco Software,investment-bank,British video game developer and publisher
+wd-Q6188748-jetform,45.424722222,-75.695,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6188748,CC-BY-SA-4.0,JetForm,investment-bank,Canadian software manufacturer
+wd-Q6774218-martech-games,50.820555555,0.338055555,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6774218,CC-BY-SA-4.0,Martech Games,investment-bank,video game publisher (1982–1989)
+wd-Q5378382-english-software,53.466666666,-2.233333333,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5378382,CC-BY-SA-4.0,English Software,investment-bank,British video game publisher
+wd-Q5013911-crl-group,51.507222222,-0.1275,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5013911,CC-BY-SA-4.0,CRL Group,investment-bank,British video game development and publishing company
+wd-Q4797388-artech-digital-entertainment,45.424722222,-75.695,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4797388,CC-BY-SA-4.0,Artech Digital Entertainment,investment-bank,video game developer company
+wd-Q5453814-first-star-software,40.712777777,-74.006111111,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5453814,CC-BY-SA-4.0,First Star Software,investment-bank,video game developer
+wd-Q5474362-foundation-systems,54.6,-2,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5474362,CC-BY-SA-4.0,Foundation Systems,investment-bank,
+wd-Q5968988-ibm-research-tokyo,35.689444444,139.691666666,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5968988,CC-BY-SA-4.0,IBM Research – Tokyo,investment-bank,IBM Tokyo Research Laboratory
+wd-Q5191169-crystal-computing,53.466666666,-2.233333333,1982-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5191169,CC-BY-SA-4.0,Crystal Computing,investment-bank,UK video game developer
+wd-Q14647-sun-microsystems,37.35,-121.966666666,1982-02-24T00:00:00Z,https://www.wikidata.org/wiki/Q14647,CC-BY-SA-4.0,Sun Microsystems,investment-bank,defunct American computer hardware and software company
+wd-Q11463-adobe,37.304166666,-121.872777777,1982-02-28T00:00:00Z,https://www.wikidata.org/wiki/Q11463,CC-BY-SA-4.0,Adobe,investment-bank,American multinational computer software company
+wd-Q677085-gen-digital,50.0522522,14.4417572,1982-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q677085,CC-BY-SA-4.0,Gen Digital,investment-bank,American software company
+wd-Q11290141-sps,37.760805555,140.474722222,1982-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q11290141,CC-BY-SA-4.0,SPS,investment-bank,
+wd-Q7577588-spinnaker-software,42.375,-71.106111111,1982-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q7577588,CC-BY-SA-4.0,Spinnaker Software,investment-bank,video game publisher
+wd-Q136652283-data-systems-co-ltd,24.95,121.53333333,1982-04-02T00:00:00Z,https://www.wikidata.org/wiki/Q136652283,CC-BY-SA-4.0,"Data Systems Co., Ltd.",investment-bank,
+wd-Q383538-compile,35,136,1982-04-07T00:00:00Z,https://www.wikidata.org/wiki/Q383538,CC-BY-SA-4.0,Compile,investment-bank,former Japanese game developer
+wd-Q216611-lucasfilm-games,37.79981,-122.44926,1982-05-01T00:00:00Z,https://www.wikidata.org/wiki/Q216611,CC-BY-SA-4.0,Lucasfilm Games,investment-bank,American video game producer and publisher
+wd-Q173941-electronic-arts,37.5318804,-122.2480219,1982-05-28T00:00:00Z,https://www.wikidata.org/wiki/Q173941,CC-BY-SA-4.0,Electronic Arts,investment-bank,American video game company
+wd-Q11339585-micronet,43.061944444,141.354444444,1982-10-29T00:00:00Z,https://www.wikidata.org/wiki/Q11339585,CC-BY-SA-4.0,Micronet,investment-bank,Japanese software development company
+wd-Q7554165-softtek,25.684444444,-100.318055555,1982-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q7554165,CC-BY-SA-4.0,Softtek,investment-bank,Mexican private company of IT services
+wd-Q379959-adventure-soft,52.563,-1.822,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q379959,CC-BY-SA-4.0,Adventure Soft,investment-bank,video game developer
+wd-Q1235040-domark-software,51.507222222,-0.1275,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1235040,CC-BY-SA-4.0,Domark Software,investment-bank,British video game publisher
+wd-Q391183-incentive-software,51.454166666,-0.973055555,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q391183,CC-BY-SA-4.0,Incentive Software,investment-bank,British video game developer and publisher founded by Ian Andrew in 1983
+wd-Q615181-strategic-studies-group,-33.867777777,151.21,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q615181,CC-BY-SA-4.0,Strategic Studies Group,investment-bank,video game developer and publisher
+wd-Q1425540-indie-built,40.75,-111.883333333,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1425540,CC-BY-SA-4.0,Indie Built,investment-bank,American video game development company
+wd-Q1570468-mindscape,38.1075,-122.569722222,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1570468,CC-BY-SA-4.0,Mindscape,investment-bank,American video game developer and publisher
+wd-Q1318848-intuit,37.392777777,-122.041944444,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1318848,CC-BY-SA-4.0,Intuit,investment-bank,American business that specializes in financial software
+wd-Q1193678-origin-systems,30.3,-97.733333333,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1193678,CC-BY-SA-4.0,Origin Systems,investment-bank,"former video game developer based in Austin, Texas"
+wd-Q1408498-ocean-software,53.466666666,-2.233333333,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1408498,CC-BY-SA-4.0,Ocean Software,investment-bank,British software company
+wd-Q1418015-spectrum-holobyte,37.763888888,-122.256944444,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1418015,CC-BY-SA-4.0,Spectrum HoloByte,investment-bank,American game developer
+wd-Q1615297-mastertronic,51.507222222,-0.1275,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1615297,CC-BY-SA-4.0,Mastertronic,investment-bank,computer game publisher and distributor
+wd-Q1742154-kingsoft-gmbh,50.776207,6.083788,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1742154,CC-BY-SA-4.0,Kingsoft GmbH,investment-bank,German video game studio
+wd-Q8025512-winkysoft,34.759472222,135.516833333,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q8025512,CC-BY-SA-4.0,Winkysoft,investment-bank,Japanese video game developing company
+wd-Q1481820-virgin-interactive,33.684166666,-117.7925,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1481820,CC-BY-SA-4.0,Virgin Interactive,investment-bank,former British video game publisher
+wd-Q7554405-soft-world-international,22.6006,120.315,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7554405,CC-BY-SA-4.0,Soft-World International,investment-bank,Taiwanese game developer
+wd-Q54868753-intellisoft,40.441666666,-80,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q54868753,CC-BY-SA-4.0,Intellisoft,investment-bank,software development company
+wd-Q11331181-bullet-proof-software,35.44775,139.642527777,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11331181,CC-BY-SA-4.0,Bullet-Proof Software,investment-bank,video game developer
+wd-Q2360666-aackosoft,52.161666666,4.528333333,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2360666,CC-BY-SA-4.0,Aackosoft,investment-bank,Defunct Dutch company that focused on video games
+wd-Q3303197-altron,35.658027777,139.751527777,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3303197,CC-BY-SA-4.0,Altron,investment-bank,Japanese company
+wd-Q4035073-beyond-software,54.6,-2,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4035073,CC-BY-SA-4.0,Beyond Software,investment-bank,UK business
+wd-Q3177903-telenet-japan,35.689444444,139.691666666,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3177903,CC-BY-SA-4.0,Telenet Japan,investment-bank,Japanese game developer
+wd-Q3259558-loriciels,47,2,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3259558,CC-BY-SA-4.0,Loriciels,investment-bank,French video game development company
+wd-Q2874669-award-software,37.392777777,-122.041944444,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2874669,CC-BY-SA-4.0,Award Software,investment-bank,American software company
+wd-Q6915320-mosaic-publishing,51.507222222,-0.1275,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6915320,CC-BY-SA-4.0,Mosaic Publishing,investment-bank,video game publisher
+wd-Q6955451-ntdec,25.0375,121.5625,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6955451,CC-BY-SA-4.0,NTDEC,investment-bank,manufacturer of games and accessories
+wd-Q5316349-durell-software,51.019166666,-3.1,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5316349,CC-BY-SA-4.0,Durell Software,investment-bank,Software company of the United Kingdom
+wd-Q5909783-hot-b,35.689444444,139.691666666,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5909783,CC-BY-SA-4.0,Hot B,investment-bank,
+wd-Q11318258-champion-soft,34.686333333,135.519861111,1983-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q11318258,CC-BY-SA-4.0,Champion Soft,investment-bank,
+wd-Q753684-atari-sa,45.7675,4.835,1983-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q753684,CC-BY-SA-4.0,Atari SA,investment-bank,French video game company
+wd-Q1782700-infogrames,45.7675,4.835,1983-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q1782700,CC-BY-SA-4.0,Infogrames,investment-bank,French video game development company
+wd-Q170420-nintendo-entertainment-analysis-development,35.011611111,135.768111111,1983-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q170420,CC-BY-SA-4.0,Nintendo Entertainment Analysis & Development,investment-bank,division of Nintendo
+wd-Q628249-interplay-entertainment,34.073055555,-118.399444444,1983-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q628249,CC-BY-SA-4.0,Interplay Entertainment,investment-bank,American video game developer and publisher
+wd-Q294587-sega-am2,35.689444444,139.691666666,1983-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q294587,CC-BY-SA-4.0,Sega AM2,investment-bank,video game developer
+wd-Q137168131-bonanza-universal-co-ltd,25.031666666,121.516388888,1983-12-08T00:00:00Z,https://www.wikidata.org/wiki/Q137168131,CC-BY-SA-4.0,Bonanza Universal Co. Ltd.,investment-bank,
+wd-Q94893-q94893,55.94973,-3.19333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q94893,CC-BY-SA-4.0,Q94893,investment-bank,British video game developer
+wd-Q945060-ubisoft-reflections,54.977777777,-1.613333333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q945060,CC-BY-SA-4.0,Ubisoft Reflections,investment-bank,British video game developer
+wd-Q959329-rockstar-san-diego,33.158267,-117.350996,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q959329,CC-BY-SA-4.0,Rockstar San Diego,investment-bank,American video game developer and studio of Rockstar Games
+wd-Q601299-video-system,35,136,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q601299,CC-BY-SA-4.0,Video System,investment-bank,videogame developer
+wd-Q565073-rainbow-arts,51.9,8.383333333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q565073,CC-BY-SA-4.0,Rainbow Arts,investment-bank,German video game developer
+wd-Q174561-kemco,34.38525,132.455305555,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q174561,CC-BY-SA-4.0,Kemco,investment-bank,Japanese video game developer and publisher
+wd-Q1269052-q1269052,44.052222222,-123.0925,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1269052,CC-BY-SA-4.0,Q1269052,investment-bank,American video game developer
+wd-Q1330823-elite-systems,52.6835,-1.82653,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1330823,CC-BY-SA-4.0,Elite Systems,investment-bank,British video game developer
+wd-Q778453-chunsoft,35.689444444,139.691666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q778453,CC-BY-SA-4.0,Chunsoft,investment-bank,former Japanese video game developer
+wd-Q16992539-enable-software,42.953333333,-73.874722222,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16992539,CC-BY-SA-4.0,Enable Software,investment-bank,"defunct software company located in Ballston Lake, New York"
+wd-Q720871-naughty-dog,34.021944444,-118.481388888,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q720871,CC-BY-SA-4.0,Naughty Dog,investment-bank,American video game developer
+wd-Q634677-hewson-consultants,51.599,-1.125,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q634677,CC-BY-SA-4.0,Hewson Consultants,investment-bank,company
+wd-Q16954582-dataviz,41.224166666,-73.059722222,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16954582,CC-BY-SA-4.0,DataViz,investment-bank,software company
+wd-Q1821429-radarsoft,52.133333333,4.65,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1821429,CC-BY-SA-4.0,Radarsoft,investment-bank,Dutch video game developer of the 1980s
+wd-Q1884333-magnetic-scrolls,51.507222222,-0.1275,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1884333,CC-BY-SA-4.0,Magnetic Scrolls,investment-bank,British video game developer
+wd-Q1889419-new-world-computing,34.153333333,-118.761666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1889419,CC-BY-SA-4.0,New World Computing,investment-bank,American development studio for computer games
+wd-Q8045976-ynk-korea,37.48373,127.032441,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q8045976,CC-BY-SA-4.0,YNK Korea,investment-bank,korean videogame publisher
+wd-Q23498095-uniface-company,52.366666666,4.883333333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q23498095,CC-BY-SA-4.0,Uniface (company),investment-bank,software development company headquartered in Amsterdam
+wd-Q30254512-hacon-germany,52.374444444,9.738611111,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q30254512,CC-BY-SA-4.0,HaCon (Germany),investment-bank,"company in Hanover, Germany"
+wd-Q1930918-u-s-gold,52.48,-1.9025,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1930918,CC-BY-SA-4.0,U.S. Gold,investment-bank,British video game publisher and developer
+wd-Q1933462-sce-studio-liverpool,53.407222222,-2.991666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1933462,CC-BY-SA-4.0,SCE Studio Liverpool,investment-bank,British video game developer and publisher
+wd-Q7439465-sculptured-software,40.75,-111.883333333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7439465,CC-BY-SA-4.0,Sculptured Software,investment-bank,"video game developer based in Salt Lake City, Utah, United States of America"
+wd-Q2310496-palace-software,51.507222222,-0.1275,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2310496,CC-BY-SA-4.0,Palace Software,investment-bank,British video game publisher and developer during the 1980s
+wd-Q7662591-synon,51.507222222,-0.1275,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7662591,CC-BY-SA-4.0,Synon,investment-bank,British software company
+wd-Q339266-accolade,37.304166666,-121.872777777,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q339266,CC-BY-SA-4.0,Accolade,investment-bank,American video game developer and publisher
+wd-Q2274654-gremlin-interactive,53.380833333,-1.470277777,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2274654,CC-BY-SA-4.0,Gremlin Interactive,investment-bank,British video game publisher
+wd-Q2291232-toaplan,35.689444444,139.691666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2291232,CC-BY-SA-4.0,Toaplan,investment-bank,former Japanese video game developer
+wd-Q15070420-oasys-mobile,35.78,-78.64,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q15070420,CC-BY-SA-4.0,Oasys Mobile,investment-bank,mobile game developer
+wd-Q1979024-totally-games,37.973333333,-122.530833333,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1979024,CC-BY-SA-4.0,Totally Games,investment-bank,video game developer company
+wd-Q2981951-coktel-vision,48.8075,2.240277777,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2981951,CC-BY-SA-4.0,Coktel Vision,investment-bank,French video game developer and publisher
+wd-Q2401222-telarium,42.375,-71.106111111,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2401222,CC-BY-SA-4.0,Telarium,investment-bank,video game publisher
+wd-Q4035139-bits-studios,51.507222222,-0.1275,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4035139,CC-BY-SA-4.0,Bits Studios,investment-bank,video game development studio
+wd-Q3410210-psygnosis,53.407222222,-2.991666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3410210,CC-BY-SA-4.0,Psygnosis,investment-bank,British video game developer and publisher
+wd-Q3414457-quicksilver-software,33.684166666,-117.7925,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3414457,CC-BY-SA-4.0,Quicksilver Software,investment-bank,American video game developer
+wd-Q3415889-rabbit-ears-productions,41.093611111,-73.418611111,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3415889,CC-BY-SA-4.0,Rabbit Ears Productions,investment-bank,Television production company
+wd-Q4748798-amsoft,51.620277777,0.305,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4748798,CC-BY-SA-4.0,Amsoft,investment-bank,"British software company, subsidiary of Amstrad"
+wd-Q2822760-acclaim-studios-london,51.3727,-0.1099,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2822760,CC-BY-SA-4.0,Acclaim Studios London,investment-bank,video game developer
+wd-Q3658005-capstone-software,25.783333333,-80.216666666,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3658005,CC-BY-SA-4.0,Capstone Software,investment-bank,video game developer
+wd-Q113249606-vnlabs,37.304166666,-121.872777777,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q113249606,CC-BY-SA-4.0,VNLabs,investment-bank,"software company based in San Jose, California, United States"
+wd-Q7064402-novagen-software,52.48,-1.9025,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7064402,CC-BY-SA-4.0,Novagen Software,investment-bank,UK software company
+wd-Q4812060-asymetrix,47.614444444,-122.1925,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4812060,CC-BY-SA-4.0,Asymetrix,investment-bank,software company
+wd-Q3982798-telecomsoft,51.507222222,-0.1275,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3982798,CC-BY-SA-4.0,Telecomsoft,investment-bank,manufacturers
+wd-Q18462390-brasoft,-23.550394444,-46.633947222,1984-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18462390,CC-BY-SA-4.0,Brasoft,investment-bank,
+wd-Q502121-blackberry,43.466666666,-80.516666666,1984-03-07T00:00:00Z,https://www.wikidata.org/wiki/Q502121,CC-BY-SA-4.0,BlackBerry,investment-bank,enterprise software and the Internet of things company
+wd-Q1061580-atari-games,37.434722222,-121.895,1984-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q1061580,CC-BY-SA-4.0,Atari Games,investment-bank,"American former producer of arcade games, and originally part of Atari, Inc."
+wd-Q701603-technical-group-laboratory,34.686333333,135.519861111,1984-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q701603,CC-BY-SA-4.0,Technical Group Laboratory,investment-bank,Japanese system integrator
+wd-Q3627870-atari-corporation,37.368888888,-122.036944444,1984-07-02T00:00:00Z,https://www.wikidata.org/wiki/Q3627870,CC-BY-SA-4.0,Atari Corporation,investment-bank,computer and video game console manufacturer
+wd-Q518584-ids-scheer,49.233333333,7,1984-07-27T00:00:00Z,https://www.wikidata.org/wiki/Q518584,CC-BY-SA-4.0,IDS Scheer,investment-bank,company
+wd-Q798642-asmik-ace-entertainment,35.689444444,139.691666666,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q798642,CC-BY-SA-4.0,Asmik Ace Entertainment,investment-bank,film studio
+wd-Q621599-application-systems-heidelberg,49.412222222,8.71,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q621599,CC-BY-SA-4.0,Application Systems Heidelberg,investment-bank,German software publisher
+wd-Q681157-g-data-cyberdefense,51.483333333,7.216666666,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q681157,CC-BY-SA-4.0,G Data CyberDefense,investment-bank,German multinational cybersecurity and anti-virus provider
+wd-Q267949-westwood-studios,36.167222222,-115.148611111,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q267949,CC-BY-SA-4.0,Westwood Studios,investment-bank,American video game developer
+wd-Q758872-audiogenic,54.6,-2,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q758872,CC-BY-SA-4.0,Audiogenic,investment-bank,video game developer
+wd-Q642707-rare-ltd,52.641,-1.503,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q642707,CC-BY-SA-4.0,Rare Ltd.,investment-bank,British video game developer
+wd-Q1850424-microids,48.860277777,2.443055555,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1850424,CC-BY-SA-4.0,Microids,investment-bank,French video game company
+wd-Q1934568-sophos,51.671666666,-1.278333333,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1934568,CC-BY-SA-4.0,Sophos,investment-bank,security software company
+wd-Q2300984-titus-interactive,48.898333333,2.564722222,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2300984,CC-BY-SA-4.0,Titus Interactive,investment-bank,French video game company
+wd-Q2566328-tungsten-automation,33.684166666,-117.7925,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2566328,CC-BY-SA-4.0,Tungsten Automation,investment-bank,robotic process automation software
+wd-Q54911871-angelsoft,41.0325,-73.766666666,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q54911871,CC-BY-SA-4.0,Angelsoft,investment-bank,video game developer of interactive fiction
+wd-Q131334717-skyline-communications,50.9172,3.215,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q131334717,CC-BY-SA-4.0,Skyline Communications,investment-bank,"Skyline Communications is a global provider of vendor- and domain-agnostic digital transformation solutions for the ICT media and broadband industry, known for its DataMiner software platform."
+wd-Q558551-boerse-hamburg-regulierter-markt,53.55,10,1558-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q558551,CC-BY-SA-4.0,Boerse Hamburg - Regulierter Markt,stock-exchange,"Stock exchange located in Hamburg, Germany"
+wd-Q151139-frankfurt-stock-exchange,50.110555555,8.682222222,1585-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q151139,CC-BY-SA-4.0,Frankfurt Stock Exchange,stock-exchange,"stock exchange located in Frankfurt, Germany"
+wd-Q1019983-nasdaq-copenhagen-a-s,55.676111111,12.568888888,1625-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1019983,CC-BY-SA-4.0,Nasdaq Copenhagen A/S,stock-exchange,"stock exchange located in Copenhagen, Denmark"
+wd-Q571760-boerse-berlin,52.516666666,13.383333333,1685-06-29T00:00:00Z,https://www.wikidata.org/wiki/Q571760,CC-BY-SA-4.0,Boerse Berlin,stock-exchange,"Stock exchange located in Berlin, Germany"
+wd-Q171240-london-stock-exchange,51.515555555,-0.093055555,1698-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q171240,CC-BY-SA-4.0,London Stock Exchange,stock-exchange,stock exchange in the City of London
+wd-Q478720-amsterdam-stock-exchange,52.374194444,4.895805555,1700-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q478720,CC-BY-SA-4.0,Amsterdam Stock Exchange,stock-exchange,"stock exchange located in Amsterdam, Netherlands"
+wd-Q2385849-euronext-paris,48.856666666,2.352222222,1724-09-24T00:00:00Z,https://www.wikidata.org/wiki/Q2385849,CC-BY-SA-4.0,Euronext Paris,stock-exchange,"Securities market located in Paris, France"
+wd-Q698535-wiener-boerse-ag,48.208333333,16.3725,1771-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q698535,CC-BY-SA-4.0,Wiener Boerse AG,stock-exchange,"stock exchange in Vienna, Austria"
+wd-Q13677-new-york-stock-exchange,40.70702,-74.01122,1792-05-17T00:00:00Z,https://www.wikidata.org/wiki/Q13677,CC-BY-SA-4.0,New York Stock Exchange,stock-exchange,American stock exchange
+wd-Q144458-irish-stock-exchange-all-market,53.349722222,-6.260277777,1793-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q144458,CC-BY-SA-4.0,Irish Stock Exchange - All Market,stock-exchange,"stock exchange located in Dublin, Ireland"
+wd-Q1146518-euronext-brussels,50.848111111,4.350305555,1801-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1146518,CC-BY-SA-4.0,Euronext Brussels,stock-exchange,"stock exchange in Brussels, Belgium"
+wd-Q3642745-rome-stock-exchange,41.899722222,12.479444444,1802-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3642745,CC-BY-SA-4.0,Rome stock exchange,stock-exchange,
+wd-Q936563-italian-stock-exchange,45.466944444,9.19,1808-01-16T00:00:00Z,https://www.wikidata.org/wiki/Q936563,CC-BY-SA-4.0,Italian Stock Exchange,stock-exchange,Italy's main stock exchange
+wd-Q909158-oslo-stock-exchange,59.908833,10.74774,1819-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q909158,CC-BY-SA-4.0,Oslo Stock Exchange,stock-exchange,"stock exchange located in Oslo, Norway"
+wd-Q681683-b-rse-m-nchen,48.1375,11.575,1830-12-16T00:00:00Z,https://www.wikidata.org/wiki/Q681683,CC-BY-SA-4.0,Börse München,stock-exchange,"Stock exchange located in Munich, Germany"
+wd-Q617426-madrid-stock-exchange,40.416908,-3.692063,1831-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q617426,CC-BY-SA-4.0,Madrid Stock Exchange,stock-exchange,"stock exchange in Madrid, Spain"
+wd-Q1019978-boerse-duesseldorf,51.225555555,6.776666666,1853-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1019978,CC-BY-SA-4.0,Boerse Duesseldorf,stock-exchange,
+wd-Q795936-oddo-bhf,50.110555555,8.682222222,1854-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q795936,CC-BY-SA-4.0,ODDO BHF,stock-exchange,German private bank based in Frankfurt am Main
+wd-Q891560-buenos-aires-stock-exchange,-34.599722222,-58.381944444,1854-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q891560,CC-BY-SA-4.0,Buenos Aires Stock Exchange,stock-exchange,"Stock exchange located in Buenos Aires, Argentina"
+wd-Q558524-boerse-stuttgart,48.7775,9.18,1861-02-11T00:00:00Z,https://www.wikidata.org/wiki/Q558524,CC-BY-SA-4.0,Boerse Stuttgart,stock-exchange,"Stock exchange located in Stuttgart, Germany"
+wd-Q818723-toronto-stock-exchange,43.670277777,-79.386666666,1861-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q818723,CC-BY-SA-4.0,Toronto Stock Exchange,stock-exchange,stock exchange in Canada
+wd-Q1019992-nasdaq-stockholm-ab,59.329444444,18.068611111,1863-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1019992,CC-BY-SA-4.0,Nasdaq Stockholm AB,stock-exchange,"stock exchange located in Stockholm, Sweden"
+wd-Q4363919-pittsburgh-stock-exchange,39.952777777,-75.163611111,1864-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4363919,CC-BY-SA-4.0,Pittsburgh Stock Exchange,stock-exchange,"regional stock market located in Pittsburgh, Pennsylvania"
+wd-Q851259-budapest-stock-exchange,47.498333333,19.040833333,1864-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q851259,CC-BY-SA-4.0,Budapest Stock Exchange,stock-exchange,"stock exchange located in Budapest, Hungary"
+wd-Q60764145-basel-stock-exchange,47.560555555,7.590555555,1866-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q60764145,CC-BY-SA-4.0,Basel Stock Exchange,stock-exchange,
+wd-Q193326-goldman-sachs,40.7147,-74.0144,1869-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q193326,CC-BY-SA-4.0,Goldman Sachs,stock-exchange,American investment bank
+wd-Q157617-commerzbank-ag,50.11116,8.67437,1870-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q157617,CC-BY-SA-4.0,Commerzbank AG,stock-exchange,major commercial bank
+wd-Q1752646-prague-stock-exchange,50.0875,14.421388888,1871-04-17T00:00:00Z,https://www.wikidata.org/wiki/Q1752646,CC-BY-SA-4.0,Prague Stock Exchange,stock-exchange,the largest securities market organizer in the Czech Republic
+wd-Q120233-new-york-mercantile-exchange,40.712777777,-74.006111111,1872-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q120233,CC-BY-SA-4.0,New York Mercantile Exchange,stock-exchange,"commodity and futures exchange located in New York City, New York, United States"
+wd-Q132562408-halifax-stock-exchange,44.647777777,-63.571388888,1874-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q132562408,CC-BY-SA-4.0,Halifax Stock Exchange,stock-exchange,"defunct stock exchange in Halifax, Nova Scotia, Canada"
+wd-Q638398-bombay-stock-exchange,19.075833333,72.8775,1875-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q638398,CC-BY-SA-4.0,Bombay Stock Exchange,stock-exchange,Indian stock exchange in Mumbai
+wd-Q755341-athens-stock-exchange,37.984166666,23.728055555,1876-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q755341,CC-BY-SA-4.0,Athens Stock Exchange,stock-exchange,"stock exchange located in Athens, Greece"
+wd-Q824533-bx-swiss-ag,46.94798,7.44743,1880-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q824533,CC-BY-SA-4.0,BX Swiss AG,stock-exchange,"BX Worldcaps, BX Local Shares"
+wd-Q2633007-nyse-chicago-inc,41.881944444,-87.627777777,1882-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2633007,CC-BY-SA-4.0,"NYSE Chicago, Inc.",stock-exchange,"Stock exchange located in Chicago, Illinois, United States"
+wd-Q1003245-bucharest-stock-exchange,44.413361111,26.097777777,1882-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q1003245,CC-BY-SA-4.0,Bucharest Stock Exchange,stock-exchange,Stock exchange in Romania
+wd-Q2509254-egyptian-exchange,30.044444444,31.235833333,1883-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2509254,CC-BY-SA-4.0,Egyptian Exchange,stock-exchange,formerly Cairo and Alexandria Stock Exchanges (CASE)
+wd-Q7367381-bolsa-de-comercio-rosario,-32.9575,-60.639444444,1884-08-18T00:00:00Z,https://www.wikidata.org/wiki/Q7367381,CC-BY-SA-4.0,Bolsa De Comercio Rosario,stock-exchange,Forum for the conduct of trade negotiations
+wd-Q21070704-consolidated-stock-exchange-of-new-york,40.728333333,-73.994166666,1885-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21070704,CC-BY-SA-4.0,Consolidated Stock Exchange of New York,stock-exchange,Former US stock exchange
+wd-Q627514-johannesburg-stock-exchange,-26.204361111,28.041638888,1887-11-08T00:00:00Z,https://www.wikidata.org/wiki/Q627514,CC-BY-SA-4.0,Johannesburg Stock Exchange,stock-exchange,"stock exchange in Johannesburg, South Africa"
+wd-Q1797919-lch-ltd,51.507222222,-0.1275,1888-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1797919,CC-BY-SA-4.0,LCH Ltd,stock-exchange,financial market infrastructure company
+wd-Q796297-s-o-paulo-stock-exchange,-23.550394444,-46.633947222,1890-08-23T00:00:00Z,https://www.wikidata.org/wiki/Q796297,CC-BY-SA-4.0,São Paulo Stock Exchange,stock-exchange,"stock exchange located in São Paulo, Brazil"
+wd-Q496672-hong-kong-stock-exchange,22.285,114.159166666,1891-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q496672,CC-BY-SA-4.0,Hong Kong Stock Exchange,stock-exchange,"stock exchange based in Hong Kong, operating under Hong Kong’s distinct regulatory framework, which allows greater access to foreign investors"
+wd-Q5731659-bolsa-de-corredores-bolsa-de-valores,-33.046111111,-71.619722222,1892-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5731659,CC-BY-SA-4.0,Bolsa De Corredores - Bolsa De Valores,stock-exchange,Equity and bond market
+wd-Q891561-santiago-stock-exchange,-33.44274,-70.65165,1893-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q891561,CC-BY-SA-4.0,Santiago Stock Exchange,stock-exchange,"Stock exchange located in Santiago, Chile"
+wd-Q1976823-ahmedabad-stock-exchange,23.021944444,72.579722222,1894-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1976823,CC-BY-SA-4.0,Ahmedabad Stock Exchange,stock-exchange,the second oldest exchange in India
+wd-Q550050-belgrade-stock-exchange,44.817777777,20.456944444,1894-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q550050,CC-BY-SA-4.0,Belgrade Stock Exchange,stock-exchange,"stock exchange located in Belgrade, Serbia"
+wd-Q4191917-zimbabwe-stock-exchange,-17.829166666,31.052222222,1896-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4191917,CC-BY-SA-4.0,Zimbabwe Stock Exchange,stock-exchange,"Stock exchange located in Harare, Zimbabwe"
+wd-Q14687455-cleveland-stock-exchange,41.499166666,-81.694722222,1899-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q14687455,CC-BY-SA-4.0,Cleveland Stock Exchange,stock-exchange,"stock exchange in Cleveland, Ohio, U.S"
+wd-Q2997295-calcutta-stock-exchange,22.5675,88.37,1908-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2997295,CC-BY-SA-4.0,Calcutta Stock Exchange,stock-exchange,stock exchange located in Kolkata
+wd-Q846626-nyse-american,40.712777777,-74.006111111,1908-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q846626,CC-BY-SA-4.0,NYSE American,stock-exchange,"stock exchange located in New York City, New York, United States"
+wd-Q581755-nasdaq-helsinki-ltd,60.168395,24.948717,1912-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q581755,CC-BY-SA-4.0,Nasdaq Helsinki Ltd,stock-exchange,"stock exchange located in Helsinki, Finland"
+wd-Q1930860-otc-markets-group,40.712777777,-74.006111111,1913-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1930860,CC-BY-SA-4.0,OTC Markets Group,stock-exchange,American financial market providing price and liquidity information for over-the-counter securities
+wd-Q109351956-sofia-stock-exchange,42.697886,23.321726,1914-04-15T00:00:00Z,https://www.wikidata.org/wiki/Q109351956,CC-BY-SA-4.0,Sofia Stock Exchange,stock-exchange,Defunct stock exchange
+wd-Q4202960-barcelona-stock-exchange,41.3825,2.176944444,1915-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4202960,CC-BY-SA-4.0,Barcelona Stock Exchange,stock-exchange,stock exchange in Barcelona
+wd-Q6727612-madhya-pradesh-stock-exchange,22.718611111,75.855,1919-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6727612,CC-BY-SA-4.0,Madhya Pradesh Stock Exchange,stock-exchange,stock exchange in India
+wd-Q4081230-bourse-de-beyrouth-beirut-stock-exchange,33.886944444,35.513055555,1920-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4081230,CC-BY-SA-4.0,Bourse De Beyrouth - Beirut Stock Exchange,stock-exchange,"Stock exchange located in Beirut, Lebanon"
+wd-Q4491714-bolsa-de-valores-de-montevideo,-34.905916666,-56.191311111,1921-11-04T00:00:00Z,https://www.wikidata.org/wiki/Q4491714,CC-BY-SA-4.0,Bolsa De Valores De Montevideo,stock-exchange,"Stock exchange located in Montevideo, Uruguay"
+wd-Q502421-vontobel-liquidity-extender,47.374444444,8.541111111,1924-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q502421,CC-BY-SA-4.0,Vontobel Liquidity Extender,stock-exchange,Internal market
+wd-Q1526647-philippine-stock-exchange,14.583333333,121,1927-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1526647,CC-BY-SA-4.0,Philippine Stock Exchange,stock-exchange,national stock exchange of the Philippines
+wd-Q74662-luxembourg-stock-exchange,49.610555555,6.132777777,1928-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q74662,CC-BY-SA-4.0,Luxembourg Stock Exchange,stock-exchange,registration authority
+wd-Q30643136-san-francisco-curb-exchange,37.775,-122.419444444,1928-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q30643136,CC-BY-SA-4.0,San Francisco Curb Exchange,stock-exchange,San Fransico Curb Exchange Organisation
+wd-Q118288005-bolsa-de-bogot,4.60971,-74.08175,1928-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q118288005,CC-BY-SA-4.0,Bolsa de Bogotá,stock-exchange,stock exchange
+wd-Q2602796-casablanca-stock-exchange,33.599166666,-7.62,1929-11-07T00:00:00Z,https://www.wikidata.org/wiki/Q2602796,CC-BY-SA-4.0,Casablanca Stock Exchange,stock-exchange,"Stock exchange located in Casablanca, Morocco."
+wd-Q891559-mexican-stock-exchange,19.353773,-99.13589,1933-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q891559,CC-BY-SA-4.0,Mexican Stock Exchange,stock-exchange,"Stock exchange located in Mexico City, Mexico"
+wd-Q3633944-madras-stock-exchange,13.0825,80.275,1937-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3633944,CC-BY-SA-4.0,Madras Stock Exchange,stock-exchange,"stock exchange in Chennai, India"
+wd-Q1977283-karachi-stock-exchange,24.86,67.01,1947-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1977283,CC-BY-SA-4.0,Karachi Stock Exchange,stock-exchange,"Stock exchange located in Karachi, Pakistan"
+wd-Q891563-caracas-stock-exchange,10.506111111,-66.914444444,1947-01-21T00:00:00Z,https://www.wikidata.org/wiki/Q891563,CC-BY-SA-4.0,Caracas Stock Exchange,stock-exchange,Market for equities and bonds
+wd-Q5507703-fukuoka-stock-exchange,33.59,130.401666666,1949-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5507703,CC-BY-SA-4.0,Fukuoka Stock Exchange,stock-exchange,"Stock exchange located in Fukuoka, Japan"
+wd-Q11093491-sapporo-securities-exchange,43.061944444,141.354444444,1949-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q11093491,CC-BY-SA-4.0,Sapporo Securities Exchange,stock-exchange,securities exchange in Japan
+wd-Q1188840-nagoya-stock-exchange,35.180166666,136.906416666,1949-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q1188840,CC-BY-SA-4.0,Nagoya Stock Exchange,stock-exchange,"stock trading market in Nagoya, Japan"
+wd-Q217475-tokyo-stock-exchange,35.680786111,139.777408333,1949-05-16T00:00:00Z,https://www.wikidata.org/wiki/Q217475,CC-BY-SA-4.0,Tokyo Stock Exchange,stock-exchange,stock market based in Tokyo
+wd-Q1507974-tel-aviv-stock-exchange,32.08,34.78,1953-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1507974,CC-BY-SA-4.0,Tel Aviv Stock Exchange,stock-exchange,"stock exchange located in Tel Aviv, Israel"
+wd-Q495372-korean-stock-exchange,35.18,129.075,1953-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q495372,CC-BY-SA-4.0,Korean Stock Exchange,stock-exchange,securities exchange operator in South Korea
+wd-Q1974408-dhaka-stock-exchange,23.728888888,90.394444444,1954-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1974408,CC-BY-SA-4.0,Dhaka Stock Exchange,stock-exchange,"Stock exchange located in Dhaka, Bangladesh"
+wd-Q2384385-nairobi-stock-exchange,-1.286388888,36.817222222,1954-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2384385,CC-BY-SA-4.0,Nairobi Stock Exchange,stock-exchange,stock exchange in Kenya
+wd-Q838766-the-nigerian-stock-exchange,6.456111111,3.393611111,1960-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q838766,CC-BY-SA-4.0,The Nigerian Stock Exchange,stock-exchange,Electronic trading platform
+wd-Q548621-taiwan-stock-exchange,25.033611111,121.564722222,1961-10-23T00:00:00Z,https://www.wikidata.org/wiki/Q548621,CC-BY-SA-4.0,Taiwan Stock Exchange,stock-exchange,"financial institution located in Taipei, Taiwan"
+wd-Q4077204-bangalore-stock-exchange-ltd,12.9791198,77.5912997,1963-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4077204,CC-BY-SA-4.0,Bangalore Stock Exchange Ltd,stock-exchange,"former stock exchange based in Bangalore, India"
+wd-Q43335-bursa-malaysia,3.14825,101.70133333,1964-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q43335,CC-BY-SA-4.0,Bursa Malaysia,stock-exchange,"formerly known as Kuala Lumpur Stock Exchange, exchange holding company located in Kuala Lumpur, Malaysia"
+wd-Q1805567-tehran-stock-exchange,35.693,51.411055555,1967-02-04T00:00:00Z,https://www.wikidata.org/wiki/Q1805567,CC-BY-SA-4.0,Tehran Stock Exchange,stock-exchange,Iranian stock exchange
+wd-Q16948316-jamaica-stock-exchange,17.971388888,-76.793055555,1968-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16948316,CC-BY-SA-4.0,Jamaica Stock Exchange,stock-exchange,"stock exchange located in Kingston, Jamaica"
+wd-Q1651946-instinet,40.712777777,-74.006111111,1969-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1651946,CC-BY-SA-4.0,Instinet,stock-exchange,"financial brokerage company in New York, part of Nomura Group"
+wd-Q2380163-bourse-de-tunis,36.800833333,10.18,1969-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q2380163,CC-BY-SA-4.0,Bourse De Tunis,stock-exchange,"Stock exchange located in Tunis, Tunisia"
+wd-Q1516125-icma,51.507222222,-0.1275,1969-02-01T00:00:00Z,https://www.wikidata.org/wiki/Q1516125,CC-BY-SA-4.0,ICMA,stock-exchange,company
+wd-Q3300824-lahore-stock-exchange,31.549722222,74.343611111,1970-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3300824,CC-BY-SA-4.0,Lahore Stock Exchange,stock-exchange,Stock Exchange located in Lahore. Merged to PAKISTAN STOCK EXCHANGE
+wd-Q2382352-bermuda-stock-exchange-ltd,32.295,-64.783055555,1971-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2382352,CC-BY-SA-4.0,Bermuda Stock Exchange Ltd,stock-exchange,"Stock exchange located in Hamilton, Bermuda"
+wd-Q1637548-tullett-prebon-europe-otf,51.507222222,-0.1275,1971-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1637548,CC-BY-SA-4.0,Tullett Prebon Europe - OTF,stock-exchange,Organised Trading Facility
+wd-Q82059-nasdaq,40.709722222,-74.010833333,1971-02-04T00:00:00Z,https://www.wikidata.org/wiki/Q82059,CC-BY-SA-4.0,Nasdaq,stock-exchange,American fully electronic stock exchange
+wd-Q152106-bayernlb,48.1375,11.575,1972-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q152106,CC-BY-SA-4.0,BayernLB,stock-exchange,company
+wd-Q6978710-national-stock-exchange-of-australia-limited,-33.867777777,151.21,1972-02-07T00:00:00Z,https://www.wikidata.org/wiki/Q6978710,CC-BY-SA-4.0,National Stock Exchange Of Australia Limited,stock-exchange,"stock exchange in Australia, originally named Newcastle Stock Exchange"
+wd-Q1868997-london-platinum-and-palladium-market,51.507222222,-0.1275,1973-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1868997,CC-BY-SA-4.0,London Platinum And Palladium Market,stock-exchange,platinum and palladium market
+wd-Q1683760-tokyo-stock-exchange-jasdaq,35.670583333,139.771972222,1976-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q1683760,CC-BY-SA-4.0,Tokyo Stock Exchange Jasdaq,stock-exchange,former stock exchange in Japan
+wd-Q93357193-essex-radez-llc,41.881944444,-87.627777777,1977-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q93357193,CC-BY-SA-4.0,"Essex Radez,  Llc",stock-exchange,Electronic trading system
+wd-Q8250595-bolsa-de-valores-de-asunci-n,-25.28,-57.634444444,1977-09-28T00:00:00Z,https://www.wikidata.org/wiki/Q8250595,CC-BY-SA-4.0,Bolsa de Valores de Asunción,stock-exchange,bolsa de valores de Paraguay
+wd-Q2386780-south-pacific-stock-exchange,-18.133333333,178.433333333,1979-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2386780,CC-BY-SA-4.0,South Pacific Stock Exchange,stock-exchange,stock exchange in Fiji
+wd-Q4491717-trinidad-and-tobago-stock-exchange,10.666666666,-61.516666666,1981-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4491717,CC-BY-SA-4.0,Trinidad And Tobago Stock Exchange,stock-exchange,"Stock exchange located in Port of Spain, Trinidad and Tobago"
+wd-Q4164626-kuwait-stock-exchange,29.375,47.98,1983-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4164626,CC-BY-SA-4.0,Kuwait Stock Exchange,stock-exchange,"stock exchange located in Kuwait City, Kuwait"
+wd-Q2359996-colombo-stock-exchange,6.926666666,79.860555555,1985-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2359996,CC-BY-SA-4.0,Colombo Stock Exchange,stock-exchange,"The main stock exchange of Sri Lanka, located in Colombo"
+wd-Q2931701-clsa,22.278333333,114.158611111,1986-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2931701,CC-BY-SA-4.0,CLSA,stock-exchange,Capital markets and investment group
+wd-Q134528616-magadh-stock-exchange,25.61,85.141388888,1986-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q134528616,CC-BY-SA-4.0,Magadh Stock Exchange,stock-exchange,
+wd-Q1972649-bahrain-bourse,26.237777777,50.573333333,1987-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1972649,CC-BY-SA-4.0,Bahrain Bourse,stock-exchange,Stock Exchange in Bahrain
+wd-Q7669903-td-securities,53.349722222,-6.260277777,1987-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7669903,CC-BY-SA-4.0,Td Securities,stock-exchange,Canadian investment bank and financial services provider
+wd-Q4835978-bmo-capital-markets-limited,43.6486,-79.3817,1987-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4835978,CC-BY-SA-4.0,BMO Capital Markets Limited,stock-exchange,American financial services provider
+wd-Q4858621-barbados-stock-exchange,13.0975,-59.616666666,1987-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4858621,CC-BY-SA-4.0,Barbados Stock Exchange,stock-exchange,Main market
+wd-Q1328736-gfi-brokers,51.507222222,-0.1275,1987-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1328736,CC-BY-SA-4.0,GFI Brokers,stock-exchange,company
+wd-Q732670-australian-securities-exchange,-33.867777777,151.21,1987-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q732670,CC-BY-SA-4.0,Australian Securities Exchange,stock-exchange,public company that operates Australia's primary securities exchange
+wd-Q3061761-exane-bnp-paribas,48.856666666,2.352222222,1987-06-23T00:00:00Z,https://www.wikidata.org/wiki/Q3061761,CC-BY-SA-4.0,Exane BNP Paribas,stock-exchange,crossing mechanisms operated by Exane BNP Paribas
+wd-Q55648272-london-bullion-market-association,51.507222222,-0.1275,1987-12-14T00:00:00Z,https://www.wikidata.org/wiki/Q55648272,CC-BY-SA-4.0,London Bullion Market Association,stock-exchange,trade association for precious metals
+wd-Q4117996-muscat-securities-market,23.613888888,58.592222222,1988-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4117996,CC-BY-SA-4.0,Muscat Securities Market,stock-exchange,"Stock exchange located in Muscat, Oman"
+wd-Q1151402-d-e-shaw,40.712777777,-74.006111111,1988-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1151402,CC-BY-SA-4.0,D.E. Shaw,stock-exchange,company
+wd-Q1975332-surabaya-stock-exchange,-7.246283611,112.737767222,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1975332,CC-BY-SA-4.0,Surabaya Stock Exchange,stock-exchange,The Jakarta (JSX) and Surabaya (SSX) Stock Exchanges have merged to become the Indonesia Stock Exchange (IDX)
+wd-Q7427526-saurashtra-kutch-stock-exchange,22.296908333,70.798363888,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7427526,CC-BY-SA-4.0,Saurashtra Kutch Stock Exchange,stock-exchange,defunct stock exchange in India
+wd-Q4204030-islamabad-stock-exchange,33.698888888,73.036944444,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4204030,CC-BY-SA-4.0,Islamabad Stock Exchange,stock-exchange,former exchange; merged to the Pakistan Stock Exchange in January 2017
+wd-Q4491713-stock-exchange-of-mauritius-ltd,-20.161944444,57.498888888,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4491713,CC-BY-SA-4.0,Stock Exchange Of Mauritius Ltd,stock-exchange,"stock exchange in Port Louis, Mauritius"
+wd-Q16920292-imc-financial-markets,41.881944444,-87.627777777,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q16920292,CC-BY-SA-4.0,IMC Financial Markets,stock-exchange,electronic trading platform
+wd-Q1521374-ghana-stock-exchange,5.55602,-0.1969,1989-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1521374,CC-BY-SA-4.0,Ghana Stock Exchange,stock-exchange,"Stock exchange located in Accra, Ghana"
+wd-Q5731645-la-bolsa-electronica-de-chile,-33.4375,-70.65,1989-01-13T00:00:00Z,https://www.wikidata.org/wiki/Q5731645,CC-BY-SA-4.0,La Bolsa Electronica De Chile,stock-exchange,
+wd-Q1866749-ljubljana-stock-exchange-official-market,46.051388888,14.506111111,1989-12-26T00:00:00Z,https://www.wikidata.org/wiki/Q1866749,CC-BY-SA-4.0,Ljubljana Stock Exchange (Official Market),stock-exchange,"Stock exchange located in Ljubljana, Slovenia"
+wd-Q739514-shanghai-stock-exchange,31.2325,121.469166666,1990-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q739514,CC-BY-SA-4.0,Shanghai Stock Exchange,stock-exchange,"stock exchange based in Shanghai, China"
+wd-Q3717073-e-mid,45.466944444,9.19,1990-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3717073,CC-BY-SA-4.0,E-Mid,stock-exchange,Market for interbank deposits in Europe.
+wd-Q7073080-otc-exchange-of-india,19.075833333,72.8775,1990-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7073080,CC-BY-SA-4.0,OTC Exchange Of India,stock-exchange,"stock exchange located in Mumbai, India"
+wd-Q4409921-swaziland-stock-exchange,-26.316666666,31.133333333,1990-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4409921,CC-BY-SA-4.0,Swaziland Stock Exchange,stock-exchange,"Stock exchange located in Mbabane, Swaziland"
+wd-Q517750-shenzhen-stock-exchange,22.546666666,114.054444444,1990-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q517750,CC-BY-SA-4.0,Shenzhen Stock Exchange,stock-exchange,stock exchange in the People's Republic of China
+wd-Q140388-zagreb-stock-exchange,45.813055555,15.977222222,1991-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q140388,CC-BY-SA-4.0,Zagreb Stock Exchange,stock-exchange,"stock exchange located in Zagreb, Croatia"
+wd-Q4940041-bolsa-y-mercados-de-valores-de-la-rep-blica-dominicana,18.4625,-69.936111111,1991-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4940041,CC-BY-SA-4.0,Bolsa y Mercados de Valores de la República Dominicana,stock-exchange,"Stock Market located in Santo Domingo, Dominican Republic"
+wd-Q1752885-mongolian-stock-exchange,47.921357,106.905515,1991-01-18T00:00:00Z,https://www.wikidata.org/wiki/Q1752885,CC-BY-SA-4.0,Mongolian Stock Exchange,stock-exchange,"stock exchange located in Ulaanbaatar, Mongolia"
+wd-Q74603-bratislava-stock-exchange,48.144722222,17.112777777,1991-03-15T00:00:00Z,https://www.wikidata.org/wiki/Q74603,CC-BY-SA-4.0,Bratislava Stock Exchange,stock-exchange,"stock exchange located in Bratislava, Slovakia"
+wd-Q59551-warsaw-stock-exchange,52.23,21.011111111,1991-04-12T00:00:00Z,https://www.wikidata.org/wiki/Q59551,CC-BY-SA-4.0,Warsaw Stock Exchange,stock-exchange,"stock exchange located in Warsaw, Poland"
+wd-Q1003968-bulgarian-stock-exchange,42.697886,23.321726,1991-10-10T00:00:00Z,https://www.wikidata.org/wiki/Q1003968,CC-BY-SA-4.0,Bulgarian Stock Exchange,stock-exchange,"Stock exchange located in Sofia, Bulgaria"
+wd-Q157852-deutsche-b-rse,50.14375,8.569027777,1992-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q157852,CC-BY-SA-4.0,Deutsche Börse,stock-exchange,financial services company of Germany
+wd-Q1019981-namibia-securities-exchange,-22.57,17.083611111,1992-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1019981,CC-BY-SA-4.0,Namibia Securities Exchange,stock-exchange,"Securities exchange in located in Windhoek, Namibia"
+wd-Q638740-national-stock-exchange-of-india,19.075833333,72.8775,1992-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q638740,CC-BY-SA-4.0,National Stock Exchange of India,stock-exchange,"stock exchange in Mumbai, India"
+wd-Q21071009-el-salvador-stock-exchange,13.697597222,-89.191155555,1992-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21071009,CC-BY-SA-4.0,El Salvador Stock Exchange,stock-exchange,"stock exchange located in Santa Tecla, La Libertad, El Salvador"
+wd-Q1421543-moscow-stock-exchange,55.750555555,37.6175,1992-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1421543,CC-BY-SA-4.0,Moscow Stock Exchange,stock-exchange,"currency exchange located in Moscow, Russia"
+wd-Q2922440-malta-stock-exchange,35.895113888,14.511672222,1992-01-08T00:00:00Z,https://www.wikidata.org/wiki/Q2922440,CC-BY-SA-4.0,Malta Stock Exchange,stock-exchange,stock exchange of the Maltese Islands
+wd-Q3661907-cassa-di-compensazione-e-garanzia-spa,41.893055555,12.482777777,1992-03-31T00:00:00Z,https://www.wikidata.org/wiki/Q3661907,CC-BY-SA-4.0,Cassa Di Compensazione E Garanzia Spa,stock-exchange,Range of asset classes
+wd-Q5153151-commodity-exchange-bratislava,48.144722222,17.112777777,1992-12-08T00:00:00Z,https://www.wikidata.org/wiki/Q5153151,CC-BY-SA-4.0,Commodity Exchange Bratislava,stock-exchange,commodity exchange in Slovakia
+wd-Q1877680-lusaka-stock-exchange,-15.416666666,28.283333333,1993-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1877680,CC-BY-SA-4.0,Lusaka Stock Exchange,stock-exchange,"Stock exchange located in Lusaka, Zambia"
+wd-Q6529599-nepal-stock-exchange,27.71,85.32,1993-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6529599,CC-BY-SA-4.0,Nepal Stock Exchange,stock-exchange,the only Stock Exchange of Nepal
+wd-Q4513926-montenegro-stock-exchange,42.441388888,19.262777777,1993-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4513926,CC-BY-SA-4.0,Montenegro Stock Exchange,stock-exchange,"Stock exchange located in Podgorica, Montenegro"
+wd-Q1249498-swisscanto-funds-centre-limited,51.507222222,-0.1275,1993-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1249498,CC-BY-SA-4.0,Swisscanto Funds Centre Limited,stock-exchange,Primary Market for Funds
+wd-Q600958-nasdaq-vilnius-ab,54.687222222,25.28,1993-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q600958,CC-BY-SA-4.0,"Nasdaq Vilnius, AB",stock-exchange,public company based in Lithuania
+wd-Q12048417-rm-system-czech-stock-exchange,50.0875,14.421388888,1993-01-28T00:00:00Z,https://www.wikidata.org/wiki/Q12048417,CC-BY-SA-4.0,RM-System Czech Stock Exchange,stock-exchange,company in the Czech Republic
+wd-Q1624698-nasdaq-riga-as,56.9475,24.106944444,1993-12-07T00:00:00Z,https://www.wikidata.org/wiki/Q1624698,CC-BY-SA-4.0,Nasdaq Riga AS,stock-exchange,"Stock exchange located in Riga, Latvia"
+wd-Q1734773-kazakhstan-stock-exchange,43.24,76.915,1993-12-30T00:00:00Z,https://www.wikidata.org/wiki/Q1734773,CC-BY-SA-4.0,Kazakhstan Stock Exchange,stock-exchange,"Stock exchange located in Almaty, Kazakhstan"
+wd-Q3901581-interactive-brokers-llc-ats,41.02649,-73.62846,1994-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3901581,CC-BY-SA-4.0,Interactive Brokers LLC - ATS,stock-exchange,IATS is an alternative trading system operated pursuant to regulation ATS by Interactive Brokers LLC.
+wd-Q4393626-tashkent-stock-exchange,41.311111111,69.279722222,1994-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4393626,CC-BY-SA-4.0,Tashkent Stock Exchange,stock-exchange,stock exchange in Uzbekistan
+wd-Q118489667-suriname-stock-exchange,5.866666666,-55.166666666,1994-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q118489667,CC-BY-SA-4.0,Suriname Stock Exchange,stock-exchange,Surinamese tradehouse for stocks
+wd-Q61161720-china-foreign-exchange-trade-system,31.223055555,121.539722222,1994-04-18T00:00:00Z,https://www.wikidata.org/wiki/Q61161720,CC-BY-SA-4.0,China Foreign Exchange Trade System,stock-exchange,"Financial infrastructure and trading platform in China, affiliated with the PBOC"
+wd-Q5598539-taipei-exchange,25.0375,121.5625,1994-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q5598539,CC-BY-SA-4.0,Taipei Exchange,stock-exchange,Foundation which serves the over-the-counter (OTC) market and bond trading of Taiwan
+wd-Q4491710-moldova-stock-exchange,47.022777777,28.835277777,1994-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q4491710,CC-BY-SA-4.0,Moldova Stock Exchange,stock-exchange,stock exchange in Moldova
+wd-Q7507109-sibiu-stock-exchange,45.8,24.15,1994-12-14T00:00:00Z,https://www.wikidata.org/wiki/Q7507109,CC-BY-SA-4.0,Sibiu Stock Exchange,stock-exchange,
+wd-Q1976933-malawi-stock-exchange,-15.786111111,35.005833333,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1976933,CC-BY-SA-4.0,Malawi Stock Exchange,stock-exchange,"Stock exchange located in Blantyre, Malawi"
+wd-Q2380000-botswana-stock-exchange,-24.656944444,25.908611111,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2380000,CC-BY-SA-4.0,Botswana Stock Exchange,stock-exchange,"Stock exchange located in Gaborone, Botswana"
+wd-Q3349831-chittagong-stock-exchange-ltd,22.335,91.8325,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3349831,CC-BY-SA-4.0,Chittagong Stock Exchange Ltd.,stock-exchange,"Stock exchange located in the port city of Chittagong, Bangladesh"
+wd-Q5450169-finesti-s-a,49.610555555,6.132777777,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5450169,CC-BY-SA-4.0,Finesti S.A.,stock-exchange,Formerly Centrale de Communications Luxembourg S.A. (CClux)
+wd-Q1344438-russian-trading-system,55.750555555,37.6175,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1344438,CC-BY-SA-4.0,Russian Trading System,stock-exchange,stock market
+wd-Q1433248-nasdaq-tallinn-as,59.437222222,24.745,1995-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1433248,CC-BY-SA-4.0,Nasdaq Tallinn AS,stock-exchange,Estonian stock exchange in Tallinn
+wd-Q438511-london-stock-exchange-aim-mtf,51.507222222,-0.1275,1995-06-19T00:00:00Z,https://www.wikidata.org/wiki/Q438511,CC-BY-SA-4.0,London Stock Exchange - AIM MTF,stock-exchange,AIMX identifying AIM Multilateral Trading Facility (MTF) driven by the London Stock Exchange (XLON).
+wd-Q1984912-pfts-stock-exchange,50.45,30.523611111,1996-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1984912,CC-BY-SA-4.0,PFTS Stock Exchange,stock-exchange,"Stock exchange located in Kyiv, Ukraine"
+wd-Q2024538-tirana-stock-exchange,41.328333333,19.818055555,1996-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2024538,CC-BY-SA-4.0,Tirana Stock Exchange,stock-exchange,"Stock exchange located in Tirana, Albania"
+wd-Q2888321-cyprus-stock-exchange,35.1725,33.365,1996-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2888321,CC-BY-SA-4.0,Cyprus Stock Exchange,stock-exchange,"Stock exchange located in Nicosia, Cyprus"
+wd-Q5055359-cayman-islands-stock-exchange,19.296388888,-81.381666666,1996-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5055359,CC-BY-SA-4.0,Cayman Islands Stock Exchange,stock-exchange,"Stock exchange located in Grand Cayman, Cayman Islands"
+wd-Q490028-dar-es-salaam-stock-exchange,-6.816111111,39.280277777,1996-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q490028,CC-BY-SA-4.0,Dar es Salaam Stock Exchange,stock-exchange,"stock exchange located in Dar es Salaam, Tanzania"
+wd-Q2306284-spb-exchange-all-markets,55.750555555,37.6175,1997-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2306284,CC-BY-SA-4.0,SPB Exchange - All Markets,stock-exchange,"Shares, depositary receipts, government bonds, structured finance products, spot commodities."
+wd-Q2374114-otflink,48.856666666,2.352222222,1997-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2374114,CC-BY-SA-4.0,OTFlink,stock-exchange,OTF for bonds and derivatives
+wd-Q681317-stoxx-limited,47.374444444,8.541111111,1997-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q681317,CC-BY-SA-4.0,Stoxx Limited,stock-exchange,globally integrated index provider
+wd-Q10404117-spotlight-stock-market,59.329444444,18.068611111,1997-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q10404117,CC-BY-SA-4.0,Spotlight Stock Market,stock-exchange,stock exchange in Stockholm
+wd-Q1648198-qatar-exchange,25.286111111,51.529444444,1997-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1648198,CC-BY-SA-4.0,Qatar Exchange,stock-exchange,"securities market Doha, Qatar"
+wd-Q492316-uganda-securities-exchange,0.313611111,32.581111111,1997-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q492316,CC-BY-SA-4.0,Uganda Securities Exchange,stock-exchange,principal stock exchange of Uganda
+wd-Q2068453-belarus-currency-and-stock-exchange,53.902246,27.561837,1998-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2068453,CC-BY-SA-4.0,Belarus Currency And Stock Exchange,stock-exchange,"Stock exchange located in Minsk, Belarus"
+wd-Q6578261-market-for-alternative-investment,13.75,100.516666666,1998-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6578261,CC-BY-SA-4.0,Market For Alternative Investment,stock-exchange,The MAT’s purpose is to create new fund-raising opportunities for innovative business with high potential growth as well as provide a greater range of investment alternatives.
+wd-Q17050115-inter-connected-stock-exchange-of-india-ltd,19.075833333,72.8775,1998-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17050115,CC-BY-SA-4.0,Inter-Connected Stock Exchange Of India Ltd,stock-exchange,stock exchange in India
+wd-Q18754966-tradeweb-llc,40.71,-74.06,1998-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18754966,CC-BY-SA-4.0,Tradeweb Llc,stock-exchange,American financial services company
+wd-Q2381261-cape-verde-stock-exchange,14.917719444,-23.509155555,1998-05-11T00:00:00Z,https://www.wikidata.org/wiki/Q2381261,CC-BY-SA-4.0,Cape Verde Stock Exchange,stock-exchange,stock exchange in Cape Verde
+wd-Q5072409-channel-islands-stock-exchange,49.46,-2.55194,1998-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q5072409,CC-BY-SA-4.0,Channel Islands Stock Exchange,stock-exchange,stock exchange
+wd-Q451814-landesbank-baden-w-rttemberg,48.7775,9.18,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q451814,CC-BY-SA-4.0,Landesbank Baden-Württemberg,stock-exchange,German credit institution headquartered in Stuttgart
+wd-Q1975312-georgian-stock-exchange,41.7225,44.7925,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1975312,CC-BY-SA-4.0,Georgian Stock Exchange,stock-exchange,"Stock exchange located in Tbilisi, Georgia"
+wd-Q2122308-amman-stock-exchange,31.95,35.933333333,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2122308,CC-BY-SA-4.0,Amman Stock Exchange,stock-exchange,"Stock exchange located in Amman, Jordan"
+wd-Q5973741-fxcm,43,-75,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5973741,CC-BY-SA-4.0,FXCM,stock-exchange,Registered & regulated market for OTC foreign exchange options trading. market for spot FX and options.
+wd-Q7580277-spreadex,51.755,-0.336,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7580277,CC-BY-SA-4.0,Spreadex,stock-exchange,Electronic trading platform for OTC derivatives
+wd-Q4281000-mozambique-stock-exchange,-25.97371,32.57393,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4281000,CC-BY-SA-4.0,Mozambique Stock Exchange,stock-exchange,"Registered Market For Equities, Bonds, Commercial Paper And Other Financial Instruments"
+wd-Q18157247-galaxy,43,-75,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18157247,CC-BY-SA-4.0,Galaxy,stock-exchange,Multilateral trading facility for Euro-denominated government and corporate bonds
+wd-Q1476760-latibex,40.416944444,-3.703333333,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1476760,CC-BY-SA-4.0,Latibex,stock-exchange,Latin America securities mmarket
+wd-Q1568967-pngx-markets-limited,-9.478888888,147.149444444,1999-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1568967,CC-BY-SA-4.0,PNGX Markets Limited,stock-exchange,stock exchange
+wd-Q12005867-norwegian-over-the-counter-market,59.913333333,10.738888888,1999-11-25T00:00:00Z,https://www.wikidata.org/wiki/Q12005867,CC-BY-SA-4.0,Norwegian Over The Counter Market,stock-exchange,Norwegian market place for OTC securities
+wd-Q7671764-tsx-venture-exchange,51.05,-114.066666666,1999-11-29T00:00:00Z,https://www.wikidata.org/wiki/Q7671764,CC-BY-SA-4.0,TSX Venture Exchange,stock-exchange,"stock exchange in Calgary, Canada"
+wd-Q1515558-singapore-stock-exchange,1.3,103.8,1999-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q1515558,CC-BY-SA-4.0,Singapore Stock Exchange,stock-exchange,investment holding company in Singapore providing services related to securities and derivatives trading and others
+wd-Q4119825-abu-dhabi-securities-exchange,24.451111111,54.396944444,2000-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4119825,CC-BY-SA-4.0,Abu Dhabi Securities Exchange,stock-exchange,"Stock exchange located in Abu Dhabi, United Arab Emirates"
+wd-Q17630723-jane-street-capital,40.712777777,-74.006111111,2000-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q17630723,CC-BY-SA-4.0,Jane Street Capital,stock-exchange,wholesaling platform
+wd-Q21597594-pirum,51.515555555,-0.093055555,2000-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21597594,CC-BY-SA-4.0,Pirum,stock-exchange,Securities lending CCP flow provider
+wd-Q1674303-nasdaq-iceland-hf,64.1475,-21.935,2000-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1674303,CC-BY-SA-4.0,Nasdaq Iceland Hf.,stock-exchange,"stock exchange located in Reykjavík, Iceland"
+wd-Q3734661-eurotlx,45.466944444,9.19,2000-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q3734661,CC-BY-SA-4.0,Eurotlx,stock-exchange,
+wd-Q2480956-baku-stock-exchange,40.366655555,49.835183333,2000-02-15T00:00:00Z,https://www.wikidata.org/wiki/Q2480956,CC-BY-SA-4.0,Baku Stock Exchange,stock-exchange,"Stock exchange located in Baku, Azerbaijan"
+wd-Q2922455-hochiminh-stock-exchange,10.775555555,106.701944444,2000-07-01T00:00:00Z,https://www.wikidata.org/wiki/Q2922455,CC-BY-SA-4.0,Hochiminh Stock Exchange,stock-exchange,"Stock exchange in located in Ho Chi Minh City, Vietnam"
+wd-Q7442849-secfinex,51.507222222,-0.1275,2000-11-01T00:00:00Z,https://www.wikidata.org/wiki/Q7442849,CC-BY-SA-4.0,Secfinex,stock-exchange,Multilateral trading facility - electronic exchange for stock borrowing and lending transactions
+wd-Q2381309-douala-stock-exchange,4.05,9.7,2001-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2381309,CC-BY-SA-4.0,Douala Stock Exchange,stock-exchange,Registered market for equities
+wd-Q683787-armenia-stock-exchange,40.181388888,44.514444444,2001-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q683787,CC-BY-SA-4.0,Armenia Stock Exchange,stock-exchange,"Stock exchange located in Yerevan, Armenia"
+wd-Q6003405-international-martime-exchange,59.913333333,10.738888888,2001-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6003405,CC-BY-SA-4.0,International Martime Exchange,stock-exchange,"Exchange for trading forward freight agreements located in Oslo, Norway"
+wd-Q18355352-two-sigma,40.723056,-74.000833,2001-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q18355352,CC-BY-SA-4.0,Two Sigma,stock-exchange,investment firm
+wd-Q21072594-equilend-europe-limited,53.349722222,-6.260277777,2001-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21072594,CC-BY-SA-4.0,Equilend Europe Limited,stock-exchange,Multilateral trading facility (MTF) for securities financing
+wd-Q6557516-liquidnet-inc,40.712777777,-74.006111111,2001-04-01T00:00:00Z,https://www.wikidata.org/wiki/Q6557516,CC-BY-SA-4.0,"Liquidnet,  Inc.",stock-exchange,US registered broker-dealer operating two ATS and offering trading and algorithmic trading services
+wd-Q843944-nomura-securities-co-ltd,35.681669444,139.772830555,2001-05-07T00:00:00Z,https://www.wikidata.org/wiki/Q843944,CC-BY-SA-4.0,Nomura Securities Co Ltd,stock-exchange,Nomura Japan equity trading
+wd-Q2384000-banja-luka-stock-exchange,44.7725,17.1925,2001-05-09T00:00:00Z,https://www.wikidata.org/wiki/Q2384000,CC-BY-SA-4.0,Banja Luka Stock Exchange,stock-exchange,"Stock exchange located in Banja Luka, Bosnia and Herzegovina"
+wd-Q58205982-patria-finance,50.0875,14.421388888,2001-05-23T00:00:00Z,https://www.wikidata.org/wiki/Q58205982,CC-BY-SA-4.0,Patria Finance,stock-exchange,Czech company
+wd-Q2387368-colombia-stock-exchange,4.60971,-74.08175,2001-07-03T00:00:00Z,https://www.wikidata.org/wiki/Q2387368,CC-BY-SA-4.0,Colombia Stock Exchange,stock-exchange,"Stock exchange located in Bogotá, Colombia"
+wd-Q7050551-nord-pool-spot-as,63.44,10.4,2001-12-27T00:00:00Z,https://www.wikidata.org/wiki/Q7050551,CC-BY-SA-4.0,Nord Pool Spot AS,stock-exchange,Nord Pool Spot as energy exchange for nordic physical markets
+wd-Q2415561-euronext-lisbon,38.708042,-9.139016,2002-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2415561,CC-BY-SA-4.0,Euronext Lisbon,stock-exchange,"stock exchange in Lisbon, Portugal"
+wd-Q609159-bolsas-y-mercados-espa-oles,40.416944444,-3.703333333,2002-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q609159,CC-BY-SA-4.0,Bolsas y Mercados Españoles,stock-exchange,Spanish Stock Exchange broker
+wd-Q30009-shanghai-gold-exchange,31.2325,121.469166666,2002-10-30T00:00:00Z,https://www.wikidata.org/wiki/Q30009,CC-BY-SA-4.0,Shanghai Gold Exchange,stock-exchange,organization for precious metal trade in China
+wd-Q627019-new-zealand-exchange-ltd,-41.288888888,174.777222222,2002-12-31T00:00:00Z,https://www.wikidata.org/wiki/Q627019,CC-BY-SA-4.0,New Zealand Exchange Ltd,stock-exchange,national stock exchange for New Zealand
+wd-Q2736100-chicago-climate-exchange,41.881944444,-87.627777777,2003-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2736100,CC-BY-SA-4.0,Chicago Climate Exchange,stock-exchange,former emissions trading exchange from 2003 to 2010
+wd-Q6715038-mcx-stock-exchange,19.075833333,72.8775,2003-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6715038,CC-BY-SA-4.0,MCX Stock Exchange,stock-exchange,
+wd-Q1817538-sydney-stock-exchange-limited,-33.867777777,151.21,2004-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1817538,CC-BY-SA-4.0,Sydney Stock Exchange Limited,stock-exchange,"stock exchange based in Sydney, Australia"
+wd-Q6957592-nadex,41.881944444,-87.627777777,2004-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6957592,CC-BY-SA-4.0,Nadex,stock-exchange,US based binary options exchange
+wd-Q21009903-flow-traders,52.366666666,4.883333333,2004-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q21009903,CC-BY-SA-4.0,Flow Traders,stock-exchange,Dutch company
+wd-Q1369913-iraq-stock-exchange,33.315277777,44.366111111,2004-06-24T00:00:00Z,https://www.wikidata.org/wiki/Q1369913,CC-BY-SA-4.0,Iraq Stock Exchange,stock-exchange,"Stock exchange located in Baghdad, Iraq"
+wd-Q6952530-nasdaq-dubai,25.269722222,55.309444444,2005-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6952530,CC-BY-SA-4.0,NASDAQ Dubai,stock-exchange,"On Tuesday 18th November, 2008, the Dubai International Financial Market was rebranded as nasdaq dubai."
+wd-Q7854998-turkish-derivatives-exchange,38.41273,27.13838,2005-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q7854998,CC-BY-SA-4.0,Turkish Derivatives Exchange,stock-exchange,exchange of derivatives
+wd-Q795469-bats-global-markets,38.964722222,-94.759444444,2005-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q795469,CC-BY-SA-4.0,BATS Global Markets,stock-exchange,"Stock exchange located in Lenexa, Kansas"
+wd-Q2227403-hanoi-stock-exchange,21.0245,105.84117,2005-08-03T00:00:00Z,https://www.wikidata.org/wiki/Q2227403,CC-BY-SA-4.0,Hanoi Stock Exchange,stock-exchange,formerly Hanoi Securities Trading Centre
+wd-Q3841552-mtax,45.466944444,9.19,2005-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q3841552,CC-BY-SA-4.0,MTAX,stock-exchange,UNIFICATION OF MTA AND MTAX ON MARCH 3RD 2008. MTAA IS THE MIC TO USE.
+wd-Q6066844-iran-mercantile-exchange,35.688888888,51.389722222,2006-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6066844,CC-BY-SA-4.0,Iran Mercantile Exchange,stock-exchange,Commodities exchange
+wd-Q6759012-marex-spectron-international-limited-otf,51.507222222,-0.1275,2006-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q6759012,CC-BY-SA-4.0,Marex Spectron International Limited OTF,stock-exchange,Organised trading facility for OTC derivatives
+wd-Q1376458-european-commodity-clearing-ag,51.3406321,12.3747329,2006-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1376458,CC-BY-SA-4.0,European Commodity Clearing AG,stock-exchange,company
+wd-Q472567-bats-chi-x-europe,51.507222222,-0.1275,2007-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q472567,CC-BY-SA-4.0,BATS Chi-X Europe,stock-exchange,"Pan-European stock exchange located in London, United Kingdom"
+wd-Q4504097-central-japan-commodities-exchange,35.180166666,136.906416666,2007-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4504097,CC-BY-SA-4.0,Central Japan Commodities Exchange,stock-exchange,commodities exchange in Japan
+wd-Q1661737-indonesia-stock-exchange,-6.175277777,106.826944444,2007-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1661737,CC-BY-SA-4.0,Indonesia Stock Exchange,stock-exchange,Merger of Jakarta (JSX) and Surabaya (SSX) stock exchanges
+wd-Q6542917-libyan-stock-market,32.87519,13.18746,2007-03-01T00:00:00Z,https://www.wikidata.org/wiki/Q6542917,CC-BY-SA-4.0,Libyan Stock Market,stock-exchange,Registered market for 7 equities
+wd-Q54983063-power-exchange-central-europe,50.0875,14.421388888,2007-03-04T00:00:00Z,https://www.wikidata.org/wiki/Q54983063,CC-BY-SA-4.0,Power Exchange Central Europe,stock-exchange,company in the Czech Republic
+wd-Q2006583-saudi-stock-exchange,24.65,46.71,2007-03-19T00:00:00Z,https://www.wikidata.org/wiki/Q2006583,CC-BY-SA-4.0,Saudi Stock Exchange,stock-exchange,stock exchange in Saudi Arabia
+wd-Q13683-nyse-euronext-liffe,40.70702,-74.01122,2007-04-04T00:00:00Z,https://www.wikidata.org/wiki/Q13683,CC-BY-SA-4.0,NYSE Euronext Liffe,stock-exchange,former securities market
+wd-Q1023876-cme-group,41.881944444,-87.627777777,2007-07-12T00:00:00Z,https://www.wikidata.org/wiki/Q1023876,CC-BY-SA-4.0,CME Group,stock-exchange,"futures company and one of the largest options and futures exchanges, located in Chicago, Illinois, United States"
+wd-Q1275141-elx,40.712777777,-74.006111111,2007-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q1275141,CC-BY-SA-4.0,Elx,stock-exchange,
+wd-Q774731-turquoise,51.507222222,-0.1275,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q774731,CC-BY-SA-4.0,Turquoise,stock-exchange,equities trading platform
+wd-Q2871850-aurel,48.856666666,2.352222222,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2871850,CC-BY-SA-4.0,Aurel,stock-exchange,"French enterprise, part of BGC Partners"
+wd-Q4470480-ukrainian-exchange,50.45,30.523611111,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q4470480,CC-BY-SA-4.0,Ukrainian Exchange,stock-exchange,Registered market for equities and bonds
+wd-Q5380042-climex,52.090833333,5.121666666,2008-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q5380042,CC-BY-SA-4.0,Climex,stock-exchange,energy contracts
+wd-Q1275627-epex-spot-se,48.856666666,2.352222222,2008-09-09T00:00:00Z,https://www.wikidata.org/wiki/Q1275627,CC-BY-SA-4.0,Epex Spot SE,stock-exchange,European power exchange (day ahead and intraday markets for electricity in Central Europe)
+wd-Q67812730-42-financial-services,50.0875,14.421388888,2008-11-27T00:00:00Z,https://www.wikidata.org/wiki/Q67812730,CC-BY-SA-4.0,42 Financial Services,stock-exchange,Czech company
+wd-Q132643181-sierra-leone-stock-exchange,8.487222222,-13.235555555,2009-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q132643181,CC-BY-SA-4.0,Sierra Leone Stock Exchange,stock-exchange,Stock exchange in Sierra Leone
+wd-Q1305960-tradegate-exchange,52.516666666,13.383333333,2009-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1305960,CC-BY-SA-4.0,Tradegate Exchange,stock-exchange,German stock exchange
+wd-Q11249728-tokyo-stock-exchange-tokyo-pro-market,35.689444444,139.691666666,2009-06-01T00:00:00Z,https://www.wikidata.org/wiki/Q11249728,CC-BY-SA-4.0,Tokyo Stock Exchange-Tokyo Pro Market,stock-exchange,Registered market for equities in Japan
+wd-Q1544745-greenmarket-exchange,48.1375,11.575,2009-09-01T00:00:00Z,https://www.wikidata.org/wiki/Q1544745,CC-BY-SA-4.0,Greenmarket Exchange,stock-exchange,
+wd-Q12217405-damascus-securities-exchange,33.5333,36.0667,2009-10-03T00:00:00Z,https://www.wikidata.org/wiki/Q12217405,CC-BY-SA-4.0,Damascus Securities Exchange,stock-exchange,Registered market for equities and bonds
+wd-Q7847316-trueex-llc,40.712777777,-74.006111111,2010-10-21T00:00:00Z,https://www.wikidata.org/wiki/Q7847316,CC-BY-SA-4.0,Trueex Llc,stock-exchange,"Electronic market for trading futures, options on futures, swaps and other derivatives"
+wd-Q2632892-moscow-exchange,55.750555555,37.6175,2011-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q2632892,CC-BY-SA-4.0,Moscow Exchange,stock-exchange,"Moscow stock exchange that deals in equities, bonds, currencies, money market instruments, commodities and runs the MOEX board"
+wd-Q7383727-rwanda-stock-exchange,-1.9525,30.115,2011-01-31T00:00:00Z,https://www.wikidata.org/wiki/Q7383727,CC-BY-SA-4.0,Rwanda Stock Exchange,stock-exchange,Principal stock market for equity and bonds
+wd-Q5025115-cambodia-securities-exchange,11.569583333,104.921027777,2011-07-11T00:00:00Z,https://www.wikidata.org/wiki/Q5025115,CC-BY-SA-4.0,Cambodia Securities Exchange,stock-exchange,national stock exchange of Cambodia
+wd-Q9598744-abanca,43.28042,-8.21467,2011-09-14T00:00:00Z,https://www.wikidata.org/wiki/Q9598744,CC-BY-SA-4.0,Abanca,stock-exchange,Spanish bank
+wd-Q5907815-ibercaja,41.646741075,-0.884818765,2011-10-01T00:00:00Z,https://www.wikidata.org/wiki/Q5907815,CC-BY-SA-4.0,Ibercaja,stock-exchange,Spanish bank based in Aragon
+wd-Q25212170-merj-exchange-limited,-4.639166666,55.4775,2012-12-01T00:00:00Z,https://www.wikidata.org/wiki/Q25212170,CC-BY-SA-4.0,MERJ Exchange Limited,stock-exchange,"Securities exchange offering a multi-asset, multi-currency trading platform. Offer issuers listing services on three boards-main board, small and medium enterprise (SME) board and venture capital (VCap) board."
+wd-Q1407995-borsa-istanbul,41.01,28.960277777,2013-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q1407995,CC-BY-SA-4.0,Borsa Istanbul,stock-exchange,Turkish stock exchange (2013-)
+wd-Q16846407-iex-market,40.712777777,-74.006111111,2013-10-25T00:00:00Z,https://www.wikidata.org/wiki/Q16846407,CC-BY-SA-4.0,IEX Market,stock-exchange,equity trading venue based in the United States
+wd-Q4763744-bolsa-de-divida-e-valores-de-angola-bodiva-angola-securities-exchange,-8.838333333,13.234444444,2014-05-07T00:00:00Z,https://www.wikidata.org/wiki/Q4763744,CC-BY-SA-4.0,Bolsa De Divida e Valores De Angola (BODIVA) - Angola Securities Exchange,stock-exchange,Regulated markets for securities trading
+wd-Q65069286-long-term-stock-exchange-inc,37.775,-122.419444444,2015-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q65069286,CC-BY-SA-4.0,"Long-Term Stock Exchange, Inc.",stock-exchange,nationally-registered stock exchange
+wd-Q60742651-xtx-markets,48.856666666,2.352222222,2015-01-30T00:00:00Z,https://www.wikidata.org/wiki/Q60742651,CC-BY-SA-4.0,XTX Markets,stock-exchange,"Equity, FX, Fixed Income and Commodity Products"
+wd-Q16920541-aequitas-neo-exchange,43.670277777,-79.386666666,2015-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q16920541,CC-BY-SA-4.0,Aequitas NEO Exchange,stock-exchange,"Stock exchange located in Toronto, Ontario, Canada"
+wd-Q39052382-cboe-canada,43.670277777,-79.386666666,2015-03-27T00:00:00Z,https://www.wikidata.org/wiki/Q39052382,CC-BY-SA-4.0,Cboe Canada,stock-exchange,Canadian Stock Exchange
+wd-Q28963183-natwest-markets-nv,51.516111111,-0.081666666,2016-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q28963183,CC-BY-SA-4.0,Natwest Markets NV,stock-exchange,investment banking arm of The Royal Bank of Scotland Group
+wd-Q39059835-bolsa-institucional-de-valores,19.353773,-99.13589,2017-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q39059835,CC-BY-SA-4.0,Bolsa Institucional de Valores,stock-exchange,stock exchange
+wd-Q93359852-astana-international-exchange,51.133333333,71.433333333,2017-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q93359852,CC-BY-SA-4.0,Astana International Exchange,stock-exchange,
+wd-Q7829724-tower-research-capital,40.712777777,-74.006111111,2017-08-01T00:00:00Z,https://www.wikidata.org/wiki/Q7829724,CC-BY-SA-4.0,Tower Research Capital,stock-exchange,UK business
+wd-Q83768717-bakkt,34.073333333,-84.281111111,2018-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q83768717,CC-BY-SA-4.0,Bakkt,stock-exchange,Spot market for crypto currency and derivatives
+wd-Q114586938-kalshi,40.712777777,-74.006111111,2018-01-01T00:00:00Z,https://www.wikidata.org/wiki/Q114586938,CC-BY-SA-4.0,Kalshi,stock-exchange,American prediction market platform
+wd-Q30290565-memx,37.368888888,-122.036944444,2020-09-21T00:00:00Z,https://www.wikidata.org/wiki/Q30290565,CC-BY-SA-4.0,MEMX,stock-exchange,equity trading venue in the United States
+wd-Q131151465-fukuoka-stock-exchange-fukuoka-pro-market,33.606111111,130.418055555,2024-12-16T00:00:00Z,https://www.wikidata.org/wiki/Q131151465,CC-BY-SA-4.0,Fukuoka Stock Exchange-Fukuoka Pro Market,stock-exchange,Registered market for equities in Japan

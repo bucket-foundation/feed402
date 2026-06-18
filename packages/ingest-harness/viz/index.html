@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>bucket.foundation — globe viz</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html, body, #map { margin: 0; padding: 0; height: 100%; background: #05060c; color: #d8e0ee; font-family: ui-monospace, "SF Mono", Menlo, monospace; }
+  #panel { position: absolute; top: 12px; left: 12px; background: rgba(8,12,22,0.92); border: 1px solid #1f2a3a; padding: 14px 16px; border-radius: 6px; min-width: 320px; max-width: 380px; backdrop-filter: blur(6px); }
+  #panel h1 { margin: 0 0 4px 0; font-size: 13px; font-weight: 600; letter-spacing: 0.04em; }
+  #panel small { color: #6f7d92; }
+  .layer { display: flex; align-items: center; gap: 8px; margin: 5px 0; font-size: 12px; }
+  .layer .swatch { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 10px; }
+  .layer .count { color: #6f7d92; margin-left: auto; font-size: 11px; }
+  #time { width: 100%; margin-top: 10px; }
+  #year { font-variant-numeric: tabular-nums; font-weight: 600; color: #91d3ff; }
+  #status { font-size: 11px; color: #6f7d92; margin-top: 8px; min-height: 1.2em; }
+  #detail { position: absolute; bottom: 12px; right: 12px; background: rgba(8,12,22,0.96); border: 1px solid #1f2a3a; padding: 14px 16px; border-radius: 6px; max-width: 420px; font-size: 12px; line-height: 1.5; display: none; }
+  #detail .title { font-weight: 600; color: #cfd9ec; margin-bottom: 6px; font-size: 13px; }
+  #detail .meta { color: #6f7d92; font-size: 11px; margin-bottom: 8px; }
+  #detail a { color: #91d3ff; text-decoration: none; }
+  #detail a:hover { text-decoration: underline; }
+  #detail .receipt { font-size: 10px; color: #4d6177; margin-top: 8px; border-top: 1px solid #1f2a3a; padding-top: 8px; }
+  #close { position: absolute; top: 6px; right: 8px; background: none; border: none; color: #6f7d92; cursor: pointer; font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="panel">
+  <h1>BUCKET FOUNDATION · globe</h1>
+  <small>build the past · build history · 2026</small>
+  <div id="layers"></div>
+  <div>
+    <div style="margin-top:8px;font-size:11px;display:flex;justify-content:space-between;">
+      <span>year</span><span id="year">—</span>
+    </div>
+    <input id="time" type="range" min="-3000" max="2030" value="2026" step="1">
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:#4d6177;">
+      <span>3000 BCE</span><span>2030</span>
+    </div>
+  </div>
+  <div id="status">loading…</div>
+</div>
+
+<div id="detail">
+  <button id="close">×</button>
+  <div class="title" id="d-title"></div>
+  <div class="meta" id="d-meta"></div>
+  <div id="d-desc"></div>
+  <div id="d-link" style="margin-top:8px;"></div>
+  <div class="receipt" id="d-receipt"></div>
+</div>
+
+<script src="https://unpkg.com/deck.gl@9.0.27/dist.min.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css" rel="stylesheet">
+<script>
+// Each entry maps a feed402 provider → its endpoint base + display color.
+// Default base assumes you're running `feed402-serve` locally on a unique port per dataset.
+// Override at runtime via ?api=https://your-host or per-layer ?world-history=http://host:4404
+const LAYERS = [
+  { id: "world-history",   port: 4404, color: [255, 99, 132],  label: "world history" },
+  { id: "us-history",      port: 4406, color: [54, 162, 235],  label: "US history" },
+  { id: "constitutions",   port: 4405, color: [255, 206, 86],  label: "constitutions" },
+  { id: "math-history",    port: 4407, color: [153, 102, 255], label: "mathematicians" },
+  { id: "physics-history", port: 4408, color: [255, 159, 64],  label: "physicists" },
+  { id: "medical-history", port: 4409, color: [120, 230, 180], label: "medical events" },
+  { id: "banking-history", port: 4410, color: [200, 200, 200], label: "banks (founding)" },
+  { id: "world-politics",  port: 4411, color: [255, 100, 100], label: "politics" },
+  { id: "banking",         port: 4412, color: [80, 180, 255],  label: "banking metrics" },
+  { id: "pharma-fda",      port: 4403, color: [220, 120, 220], label: "FDA approvals" },
+];
+
+// Default points at the production single-subdomain deploy at feed402.agfarms.dev.
+// Override per-layer via ?world-history=http://localhost:4404, or all-at-once via ?api=http://localhost:4400 for local dev.
+const params = new URLSearchParams(location.search);
+const PROD_BASE = "https://feed402.agfarms.dev";
+const baseFor = (id) => {
+  const explicit = params.get(id);
+  if (explicit) return explicit;
+  const apiBase = params.get("api");
+  if (apiBase) return `${apiBase}/p/${id}`;          // multi-tenant local dev
+  if (params.get("local")) return `http://localhost:${LAYERS.find(l=>l.id===id).port}`;  // legacy per-port dev
+  return `${PROD_BASE}/p/${id}`;                     // production default
+};
+const X_PAYMENT = btoa(JSON.stringify({ tx: "0xviz-demo", payer: "0xviz-client" }));
+const headers = { "x-payment": X_PAYMENT };
+
+const layerState = Object.fromEntries(LAYERS.map(l => [l.id, { enabled: true, rows: [], loaded: false }]));
+let currentYear = 2026;
+const yearEl = document.getElementById("year");
+const statusEl = document.getElementById("status");
+
+// Year range from a row.timestamp string. Supports BCE via leading "-".
+function rowYear(ts) {
+  if (!ts) return NaN;
+  const m = ts.match(/^-?(\d+)/);
+  if (!m) return NaN;
+  return ts.startsWith("-") ? -Number(m[1]) : Number(m[1]);
+}
+
+// Build the layer toggle UI
+const layersDiv = document.getElementById("layers");
+for (const l of LAYERS) {
+  const row = document.createElement("label");
+  row.className = "layer";
+  row.innerHTML = `
+    <input type="checkbox" data-id="${l.id}" checked>
+    <span class="swatch" style="background: rgb(${l.color.join(",")})"></span>
+    <span>${l.label}</span>
+    <span class="count" id="c-${l.id}">…</span>`;
+  layersDiv.appendChild(row);
+  row.querySelector("input").addEventListener("change", e => {
+    layerState[l.id].enabled = e.target.checked;
+    redraw();
+  });
+}
+
+// Init the deck.gl globe (orthographic-like via map projection)
+const { DeckGL, ScatterplotLayer } = deck;
+const deckgl = new DeckGL({
+  container: "map",
+  views: new deck.GlobeView({ resolution: 1 }),
+  initialViewState: { longitude: 0, latitude: 20, zoom: 0 },
+  controller: true,
+  parameters: { clearColor: [0.02, 0.025, 0.05, 1] },
+  layers: [],
+  onClick: (info) => {
+    if (info.object) showDetail(info.object);
+  },
+});
+
+async function loadLayer(l) {
+  try {
+    const url = `${baseFor(l.id)}/query?limit=1000`;
+    statusEl.textContent = `fetching ${l.id}…`;
+    const r = await fetch(url, { headers });
+    if (!r.ok) { document.getElementById(`c-${l.id}`).textContent = `${r.status}`; return; }
+    const j = await r.json();
+    const rows = (j.data?.rows ?? []).filter(x => Number.isFinite(+x.lat) && Number.isFinite(+x.lon));
+    layerState[l.id].rows = rows.map(x => ({ ...x, _layer: l.id, _color: l.color, _year: rowYear(x.timestamp) }));
+    layerState[l.id].loaded = true;
+    document.getElementById(`c-${l.id}`).textContent = rows.length;
+  } catch (e) {
+    document.getElementById(`c-${l.id}`).textContent = "off";
+  }
+}
+
+function redraw() {
+  const visible = [];
+  for (const l of LAYERS) {
+    if (!layerState[l.id].enabled) continue;
+    for (const r of layerState[l.id].rows) {
+      if (Number.isFinite(r._year) && r._year > currentYear) continue;
+      visible.push(r);
+    }
+  }
+  statusEl.textContent = `${visible.length.toLocaleString()} points · year ≤ ${currentYear}`;
+  deckgl.setProps({
+    layers: [
+      new ScatterplotLayer({
+        id: "all-points",
+        data: visible,
+        getPosition: d => [+d.lon, +d.lat],
+        getFillColor: d => [...d._color, 200],
+        getRadius: 35000,
+        radiusMinPixels: 2,
+        radiusMaxPixels: 6,
+        pickable: true,
+        stroked: false,
+      }),
+    ],
+  });
+}
+
+document.getElementById("time").addEventListener("input", e => {
+  currentYear = +e.target.value;
+  yearEl.textContent = currentYear < 0 ? `${-currentYear} BCE` : `${currentYear}`;
+  redraw();
+});
+yearEl.textContent = currentYear;
+
+let insightInflight = null;
+async function showDetail(obj) {
+  const d = document.getElementById("detail");
+  document.getElementById("d-title").textContent = obj.title || obj.name || obj.id;
+  document.getElementById("d-meta").textContent = `${obj._layer} · ${obj.kind || ""} · ${obj.timestamp?.slice(0,10) || ""}`;
+  document.getElementById("d-desc").textContent = obj.description || obj.brand || obj.indicator_label || "(no description)";
+  document.getElementById("d-link").innerHTML = obj.source_url ? `<a href="${obj.source_url}" target="_blank">canonical source ↗</a>` : "";
+  document.getElementById("d-receipt").textContent = "fetching insight tier…";
+  d.style.display = "block";
+
+  if (insightInflight) insightInflight.abort?.();
+  const ctrl = new AbortController();
+  insightInflight = ctrl;
+  try {
+    const q = encodeURIComponent(obj.title || obj.name || obj.id);
+    const r = await fetch(`${baseFor(obj._layer)}/insight?q=${q}&k=1`, { headers, signal: ctrl.signal });
+    if (!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    const hit = j.data?.top_k?.[0];
+    document.getElementById("d-receipt").innerHTML = hit
+      ? `insight (${j.receipt.tier} · $${j.receipt.price_usd}): "${hit.text.slice(0,200)}…"`
+      : `(no insight match) tx=${j.receipt?.tx || ""}`;
+  } catch (e) {
+    if (e.name !== "AbortError") document.getElementById("d-receipt").textContent = `insight tier offline (${e.message})`;
+  }
+}
+document.getElementById("close").onclick = () => document.getElementById("detail").style.display = "none";
+
+(async () => {
+  await Promise.all(LAYERS.map(loadLayer));
+  redraw();
+})();
+</script>
+</body>
+</html>

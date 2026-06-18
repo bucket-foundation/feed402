@@ -1,0 +1,7 @@
+name: world-history-seed
+version: 0.1.0
+chain: base-sepolia
+wallet: 0x0000000000000000000000000000000000000000
+citation_policy: CC-BY-4.0
+contact: ops@bucket.foundation
+schema_url: https://world-history-seed.feed402.dev/schema.json

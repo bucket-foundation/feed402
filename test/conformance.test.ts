@@ -54,6 +54,9 @@ const ENVELOPE_FIXTURES: Array<[string, string]> = [
   ["query-rights-citation-only.json", "query"],
   ["query-rights-unknown-tdm.json", "query"],
   ["insight-rights-patents-jurisdiction.json", "insight"],
+  ["query-assets-metadata-only.json", "query"],
+  ["query-assets-oa-and-restricted.json", "query"],
+  ["query-assets-fulltext-and-dataset.json", "query"],
 ];
 
 for (const [name, tier] of ENVELOPE_FIXTURES) {

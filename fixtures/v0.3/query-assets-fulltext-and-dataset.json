@@ -1,0 +1,99 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "pmc:PMC7654321",
+        "title": "Sea surface temperature anomalies, 1980 to 2024"
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "pmc:PMC7654321",
+      "provider": "example-pmc-mirror",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654321/",
+      "rights": {
+        "metadata": {
+          "license": "CC0-1.0",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "CC-BY-4.0",
+          "status": "allowed"
+        },
+        "redistribution": "allowed",
+        "tdm": "allowed",
+        "model_training": "unknown",
+        "retention": "allowed",
+        "terms_url": "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/",
+        "retrieved_at": "2026-08-01T00:00:00Z"
+      },
+      "assets": [
+        {
+          "asset_id": "jats",
+          "representation": "jats",
+          "mime_type": "application/xml",
+          "content_type": "jats-1.3",
+          "canonical_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7654321/?format=xml",
+          "checksum": "sha256:1b7d3f905ea2c4681d0f7a3b95c2e8d417f6a0b3c5d7e9f1a3b5c7d9e1f3a5b7",
+          "size": 184320,
+          "availability": "retrievable",
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        },
+        {
+          "asset_id": "supp-dataset-1",
+          "representation": "dataset",
+          "mime_type": "text/csv",
+          "canonical_url": "https://zenodo.org/records/7654321/files/sst-anomalies.csv",
+          "checksum": "sha256:4e8a1c60b93d7f25a0c8e6b4d2f091a3c5e7b9d1f3a5c7e9b1d3f5a7c9e1b3d5",
+          "size": 9437184,
+          "version": "1.2.0",
+          "availability": "retrievable",
+          "rights": {
+            "content": {
+              "license": "CC0-1.0",
+              "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+              "status": "allowed"
+            },
+            "redistribution": "allowed",
+            "tdm": "allowed",
+            "model_training": "allowed",
+            "retention": "allowed",
+            "terms_url": "https://about.zenodo.org/terms/",
+            "retrieved_at": "2026-08-01T00:00:00Z"
+          },
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        },
+        {
+          "asset_id": "figure-2",
+          "representation": "image",
+          "mime_type": "image/tiff",
+          "provider_url": "https://cdn.example.org/pmc/PMC7654321/fig2.tif",
+          "size": 5242880,
+          "availability": "restricted",
+          "rights": {
+            "content": {
+              "license": "third-party-permission-required",
+              "status": "denied"
+            },
+            "citation_only": true,
+            "tdm": "denied",
+            "model_training": "denied",
+            "notes": "Figure reproduced from a third party under a licence the article's CC-BY does not extend to."
+          },
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        }
+      ]
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

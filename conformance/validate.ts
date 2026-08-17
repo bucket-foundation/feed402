@@ -7,10 +7,12 @@
  */
 
 import {
+  AVAILABILITIES,
   KNOWN_SPEC_VERSIONS,
   RIGHTS_FACETS,
   SPEC_VERSION,
   isKnownCapability,
+  isKnownRepresentation,
   type Citation,
   type Envelope,
   type LegacyEnvelope,
@@ -465,6 +467,116 @@ export function validateRights(rights: unknown, path: string): Finding[] {
   return f;
 }
 
+// ---------- §3.5 assets ----------
+
+const CHECKSUM = /^[a-z0-9][a-z0-9-]*:[0-9a-fA-F]{8,}$/;
+
+/**
+ * §3.5. Assets are optional. When present, each entry must be addressable
+ * enough for an agent to act on, and identified well enough to be told apart
+ * from the other representations of the same record.
+ */
+export function validateAssets(assets: unknown, path: string): Finding[] {
+  const f: Finding[] = [];
+  if (!Array.isArray(assets)) return [err("3.5", path, "`assets` must be an array when present")];
+
+  const seen = new Map<string, number>();
+
+  assets.forEach((raw, i) => {
+    const at = `${path}[${i}]`;
+    if (!isObject(raw)) {
+      f.push(err("3.5", at, "asset must be an object"));
+      return;
+    }
+
+    for (const key of ["asset_id", "representation"]) {
+      if (typeof raw[key] !== "string" || (raw[key] as string).length === 0) {
+        f.push(err("3.5", `${at}.${key}`, `required string field \`${key}\` is missing`));
+      }
+    }
+
+    if (typeof raw.asset_id === "string") {
+      const prev = seen.get(raw.asset_id);
+      if (prev !== undefined) {
+        f.push(err("3.5", `${at}.asset_id`, `duplicate asset_id "${raw.asset_id}" (also at index ${prev})`));
+      } else {
+        seen.set(raw.asset_id, i);
+      }
+    }
+
+    // Open vocabulary: an unrecognized representation degrades, never errors.
+    if (typeof raw.representation === "string" && !isKnownRepresentation(raw.representation)) {
+      f.push(
+        warn(
+          "3.5",
+          `${at}.representation`,
+          `representation "${raw.representation}" is not in the v0.3 vocabulary; treat as a representation the agent cannot use`,
+        ),
+      );
+    }
+
+    for (const key of ["mime_type", "content_type", "canonical_url", "provider_url", "checksum", "version"]) {
+      if (raw[key] !== undefined && typeof raw[key] !== "string") {
+        f.push(err("3.5", `${at}.${key}`, `\`${key}\` must be a string when present`));
+      }
+    }
+
+    f.push(...validatePublicUrl(raw.canonical_url, "3.5", `${at}.canonical_url`));
+    f.push(...validatePublicUrl(raw.provider_url, "3.5", `${at}.provider_url`));
+
+    if (typeof raw.checksum === "string" && !CHECKSUM.test(raw.checksum)) {
+      f.push(
+        warn("3.5", `${at}.checksum`, '`checksum` should have the form "<algorithm>:<hex>", e.g. "sha256:c6a9…"'),
+      );
+    }
+
+    if (raw.size !== undefined && (typeof raw.size !== "number" || raw.size < 0 || !Number.isInteger(raw.size))) {
+      f.push(err("3.5", `${at}.size`, "`size` must be a non-negative integer number of bytes"));
+    }
+
+    if (raw.availability !== undefined && !(AVAILABILITIES as readonly string[]).includes(raw.availability as string)) {
+      f.push(
+        err("3.5", `${at}.availability`, `\`availability\` must be one of ${AVAILABILITIES.join(", ")}`),
+      );
+    }
+
+    // "We looked and there is no such representation" has nothing to address.
+    if (raw.availability === "absent" && (raw.canonical_url !== undefined || raw.provider_url !== undefined)) {
+      f.push(
+        warn(
+          "3.5",
+          `${at}.availability`,
+          '`availability: "absent"` carries an address; an absent representation has nowhere to point',
+        ),
+      );
+    }
+
+    // An asset an agent can neither fetch nor identify is not discovery.
+    if (
+      raw.canonical_url === undefined &&
+      raw.provider_url === undefined &&
+      raw.availability !== "absent" &&
+      raw.checksum === undefined
+    ) {
+      f.push(
+        warn(
+          "3.5",
+          at,
+          "asset carries no `canonical_url`, `provider_url`, or `checksum`; an agent cannot locate or identify it",
+        ),
+      );
+    }
+
+    if (raw.retrieved_at !== undefined && (typeof raw.retrieved_at !== "string" || !ISO_8601.test(raw.retrieved_at))) {
+      f.push(err("3.5", `${at}.retrieved_at`, "`retrieved_at` must be an ISO-8601 timestamp"));
+    }
+
+    if (raw.rights !== undefined) f.push(...validateRights(raw.rights, `${at}.rights`));
+  });
+
+  return f;
+}
+
 // ---------- §3 envelope ----------
 
 export interface EnvelopeOptions {
@@ -639,6 +751,7 @@ function validateCitation(cit: unknown, path: string): Finding[] {
       );
     }
   }
+  if (cit.assets !== undefined) f.push(...validateAssets(cit.assets, `${path}.assets`));
   if (cit.result_index !== undefined) {
     if (!Array.isArray(cit.result_index) || cit.result_index.some((n) => !Number.isInteger(n) || n < 0)) {
       f.push(err("3.3", `${path}.result_index`, "`result_index` must be an array of non-negative integers"));

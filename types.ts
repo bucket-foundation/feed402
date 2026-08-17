@@ -396,6 +396,116 @@ export function effectiveRights(...blocks: Array<Rights | undefined>): Rights | 
   return undefined;
 }
 
+// ---------- §3.5: Assets and representations (v0.3, optional) ----------
+
+/**
+ * The role an asset plays for its record. An open vocabulary under §2.3: a
+ * merchant MAY emit a name this revision does not define, and a consumer MUST
+ * degrade it to "a representation I do not know how to use" rather than
+ * rejecting the envelope.
+ */
+export const REPRESENTATIONS = [
+  "metadata",
+  "abstract",
+  "html",
+  "jats",
+  "tei",
+  "tex",
+  "pdf",
+  "supplement",
+  "dataset",
+  "software",
+  "image",
+  "table",
+] as const;
+
+export type KnownRepresentation = (typeof REPRESENTATIONS)[number];
+export type Representation = KnownRepresentation | (string & {});
+
+/** Whether `name` is in the vocabulary defined by this spec revision. */
+export function isKnownRepresentation(name: string): name is KnownRepresentation {
+  return (REPRESENTATIONS as readonly string[]).includes(name);
+}
+
+/**
+ * Whether an asset can be had.
+ *
+ * - `retrievable` — the merchant believes the asset can be fetched now.
+ * - `restricted` — the asset exists and the agent may not have it. A useful
+ *   and distinct answer from finding nothing.
+ * - `absent` — the merchant looked and this representation does not exist.
+ * - `unknown` — the merchant has not determined it. Also the reading of an
+ *   omitted `availability`.
+ *
+ * Availability is a statement about reachability. It is never a rights grant;
+ * see `Asset.rights` and SPEC §3.5.
+ */
+export type Availability = "retrievable" | "restricted" | "absent" | "unknown";
+
+export const AVAILABILITIES = [
+  "retrievable",
+  "restricted",
+  "absent",
+  "unknown",
+] as const;
+
+/**
+ * §3.5. One representation of a record. A work routinely has several: a
+ * CC-BY abstract, an all-rights-reserved publisher PDF, a green-OA accepted
+ * manuscript, a JATS full text, a supplementary dataset. `canonical_url` at
+ * record level collapses all of them into one link; assets enumerate them.
+ */
+export interface Asset {
+  /** Stable within the provider. MUST be unique within one citation. */
+  asset_id: string;
+  /** The role this asset plays for the record. */
+  representation: Representation;
+  mime_type?: string;
+  /** Structural type where a MIME type is too coarse, e.g. `"jats-1.3"`. */
+  content_type?: string;
+  /** The stable public address of this representation. */
+  canonical_url?: string;
+  /** Where this provider will serve or redirect, when it differs. */
+  provider_url?: string;
+  /** `"<algorithm>:<hex>"`, e.g. `"sha256:c6a9...f31e"`. */
+  checksum?: string;
+  /** Size in bytes. */
+  size?: number;
+  /** Provider-assigned version of this representation. */
+  version?: string;
+  /**
+   * §3.4 rights over this asset. Overrides the citation's block whole, with
+   * no field-level merge. Absent means the citation's block applies, and the
+   * §3.4 unknown rule applies unchanged in either case.
+   */
+  rights?: Rights;
+  /** Defaults to `"unknown"` when omitted. */
+  availability?: Availability;
+  /** ISO-8601. When the merchant last established the facts above. */
+  retrieved_at?: string;
+}
+
+/** Read an asset's availability, applying the omitted-means-unknown default. */
+export function assetAvailability(asset: Asset): Availability {
+  const a = asset.availability;
+  return a === undefined ? "unknown" : a;
+}
+
+/**
+ * Rights that govern an asset: its own block, else the citation's, else the
+ * manifest's. Nearest wins whole (§3.4).
+ *
+ * Listing an asset is discovery, never a grant. An asset with no rights
+ * anywhere in the chain grants nothing, however retrievable it is.
+ */
+export function assetRights(
+  asset: Asset,
+  citation?: { rights?: Rights },
+  manifest?: { rights?: Rights },
+): Rights | undefined {
+  return effectiveRights(asset.rights, citation?.rights, manifest?.rights);
+}
+
 // ---------- §4: Index manifest (v0.2) ----------
 
 /**
@@ -478,6 +588,12 @@ export interface CitationSource {
    * too, in which case every action is unknown and therefore not granted.
    */
   rights?: Rights;
+  /**
+   * §3.5 (v0.3, optional). The representations of this record the merchant
+   * knows about. `canonical_url` keeps its meaning and no merchant is
+   * required to emit assets.
+   */
+  assets?: Asset[];
   /**
    * §3.3 (v0.3, optional). Zero-based indices of the results in the
    * envelope's result list that this citation grounds.

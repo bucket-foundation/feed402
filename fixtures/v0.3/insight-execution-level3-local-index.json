@@ -1,0 +1,48 @@
+{
+  "data": {
+    "question": "what warms the gulf stream?",
+    "summary": "Top hit: Gulf Stream heat transport.",
+    "top_k": [
+      {
+        "chunk_id": "example:doc-3#c0",
+        "source_id": "example:doc-3",
+        "score": 0.8421,
+        "rank": 0
+      }
+    ]
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:doc-3",
+      "provider": "example-local-index-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/doc-3",
+      "chunk_id": "example:doc-3#c0",
+      "retrieval": {
+        "model": "voyage-3-large",
+        "score": 0.8421,
+        "rank": 0
+      },
+      "execution": {
+        "level": 3,
+        "request_id": "req_01JBX9K2FQ",
+        "query_fingerprint": "sha256:a1b2c3d4e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7e8f9",
+        "corpus_sha256": "sha256:c6a9f31eb0d4c8a71e2f9b3d6c5a48e7f1b2c3d4e5f60718293a4b5c6d7e8f9",
+        "index_id": "example-local-index-merchant:v3",
+        "index_build": "2026-08-01T09:12:04Z",
+        "software": "example-local-index-merchant",
+        "software_version": "1.4.0",
+        "git_commit": "a1b2c3d",
+        "response_sha256": "sha256:44de19b021f3c5a67e8091a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e"
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

@@ -595,6 +595,319 @@ the expected shape rather than a duplication to be resolved.
 feed402 defines how assets are described. It does not define a proxy, a fetch
 semantic, or a caching layer for them.
 
+### 3.6 Execution provenance (v0.3, optional)
+
+§3.2 and §4 make one claim reproducible: given `(provider, corpus_sha256,
+chunk_id, model)`, a second party with the same local dense index can
+recompute the score. That claim holds only for a merchant whose entire
+answer is one embedding lookup over a static local corpus. It does not hold
+for a merchant that proxies a live upstream — PubMed E-utilities, OpenAlex,
+Semantic Scholar, ClinicalTrials.gov, PubChem — because there is no local
+index to declare. §3.2 gives such a merchant nothing to emit, so it looks
+identical to a merchant that could describe its execution and chose not to.
+This section generalizes retrieval provenance into **execution provenance**:
+enough information to tie a result to the run that produced it, whether that
+run was a local vector lookup, an upstream proxy call, or a multi-step
+pipeline.
+
+§3.2's fields (`chunk_id`, `retrieval.model/score/rank`) keep their current
+meaning unchanged and remain the right fields for a local-index merchant.
+Execution provenance is additive alongside them, not a replacement.
+
+```json
+"citation": [{
+  "type": "source",
+  "source_id": "pubmed:12345678",
+  "provider": "example-pubmed-proxy",
+  "retrieved_at": "2026-08-17T10:30:00Z",
+  "execution": {
+    "level": 2,
+    "request_id": "req_01JBX3Z8QK",
+    "query_fingerprint": "sha256:9c1f...a04e",
+    "provider_request_fingerprint": "sha256:71ab...ee02",
+    "retrieval_pipeline": "gateway.pubmed.search",
+    "software": "x402-research-gateway",
+    "software_version": "0.6.2",
+    "git_commit": "a1b2c3d",
+    "provider_release": "eutils-2026-07",
+    "response_sha256": "sha256:44de...19b0"
+  }
+}]
+```
+
+#### Fields
+
+An `execution` block attaches to a citation. All fields are optional; a
+merchant emits the ones its architecture can honestly produce and omits the
+rest, which is a valid, conformant, lower level (see below).
+
+| Field | Type | Identifies |
+|---|---|---|
+| `level` | `0 \| 1 \| 2 \| 3` | The conformance level this block actually reaches. See below. |
+| `request_id` | string | This specific call. Opaque, merchant-scoped. |
+| `query_fingerprint` | string | The query that produced this result, without revealing it. See Privacy. |
+| `query_plan_fingerprint` | string | The resolved query plan (expanded filters, routed sub-queries) when it differs from the raw query. |
+| `provider_request_fingerprint` | string | The exact upstream request this merchant issued, credentials excluded. See Privacy. |
+| `corpus_sha256` | string | Same meaning as `IndexManifest.corpus_sha256` (§4.1); present here when it varies per citation rather than being constant for the whole manifest. |
+| `index_id` | string | Which index served this result, for a merchant running more than one. |
+| `index_build` | string | The build/version of that index, when it revises independently of `IndexManifest.built_at`. |
+| `provider_release` | string | The upstream API version or release train the merchant proxied against, e.g. `"eutils-2026-07"`. Same field as §3.4's `Rights.provider_release`; one spelling, two attachment points. |
+| `retrieval_pipeline` | string | Named identifier for the code path that produced this result, e.g. `"gateway.pubmed.search"`. Open string. |
+| `software` | string | The software that ran the execution, e.g. `"x402-research-gateway"`. Shared spelling with §3.7's lineage software identity — see Reconciliation below. |
+| `software_version` | string | Version of `software`. |
+| `git_commit` | string | Commit hash of the running build, when the merchant publishes one. |
+| `response_sha256` | string | Hash of the exact upstream response body the merchant received, before any transformation. Enables byte-level replay against a pinned upstream release. |
+
+#### Conformance levels
+
+A merchant advertises how much of this it does in the manifest:
+`Manifest.provenance_level: 0 | 1 | 2 | 3`. Levels are cumulative; a merchant
+at level 2 satisfies everything level 1 asks. A merchant MAY emit a citation
+whose actual `execution.level` is lower than its manifest default — the
+citation-level `level` is authoritative for that citation.
+
+| Level | Requires | What it buys an agent |
+|---|---|---|
+| 0 | Nothing. No `execution` block. | Unchanged from today; still a valid feed402 merchant. |
+| 1 | `request_id` (and `query_fingerprint` when the merchant wants calls linkable). | "This response came from a specific execution," with no claim about what that execution was. |
+| 2 | Level 1, plus whichever of `corpus_sha256` / `index_id` / `index_build` / `provider_release` / `retrieval_pipeline` / `software` / `software_version` apply to this merchant's architecture. | The §4.2 reproducibility argument: enough to say what ran, against what corpus or upstream release. |
+| 3 | Level 2, plus `response_sha256`. | Byte-level replay: a second party holding the same upstream release can verify the merchant did not alter what it received before citing it. |
+
+An agent that requires level 2 reads `Manifest.provenance_level` before
+paying and skips merchants below it, the same filtering pattern §1.1
+capabilities already establish.
+
+#### Privacy (normative)
+
+A user's question is routinely the sensitive part of a feed402 call, and a
+merchant publishing it in a citeable, re-servable envelope leaks it to every
+downstream reader of that citation.
+
+- Emitting the plaintext query is **permitted** and **never required**. No
+  field in this section accepts plaintext query text.
+- `query_fingerprint` **MUST** be a one-way construction over the normalized
+  query: a salted or keyed digest (HMAC-SHA256 with a merchant-held key, or
+  SHA-256 with a merchant-held salt not published anywhere in the manifest
+  or envelope). The exact algorithm is merchant-chosen; the requirement is
+  that two calls carrying the same query produce the same fingerprint within
+  one provider, and that the fingerprint does not let a holder recover the
+  query. A merchant **MUST NOT** use unsalted SHA-256 of the raw query
+  string, which is reversible by dictionary against any guessable query
+  space.
+- `provider_request_fingerprint` is computed the same way, over the upstream
+  request the merchant actually issued, **after** excluding: API keys,
+  bearer tokens, session cookies, signature parameters, and personally
+  identifying query parameters such as a polite-pool `email`/`mailto` value.
+  This is the same exclusion list `conformance/validate.ts`'s
+  `CREDENTIAL_PARAMS` already enforces against published URLs (§3.4); a
+  merchant computing this fingerprint over the raw outgoing request before
+  applying that exclusion list produces a hash a determined holder can
+  brute-force back to a live credential, which defeats the purpose of
+  hashing it in the first place.
+- `response_sha256` covers response bytes, not request parameters, and
+  carries no privacy exclusion of its own — a merchant with an upstream
+  response containing a caller-identifying value in the body SHOULD scrub it
+  before hashing, or omit `response_sha256` for that call.
+
+#### Reconciliation with §3.7 lineage
+
+Both this section and §3.7 need to say "this software, this version" for a
+run. They share one spelling: `software` / `software_version` / `git_commit`
+mean the same thing in an `execution` block and in a lineage step. A
+merchant that already emits `execution.software_version` for a citation
+SHOULD reuse the identical string in the corresponding lineage step's
+`software_version` rather than restating the fact under a different name.
+
+#### Worked example: the reference gateway
+
+`x402-research-gateway`'s proxying routes (`internal/handler/feed402.go`)
+own no retrieval index — the code comment states this directly — so they
+cannot honor §4's `IndexManifest` or §3.2's `retrieval.model/score/rank`.
+Under this section they are not exempt from provenance, only from the
+local-index subset of it. A proxying route populates:
+
+```json
+"execution": {
+  "level": 2,
+  "request_id": "req_01JBX3Z8QK",
+  "query_fingerprint": "sha256:9c1f...a04e",
+  "provider_request_fingerprint": "sha256:71ab...ee02",
+  "retrieval_pipeline": "gateway.pubmed.search",
+  "software": "x402-research-gateway",
+  "software_version": "0.6.2",
+  "provider_release": "eutils-2026-07"
+}
+```
+
+`internal/handler/insight.go` additionally identifies its summarizer as
+`mock:template-v1` or `openai:<model>`; that string becomes
+`execution.software` = the summarizer identity, with `retrieval_pipeline`
+naming the upstream retrieval route it fanned out to before summarizing.
+§3.7 covers the summarization step itself as a lineage transformation; this
+section covers only "what executed," not "what was derived from what."
+
+#### Non-goal
+
+This section does not define a query language, a replay protocol, or a
+verification service. It defines the fields a merchant needs to make replay
+and reproduction *possible* for a party willing to build one.
+
+### 3.7 Derivation and lineage provenance (v0.3, optional)
+
+`citation` grounds `data` in sources, which is sufficient for `raw` and
+`query`. It is not sufficient for `insight`, or for anything computed. The
+`insight` tier already produces derived output — the reference gateway's
+`insight.go` runs a retrieval route, truncates snippets to
+`maxContextChars`, and passes them to a summarizer — and the envelope shows
+citations and answer text but not that a transformation happened, which
+software produced it, which snippets went in, or that truncation occurred.
+Two merchants running different summarizers over identical sources return
+indistinguishable envelope shapes. The same gap blocks an agent that merges
+results from several feed402 merchants, dedupes them, and reranks: the
+merged object's relationship to its inputs is unrepresentable, so the
+provenance chain ends at the first hop.
+
+#### Lineage entries
+
+An envelope MAY carry a top-level `lineage` array. Lineage is additive and
+never displaces citations — a lineage-bearing envelope still carries the
+full mandatory `citation` array from §3, and `sources` in a lineage entry
+references into that array rather than restating it:
+
+```json
+{
+  "data": { "answer": "..." },
+  "citation": [
+    { "type": "source", "source_id": "pubmed:111", "...": "..." },
+    { "type": "source", "source_id": "pubmed:222", "...": "..." }
+  ],
+  "lineage": [
+    {
+      "step": 0,
+      "derived_object": "insight:req_01JBX3Z8QK#context",
+      "sources": [0, 1],
+      "transformation": "context_assembly",
+      "software": "x402-research-gateway",
+      "software_version": "0.6.2",
+      "timestamp": "2026-08-17T10:30:00.100Z",
+      "notes": "truncated to maxContextChars=4000; both snippets kept in full"
+    },
+    {
+      "step": 1,
+      "derived_object": "insight:req_01JBX3Z8QK#answer",
+      "sources": ["insight:req_01JBX3Z8QK#context"],
+      "transformation": "summarization",
+      "software": "openai:gpt-4o-mini",
+      "timestamp": "2026-08-17T10:30:01.400Z"
+    }
+  ],
+  "receipt": { "...": "..." }
+}
+```
+
+#### Fields
+
+| Field | Type | Meaning |
+|---|---|---|
+| `step` | number | Zero-based order within this envelope's `lineage` array. Steps execute in ascending order. |
+| `derived_object` | string | Identity of the object this step produced. Opaque to the spec; a merchant-chosen string stable enough to be referenced as a `sources` entry by a later step or by another merchant. |
+| `sources` | array | What this step consumed. Each entry is either a non-negative integer index into `citation` (a step consuming a source citation directly) or a string matching an earlier step's `derived_object` (a step consuming a prior step's output). |
+| `transformation` | string | What operation this step performed. Open string under §2.3 — no required vocabulary. Examples in this revision's worked example: `context_assembly`, `summarization`, `dedup`, `rerank`, `merge`. A merchant MAY use any string that names its operation. |
+| `software` | string | Same spelling as §3.6's `execution.software`. The software or model identity that ran this step. |
+| `software_version` | string | Same spelling as §3.6's `execution.software_version`. |
+| `git_commit` | string | Same spelling as §3.6's `execution.git_commit`. |
+| `timestamp` | string | ISO-8601. When this step ran. |
+| `notes` | string | Free text for a fact the fields above cannot carry, e.g. a truncation that happened during this step. |
+
+Only `derived_object`, `sources`, and `transformation` are required on a
+lineage entry that is present at all; `lineage` itself remains entirely
+optional at the envelope level.
+
+#### Multi-step composition
+
+A pipeline with more than one transformation emits one lineage entry per
+step rather than a single collapsed entry, because collapsing hides exactly
+the fact this section exists to expose — that context assembly and
+summarization are different operations with potentially different software
+identities, and a consumer auditing "did truncation happen before or after
+summarization" needs the steps distinguished. A merchant with a genuinely
+single-step pipeline emits a `lineage` array of length 1.
+
+Cross-merchant composition follows from `derived_object` being an opaque
+string: an agent that merges results from feed402 merchant A and merchant B
+can emit its own `lineage` entry (if it re-publishes a feed402 envelope of
+its own) whose `sources` cites `derived_object` strings or `source_id`
+values produced by A and B. Nothing in this section requires the merging
+agent to be a feed402 merchant itself; the composition rule exists so that
+one can be, without a new field.
+
+#### PROV alignment
+
+[W3C PROV](https://www.w3.org/TR/prov-overview/) models exactly this
+entity/activity/agent relationship, and is the obvious prior art. This
+section is **not** a PROV serialization. A full PROV document (PROV-O,
+PROV-JSON, or PROV-XML) carries qualified relations, bundles, and an
+extensible ontology of relation types that are heavier than a JSON object an
+agent parses while deciding whether a $0.002 call is worth spending on. The
+decision is a documented crosswalk, not adoption:
+
+| feed402 lineage | PROV concept |
+|---|---|
+| `derived_object` | `prov:Entity` |
+| a lineage step (`transformation` + `timestamp`) | `prov:Activity` |
+| `software` / `software_version` / `git_commit` | `prov:Agent` (specifically `prov:SoftwareAgent`) |
+| a `sources` entry pointing at a citation | `prov:used` (Activity used Entity) |
+| a `sources` entry pointing at a prior `derived_object` | `prov:wasDerivedFrom` (Entity derived from Entity), mediated by the consuming Activity |
+| the step that produced `derived_object` | `prov:wasGeneratedBy` (Entity generated by Activity) |
+| `software` running a step | `prov:wasAssociatedWith` (Activity associated with Agent) |
+
+A merchant or downstream tool that wants full PROV interop can project a
+feed402 `lineage` array into this shape mechanically. feed402 itself stays
+the small object; PROV projection is a consumer's choice, not a wire
+requirement. This crosswalk MAY grow in a future revision if a real
+consumer needs bundle- or qualification-level PROV features; none has been
+identified as of this writing.
+
+#### Worked example: the reference gateway's insight pipeline
+
+`internal/handler/insight.go` runs three logical steps: fan out to a
+retrieval route, truncate context to `maxContextChars`, then summarize.
+Steps 1 and 2 share one lineage entry (`context_assembly`) because
+truncation is a property of assembly, not a separately identified
+transformation in the current implementation; summarization is its own step
+because it is where the software identity changes from the gateway itself
+to a named summarizer (`mock:template-v1` or `openai:<model>`):
+
+```json
+"lineage": [
+  {
+    "step": 0,
+    "derived_object": "insight:req_01JBX3Z8QK#context",
+    "sources": [0, 1],
+    "transformation": "context_assembly",
+    "software": "x402-research-gateway",
+    "software_version": "0.6.2",
+    "timestamp": "2026-08-17T10:30:00.100Z",
+    "notes": "maxContextChars=4000 applied; 2 of 2 snippets retained"
+  },
+  {
+    "step": 1,
+    "derived_object": "insight:req_01JBX3Z8QK#answer",
+    "sources": ["insight:req_01JBX3Z8QK#context"],
+    "transformation": "summarization",
+    "software": "openai:gpt-4o-mini",
+    "timestamp": "2026-08-17T10:30:01.400Z"
+  }
+]
+```
+
+#### Non-goal
+
+No scientific transformation taxonomy. `transformation` names an operation,
+never a discipline; a merchant summarizing patents, deduping sensor
+readings, or joining two proprietary tables all use this same field with a
+string of their own choosing.
+
 ## 4. Index manifest (v0.2, optional)
 
 A provider that backs its `query` or `insight` tier with a retrieval index

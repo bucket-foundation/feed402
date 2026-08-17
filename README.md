@@ -76,6 +76,17 @@ Everything else is optional and additive:
    `availability` that tells "restricted" apart from "no such copy exists."
    Listing an asset is discovery and never a rights grant.
    See [`SPEC.md §3.5`](./SPEC.md#35-assets-and-representations-v03-optional).
+4. **Execution provenance** on citations, generalizing retrieval provenance
+   beyond local-index merchants to upstream-proxying and pipeline merchants:
+   request identity, corpus/software identity, and a response hash, at a
+   merchant-advertised conformance level (0-3). Query and upstream-request
+   fingerprints are one-way by construction; plaintext queries are never
+   required. See [`SPEC.md §3.6`](./SPEC.md#36-execution-provenance-v03-optional).
+5. **Derivation and lineage** on the envelope — an optional, ordered
+   `lineage` array describing what a derived result (an `insight` answer, a
+   merged multi-merchant result) was built from and how, without ever
+   displacing the mandatory source citations. Includes a documented PROV
+   crosswalk. See [`SPEC.md §3.7`](./SPEC.md#37-derivation-and-lineage-provenance-v03-optional).
 
 ## The 60-second pitch
 

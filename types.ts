@@ -82,6 +82,14 @@ export interface Manifest {
    * `rights` instead of relying on this default.
    */
   rights?: Rights;
+  /**
+   * §3.6 (v0.3, optional) — the highest execution-provenance conformance
+   * level this merchant can honor across its citations. Cumulative: a
+   * merchant at level 2 satisfies everything level 1 asks. A citation MAY
+   * report a lower `execution.level` than this default; the citation-level
+   * value is authoritative for that citation. Absent means level 0.
+   */
+  provenance_level?: ProvenanceLevel;
 }
 
 // ---------- §1.1: Capability vocabulary (v0.3) ----------
@@ -570,6 +578,62 @@ export interface RetrievalProvenance {
   rank: number;
 }
 
+// ---------- §3.6: Execution provenance (v0.3) ----------
+
+/**
+ * §3.6 conformance levels. Cumulative: a merchant reporting level 2 also
+ * satisfies level 1. Level 0 means no `execution` block at all.
+ */
+export type ProvenanceLevel = 0 | 1 | 2 | 3;
+
+/**
+ * §3.6 (v0.3, optional). Generalizes `RetrievalProvenance` to merchants that
+ * do not own a local index: upstream-proxying merchants and multi-step
+ * pipelines. `RetrievalProvenance`'s fields keep their meaning unchanged;
+ * this is additive alongside them, not a replacement.
+ *
+ * `software` / `software_version` / `git_commit` share their spelling with
+ * `LineageEntry` (§3.7) — SPEC §3.6 "Reconciliation with §3.7 lineage".
+ */
+export interface ExecutionProvenance {
+  /** The conformance level this block actually reaches for this citation. */
+  level?: ProvenanceLevel;
+  /** Opaque, merchant-scoped identifier for this specific call. */
+  request_id?: string;
+  /**
+   * One-way digest of the normalized query. MUST be salted or keyed (HMAC
+   * or salted SHA-256); MUST NOT be unsalted SHA-256 of the raw query
+   * string. SPEC §3.6 Privacy.
+   */
+  query_fingerprint?: string;
+  /** Same construction as `query_fingerprint`, over the resolved query plan. */
+  query_plan_fingerprint?: string;
+  /**
+   * Same construction as `query_fingerprint`, over the exact upstream
+   * request issued, computed AFTER excluding credentials and personally
+   * identifying parameters. SPEC §3.6 Privacy.
+   */
+  provider_request_fingerprint?: string;
+  /** Same meaning as `IndexManifest.corpus_sha256`, when it varies per citation. */
+  corpus_sha256?: string;
+  /** Which index served this result, for a merchant running more than one. */
+  index_id?: string;
+  /** Build/version of that index, when it revises independently of `IndexManifest.built_at`. */
+  index_build?: string;
+  /** The upstream API version or release train proxied against, e.g. `"eutils-2026-07"`. */
+  provider_release?: string;
+  /** Named identifier for the code path that produced this result. */
+  retrieval_pipeline?: string;
+  /** The software or model identity that ran this execution. */
+  software?: string;
+  /** Version of `software`. */
+  software_version?: string;
+  /** Commit hash of the running build, when published. */
+  git_commit?: string;
+  /** Hash of the exact upstream response body received, pre-transformation. */
+  response_sha256?: string;
+}
+
 export interface CitationSource {
   type: "source";
   source_id: string;
@@ -613,6 +677,12 @@ export interface CitationSource {
    * SHOULD emit this; pure `raw` merchants omit it.
    */
   retrieval?: RetrievalProvenance;
+  /**
+   * §3.6 (v0.3, optional). Execution provenance generalized beyond local
+   * retrieval: request identity, corpus/software identity, and response
+   * hash, at the merchant's chosen conformance level.
+   */
+  execution?: ExecutionProvenance;
 }
 
 export interface CitationVDS {
@@ -638,6 +708,50 @@ export interface CitationVDS {
 }
 
 export type Citation = CitationSource | CitationVDS;
+
+// ---------- §3.7: Derivation and lineage provenance (v0.3) ----------
+
+/**
+ * §3.7. Reference into what a lineage step consumed: either a zero-based
+ * index into the envelope's `citation` array, or a string matching an
+ * earlier step's `derived_object` (or another merchant's `derived_object` /
+ * `source_id`, for cross-merchant composition).
+ */
+export type LineageSource = number | string;
+
+/**
+ * §3.7 (v0.3, optional). One step of a derivation: this object was derived
+ * FROM these sources USING this transformation, run by this software, at
+ * this timestamp. Lineage is additive and never displaces citations —
+ * `sources` references into `Envelope.citation` rather than restating it.
+ *
+ * `software` / `software_version` / `git_commit` share their spelling with
+ * `ExecutionProvenance` (§3.6) — SPEC §3.6 "Reconciliation with §3.7 lineage".
+ */
+export interface LineageEntry {
+  /** Zero-based order within this envelope's `lineage` array. */
+  step: number;
+  /**
+   * Identity of the object this step produced. Opaque to the spec; stable
+   * enough to be referenced as a `sources` entry by a later step or by
+   * another merchant's lineage.
+   */
+  derived_object: string;
+  /** What this step consumed: citation indices and/or prior `derived_object` strings. */
+  sources: LineageSource[];
+  /** What operation this step performed. Open string under §2.3. */
+  transformation: string;
+  /** The software or model identity that ran this step. */
+  software?: string;
+  /** Version of `software`. */
+  software_version?: string;
+  /** Commit hash of the running build, when published. */
+  git_commit?: string;
+  /** ISO-8601. When this step ran. */
+  timestamp?: string;
+  /** Free text for a fact the fields above cannot carry, e.g. a truncation. */
+  notes?: string;
+}
 
 export interface Receipt {
   tier: TierName;
@@ -665,6 +779,13 @@ export interface Envelope<D = unknown> {
    * @deprecated since feed402/0.3
    */
   citation_legacy?: Citation;
+  /**
+   * §3.7 (v0.3, optional). Ordered derivation steps explaining how `data`
+   * was produced from the sources in `citation`. Never required, and never
+   * a substitute for `citation` — source citations stay mandatory and
+   * first-class whether or not lineage is present.
+   */
+  lineage?: LineageEntry[];
   receipt: Receipt;
 }
 

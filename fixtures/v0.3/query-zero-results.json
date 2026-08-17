@@ -1,0 +1,26 @@
+{
+  "data": {
+    "rows": [],
+    "count": 0,
+    "query": {
+      "year_gte": 3000
+    }
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:collection",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/",
+      "result_index": []
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

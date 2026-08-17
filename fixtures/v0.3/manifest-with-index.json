@@ -1,0 +1,33 @@
+{
+  "name": "example-merchant",
+  "version": "1.0.0",
+  "spec": "feed402/0.3",
+  "chain": "base",
+  "wallet": "0x00000000000000000000000000000000000000ab",
+  "tiers": {
+    "insight": {
+      "path": "/insight",
+      "price_usd": 0.002,
+      "unit": "call"
+    }
+  },
+  "citation_policy": "citation-only",
+  "citation_types": [
+    "source"
+  ],
+  "contact": "ops@example.org",
+  "index": {
+    "type": "dense",
+    "model": "voyage-3-large",
+    "dim": 1024,
+    "distance": "cosine",
+    "chunks": 14237,
+    "chunk_strategy": {
+      "kind": "token-window",
+      "size": 512,
+      "overlap": 64
+    },
+    "corpus_sha256": "c6a9f31e",
+    "built_at": "2026-08-17T09:12:04Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "feed402",
   "version": "0.1.0-alpha.1",
-  "description": "Reference implementation of the feed402 protocol — paid data endpoints over x402 with mandatory citation envelopes.",
+  "description": "Reference implementation of the feed402 protocol \u2014 paid data endpoints over x402 with mandatory citation envelopes.",
   "license": "MIT",
   "author": "Gianangelo Dichio",
   "type": "module",
@@ -13,7 +13,9 @@
     "agent": "tsx agent.ts",
     "demo": "bash demo.sh",
     "typecheck": "tsc --noEmit",
-    "build-index": "tsx build-index.ts"
+    "build-index": "tsx build-index.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "conformance": "tsx conformance/cli.ts"
   },
   "dependencies": {
     "hono": "^4.6.0",

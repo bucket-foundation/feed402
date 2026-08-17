@@ -20,7 +20,7 @@ await (async () => {
 
   await t("manifest loads + defaults applied", () => {
     const m = loadManifest(dir + "manifest.yaml");
-    eq(m.spec, "feed402/0.2");
+    eq(m.spec, "feed402/0.3");
     eq(m.tiers.raw.price_usd, 0.010);
     eq(m.tiers.query.price_usd, 0.005);
     eq(m.tiers.insight.price_usd, 0.002);
@@ -93,7 +93,7 @@ await (async () => {
     const r = await app.request("/.well-known/feed402.json");
     eq(r.status, 200);
     const j = await r.json() as any;
-    eq(j.spec, "feed402/0.2");
+    eq(j.spec, "feed402/0.3");
   });
 
   await t("/query w/o payment returns 402 + x402 challenge", async () => {
@@ -108,7 +108,8 @@ await (async () => {
     eq(r.status, 200);
     const j = await r.json() as any;
     ok(Array.isArray(j.data.rows));
-    eq(j.citation.type, "source");
+    ok(Array.isArray(j.citation), "citation is an array (feed402/0.3 §3)");
+    eq(j.citation[0].type, "source");
     eq(j.receipt.tier, "query");
     eq(j.receipt.tx, "0xtest");
   });
@@ -119,9 +120,12 @@ await (async () => {
     eq(r.status, 200);
     const j = await r.json() as any;
     ok(j.data.top_k.length > 0);
-    eq(j.citation.chunk_id, "black-death#c0");
-    ok(j.citation.retrieval);
-    eq(j.citation.retrieval.model, "bm25");
+    ok(Array.isArray(j.citation), "citation is an array (feed402/0.3 §3)");
+    eq(j.citation.length, j.data.top_k.length, "one citation per top_k hit (§3.3)");
+    eq(j.citation[0].chunk_id, "black-death#c0");
+    ok(j.citation[0].retrieval);
+    eq(j.citation[0].retrieval.model, "bm25");
+    eq(j.citation[0].retrieval.rank, 0);
   });
 
   console.log(`\n${pass} passed, ${fail} failed\n`);

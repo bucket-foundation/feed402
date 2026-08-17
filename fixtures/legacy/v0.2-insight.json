@@ -1,0 +1,27 @@
+{
+  "data": {
+    "question": "q",
+    "summary": "s",
+    "top_source": "example:doc-3"
+  },
+  "citation": {
+    "type": "source",
+    "source_id": "example:doc-3",
+    "provider": "example-merchant",
+    "retrieved_at": "2026-04-18T10:30:00Z",
+    "license": "citation-only",
+    "canonical_url": "https://example.org/doc-3",
+    "chunk_id": "example:doc-3#c17",
+    "retrieval": {
+      "model": "voyage-3-large",
+      "score": 0.8421,
+      "rank": 2
+    }
+  },
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xabc",
+    "paid_at": "2026-04-18T10:30:01Z"
+  }
+}

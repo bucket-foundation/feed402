@@ -69,9 +69,14 @@ export async function buildServer({ dataset, bm25, payment }: ServerOpts) {
     let rows = dataset.rows;
     if (ids?.length) rows = rows.filter(r => ids.includes(r.id));
     const slice = rows.slice(offset, offset + limit);
+    // §3.3: one citation per returned row, ordinally aligned with `rows`.
+    // An empty slice still needs a citation, so fall back to the batch citation.
+    const rawCitations = slice.length
+      ? slice.map(r => rowCitation(r, provider))
+      : [batchCitation(provider, m, 0)];
     return c.json(envelope(
       { rows: slice, total: rows.length, offset, limit },
-      batchCitation(provider, m, slice.length),
+      rawCitations,
       makeReceipt("raw", m, pay.tx),
     ));
   });
@@ -83,15 +88,18 @@ export async function buildServer({ dataset, bm25, payment }: ServerOpts) {
     const qs = new URL(c.req.url).searchParams;
     const q = parseQuery(qs);
     const matched = applyQuery(dataset.rows, q);
+    const rowCitations = matched.map(r => rowCitation(r, provider));
     return c.json(envelope(
       {
         rows: matched,
         count: matched.length,
         query: q,
-        // include per-row citations inline so a globe viz can plot+cite without re-fetch
-        citations: matched.map(r => rowCitation(r, provider)),
+        // Deprecated since feed402/0.3: the same citations now ride in the
+        // envelope `citation` array, ordinally aligned with `rows`. Kept so
+        // existing globe-viz consumers keep working. Sunset at feed402/0.5.
+        citations: rowCitations,
       },
-      batchCitation(provider, m, matched.length),
+      rowCitations.length ? rowCitations : [batchCitation(provider, m, 0)],
       makeReceipt("query", m, pay.tx),
     ));
   });
@@ -117,10 +125,10 @@ export async function buildServer({ dataset, bm25, payment }: ServerOpts) {
         canonical_url: h.chunk.canonical_url,
       })),
     };
-    // citation = the top hit's chunk; full multi-citation lives in data.top_k
+    // §3.3: one citation per hit, ordinally aligned with `data.top_k`.
     const citation = hits.length
-      ? chunkCitation(hits[0].chunk, provider, hits[0].score, 0, model)
-      : batchCitation(provider, m, 0);
+      ? hits.map((h, i) => chunkCitation(h.chunk, provider, h.score, i, model))
+      : [batchCitation(provider, m, 0)];
     return c.json(envelope(data, citation, makeReceipt("insight", m, pay.tx)));
   });
 

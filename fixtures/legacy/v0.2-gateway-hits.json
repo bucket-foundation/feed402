@@ -1,0 +1,31 @@
+{
+  "data": {
+    "query": "crispr",
+    "hits": [
+      {
+        "source_id": "pubmed:12345678",
+        "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/12345678",
+        "rank": 0
+      },
+      {
+        "source_id": "pubmed:87654321",
+        "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/87654321",
+        "rank": 1
+      }
+    ]
+  },
+  "citation": {
+    "type": "source",
+    "source_id": "pubmed:12345678",
+    "provider": "x402-research-gateway",
+    "retrieved_at": "2026-06-18T10:30:00Z",
+    "license": "citation-only",
+    "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/12345678"
+  },
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.005,
+    "tx": "0xdef",
+    "paid_at": "2026-06-18T10:30:01Z"
+  }
+}

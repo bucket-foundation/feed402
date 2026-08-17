@@ -44,6 +44,21 @@ export function makeReceipt(tier: Tier, manifest: Manifest, tx?: string): Receip
   };
 }
 
-export function envelope<T>(data: T, citation: Citation, receipt: Receipt): Envelope<T> {
-  return { data, citation, receipt };
+/**
+ * Build a feed402/0.3 envelope. Accepts a single citation or an array; the
+ * wire shape is always an array (SPEC §3).
+ *
+ * `opts.legacyAlias` additionally emits the deprecated singular
+ * `citation_legacy` field for consumers still on 0.2. Off by default.
+ */
+export function envelope<T>(
+  data: T,
+  citation: Citation | Citation[],
+  receipt: Receipt,
+  opts?: { legacyAlias?: boolean },
+): Envelope<T> {
+  const citations = Array.isArray(citation) ? citation : [citation];
+  const env: Envelope<T> = { data, citation: citations, receipt };
+  if (opts?.legacyAlias && citations.length > 0) env.citation_legacy = citations[0];
+  return env;
 }

@@ -1,14 +1,16 @@
-# feed402 — protocol v0.2
+# feed402 — protocol v0.3
 
 **Author:** Gianangelo Dichio · **License:** CC0 · **Status:** Draft
 
 One page. Built on x402 unchanged. Everything below is the delta a data
 provider needs to implement on top of a standard x402 server.
 
-**v0.2 is fully backwards-compatible with v0.1.** Every field added in this
-version is optional. A v0.1 client seeing a v0.2 manifest or envelope
-**must** ignore unknown fields (see §2.3) and continue to function. A v0.2
-client querying a v0.1 provider **must not** require the new fields.
+**v0.3 carries exactly one breaking change from v0.2:** `Envelope.citation`
+is an array. Everything else added since v0.1 is optional. A client seeing a
+newer manifest or envelope **must** ignore unknown fields (see §2.3) and
+continue to function, and a v0.3 client querying a v0.1 or v0.2 provider
+**must not** require fields added after that provider's version. The break,
+its migration path, and its deprecation window are specified in §7.
 
 ---
 
@@ -24,7 +26,7 @@ GET https://<provider>/.well-known/feed402.json
 {
   "name": "example-pubmed-mirror",
   "version": "0.1.0",
-  "spec": "feed402/0.2",
+  "spec": "feed402/0.3",
   "chain": "base",
   "wallet": "0xabc...",
   "tiers": {
@@ -61,7 +63,7 @@ touch it.
 
 Clients and agents **MUST** ignore any top-level, nested, or citation-block
 field they do not recognize. This is the extension rule that lets v0.2 add
-fields to the manifest and envelope without breaking v0.1 consumers. If a
+fields to the manifest and envelope without breaking older consumers. If a
 future spec revision needs to make a field load-bearing, it will introduce
 it as optional in version *N*, make it recommended in *N+1*, and required no
 sooner than *N+2*.
@@ -92,18 +94,16 @@ Every paid response — raw, query, or insight — returns the same shape:
 }
 ```
 
-The `citation` block is **mandatory** and is **always an array** (length ≥ 1
+The `citation` block is **mandatory** and is **always an array** (length >= 1
 on success). No citation, not feed402. This is the one thing raw x402
 middleware does not enforce — it must live inside the response envelope.
 
-**Single-row endpoints** (e.g. `GET /patents/{id}`) return a 1-element array.
-**Multi-row endpoints** (e.g. `GET /patents/search`) return one entry per
-distinct source row, deduplicated by `canonical_url`.
-
-> **v0.3 BREAKING NOTE (bkt-7cs)**: prior drafts shipped `citation` as a
-> singular object. v0.3 promotes it to an array to support multi-row tiers
-> without smuggling citations into `data`. v0.1/v0.2 consumers reading
-> `envelope.citation.type` MUST update to `envelope.citation[0].type`.
+The citation array is the **single evidence channel** for the envelope. A
+merchant MUST NOT put per-result evidence anywhere else and expect an agent
+to find it. Evidence smuggled into `data` (a `hits` array, a `citations`
+array, a `sources` list) is not protocol data; a conformant consumer reads
+`citation` and nothing else. §7 lists the two such fields shipped by
+reference merchants before 0.3 and their deprecation.
 
 ### 3.1 Citation types (extension point)
 
@@ -126,7 +126,7 @@ Reference implementation: DerbyFish `BHRV` (Bump, Hero, Release, Validate)
 catch-verification pipeline, shipping as `derbyfish.bhrv.v2`.
 
 ```json
-"citation": {
+"citation": [{
   "type": "vds",
   "script_id": "derbyfish.bhrv.v2",
   "session_id": "sess_01JBX...",
@@ -143,7 +143,7 @@ catch-verification pipeline, shipping as `derbyfish.bhrv.v2`.
   },
   "onchain": "flow-mainnet:FishCardV1#12891",
   "signature": "0xwallet..."
-}
+}]
 ```
 
 The full step array, sensor hashes, and consistency-rule results live at
@@ -159,7 +159,7 @@ Any `source`-typed citation MAY carry two optional fields that let a
 downstream agent re-verify or re-rank the retrieval that produced it:
 
 ```json
-"citation": {
+"citation": [{
   "type": "source",
   "source_id": "jackkruse:aquaphotomics-101",
   "provider": "kruse-feed402",
@@ -171,8 +171,9 @@ downstream agent re-verify or re-rank the retrieval that produced it:
     "model": "voyage-3-large",
     "score": 0.8421,
     "rank": 2
-  }
-}
+  },
+  "result_index": [2]
+}]
 ```
 
 - **`chunk_id`** — string. Stable identifier for the indexable unit the
@@ -195,6 +196,54 @@ claim), `measurement` (calibrated instrument reading), `observation`
 (timestamped human-entered field note). All follow the same extension
 rule — additive, never breaking.
 
+### 3.3 Result-to-citation correspondence (v0.3, normative)
+
+Define the envelope's **result list** as the ordered array of records in
+`data`: `data.rows` when present, otherwise `data.top_k`, otherwise the
+value of `data` itself when `data` is an array. A response whose `data` is
+a scalar or a single object with no such array is **single-record**.
+
+1. **Single-record responses return exactly one citation.** The array has
+   length 1 and that citation grounds the whole response.
+2. **Ordinal alignment is the default.** For a multi-record response,
+   `citation[i]` grounds result `i`. This requires
+   `citation.length === results.length`.
+3. **Explicit binding overrides alignment.** A citation MAY carry
+   `result_index`, an array of zero-based indices into the result list
+   naming every result it grounds. If any citation in the array carries
+   `result_index`, **every** citation in that array MUST carry it, and
+   ordinal alignment does not apply.
+4. **Deduplication requires explicit binding.** A merchant that emits fewer
+   citations than results — because two results came from one source
+   record — MUST use `result_index`. It MUST NOT silently emit a short
+   array and leave the consumer guessing.
+5. **The dedup key is `chunk_id` when present, otherwise `source_id`.**
+   `canonical_url` is a *locator*, not an identity: two distinct records can
+   legitimately resolve to the same URL (a paper and its erratum landing on
+   one publisher page), and a record may have no `canonical_url` at all.
+   Merchants MUST NOT merge two citations that differ in
+   `chunk_id`/`source_id` merely because their `canonical_url` matches.
+   Citations with an identical dedup key MUST be merged into one entry whose
+   `result_index` lists every result they grounded.
+6. **A zero-result response still carries one citation** identifying the
+   queried collection, so the agent can attribute the negative answer. It
+   has an empty `data` result list, `citation.length === 1`, and that
+   citation carries `result_index: []`.
+
+> **Why not dedup on `canonical_url`.** The 0.2 draft said "deduplicated by
+> `canonical_url`". That rule silently collapses distinct records that share
+> a landing page and is undefined when the field is absent, so 0.3 replaces
+> it with an identity-based key. This is a clarification of an underspecified
+> rule, not a new wire field. A 0.2 merchant that deduplicated by URL and one
+> that did not both remain parseable.
+
+Retrieval provenance (§3.2) is bound by the same rule: `chunk_id`, `score`,
+and `rank` on `citation[i]` describe the retrieval that produced the
+result(s) `citation[i]` grounds. `retrieval.rank` is a position in the
+*retrieval ranking*; `result_index` is a position in the *result list*. They
+coincide only when the merchant returns results in retrieval order without
+deduplicating.
+
 ## 4. Index manifest (v0.2, optional)
 
 A provider that backs its `query` or `insight` tier with a retrieval index
@@ -204,7 +253,7 @@ top-level `index` block of `/.well-known/feed402.json`:
 ```json
 {
   "name": "kruse-feed402",
-  "spec": "feed402/0.2",
+  "spec": "feed402/0.3",
   "...": "...",
   "index": {
     "type": "dense",
@@ -232,7 +281,7 @@ top-level `index` block of `/.well-known/feed402.json`:
 | `corpus_sha256` | string | yes | Stable fingerprint of the corpus at index time. SHOULD be a hex SHA-256 of the concatenated canonical source IDs (sorted) plus their body hashes. Lets two merchants prove they indexed the same corpus. |
 | `built_at` | string | yes | ISO-8601 timestamp of the build that produced this index. |
 
-v0.2 defines three `type` values; future revisions MAY add more. Consumers
+v0.2 defined three `type` values; future revisions MAY add more. Consumers
 **must** follow the §2.3 rule and treat unknown `type` values as opaque —
 still usable (score + rank are meaningful) but not reproducible by a
 different retriever.
@@ -257,9 +306,9 @@ merge score distributions, and route future queries by cost × hit-rate.
 
 ### 4.3 Backwards compatibility
 
-The whole `index` block is optional. A v0.1 merchant (stub server with no
-embeddings) continues to serve a manifest with no `index` field and remains
-fully spec-compliant under v0.2. A v0.2 agent that requires an index SHOULD
+The whole `index` block is optional. A merchant with no
+embeddings continues to serve a manifest with no `index` field and remains
+fully spec-compliant under v0.3. An agent that requires an index SHOULD
 surface a clear error — `citation_unavailable` with `message: "provider
 declares no retrieval index"` — rather than fabricating one.
 
@@ -314,7 +363,56 @@ The DB layer is abstracted behind a `PatentsRepo` interface in
 `demo.sh` works without a Postgres connection. Production deployments swap in
 a Postgres-backed impl loading from the schema in bkt-5qg.
 
-## 7. What's out of scope for v0.2
+## 7. Migration to v0.3
+
+### 7.1 The break: `citation` object to array
+
+v0.1 and v0.2 shipped `Envelope.citation` as a single object. v0.3 makes it
+an array so multi-record tiers can ground every result without smuggling
+evidence into `data`. This is the only breaking change in 0.3.
+
+**Consumers.** A 0.3 consumer MUST prefer `envelope.citation` as an array.
+Reading a historical envelope is a one-line normalization:
+
+```ts
+const citations = Array.isArray(env.citation) ? env.citation : [env.citation];
+```
+
+`toCanonicalEnvelope()` in `types.ts` does exactly this and is what the
+conformance suite uses to read v0.1/v0.2 fixtures.
+
+**Merchants.** A 0.3 merchant MUST emit the array. During the migration
+window it MAY additionally emit `citation_legacy`, a copy of `citation[0]`,
+for consumers still on 0.2. `citation_legacy` is advisory: a 0.3 consumer
+MUST NOT require it and MUST NOT prefer it over the array.
+
+### 7.2 Deprecated aliases and their sunset
+
+| Field | Where | Replacement | Mapping | Sunset |
+|---|---|---|---|---|
+| `citation_legacy` | envelope, any merchant | `citation[0]` | identity | `feed402/0.5` |
+| `hits[]` | `data`, x402-research-gateway search tiers | `citation[]` | `hits[i].source_id` → `citation[i].source_id`; `hits[i].canonical_url` → `citation[i].canonical_url`; `hits[i].rank` → `citation[i].retrieval.rank`; `hits[i]` position → `citation[i].result_index` | `feed402/0.5` |
+| `citations[]` | `data`, ingest-harness `/query` | `citation[]` | element-wise identity, ordinally aligned | `feed402/0.5` |
+
+Sunset means: at `feed402/0.5` a conformant consumer stops reading these
+fields, and a conformant merchant stops emitting them. Until then they are
+duplicates of authoritative data, never the only copy. Emitting an alias
+whose content disagrees with the `citation` array is non-conformant.
+
+### 7.3 Historical fixtures
+
+`fixtures/legacy/` holds v0.1 and v0.2 envelopes and manifests captured
+before the break. They are never rewritten in place. The conformance suite
+parses them under the legacy rules on every run, so a change that makes an
+old envelope unreadable fails CI.
+
+### 7.4 What is not breaking
+
+The §2.3 unknown-field rule is unchanged. Everything else 0.3 adds
+(`result_index`, `citation_legacy`) is optional. A 0.2 manifest is a valid
+0.3 manifest apart from its `spec` string.
+
+## 8. What's out of scope for v0.3
 
 - Multi-provider federation / registry
 - Streaming responses (WebSocket / SSE)
@@ -323,14 +421,12 @@ a Postgres-backed impl loading from the schema in bkt-5qg.
 - Rate limiting semantics
 - Signature verification of the citation block itself (VDS uses wallet sig;
   `source` does not. A future revision may introduce a provider signature.)
-- Required-field promotion of any §4 `index` subfield (stays optional in
-  v0.2; revisited in v0.3+)
+- Required-field promotion of any §4 `index` subfield (stays optional)
 
-All deferred to v0.3+. Covered by future amendments to this spec.
+All deferred to v0.4+. Covered by future amendments to this spec.
 
 ---
 
 **That's the whole protocol.** One manifest (optionally with an index
-block), stock x402 handshake, one envelope shape (optionally with retrieval
-provenance), three query tiers, additive citation-type extension. Anything
-more is v0.3.
+block), stock x402 handshake, one envelope shape with a mandatory citation
+array, three query tiers, additive citation-type extension.

@@ -73,6 +73,15 @@ export interface Manifest {
    * restating it.
    */
   operations?: OperationSpec[];
+  /**
+   * §3.4 (v0.3, optional) — the provider's default rights determination,
+   * used when a citation or asset carries no `rights` of its own.
+   *
+   * `citation_policy` stays the human-readable summary. A multi-source
+   * merchant whose policy string is `"mixed"` SHOULD emit per-citation
+   * `rights` instead of relying on this default.
+   */
+  rights?: Rights;
 }
 
 // ---------- §1.1: Capability vocabulary (v0.3) ----------
@@ -268,6 +277,125 @@ export function manifestOperations(manifest: LegacyRoutedManifest): OperationSpe
   return [];
 }
 
+// ---------- §3.4: Structured rights (v0.3, optional) ----------
+
+/**
+ * A three-state answer to "may the agent do this". The third state is the
+ * point of the type: a merchant that has not determined whether an action is
+ * permitted says `"unknown"` rather than omitting the field and letting the
+ * consumer guess.
+ *
+ * SPEC §3.4: a consumer MUST treat `"unknown"` and absence as not granted.
+ * `permits()` below is the only correct way to read one of these.
+ */
+export type Permission = "allowed" | "denied" | "unknown";
+
+/** The action facets this revision defines. Open under §2.3. */
+export const RIGHTS_FACETS = [
+  "redistribution",
+  "tdm",
+  "model_training",
+  "retention",
+] as const;
+
+export type RightsFacet = (typeof RIGHTS_FACETS)[number];
+
+/**
+ * Rights over one scope of a record: the descriptive metadata, or the body.
+ * A CC0 bibliographic record describing an all-rights-reserved article is the
+ * routine case, and one `license` string cannot say it.
+ */
+export interface RightsScope {
+  /** License identifier as the provider states it, e.g. `"CC-BY-4.0"`. */
+  license?: string;
+  /** Where that identifier is defined, when the provider gives a URL. */
+  license_url?: string;
+  /** Whether this scope may be used at all. Read through `permits()`. */
+  status?: Permission;
+  /**
+   * The tiers on which the merchant may serve this scope. Absent means no
+   * tier restriction. Lets a merchant say "this content is admitted only on
+   * the insight tier" in the schema rather than in prose (SPEC §6.1).
+   */
+  tiers?: TierName[];
+}
+
+/**
+ * §3.4 structured rights. Attaches to a citation (record level), to an asset
+ * (§3.5), and to a manifest as the provider's default determination.
+ *
+ * The block records what the provider states and when that statement was
+ * read. It is not a legal conclusion, and a merchant MUST NOT synthesize a
+ * determination the provider did not make.
+ */
+export interface Rights {
+  /** Rights over the bibliographic or descriptive record. */
+  metadata?: RightsScope;
+  /** Rights over the body, abstract, full text, or payload. */
+  content?: RightsScope;
+  /** May the agent republish what it received. */
+  redistribution?: Permission;
+  /** May the agent text- and data-mine it. */
+  tdm?: Permission;
+  /** May the agent train or fine-tune a model on it. */
+  model_training?: Permission;
+  /** May the agent retain the body after answering. */
+  retention?: Permission;
+  /**
+   * Shorthand for the common "reference and link it, keep nothing" grant.
+   * `true` means `redistribution` and `retention` are denied. A merchant MAY
+   * emit both this and the explicit facets; they MUST agree.
+   */
+  citation_only?: boolean;
+  /** The provider's terms as retrieved. */
+  terms_url?: string;
+  /** ISO-8601. When those terms were read. Terms change; determinations age. */
+  retrieved_at?: string;
+  /** Provider release or version under which the terms were read. */
+  provider_release?: string;
+  /** Jurisdiction this determination is scoped to, when it is scoped. */
+  jurisdiction?: string;
+  /** Free text for a determination the fields above cannot carry. */
+  notes?: string;
+}
+
+/**
+ * Resolve a facet after applying the `citation_only` shorthand.
+ * Returns `"unknown"` when the merchant said nothing.
+ */
+export function rightsFacet(rights: Rights | undefined, facet: RightsFacet): Permission {
+  if (!rights) return "unknown";
+  const explicit = rights[facet];
+  if (explicit === "allowed" || explicit === "denied" || explicit === "unknown") {
+    return explicit;
+  }
+  if (rights.citation_only === true && (facet === "redistribution" || facet === "retention")) {
+    return "denied";
+  }
+  return "unknown";
+}
+
+/**
+ * The §3.4 unknown rule in code: an action is permitted only when a rights
+ * block says so in as many words. Absent block, absent facet, and `"unknown"`
+ * all return `false`.
+ */
+export function permits(rights: Rights | undefined, facet: RightsFacet): boolean {
+  return rightsFacet(rights, facet) === "allowed";
+}
+
+/**
+ * Rights that apply to a thing, nearest block wins whole.
+ *
+ * There is no field-level merge. A citation carrying `rights` replaces the
+ * manifest default entirely, because a half-inherited determination is a
+ * determination nobody made.
+ */
+export function effectiveRights(...blocks: Array<Rights | undefined>): Rights | undefined {
+  for (const b of blocks) if (b) return b;
+  return undefined;
+}
+
 // ---------- §4: Index manifest (v0.2) ----------
 
 /**
@@ -337,8 +465,19 @@ export interface CitationSource {
   source_id: string;
   provider: string;
   retrieved_at: string; // ISO-8601
+  /**
+   * Human-readable summary of the rights over this record. Unchanged since
+   * v0.1 and still valid on its own. When `rights` (§3.4) is also present,
+   * `rights` is what a consumer acts on and this stays the summary.
+   */
   license?: string;
   canonical_url?: string;
+  /**
+   * §3.4 (v0.3, optional). Structured rights over this record. Falls back to
+   * the manifest's `rights` when absent, and to nothing when that is absent
+   * too, in which case every action is unknown and therefore not granted.
+   */
+  rights?: Rights;
   /**
    * §3.3 (v0.3, optional). Zero-based indices of the results in the
    * envelope's result list that this citation grounds.

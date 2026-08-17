@@ -1,0 +1,45 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "pubmed:12345678",
+        "title": "Heat transport in the Gulf Stream"
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "pubmed:12345678",
+      "provider": "example-pubmed-mirror",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "public-domain",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/12345678",
+      "rights": {
+        "metadata": {
+          "license": "CC0-1.0",
+          "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "all-rights-reserved",
+          "status": "denied"
+        },
+        "redistribution": "denied",
+        "tdm": "allowed",
+        "model_training": "unknown",
+        "retention": "allowed",
+        "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+        "retrieved_at": "2026-08-01T00:00:00Z",
+        "provider_release": "eutils-2026-07"
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

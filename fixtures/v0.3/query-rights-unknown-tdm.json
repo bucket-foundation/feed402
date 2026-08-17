@@ -1,0 +1,43 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "openalex:W2741809807",
+        "title": "The state of OA"
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "openalex:W2741809807",
+      "provider": "example-openalex-proxy",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://openalex.org/W2741809807",
+      "rights": {
+        "metadata": {
+          "license": "CC0-1.0",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "CC-BY-4.0",
+          "status": "allowed"
+        },
+        "redistribution": "allowed",
+        "tdm": "unknown",
+        "model_training": "unknown",
+        "retention": "allowed",
+        "terms_url": "https://openalex.org/terms",
+        "retrieved_at": "2026-08-01T00:00:00Z"
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

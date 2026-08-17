@@ -49,6 +49,11 @@ const ENVELOPE_FIXTURES: Array<[string, string]> = [
   ["query-multi-shared-canonical-url.json", "query"],
   ["query-zero-results.json", "query"],
   ["insight-vds.json", "insight"],
+  ["query-rights-license-only.json", "query"],
+  ["query-rights-split-scopes.json", "query"],
+  ["query-rights-citation-only.json", "query"],
+  ["query-rights-unknown-tdm.json", "query"],
+  ["insight-rights-patents-jurisdiction.json", "insight"],
 ];
 
 for (const [name, tier] of ENVELOPE_FIXTURES) {
@@ -67,6 +72,7 @@ test("every canonical fixture is covered by a test case", () => {
 test("canonical manifests validate", () => {
   assertOk("manifest-single-dataset", validateManifest(load(V03, "manifest-single-dataset.json")));
   assertOk("manifest-with-index", validateManifest(load(V03, "manifest-with-index.json")));
+  assertOk("manifest-rights-default", validateManifest(load(V03, "manifest-rights-default.json")));
 });
 
 // ---------- §3.3 correspondence rules ----------

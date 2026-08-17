@@ -45,6 +45,7 @@ test("every manifest fixture is covered by a test case", () => {
     "manifest-capabilities-single-dataset.json",
     "manifest-capabilities-multi-operation.json",
     "manifest-unknown-capability.json",
+    "manifest-rights-default.json",
   ]);
   for (const f of readdirSync(V03).filter((n) => n.startsWith("manifest-"))) {
     assert.ok(covered.has(f), `manifest fixture ${f} has no test case`);

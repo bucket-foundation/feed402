@@ -1,0 +1,46 @@
+{
+  "name": "example-patents",
+  "version": "1.0.0",
+  "spec": "feed402/0.3",
+  "chain": "base",
+  "wallet": "0x00000000000000000000000000000000000000ab",
+  "tiers": {
+    "raw": {
+      "path": "/patents/raw",
+      "price_usd": 0.01,
+      "unit": "row"
+    },
+    "query": {
+      "path": "/patents/search",
+      "price_usd": 0.005,
+      "unit": "call"
+    },
+    "insight": {
+      "path": "/patents/insight",
+      "price_usd": 0.002,
+      "unit": "call"
+    }
+  },
+  "citation_policy": "mixed",
+  "citation_types": [
+    "source"
+  ],
+  "rights": {
+    "metadata": {
+      "license": "CC-BY-4.0",
+      "status": "allowed"
+    },
+    "content": {
+      "license": "CC-BY-4.0",
+      "status": "allowed"
+    },
+    "redistribution": "allowed",
+    "tdm": "allowed",
+    "model_training": "unknown",
+    "retention": "allowed",
+    "terms_url": "https://www.uspto.gov/terms-use-uspto-websites",
+    "retrieved_at": "2026-08-01T00:00:00Z",
+    "notes": "Default determination for US records. Non-US jurisdictions carry per-citation rights."
+  },
+  "contact": "ops@example.org"
+}

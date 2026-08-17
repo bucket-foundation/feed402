@@ -8,6 +8,7 @@
 
 import {
   KNOWN_SPEC_VERSIONS,
+  RIGHTS_FACETS,
   SPEC_VERSION,
   isKnownCapability,
   type Citation,
@@ -135,6 +136,7 @@ export function validateManifest(doc: unknown): Report {
   }
 
   if (doc.index !== undefined) f.push(...validateIndexManifest(doc.index));
+  if (doc.rights !== undefined) f.push(...validateRights(doc.rights, "$.rights"));
 
   f.push(...validateCapabilities(doc));
   f.push(...validateOperations(doc));
@@ -332,6 +334,137 @@ function validateIndexManifest(idx: unknown): Finding[] {
   return f;
 }
 
+// ---------- §3.4 rights ----------
+
+const PERMISSIONS = ["allowed", "denied", "unknown"];
+const TIER_NAMES = ["raw", "query", "insight"];
+
+/**
+ * Query parameter names that carry a credential or a personal identifier.
+ * A URL in a citation or a manifest is published to every paying agent, so a
+ * merchant that pastes an upstream URL in verbatim leaks whatever it used to
+ * authenticate. `email`/`mailto` are here because the polite-pool convention
+ * at NCBI and Crossref puts a real address in the query string.
+ */
+const CREDENTIAL_PARAMS =
+  /[?&](api[_-]?key|apikey|key|token|access[_-]?token|auth|signature|sig|password|secret|email|mailto|tool)=/i;
+
+/**
+ * A URL field is a public address. Reject one carrying a credential or a
+ * personal identifier before it reaches a published document.
+ */
+function validatePublicUrl(value: unknown, section: string, path: string): Finding[] {
+  if (typeof value !== "string") return [];
+  if (CREDENTIAL_PARAMS.test(value)) {
+    return [
+      err(
+        section,
+        path,
+        "URL carries a credential-shaped or personally identifying query parameter; strip it before publishing",
+      ),
+    ];
+  }
+  return [];
+}
+
+function validateRightsScope(scope: unknown, path: string): Finding[] {
+  const f: Finding[] = [];
+  if (!isObject(scope)) return [err("3.4", path, "rights scope must be an object")];
+  for (const key of ["license", "license_url"]) {
+    if (scope[key] !== undefined && typeof scope[key] !== "string") {
+      f.push(err("3.4", `${path}.${key}`, `\`${key}\` must be a string when present`));
+    }
+  }
+  f.push(...validatePublicUrl(scope.license_url, "3.4", `${path}.license_url`));
+  if (scope.status !== undefined && !PERMISSIONS.includes(scope.status as string)) {
+    f.push(err("3.4", `${path}.status`, `\`status\` must be one of ${PERMISSIONS.join(", ")}`));
+  }
+  if (scope.tiers !== undefined) {
+    if (!Array.isArray(scope.tiers)) {
+      f.push(err("3.4", `${path}.tiers`, "`tiers` must be an array when present"));
+    } else {
+      scope.tiers.forEach((t, i) => {
+        if (typeof t !== "string") {
+          f.push(err("3.4", `${path}.tiers[${i}]`, "tier name must be a string"));
+        } else if (!TIER_NAMES.includes(t)) {
+          f.push(warn("3.4", `${path}.tiers[${i}]`, `unknown tier name "${t}"`));
+        }
+      });
+    }
+  }
+  return f;
+}
+
+/**
+ * §3.4. Rights are optional, but a rights block that says nothing is worse
+ * than no block: it looks like a determination and is not one.
+ */
+export function validateRights(rights: unknown, path: string): Finding[] {
+  const f: Finding[] = [];
+  if (!isObject(rights)) return [err("3.4", path, "`rights` must be an object")];
+
+  for (const scope of ["metadata", "content"]) {
+    if (rights[scope] !== undefined) {
+      f.push(...validateRightsScope(rights[scope], `${path}.${scope}`));
+    }
+  }
+
+  for (const facet of RIGHTS_FACETS) {
+    const v = rights[facet];
+    if (v !== undefined && !PERMISSIONS.includes(v as string)) {
+      f.push(err("3.4", `${path}.${facet}`, `\`${facet}\` must be one of ${PERMISSIONS.join(", ")}`));
+    }
+  }
+
+  if (rights.citation_only !== undefined) {
+    if (typeof rights.citation_only !== "boolean") {
+      f.push(err("3.4", `${path}.citation_only`, "`citation_only` must be a boolean when present"));
+    } else if (rights.citation_only === true) {
+      // The shorthand and the explicit facets must state the same thing.
+      for (const facet of ["redistribution", "retention"] as const) {
+        if (rights[facet] !== undefined && rights[facet] !== "denied") {
+          f.push(
+            err(
+              "3.4",
+              `${path}.${facet}`,
+              `\`citation_only: true\` denies \`${facet}\`; it cannot also be "${rights[facet]}"`,
+            ),
+          );
+        }
+      }
+    }
+  }
+
+  for (const key of ["terms_url", "provider_release", "jurisdiction", "notes"]) {
+    if (rights[key] !== undefined && typeof rights[key] !== "string") {
+      f.push(err("3.4", `${path}.${key}`, `\`${key}\` must be a string when present`));
+    }
+  }
+  f.push(...validatePublicUrl(rights.terms_url, "3.4", `${path}.terms_url`));
+
+  if (rights.retrieved_at !== undefined) {
+    if (typeof rights.retrieved_at !== "string" || !ISO_8601.test(rights.retrieved_at)) {
+      f.push(err("3.4", `${path}.retrieved_at`, "`retrieved_at` must be an ISO-8601 timestamp"));
+    }
+  } else if (typeof rights.terms_url === "string") {
+    // Terms change. A determination with no read date cannot be audited.
+    f.push(
+      warn("3.4", `${path}.retrieved_at`, "`terms_url` without `retrieved_at` is not auditable later"),
+    );
+  }
+
+  const said =
+    RIGHTS_FACETS.some((k) => rights[k] !== undefined) ||
+    rights.citation_only !== undefined ||
+    rights.metadata !== undefined ||
+    rights.content !== undefined;
+  if (!said) {
+    f.push(warn("3.4", path, "`rights` states no scope and no facet; every action stays unknown"));
+  }
+
+  return f;
+}
+
 // ---------- §3 envelope ----------
 
 export interface EnvelopeOptions {
@@ -484,6 +617,25 @@ function validateCitation(cit: unknown, path: string): Finding[] {
     } else if (typeof cit.source_id === "string" && !cit.chunk_id.startsWith(`${cit.source_id}#c`)) {
       f.push(
         warn("3.2", `${path}.chunk_id`, "`chunk_id` should have the form `<source_id>#c<n>`"),
+      );
+    }
+  }
+  f.push(...validatePublicUrl(cit.canonical_url, "3", `${path}.canonical_url`));
+  if (cit.rights !== undefined) {
+    f.push(...validateRights(cit.rights, `${path}.rights`));
+    // The summary and the structured block must not contradict each other.
+    if (
+      isObject(cit.rights) &&
+      cit.rights.citation_only === false &&
+      typeof cit.license === "string" &&
+      /citation[-_ ]only/i.test(cit.license)
+    ) {
+      f.push(
+        warn(
+          "3.4",
+          `${path}.license`,
+          'summary `license` says citation-only while `rights.citation_only` is false; `rights` is what a consumer acts on',
+        ),
       );
     }
   }

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "jackkruse:aquaphotomics-101",
+        "snippet": "Water absorbs in the near infrared."
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "jackkruse:aquaphotomics-101",
+      "provider": "kruse-feed402",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "citation-only",
+      "canonical_url": "https://jackkruse.com/aquaphotomics-101/",
+      "rights": {
+        "metadata": {
+          "license": "citation-only",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "all-rights-reserved",
+          "status": "denied"
+        },
+        "citation_only": true,
+        "tdm": "unknown",
+        "model_training": "denied",
+        "terms_url": "https://jackkruse.com/terms/",
+        "retrieved_at": "2026-05-08T00:00:00Z"
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

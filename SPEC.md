@@ -372,6 +372,120 @@ result(s) `citation[i]` grounds. `retrieval.rank` is a position in the
 coincide only when the merchant returns results in retrieval order without
 deduplicating.
 
+### 3.4 Structured rights (v0.3, optional)
+
+`license` is one string. It cannot say that NCBI publishes the bibliographic
+record into the public domain while the article it describes stays under
+publisher copyright, and it cannot say whether an agent may mine what it just
+paid for. A merchant serving several upstreams ends up emitting
+`citation_policy: "mixed"`, which teaches an agent nothing.
+
+A `source`-typed citation MAY carry an optional `rights` block:
+
+```json
+"citation": [{
+  "type": "source",
+  "source_id": "pubmed:12345678",
+  "provider": "example-pubmed-mirror",
+  "retrieved_at": "2026-08-17T10:30:00Z",
+  "license": "public-domain",
+  "rights": {
+    "metadata": { "license": "CC0-1.0", "status": "allowed" },
+    "content":  { "license": "all-rights-reserved", "status": "denied" },
+    "redistribution": "denied",
+    "tdm": "allowed",
+    "model_training": "unknown",
+    "retention": "allowed",
+    "terms_url": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "retrieved_at": "2026-08-01T00:00:00Z",
+    "provider_release": "eutils-2026-07"
+  }
+}]
+```
+
+#### Scopes
+
+`metadata` covers the bibliographic or descriptive record. `content` covers
+the body, abstract, full text, or payload. Each is an object:
+
+| Field | Type | Meaning |
+|---|---|---|
+| `license` | string | License identifier as the provider states it. |
+| `license_url` | string | Where that identifier is defined. |
+| `status` | `allowed \| denied \| unknown` | Whether the scope may be used at all. |
+| `tiers` | array of tier names | The tiers on which the merchant may serve this scope. Absent means no tier restriction. |
+
+#### Action facets
+
+Four facets answer "may the agent do this", each valued
+`"allowed"`, `"denied"`, or `"unknown"`:
+
+| Facet | The question |
+|---|---|
+| `redistribution` | May the agent republish what it received. |
+| `tdm` | May the agent text- and data-mine it. |
+| `model_training` | May the agent train or fine-tune a model on it. |
+| `retention` | May the agent keep the body after answering. |
+
+`citation_only: true` is shorthand for the common "reference and link it,
+keep nothing" grant: it denies `redistribution` and `retention` while leaving
+reference and linking permitted. A merchant MAY emit both the shorthand and
+the explicit facets; when it does, they MUST agree. A `citation_only: true`
+block carrying `redistribution: "allowed"` is non-conformant.
+
+#### The unknown rule (normative)
+
+**`unknown` is never `allowed`.** A consumer **MUST** treat `"unknown"`, an
+absent facet, and an absent `rights` block alike: the action is not granted.
+An agent that wants to mine a record and reads `tdm: "unknown"` has been told
+no, and a merchant that has not determined whether mining is permitted
+**SHOULD** emit `"unknown"` rather than omitting the facet, so the consumer
+can tell "we looked and could not tell" from "we said nothing."
+
+`permits()` in `types.ts` is the reference reading of this rule and returns
+`false` for every case except an explicit `"allowed"`.
+
+#### Auditability
+
+Rights are versioned data. `terms_url` records the provider's terms as they
+were read, `retrieved_at` records when, and `provider_release` records the
+release under which. A determination made in 2026 stays auditable after the
+provider rewrites its terms. A block carrying `terms_url` without
+`retrieved_at` is a warning: the determination cannot be dated.
+
+`jurisdiction` scopes a determination to a legal jurisdiction where the
+provider's terms are jurisdiction-dependent. `notes` carries what the fields
+above cannot.
+
+#### Relationship to `license`
+
+`license` keeps its v0.1 meaning and stays valid on its own. Every merchant
+emitting only `license` today remains conformant, and `license` remains the
+human-readable summary. Where both are present, a consumer acts on `rights`
+and reads `license` as prose. A summary that contradicts the block is a
+warning, never a silent reinterpretation of either field.
+
+#### Where the block attaches
+
+A rights block attaches at record level (on a citation), at asset level
+(§3.5), and at manifest level as the provider's default determination.
+**Resolution is nearest-wins and whole-block: asset, then citation, then
+manifest.** There is no field-level merge. A citation carrying `rights`
+replaces the manifest default in full, because a half-inherited
+determination is a determination nobody made. `effectiveRights()` in
+`types.ts` implements this.
+
+`Manifest.citation_policy` keeps its meaning as the provider-wide summary. A
+multi-source merchant whose policy string is `"mixed"` **SHOULD** emit
+per-citation `rights` rather than leaning on the default.
+
+#### Non-goal
+
+The block records what the provider states and when that statement was read.
+It is not legal advice and carries no inference. A merchant **MUST NOT**
+synthesize a rights determination the provider did not make; the honest
+answer for an undetermined facet is `"unknown"`.
+
 ## 4. Index manifest (v0.2, optional)
 
 A provider that backs its `query` or `insight` tier with a retrieval index
@@ -485,6 +599,71 @@ All responses follow §3 envelope shape. The `citation.license` field is
 `EPO-OPS-fair-use` for EP records served via EPO OPS, and `citation-only`
 for any other jurisdiction reached by passthrough. `canonical_url` resolves
 to USPTO/Google Patents for US, Espacenet for EP, PATENTSCOPE for WO.
+
+### 6.1.1 The jurisdiction rules as a structured rights block
+
+The two paragraphs above state the jurisdiction and tier rules in prose
+because v0.2 had no schema for them. §3.4 does, and this is the worked
+translation. `fixtures/v0.3/insight-rights-patents-jurisdiction.json` carries
+all three cases in one envelope.
+
+**US, PatentsView or Google Patents BigQuery.** Both upstreams are CC-BY-4.0,
+so metadata and content carry the same license and every action is granted:
+
+```json
+"rights": {
+  "jurisdiction": "US",
+  "metadata": { "license": "CC-BY-4.0", "status": "allowed" },
+  "content":  { "license": "CC-BY-4.0", "status": "allowed" },
+  "redistribution": "allowed", "tdm": "allowed",
+  "model_training": "allowed", "retention": "allowed",
+  "terms_url": "https://www.uspto.gov/terms-use-uspto-websites",
+  "retrieved_at": "2026-08-01T00:00:00Z",
+  "provider_release": "patentsview-2026-07"
+}
+```
+
+**EP via EPO OPS.** Bibliographic data is servable, the body is not, and the
+fair-use terms cover neither mining nor training. `citation_only` carries the
+"reference and link, keep nothing" half; the two remaining facets are stated
+outright:
+
+```json
+"rights": {
+  "jurisdiction": "EP",
+  "metadata": { "license": "EPO-OPS-fair-use", "status": "allowed" },
+  "content":  { "license": "EPO-OPS-fair-use", "status": "denied" },
+  "citation_only": true,
+  "tdm": "denied", "model_training": "denied",
+  "terms_url": "https://www.epo.org/en/legal/terms-of-use",
+  "retrieved_at": "2026-08-01T00:00:00Z",
+  "provider_release": "ops-3.2"
+}
+```
+
+**WO via PATENTSCOPE.** The derivative-license clause admits content on the
+`insight` tier alone. `content.tiers` says so in the schema, which is the
+rule §6.1 could previously state only in prose. Mining is undetermined, and
+`"unknown"` says that without granting it:
+
+```json
+"rights": {
+  "jurisdiction": "WO",
+  "metadata": { "license": "citation-only", "status": "allowed" },
+  "content":  { "license": "WIPO-PATENTSCOPE-derivative",
+                "status": "allowed", "tiers": ["insight"] },
+  "redistribution": "denied", "tdm": "unknown",
+  "model_training": "denied", "retention": "denied",
+  "terms_url": "https://patentscope.wipo.int/search/en/help/terms.jsf",
+  "retrieved_at": "2026-08-01T00:00:00Z"
+}
+```
+
+The provider-wide default lives in the manifest
+(`fixtures/v0.3/manifest-rights-default.json`) and covers US records. EP and
+WO citations carry their own block, which replaces that default whole per
+§3.4. `citation_policy: "mixed"` survives as the human summary and stops
+being the only machine-readable answer.
 
 The DB layer is abstracted behind a `PatentsRepo` interface in
 `routes/patents.ts`; the reference server boots with `MockPatentsRepo` so

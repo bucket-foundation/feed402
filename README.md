@@ -57,6 +57,21 @@ Two additions:
    `retrieval.{model, score, rank}` so downstream agents can re-verify a hit
    against the same corpus + model. See [`SPEC.md §3.2`](./SPEC.md#32-retrieval-provenance-v02-optional).
 
+### What's new in v0.3
+
+One breaking change, `Envelope.citation` is an array (§7 has the migration).
+Everything else is optional and additive:
+
+1. **Capabilities and operations** on the manifest, so an agent can discover
+   what a merchant does rather than only what it charges.
+   See [`SPEC.md §1.1`](./SPEC.md#11-capabilities-v03-optional) and
+   [`§1.2`](./SPEC.md#12-operations-v03-optional).
+2. **Structured rights** on citations, assets, and the manifest, separating
+   metadata rights from content rights and answering redistribution, mining,
+   training, and retention as three-state permissions. `license` keeps its
+   meaning as the summary. Unknown is never allowed.
+   See [`SPEC.md §3.4`](./SPEC.md#34-structured-rights-v03-optional).
+
 ## The 60-second pitch
 
 x402 gives you a payment rail. It doesn't give you a *merchant template*.

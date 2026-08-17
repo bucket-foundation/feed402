@@ -1,0 +1,111 @@
+{
+  "data": {
+    "question": "who filed on solid-state electrolyte separators?",
+    "summary": "Three families, one US grant, one EP publication, one WO publication.",
+    "top_k": [
+      {
+        "source_id": "patent:US-10847829-B2",
+        "jurisdiction": "US",
+        "rank": 0
+      },
+      {
+        "source_id": "patent:EP-3477759-A1",
+        "jurisdiction": "EP",
+        "rank": 1
+      },
+      {
+        "source_id": "patent:WO-2019081381-A1",
+        "jurisdiction": "WO",
+        "rank": 2
+      }
+    ]
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "patent:US-10847829-B2",
+      "provider": "example-patents",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://patents.google.com/patent/US10847829B2",
+      "rights": {
+        "jurisdiction": "US",
+        "metadata": {
+          "license": "CC-BY-4.0",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "CC-BY-4.0",
+          "status": "allowed"
+        },
+        "redistribution": "allowed",
+        "tdm": "allowed",
+        "model_training": "allowed",
+        "retention": "allowed",
+        "terms_url": "https://www.uspto.gov/terms-use-uspto-websites",
+        "retrieved_at": "2026-08-01T00:00:00Z",
+        "provider_release": "patentsview-2026-07"
+      }
+    },
+    {
+      "type": "source",
+      "source_id": "patent:EP-3477759-A1",
+      "provider": "example-patents",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "EPO-OPS-fair-use",
+      "canonical_url": "https://worldwide.espacenet.com/patent/search?q=EP3477759A1",
+      "rights": {
+        "jurisdiction": "EP",
+        "metadata": {
+          "license": "EPO-OPS-fair-use",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "EPO-OPS-fair-use",
+          "status": "denied"
+        },
+        "citation_only": true,
+        "tdm": "denied",
+        "model_training": "denied",
+        "terms_url": "https://www.epo.org/en/legal/terms-of-use",
+        "retrieved_at": "2026-08-01T00:00:00Z",
+        "provider_release": "ops-3.2"
+      }
+    },
+    {
+      "type": "source",
+      "source_id": "patent:WO-2019081381-A1",
+      "provider": "example-patents",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "citation-only",
+      "canonical_url": "https://patentscope.wipo.int/search/en/WO2019081381",
+      "rights": {
+        "jurisdiction": "WO",
+        "metadata": {
+          "license": "citation-only",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "WIPO-PATENTSCOPE-derivative",
+          "status": "allowed",
+          "tiers": [
+            "insight"
+          ]
+        },
+        "redistribution": "denied",
+        "tdm": "unknown",
+        "model_training": "denied",
+        "retention": "denied",
+        "terms_url": "https://patentscope.wipo.int/search/en/help/terms.jsf",
+        "retrieved_at": "2026-08-01T00:00:00Z",
+        "notes": "Content admitted on the insight tier only under the derivative-license clause."
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

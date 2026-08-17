@@ -462,7 +462,11 @@ export function mountPatents(app: Hono, opts: MountPatentsOpts): void {
     const retrieved_at = nowIso();
     const citations = dedupeCitations(fam.map((r) => patentCitation(r, retrieved_at)));
     const env: Envelope = {
-      data: { family: fam, count: fam.length },
+      // SPEC §3.3 `resultList()` recognizes `data.rows` (or `data.top_k`, or
+      // a top-level array) as the multi-record shape; a bespoke `family` key
+      // was silently read as single-record, which is why this envelope's 2
+      // citations tripped the "single-record must return exactly 1" check.
+      data: { rows: fam, count: fam.length },
       citation: citations,
       receipt: makeReceipt("query", g.tx),
     };
@@ -504,29 +508,12 @@ export function mountPatents(app: Hono, opts: MountPatentsOpts): void {
     return c.json(env, 200);
   });
 
-  // GET /patents/:id — raw tier (full bundle)
-  // Registered AFTER the more specific /patents/* routes so Hono's routing picks
-  // those first.
-  app.get("/patents/:id", async (c) => {
-    const g = guard(c, "raw");
-    if (!g.ok) return g.respond();
-    const id = c.req.param("id");
-    const bundle = await repo.getById(id);
-    if (!bundle) {
-      return c.json<ErrorBody>(
-        { error: { code: "citation_unavailable", message: `patent ${id} not found` }, trace_id: traceId() },
-        404,
-      );
-    }
-    const env: Envelope = {
-      data: bundle,
-      citation: [patentCitation(bundle.grant, nowIso())],
-      receipt: makeReceipt("raw", g.tx),
-    };
-    return c.json(env, 200);
-  });
-
   // GET /patents/insight?question=... — insight tier
+  // Registered BEFORE the /patents/:id catch-all below: Hono matches route
+  // patterns in registration order, so a literal path segment must come
+  // before a `:param` wildcard that would otherwise swallow it (bug found
+  // in review: "insight" was being routed to /patents/:id as id="insight",
+  // producing a spurious "patent insight not found" 404).
   app.get("/patents/insight", async (c) => {
     const g = guard(c, "insight");
     if (!g.ok) return g.respond();
@@ -546,17 +533,29 @@ export function mountPatents(app: Hono, opts: MountPatentsOpts): void {
     }
     const top = hits[0];
     const retrieved_at = nowIso();
-    const citation: CitationSource = {
-      ...patentCitation(top.grant, retrieved_at),
-      chunk_id: `patent:${top.grant.jurisdiction}${top.grant.patent_id}#c0`,
-      retrieval: { model: "mock-substring-v0", score: top.score, rank: 0 },
-    };
+    // SPEC §3.3: one citation per hit, ordinally aligned with `data.top_k`.
+    const citations: CitationSource[] = hits.map((h, i) => ({
+      ...patentCitation(h.grant, retrieved_at),
+      chunk_id: `patent:${h.grant.jurisdiction}${h.grant.patent_id}#c0`,
+      retrieval: { model: "mock-substring-v0", score: h.score, rank: i },
+    }));
     const summary = `Top match: ${top.grant.patent_title} (${top.grant.jurisdiction}${top.grant.patent_id}, granted ${top.grant.grant_date}). ${(top.grant.patent_abstract ?? "").slice(0, 200)}...`;
     const env: Envelope = {
       data: {
         question,
         summary,
         top_source: `patent:${top.grant.jurisdiction}${top.grant.patent_id}`,
+        top_k: hits.map((h, i) => ({
+          source_id: `patent:${h.grant.jurisdiction}${h.grant.patent_id}`,
+          patent_id: h.grant.patent_id,
+          title: h.grant.patent_title,
+          jurisdiction: h.grant.jurisdiction,
+          score: h.score,
+          rank: i,
+          canonical_url: canonicalUrl(h.grant),
+        })),
+        // Deprecated since feed402/0.3 (SPEC §7.2): duplicate of `top_k`,
+        // kept for 0.2 consumers. Sunset at feed402/0.5.
         hits: hits.map((h, i) => ({
           source_id: `patent:${h.grant.jurisdiction}${h.grant.patent_id}`,
           patent_id: h.grant.patent_id,
@@ -567,8 +566,30 @@ export function mountPatents(app: Hono, opts: MountPatentsOpts): void {
           canonical_url: canonicalUrl(h.grant),
         })),
       },
-      citation: [citation],
+      citation: citations,
       receipt: makeReceipt("insight", g.tx),
+    };
+    return c.json(env, 200);
+  });
+
+  // GET /patents/:id — raw tier (full bundle)
+  // Registered AFTER every literal /patents/* route above so Hono's routing
+  // picks those first; this `:id` wildcard is the fallback.
+  app.get("/patents/:id", async (c) => {
+    const g = guard(c, "raw");
+    if (!g.ok) return g.respond();
+    const id = c.req.param("id");
+    const bundle = await repo.getById(id);
+    if (!bundle) {
+      return c.json<ErrorBody>(
+        { error: { code: "citation_unavailable", message: `patent ${id} not found` }, trace_id: traceId() },
+        404,
+      );
+    }
+    const env: Envelope = {
+      data: bundle,
+      citation: [patentCitation(bundle.grant, nowIso())],
+      receipt: makeReceipt("raw", g.tx),
     };
     return c.json(env, 200);
   });
@@ -602,14 +623,29 @@ export function mountPatents(app: Hono, opts: MountPatentsOpts): void {
 }
 
 /** Dedupe citations by canonical_url (keep first occurrence). */
+/**
+ * SPEC §3.3 rule 5: merge citations that share a dedup key, where the key is
+ * `chunk_id` when present and `source_id` otherwise. `canonical_url` is a
+ * locator, so two distinct grants that resolve to the same landing page stay
+ * separate citations.
+ *
+ * §3.3 rule 4: a deduplicated array binds explicitly, so every surviving
+ * citation carries `result_index` naming the results it grounds.
+ */
 function dedupeCitations(cs: Citation[]): Citation[] {
-  const seen = new Set<string>();
-  const out: Citation[] = [];
-  for (const c of cs) {
-    const key = (c as { canonical_url?: string }).canonical_url ?? JSON.stringify(c);
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push(c);
-  }
+  const byKey = new Map<string, Citation & { result_index: number[] }>();
+  const out: Array<Citation & { result_index: number[] }> = [];
+  cs.forEach((c, i) => {
+    const src = c as { chunk_id?: string; source_id?: string };
+    const key = src.chunk_id ?? src.source_id ?? JSON.stringify(c);
+    const existing = byKey.get(key);
+    if (existing) {
+      existing.result_index.push(i);
+      return;
+    }
+    const entry = { ...c, result_index: [i] } as Citation & { result_index: number[] };
+    byKey.set(key, entry);
+    out.push(entry);
+  });
   return out;
 }

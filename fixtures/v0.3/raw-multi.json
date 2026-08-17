@@ -1,0 +1,50 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "rec-1"
+      },
+      {
+        "id": "rec-2"
+      },
+      {
+        "id": "rec-3"
+      }
+    ],
+    "total": 3,
+    "offset": 0,
+    "limit": 100
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:rec-1",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/rec-1"
+    },
+    {
+      "type": "source",
+      "source_id": "example:rec-2",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/rec-2"
+    },
+    {
+      "type": "source",
+      "source_id": "example:rec-3",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/rec-3"
+    }
+  ],
+  "receipt": {
+    "tier": "raw",
+    "price_usd": 0.05,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

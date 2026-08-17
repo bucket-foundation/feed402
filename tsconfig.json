@@ -15,6 +15,6 @@
     "sourceMap": true,
     "isolatedModules": true
   },
-  "include": ["server.ts", "agent.ts", "types.ts", "routes/**/*.ts"],
+  "include": ["server.ts", "agent.ts", "types.ts", "routes/**/*.ts", "conformance/**/*.ts", "test/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

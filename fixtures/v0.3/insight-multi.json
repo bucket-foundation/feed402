@@ -1,0 +1,56 @@
+{
+  "data": {
+    "question": "what warms the gulf stream?",
+    "summary": "Top hit: Gulf Stream heat transport.",
+    "top_k": [
+      {
+        "chunk_id": "example:doc-3#c0",
+        "source_id": "example:doc-3",
+        "score": 0.8421,
+        "rank": 0
+      },
+      {
+        "chunk_id": "example:doc-9#c0",
+        "source_id": "example:doc-9",
+        "score": 0.771,
+        "rank": 1
+      }
+    ]
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:doc-3",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/doc-3",
+      "chunk_id": "example:doc-3#c0",
+      "retrieval": {
+        "model": "voyage-3-large",
+        "score": 0.8421,
+        "rank": 0
+      }
+    },
+    {
+      "type": "source",
+      "source_id": "example:doc-9",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/doc-9",
+      "chunk_id": "example:doc-9#c0",
+      "retrieval": {
+        "model": "voyage-3-large",
+        "score": 0.771,
+        "rank": 1
+      }
+    }
+  ],
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

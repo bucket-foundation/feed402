@@ -1,10 +1,10 @@
-// feed402/0.2 wire types — see /home/gian/agfarms/feed402/SPEC.md
+// feed402/0.3 wire types — see /home/gian/agfarms/feed402/SPEC.md
 export type Tier = "raw" | "query" | "insight";
 
 export interface Manifest {
   name: string;
   version: string;
-  spec: "feed402/0.2";
+  spec: string;          // e.g. "feed402/0.3"
   chain: string;          // "base" | "base-sepolia"
   wallet: string;         // 0x...
   tiers: Record<Tier, { path: string; price_usd: number; unit: string }>;
@@ -35,6 +35,8 @@ export interface Citation {
   canonical_url: string;
   chunk_id?: string;
   retrieval?: { model: string; score: number; rank: number };
+  /** §3.3 — zero-based indices of results this citation grounds. */
+  result_index?: number[];
   // VDS / future types: arbitrary additional fields allowed (spec §2.3)
   [k: string]: unknown;
 }
@@ -47,6 +49,16 @@ export interface Receipt {
 }
 
 export interface Envelope<T = unknown> {
+  data: T;
+  /** §3 — always an array in feed402/0.3. */
+  citation: Citation[];
+  /** @deprecated 0.2 alias holding `citation[0]`. Sunset at feed402/0.5. */
+  citation_legacy?: Citation;
+  receipt: Receipt;
+}
+
+/** Envelope shape emitted by v0.1 / v0.2 merchants. */
+export interface LegacyEnvelope<T = unknown> {
   data: T;
   citation: Citation;
   receipt: Receipt;

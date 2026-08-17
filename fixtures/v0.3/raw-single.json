@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "rec-1",
+    "title": "Sea surface temperature, 2026-08-01",
+    "value": 18.2
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:rec-1",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/rec-1"
+    }
+  ],
+  "receipt": {
+    "tier": "raw",
+    "price_usd": 0.05,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

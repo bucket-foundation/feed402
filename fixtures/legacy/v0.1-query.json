@@ -1,0 +1,26 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "rec-7"
+      },
+      {
+        "id": "rec-8"
+      }
+    ]
+  },
+  "citation": {
+    "type": "source",
+    "source_id": "example:rec-7",
+    "provider": "example-merchant",
+    "retrieved_at": "2026-04-15T10:30:00Z",
+    "license": "CC-BY-4.0",
+    "canonical_url": "https://example.org/rec-7"
+  },
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "stub",
+    "paid_at": "2026-04-15T10:30:01Z"
+  }
+}

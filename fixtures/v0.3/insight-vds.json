@@ -1,0 +1,35 @@
+{
+  "data": {
+    "question": "was this catch verified?",
+    "summary": "PASS at 0.94 confidence."
+  },
+  "citation": [
+    {
+      "type": "vds",
+      "script_id": "derbyfish.bhrv.v2",
+      "session_id": "sess_01JBX",
+      "captured_by": "0x00000000000000000000000000000000000000ab",
+      "captured_at": "2026-08-17T14:22:11Z",
+      "verifier": "derbyfish-gaia-fishdection@0.6.3",
+      "verification": {
+        "status": "PASS",
+        "confidence": 0.94,
+        "findings": [
+          {
+            "kind": "species",
+            "value": "Morone saxatilis",
+            "confidence": 0.98
+          }
+        ]
+      },
+      "onchain": "flow-mainnet:FishCardV1#12891",
+      "signature": "0x00000000000000000000000000000000000000ab"
+    }
+  ],
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

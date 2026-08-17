@@ -1,0 +1,37 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "paper-4"
+      },
+      {
+        "id": "erratum-4"
+      }
+    ],
+    "count": 2
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "example:paper-4",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/journal/article/4"
+    },
+    {
+      "type": "source",
+      "source_id": "example:erratum-4",
+      "provider": "example-merchant",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC-BY-4.0",
+      "canonical_url": "https://example.org/journal/article/4"
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

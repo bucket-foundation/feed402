@@ -52,7 +52,7 @@ export function loadManifest(path: string, defaults?: Partial<Manifest>): Manife
   const m: Manifest = {
     name: raw.name,
     version: raw.version ?? "0.1.0",
-    spec: "feed402/0.2",
+    spec: raw.spec ?? "feed402/0.3",
     chain: raw.chain ?? "base-sepolia",
     wallet: raw.wallet ?? "0x0000000000000000000000000000000000000000",
     tiers: raw.tiers ?? {

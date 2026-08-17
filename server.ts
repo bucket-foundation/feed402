@@ -302,7 +302,7 @@ function handleTier(
 
 const app = new Hono();
 
-// §1: Discovery manifest (v0.2 — includes §4 optional `index` block)
+// §1: Discovery manifest (v0.3 — includes §4 optional `index` block)
 app.get("/.well-known/feed402.json", (c) => {
   const manifest: Manifest = {
     name: PROVIDER_NAME,
@@ -328,7 +328,8 @@ app.post("/raw", (c) =>
         ? CORPUS.filter((p) => b.ids!.includes(p.id))
         : CORPUS.slice(0, b.limit ?? 10);
     if (rows.length === 0) return null;
-    return { data: { rows }, citation: sourceCitation(rows[0]) };
+    // §3.3: one citation per row, ordinally aligned with `data.rows`.
+    return { data: { rows }, citation: rows.map((p) => sourceCitation(p)) };
   }),
 );
 
@@ -350,11 +351,14 @@ app.post("/query", (c) =>
     // not retrieval, so we omit it per "providers that do not do retrieval
     // SHOULD omit both fields."
     const retrieved = Boolean(b.contains);
-    const citation = retrieved
-      ? sourceCitation(rows[0], {
-          retrieval: { model: INDEX_MODEL, score: substringScore(rows[0], b.contains!), rank: 0 },
-        })
-      : sourceCitation(rows[0]);
+    // §3.3: one citation per row, ordinally aligned with `data.rows`.
+    const citation = rows.map((p, i) =>
+      retrieved
+        ? sourceCitation(p, {
+            retrieval: { model: INDEX_MODEL, score: substringScore(p, b.contains!), rank: i },
+          })
+        : sourceCitation(p),
+    );
     return { data: { rows }, citation };
   }),
 );
@@ -383,16 +387,17 @@ app.post("/insight", async (c) => {
     }
     const top = hits[0];
     const snippet = top.chunk.text.slice(0, 240).trim();
-    const citation: CitationSource = {
+    // §3.3: one citation per hit, ordinally aligned with `data.hits`.
+    const citations: CitationSource[] = hits.map((h) => ({
       type: "source",
-      source_id: top.chunk.source_id,
+      source_id: h.chunk.source_id,
       provider: PROVIDER_NAME,
       retrieved_at: now(),
       license: "citation-only",
-      canonical_url: top.chunk.canonical_url,
-      chunk_id: top.chunk.chunk_id,
-      retrieval: { model: DENSE_INDEX.model, score: top.score, rank: top.rank },
-    };
+      canonical_url: h.chunk.canonical_url,
+      chunk_id: h.chunk.chunk_id,
+      retrieval: { model: DENSE_INDEX.model, score: h.score, rank: h.rank },
+    }));
     const env: Envelope = {
       data: {
         question: body.question,
@@ -400,6 +405,9 @@ app.post("/insight", async (c) => {
           top.chunk.text.length > 240 ? "..." : ""
         }`,
         top_source: top.chunk.source_id,
+        // Deprecated since feed402/0.3 (SPEC §7): the authoritative
+        // per-result evidence is the envelope `citation` array. Retained
+        // for 0.2 consumers; sunset at feed402/0.5.
         hits: hits.map((h) => ({
           source_id: h.chunk.source_id,
           chunk_id: h.chunk.chunk_id,
@@ -408,7 +416,7 @@ app.post("/insight", async (c) => {
           rank: h.rank,
         })),
       },
-      citation: [citation],
+      citation: citations,
       receipt: makeReceipt("insight", pay.tx),
     };
     return c.json(env, 200);

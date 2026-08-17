@@ -1,0 +1,30 @@
+{
+  "name": "example-pubmed-mirror",
+  "version": "0.1.0",
+  "spec": "feed402/0.2",
+  "chain": "base",
+  "wallet": "0x00000000000000000000000000000000000000ab",
+  "tiers": {
+    "raw": {
+      "path": "/raw",
+      "price_usd": 0.05,
+      "unit": "row"
+    },
+    "query": {
+      "path": "/query",
+      "price_usd": 0.01,
+      "unit": "call"
+    },
+    "insight": {
+      "path": "/insight",
+      "price_usd": 0.002,
+      "unit": "call"
+    }
+  },
+  "citation_policy": "CC-BY-4.0",
+  "citation_types": [
+    "source",
+    "vds"
+  ],
+  "contact": "ops@example.com"
+}

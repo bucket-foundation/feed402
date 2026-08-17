@@ -1,0 +1,100 @@
+{
+  "name": "x402-research-gateway",
+  "version": "0.3.0",
+  "spec": "feed402/0.2",
+  "chain": "base-sepolia",
+  "wallet": "0x00000000000000000000000000000000000000cd",
+  "tiers": {
+    "raw": {
+      "path": "/pubmed/fetch",
+      "price_usd": 0.01,
+      "unit": "call"
+    },
+    "query": {
+      "path": "/openalex/works/search",
+      "price_usd": 0.005,
+      "unit": "call"
+    }
+  },
+  "citation_policy": "per-source",
+  "citation_types": [
+    "source"
+  ],
+  "routes": [
+    {
+      "id": "pubmed.fetch",
+      "path": "/pubmed/fetch",
+      "method": "POST",
+      "tier": "raw",
+      "description": "Fetch PubMed records by identifier.",
+      "price": {
+        "path": "/pubmed/fetch",
+        "price_usd": 0.01,
+        "unit": "call"
+      },
+      "citation": {
+        "source_prefix": "pmid:",
+        "provider_url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "license": "public-domain"
+      }
+    },
+    {
+      "id": "pubmed.search",
+      "path": "/pubmed/search",
+      "method": "POST",
+      "tier": "query",
+      "description": "Keyword search over PubMed.",
+      "price": {
+        "path": "/pubmed/search",
+        "price_usd": 0.005,
+        "unit": "call"
+      },
+      "citation": {
+        "source_prefix": "pmid:",
+        "provider_url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "license": "public-domain"
+      }
+    },
+    {
+      "id": "openalex.works.search",
+      "path": "/openalex/works/search",
+      "method": "POST",
+      "tier": "query",
+      "description": "Keyword search over OpenAlex works.",
+      "price": {
+        "path": "/openalex/works/search",
+        "price_usd": 0.005,
+        "unit": "call"
+      },
+      "citation": {
+        "source_prefix": "openalex:",
+        "provider_url": "https://openalex.org/",
+        "license": "CC0"
+      }
+    }
+  ],
+  "tier_routes": {
+    "raw": [
+      {
+        "id": "pubmed.fetch",
+        "path": "/pubmed/fetch",
+        "method": "POST",
+        "tier": "raw"
+      }
+    ],
+    "query": [
+      {
+        "id": "pubmed.search",
+        "path": "/pubmed/search",
+        "method": "POST",
+        "tier": "query"
+      },
+      {
+        "id": "openalex.works.search",
+        "path": "/openalex/works/search",
+        "method": "POST",
+        "tier": "query"
+      }
+    ]
+  }
+}

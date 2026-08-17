@@ -71,7 +71,13 @@ feed402 is that template:
    literature, verified capture sessions, attestations, measurements — without
    breaking existing agents.
 5. *(v0.2)* Merchants declare their retrieval scheme in the manifest so
-   citations are reproducible — not just referenceable — across providers.
+   citations are reproducible across providers.
+6. *(v0.3)* Merchants describe **what they can do**, not only what they
+   charge: a capability vocabulary and a list of concrete operations, each
+   with its schemas, pagination model, and identifier schemes. An agent can
+   drive a merchant it has never seen without hardcoded per-merchant
+   knowledge. See [`SPEC.md §1.1`](./SPEC.md#11-capabilities-v03-optional)
+   and [`§1.2`](./SPEC.md#12-operations-v03-optional).
 
 ## Run the demo
 

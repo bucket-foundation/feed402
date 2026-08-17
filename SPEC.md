@@ -48,6 +48,134 @@ the budget they were given. `spec` identifies the protocol version;
 Providers MAY include an optional top-level `index` block describing the
 retrieval scheme backing their `query` / `insight` tiers. See §4.
 
+### 1.1 Capabilities (v0.3, optional)
+
+`tiers` prices a merchant. It does not describe one. A merchant serving eight
+heterogeneous paths across three tiers has no single `/raw`, and two
+operations at the same tier are told apart by what they do rather than by
+what they cost. An agent reading a tier-only manifest cannot answer whether
+the merchant paginates, whether it can return the references of a record, or
+which identifier schemes it accepts. It has to hardcode per-merchant
+knowledge, which defeats discovery.
+
+A provider MAY advertise a coarse capability summary:
+
+```json
+"capabilities": ["search", "fetch", "references", "cited_by", "pagination"]
+```
+
+The vocabulary defined by this revision:
+
+| Capability | The operation … |
+|---|---|
+| `search` | finds records matching a query |
+| `fetch` | returns records by identifier |
+| `references` | returns the works a record cites (outbound) |
+| `cited_by` | returns the works citing a record (inbound) |
+| `authors` | resolves or returns author records |
+| `institutions` | resolves or returns institution records |
+| `datasets` | returns dataset records |
+| `software` | returns software records |
+| `patents` | returns patent records |
+| `vocabulary` | returns terms from a controlled vocabulary |
+| `full_text` | returns full text |
+| `structured_full_text` | returns full text with structure preserved |
+| `assets` | returns non-text representations of a record |
+| `bulk` | returns whole partitions rather than result pages |
+| `incremental_sync` | returns records changed since a watermark |
+| `semantic_search` | finds records by embedding similarity |
+| `filters` | constrains results by field predicates |
+| `pagination` | pages through a result set larger than one response |
+
+A capability names **what an operation does**. It never names an upstream and
+never names a discipline. There is no `pubmed` capability and no `chemistry`
+capability.
+
+**The vocabulary is an open extension point** under the §2.3 unknown-field
+rule. A merchant MAY advertise a name this revision does not define. A
+conformant agent **MUST** degrade such a name to "an operation I do not know
+how to drive" and **MUST NOT** reject the manifest.
+
+### 1.2 Operations (v0.3, optional)
+
+`capabilities` is a filter. `operations` is what an agent calls. Each entry
+describes one concrete operation:
+
+```json
+"operations": [
+  {
+    "operation_id": "openalex.works.cited_by",
+    "capability": "cited_by",
+    "path": "/openalex/works/cited-by",
+    "method": "POST",
+    "tier": "query",
+    "pagination_model": "page",
+    "identifier_schemes": ["openalex", "doi"],
+    "canonical_identifier": "openalex",
+    "content_types": ["application/json"]
+  }
+]
+```
+
+| Field | Required | Meaning |
+|---|---|---|
+| `operation_id` | yes | Stable id, distinct from the path, unique within the manifest. A merchant may re-route or version a path; this is what an agent caches. |
+| `capability` | yes | Which capability the operation fulfills. |
+| `path` | yes | Absolute request path. |
+| `method` | no | Defaults to `POST`. |
+| `tier` | no | Which `tiers` entry prices this operation. MUST name a declared tier. |
+| `input_schema` | no | URL to a JSON Schema, or an inline schema object, so an agent can construct the call. |
+| `output_schema` | no | Same, for `Envelope.data`. |
+| `pagination_model` | no | `none`, `offset`, `page`, `cursor`, or `token`. Defaults to `none`. |
+| `identifier_schemes` | no | Identifier namespaces the operation accepts. Namespace strings are opaque to this spec. |
+| `canonical_identifier` | no | Which of those is canonical for results, so agents can pick a join key. |
+| `content_types` | no | Media types returned. |
+
+The five pagination models are the ones reference merchants already use:
+`offset` (PubMed `retstart`, Semantic Scholar `offset`), `page` (OpenAlex
+`page`/`per_page`), `token` (ClinicalTrials.gov `pageToken`), `cursor`
+(opaque resumable cursors), and `none`.
+
+**`tiers` stays required and keeps its meaning.** It remains the pricing view
+and the fallback path for tier-shaped agents written against 0.2. Operations
+reference a tier for their price rather than restating it. Where
+`capabilities` and `operations` disagree, `operations` is authoritative,
+because it names concrete callable paths.
+
+### 1.3 Migrating the gateway's `routes` (v0.3)
+
+The reference gateway shipped two non-spec manifest fields before this
+revision existed: `routes`, the full enumeration of concrete paths, and
+`tier_routes`, the same entries grouped by tier. `tiers` carried the
+cheapest route of each tier so a tier-shaped agent could still function.
+`operations` is the spec-blessed replacement for both.
+
+The migration is mechanical, and `types.ts` ships it as
+`operationsFromLegacyRoutes()`:
+
+| Legacy `routes[]` | `operations[]` |
+|---|---|
+| `id` | `operation_id` |
+| `path` | `path` |
+| `method` | `method` |
+| `tier` | `tier`, when it names a declared tier |
+| `description` | `description` |
+| `price` | dropped; `tier` already points at the price |
+| `citation` | dropped; citation metadata belongs in the envelope (§3) |
+
+`tier_routes` is not migrated because it carries nothing new: it is
+`operations` grouped by `tier`.
+
+A legacy route carries no capability, so the migration infers one. The
+inference distinguishes only `search` from `fetch`, because those are the
+only intents recoverable from a path with any confidence. **A merchant that
+wants to be discovered accurately MUST declare `operations` explicitly**
+rather than rely on inference.
+
+Consumers SHOULD read operations through `manifestOperations()`, which
+prefers `operations` and falls back to migrating `routes`, so un-migrated
+merchants keep working for the whole deprecation window (§7.2).
+
 ## 2. Handshake (stock x402, no changes)
 
 ```
@@ -393,11 +521,19 @@ MUST NOT require it and MUST NOT prefer it over the array.
 | `citation_legacy` | envelope, any merchant | `citation[0]` | identity | `feed402/0.5` |
 | `hits[]` | `data`, x402-research-gateway search tiers | `citation[]` | `hits[i].source_id` → `citation[i].source_id`; `hits[i].canonical_url` → `citation[i].canonical_url`; `hits[i].rank` → `citation[i].retrieval.rank`; `hits[i]` position → `citation[i].result_index` | `feed402/0.5` |
 | `citations[]` | `data`, ingest-harness `/query` | `citation[]` | element-wise identity, ordinally aligned | `feed402/0.5` |
+| `routes[]` | manifest, x402-research-gateway | `operations[]` | §1.3 | `feed402/0.5` |
+| `tier_routes{}` | manifest, x402-research-gateway | `operations[]` grouped by `tier` | §1.3 | `feed402/0.5` |
 
 Sunset means: at `feed402/0.5` a conformant consumer stops reading these
 fields, and a conformant merchant stops emitting them. Until then they are
 duplicates of authoritative data, never the only copy. Emitting an alias
 whose content disagrees with the `citation` array is non-conformant.
+
+`routes` and `tier_routes` were never spec fields, so their removal is not a
+protocol break. They are listed here because the reference gateway published
+them and agents may be reading them. A merchant SHOULD emit `operations`
+alongside `routes` during the window, and consumers reading through
+`manifestOperations()` handle either.
 
 ### 7.3 Historical fixtures
 
@@ -427,6 +563,7 @@ All deferred to v0.4+. Covered by future amendments to this spec.
 
 ---
 
-**That's the whole protocol.** One manifest (optionally with an index
-block), stock x402 handshake, one envelope shape with a mandatory citation
-array, three query tiers, additive citation-type extension.
+**That's the whole protocol.** One manifest, optionally carrying an index
+block and a capability-and-operations description, stock x402 handshake, one
+envelope shape with a mandatory citation array, three query tiers, additive
+citation-type and capability extension points.

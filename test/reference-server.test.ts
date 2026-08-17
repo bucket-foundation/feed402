@@ -86,6 +86,60 @@ test("insight retrieval provenance is present and rank-ordered", async () => {
   });
 });
 
+/**
+ * Build a minimal request body satisfying an operation's advertised
+ * `input_schema`. Only the required properties are filled, so the call
+ * exercises the contract the merchant published rather than a payload the
+ * test author happened to know worked.
+ */
+function payloadFor(op: Record<string, unknown>): Record<string, unknown> {
+  const schema = op.input_schema as
+    | { required?: string[]; properties?: Record<string, { type?: string }> }
+    | undefined;
+  const body: Record<string, unknown> = {};
+  if (!schema?.properties) return body;
+
+  const required = schema.required ?? [];
+  for (const name of required) {
+    const type = schema.properties[name]?.type;
+    body[name] = type === "integer" || type === "number" ? 1 : "photosynthesis";
+  }
+  // A schema with no required fields still needs something to select rows.
+  if (required.length === 0 && schema.properties.limit) body.limit = 1;
+  return body;
+}
+
+test("§1.2 every advertised operation is callable at the path it advertises", async () => {
+  const { body } = await call("/.well-known/feed402.json");
+  const ops = body.operations as Array<Record<string, unknown>>;
+  assert.ok(Array.isArray(ops) && ops.length > 0, "the reference merchant must advertise operations");
+
+  const tiers = body.tiers as Record<string, { path: string }>;
+  for (const op of ops) {
+    // The tier reference must resolve, otherwise an agent cannot price the call.
+    assert.ok(tiers[op.tier as string], `operation ${op.operation_id} names an undeclared tier`);
+
+    // Drive the call from the operation's own advertised input_schema. If the
+    // schema disagrees with what the handler accepts, this fails — which is
+    // the drift this test exists to catch, alongside an unrouted path.
+    const { status } = await paidPost(op.path as string, payloadFor(op));
+    assert.notEqual(status, 404, `advertised path ${op.path} is not routed`);
+    assert.equal(status, 200, `advertised path ${op.path} did not return an envelope`);
+  }
+});
+
+test("§1.1 advertised capabilities cover every operation's capability", async () => {
+  const { body } = await call("/.well-known/feed402.json");
+  const declared = body.capabilities as string[];
+  const ops = body.operations as Array<{ capability: string }>;
+  for (const op of ops) {
+    assert.ok(
+      declared.includes(op.capability),
+      `capability "${op.capability}" is used by an operation but not advertised`,
+    );
+  }
+});
+
 test("no envelope leaks the payment header or any secret-looking value", async () => {
   for (const [, , run] of TIER_CALLS) {
     const { body } = await run();

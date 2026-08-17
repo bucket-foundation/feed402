@@ -9,10 +9,14 @@
 import {
   KNOWN_SPEC_VERSIONS,
   SPEC_VERSION,
+  isKnownCapability,
   type Citation,
   type Envelope,
   type LegacyEnvelope,
 } from "../types.js";
+
+/** §1.2 pagination models defined by this revision. */
+const PAGINATION_MODELS = ["none", "offset", "page", "cursor", "token"];
 
 export type Severity = "error" | "warning";
 
@@ -132,7 +136,162 @@ export function validateManifest(doc: unknown): Report {
 
   if (doc.index !== undefined) f.push(...validateIndexManifest(doc.index));
 
+  f.push(...validateCapabilities(doc));
+  f.push(...validateOperations(doc));
+
   return { ok: !f.some((x) => x.severity === "error"), version, findings: f };
+}
+
+// ---------- §1.1 capabilities ----------
+
+function validateCapabilities(doc: Record<string, unknown>): Finding[] {
+  const f: Finding[] = [];
+  if (doc.capabilities === undefined) return f;
+  if (!Array.isArray(doc.capabilities)) {
+    return [err("1.1", "$.capabilities", "`capabilities` must be an array when present")];
+  }
+  doc.capabilities.forEach((cap, i) => {
+    if (typeof cap !== "string" || cap.length === 0) {
+      f.push(err("1.1", `$.capabilities[${i}]`, "capability must be a non-empty string"));
+      return;
+    }
+    // Open extension point: an unrecognized name degrades, never errors.
+    if (!isKnownCapability(cap)) {
+      f.push(
+        warn(
+          "1.1",
+          `$.capabilities[${i}]`,
+          `capability "${cap}" is not in the v0.3 vocabulary; treat as an operation the agent cannot drive`,
+        ),
+      );
+    }
+  });
+  return f;
+}
+
+// ---------- §1.2 operations ----------
+
+function validateOperations(doc: Record<string, unknown>): Finding[] {
+  const f: Finding[] = [];
+  if (doc.operations === undefined) {
+    // A merchant may still be emitting the pre-0.3 gateway enumeration.
+    if (Array.isArray(doc.routes) && doc.routes.length > 0) {
+      f.push(
+        warn(
+          "7.2",
+          "$.routes",
+          "`routes` is deprecated; emit `operations` instead (consumers should read it via manifestOperations())",
+        ),
+      );
+    }
+    return f;
+  }
+  if (!Array.isArray(doc.operations)) {
+    return [err("1.2", "$.operations", "`operations` must be an array when present")];
+  }
+
+  const tierNames = isObject(doc.tiers) ? Object.keys(doc.tiers) : [];
+  const declared = Array.isArray(doc.capabilities)
+    ? doc.capabilities.filter((c): c is string => typeof c === "string")
+    : null;
+  const seenIds = new Set<string>();
+  const seenCaps = new Set<string>();
+
+  doc.operations.forEach((raw, i) => {
+    const at = `$.operations[${i}]`;
+    if (!isObject(raw)) {
+      f.push(err("1.2", at, "operation must be an object"));
+      return;
+    }
+
+    for (const key of ["operation_id", "capability", "path"]) {
+      if (typeof raw[key] !== "string" || (raw[key] as string).length === 0) {
+        f.push(err("1.2", `${at}.${key}`, `required string field \`${key}\` is missing`));
+      }
+    }
+
+    if (typeof raw.operation_id === "string") {
+      if (seenIds.has(raw.operation_id)) {
+        f.push(err("1.2", `${at}.operation_id`, `duplicate operation_id "${raw.operation_id}"`));
+      }
+      seenIds.add(raw.operation_id);
+    }
+
+    if (typeof raw.capability === "string") {
+      seenCaps.add(raw.capability);
+      if (!isKnownCapability(raw.capability)) {
+        f.push(
+          warn("1.1", `${at}.capability`, `capability "${raw.capability}" is not in the v0.3 vocabulary`),
+        );
+      }
+    }
+
+    if (typeof raw.path === "string" && !raw.path.startsWith("/")) {
+      f.push(err("1.2", `${at}.path`, "`path` must be an absolute path beginning with \"/\""));
+    }
+
+    // `tier` is a reference into the pricing view; a dangling one leaves an
+    // agent unable to price the call.
+    if (raw.tier !== undefined) {
+      if (typeof raw.tier !== "string") {
+        f.push(err("1.2", `${at}.tier`, "`tier` must be a string when present"));
+      } else if (tierNames.length > 0 && !tierNames.includes(raw.tier)) {
+        f.push(err("1.2", `${at}.tier`, `\`tier\` "${raw.tier}" is not declared in \`tiers\``));
+      }
+    }
+
+    if (
+      raw.pagination_model !== undefined &&
+      !PAGINATION_MODELS.includes(raw.pagination_model as string)
+    ) {
+      f.push(
+        err(
+          "1.2",
+          `${at}.pagination_model`,
+          `\`pagination_model\` must be one of ${PAGINATION_MODELS.join(", ")}`,
+        ),
+      );
+    }
+
+    if (raw.identifier_schemes !== undefined && !Array.isArray(raw.identifier_schemes)) {
+      f.push(err("1.2", `${at}.identifier_schemes`, "`identifier_schemes` must be an array"));
+    }
+
+    // A canonical identifier that is not among the accepted schemes gives an
+    // agent no way to produce it.
+    if (typeof raw.canonical_identifier === "string" && Array.isArray(raw.identifier_schemes)) {
+      if (!raw.identifier_schemes.includes(raw.canonical_identifier)) {
+        f.push(
+          warn(
+            "1.2",
+            `${at}.canonical_identifier`,
+            `"${raw.canonical_identifier}" is not listed in \`identifier_schemes\``,
+          ),
+        );
+      }
+    }
+
+    if (raw.content_types !== undefined && !Array.isArray(raw.content_types)) {
+      f.push(err("1.2", `${at}.content_types`, "`content_types` must be an array"));
+    }
+  });
+
+  // §1.1: the summary should not under-report what operations actually offer.
+  if (declared) {
+    for (const cap of seenCaps) {
+      if (!declared.includes(cap)) {
+        f.push(
+          warn(
+            "1.1",
+            "$.capabilities",
+            `operations declare capability "${cap}" which is absent from \`capabilities\`; \`operations\` is authoritative`,
+          ),
+        );
+      }
+    }
+  }
+
+  return f;
 }
 
 function validateIndexManifest(idx: unknown): Finding[] {

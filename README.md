@@ -71,6 +71,11 @@ Everything else is optional and additive:
    training, and retention as three-state permissions. `license` keeps its
    meaning as the summary. Unknown is never allowed.
    See [`SPEC.md §3.4`](./SPEC.md#34-structured-rights-v03-optional).
+3. **Assets and representations** on citations, so a merchant that located an
+   open-access PDF has somewhere to put it, with per-asset rights and an
+   `availability` that tells "restricted" apart from "no such copy exists."
+   Listing an asset is discovery and never a rights grant.
+   See [`SPEC.md §3.5`](./SPEC.md#35-assets-and-representations-v03-optional).
 
 ## The 60-second pitch
 

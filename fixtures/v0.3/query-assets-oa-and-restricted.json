@@ -1,0 +1,90 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "doi:10.1038/s41586-021-03819-2",
+        "title": "Highly accurate protein structure prediction"
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "doi:10.1038/s41586-021-03819-2",
+      "provider": "example-oa-locator",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "mixed",
+      "canonical_url": "https://doi.org/10.1038/s41586-021-03819-2",
+      "rights": {
+        "metadata": {
+          "license": "CC0-1.0",
+          "status": "allowed"
+        },
+        "content": {
+          "license": "mixed",
+          "status": "unknown"
+        },
+        "redistribution": "unknown",
+        "tdm": "unknown",
+        "model_training": "unknown",
+        "retention": "unknown",
+        "notes": "Per-asset rights differ; read the asset blocks."
+      },
+      "assets": [
+        {
+          "asset_id": "oa-pdf",
+          "representation": "pdf",
+          "mime_type": "application/pdf",
+          "canonical_url": "https://repo.example.edu/bitstream/1234/manuscript.pdf",
+          "provider_url": "https://oa.example.org/resolve/10.1038/s41586-021-03819-2",
+          "checksum": "sha256:9f2c4b1e77aa0d3e5c8b6a4f2109ed7b3c5a8f01d2e4b6c8a0f2e4d6b8c0a2e4",
+          "size": 2418734,
+          "version": "accepted-manuscript",
+          "availability": "retrievable",
+          "rights": {
+            "content": {
+              "license": "CC-BY-4.0",
+              "license_url": "https://creativecommons.org/licenses/by/4.0/",
+              "status": "allowed"
+            },
+            "redistribution": "allowed",
+            "tdm": "allowed",
+            "model_training": "unknown",
+            "retention": "allowed",
+            "terms_url": "https://repo.example.edu/policies",
+            "retrieved_at": "2026-08-01T00:00:00Z"
+          },
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        },
+        {
+          "asset_id": "publisher-pdf",
+          "representation": "pdf",
+          "mime_type": "application/pdf",
+          "canonical_url": "https://www.nature.com/articles/s41586-021-03819-2.pdf",
+          "version": "version-of-record",
+          "availability": "restricted",
+          "rights": {
+            "content": {
+              "license": "all-rights-reserved",
+              "status": "denied"
+            },
+            "redistribution": "denied",
+            "tdm": "unknown",
+            "model_training": "denied",
+            "retention": "denied",
+            "terms_url": "https://www.nature.com/nature-portfolio/editorial-policies",
+            "retrieved_at": "2026-08-01T00:00:00Z"
+          },
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        }
+      ]
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

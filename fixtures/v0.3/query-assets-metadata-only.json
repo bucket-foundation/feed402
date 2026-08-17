@@ -1,0 +1,53 @@
+{
+  "data": {
+    "rows": [
+      {
+        "id": "doi:10.5555/metadata-only",
+        "title": "A record with no located full text"
+      }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "doi:10.5555/metadata-only",
+      "provider": "example-oa-locator",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC0",
+      "canonical_url": "https://doi.org/10.5555/metadata-only",
+      "rights": {
+        "metadata": {
+          "license": "CC0-1.0",
+          "status": "allowed"
+        },
+        "redistribution": "allowed",
+        "tdm": "allowed",
+        "model_training": "unknown",
+        "retention": "allowed"
+      },
+      "assets": [
+        {
+          "asset_id": "record",
+          "representation": "metadata",
+          "mime_type": "application/json",
+          "canonical_url": "https://api.example.org/works/10.5555/metadata-only",
+          "availability": "retrievable",
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        },
+        {
+          "asset_id": "oa-pdf",
+          "representation": "pdf",
+          "availability": "absent",
+          "retrieved_at": "2026-08-17T10:29:55Z"
+        }
+      ]
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

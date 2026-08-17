@@ -486,6 +486,115 @@ It is not legal advice and carries no inference. A merchant **MUST NOT**
 synthesize a rights determination the provider did not make; the honest
 answer for an undetermined facet is `"unknown"`.
 
+### 3.5 Assets and representations (v0.3, optional)
+
+A citation carries at most one URL per record, `canonical_url`. One work
+routinely has many representations, and the difference between them is what an
+agent needs: a CC-BY abstract, an all-rights-reserved publisher PDF, a
+green-OA accepted manuscript in a repository, a JATS full text in PMC, a TeX
+source on arXiv, a supplementary dataset, a figure. A merchant that has
+located an open-access PDF has nowhere to put it.
+
+A `source`-typed citation MAY carry an optional `assets` array:
+
+```json
+"citation": [{
+  "type": "source",
+  "source_id": "doi:10.1038/s41586-021-03819-2",
+  "provider": "example-oa-locator",
+  "retrieved_at": "2026-08-17T10:30:00Z",
+  "canonical_url": "https://doi.org/10.1038/s41586-021-03819-2",
+  "assets": [
+    {
+      "asset_id": "oa-pdf",
+      "representation": "pdf",
+      "mime_type": "application/pdf",
+      "canonical_url": "https://repo.example.edu/bitstream/1234/manuscript.pdf",
+      "checksum": "sha256:9f2c4b1e77aa0d3e5c8b6a4f2109ed7b3c5a8f01d2e4b6c8a0f2e4d6b8c0a2e4",
+      "size": 2418734,
+      "availability": "retrievable",
+      "rights": { "content": { "license": "CC-BY-4.0", "status": "allowed" },
+                  "redistribution": "allowed", "tdm": "allowed" },
+      "retrieved_at": "2026-08-17T10:29:55Z"
+    },
+    {
+      "asset_id": "publisher-pdf",
+      "representation": "pdf",
+      "mime_type": "application/pdf",
+      "canonical_url": "https://www.nature.com/articles/s41586-021-03819-2.pdf",
+      "availability": "restricted",
+      "rights": { "content": { "license": "all-rights-reserved", "status": "denied" },
+                  "redistribution": "denied", "tdm": "unknown" }
+    }
+  ]
+}]
+```
+
+#### Fields
+
+| Field | Required | Meaning |
+|---|---|---|
+| `asset_id` | yes | Stable within the provider. MUST be unique within one citation. |
+| `representation` | yes | The role this asset plays for the record. |
+| `mime_type` | no | Media type. |
+| `content_type` | no | Structural type where a MIME type is too coarse, e.g. `"jats-1.3"` where `application/xml` says nothing. |
+| `canonical_url` | no | The stable public address of this representation. |
+| `provider_url` | no | Where this provider will serve or redirect, when it differs from the canonical address. |
+| `checksum` | no | `"<algorithm>:<hex>"`, e.g. `"sha256:c6a9…f31e"`. |
+| `size` | no | Size in bytes, a non-negative integer. |
+| `version` | no | Provider-assigned version of this representation. |
+| `rights` | no | The §3.4 block, per asset. |
+| `availability` | no | Defaults to `"unknown"`. |
+| `retrieved_at` | no | ISO-8601. When the merchant last established these facts. |
+
+#### The `representation` vocabulary
+
+`metadata`, `abstract`, `html`, `jats`, `tei`, `tex`, `pdf`, `supplement`,
+`dataset`, `software`, `image`, `table`.
+
+**The vocabulary is an open extension point** under §2.3. A merchant MAY emit
+a name this revision does not define, and a consumer **MUST** degrade it to "a
+representation I do not know how to use" and **MUST NOT** reject the envelope.
+
+#### Availability
+
+| Value | Meaning |
+|---|---|
+| `retrievable` | The merchant believes the asset can be fetched now. |
+| `restricted` | The asset exists and the agent may not have it. |
+| `absent` | The merchant looked and this representation does not exist. |
+| `unknown` | Not determined. Also the reading of an omitted `availability`. |
+
+`restricted` and `absent` are different answers and an agent acts differently
+on each: "this article has a publisher PDF behind a paywall" is a lead, and
+"there is no open-access copy" ends a search. An `absent` asset has nowhere to
+point, so carrying an address alongside it is a warning.
+
+#### Discovery is not a rights grant (normative)
+
+Listing an asset says the merchant knows the asset exists at an address. It
+says **nothing** about whether the agent may fetch, redistribute, mine, retain,
+or train on it. That is what the per-asset `rights` block is for, and the §3.4
+unknown rule applies unchanged: an asset with no rights block anywhere in the
+resolution chain grants nothing, however `retrievable` it is. `assetRights()`
+in `types.ts` resolves asset, then citation, then manifest, nearest wins whole.
+
+A merchant **MUST NOT** treat `availability: "retrievable"` as a licence to
+serve the bytes, and a consumer **MUST NOT** read it as one.
+
+#### Backwards compatibility
+
+`canonical_url` at record level keeps its current meaning: the stable public
+address of the record. No merchant is required to emit `assets`, and a
+merchant emitting only `canonical_url` remains fully conformant. Assets are
+additive, and a record-level `canonical_url` alongside an `assets` array is
+the expected shape rather than a duplication to be resolved.
+
+#### Non-goal
+
+feed402 defines how assets are described. It does not define a proxy, a fetch
+semantic, or a caching layer for them.
+
 ## 4. Index manifest (v0.2, optional)
 
 A provider that backs its `query` or `insight` tier with a retrieval index

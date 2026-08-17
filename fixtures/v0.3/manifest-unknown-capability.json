@@ -1,0 +1,37 @@
+{
+  "name": "future-merchant",
+  "version": "2.0.0",
+  "spec": "feed402/0.3",
+  "chain": "base",
+  "wallet": "0x00000000000000000000000000000000000000ef",
+  "tiers": {
+    "query": {
+      "path": "/query",
+      "price_usd": 0.01,
+      "unit": "call"
+    }
+  },
+  "citation_types": [
+    "source"
+  ],
+  "capabilities": [
+    "search",
+    "spectral_alignment"
+  ],
+  "operations": [
+    {
+      "operation_id": "query.search",
+      "capability": "search",
+      "path": "/query",
+      "tier": "query",
+      "pagination_model": "offset"
+    },
+    {
+      "operation_id": "query.spectral",
+      "capability": "spectral_alignment",
+      "path": "/spectral",
+      "tier": "query",
+      "description": "An operation defined by a later revision than v0.3. A v0.3 agent must degrade to ignoring it, never reject the manifest."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "name": "research-gateway",
+  "version": "0.4.0",
+  "spec": "feed402/0.3",
+  "chain": "base-sepolia",
+  "wallet": "0x00000000000000000000000000000000000000cd",
+  "tiers": {
+    "raw": {
+      "path": "/pubmed/fetch",
+      "price_usd": 0.01,
+      "unit": "call"
+    },
+    "query": {
+      "path": "/openalex/works/search",
+      "price_usd": 0.005,
+      "unit": "call"
+    },
+    "insight": {
+      "path": "/insight",
+      "price_usd": 0.002,
+      "unit": "call"
+    }
+  },
+  "citation_policy": "per-source",
+  "citation_types": [
+    "source"
+  ],
+  "contact": "ops@example.org",
+  "capabilities": [
+    "search",
+    "fetch",
+    "references",
+    "cited_by",
+    "authors",
+    "institutions",
+    "pagination",
+    "semantic_search"
+  ],
+  "operations": [
+    {
+      "operation_id": "pubmed.fetch",
+      "capability": "fetch",
+      "path": "/pubmed/fetch",
+      "method": "POST",
+      "tier": "raw",
+      "description": "Fetch PubMed records by identifier.",
+      "pagination_model": "none",
+      "identifier_schemes": [
+        "pmid",
+        "pmcid",
+        "doi"
+      ],
+      "canonical_identifier": "pmid",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "pubmed.search",
+      "capability": "search",
+      "path": "/pubmed/search",
+      "method": "POST",
+      "tier": "query",
+      "description": "Keyword search over PubMed. Offset paging via retstart.",
+      "pagination_model": "offset",
+      "identifier_schemes": [
+        "pmid"
+      ],
+      "canonical_identifier": "pmid",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "openalex.works.search",
+      "capability": "search",
+      "path": "/openalex/works/search",
+      "method": "POST",
+      "tier": "query",
+      "description": "Keyword search over OpenAlex works. Page paging.",
+      "pagination_model": "page",
+      "identifier_schemes": [
+        "openalex",
+        "doi"
+      ],
+      "canonical_identifier": "openalex",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "openalex.works.references",
+      "capability": "references",
+      "path": "/openalex/works/references",
+      "method": "POST",
+      "tier": "query",
+      "description": "Outbound references of a work.",
+      "pagination_model": "page",
+      "identifier_schemes": [
+        "openalex",
+        "doi"
+      ],
+      "canonical_identifier": "openalex",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "openalex.works.cited_by",
+      "capability": "cited_by",
+      "path": "/openalex/works/cited-by",
+      "method": "POST",
+      "tier": "query",
+      "description": "Inbound citations of a work. Distinct from references.",
+      "pagination_model": "page",
+      "identifier_schemes": [
+        "openalex",
+        "doi"
+      ],
+      "canonical_identifier": "openalex",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "openalex.authors.search",
+      "capability": "authors",
+      "path": "/openalex/authors/search",
+      "method": "POST",
+      "tier": "query",
+      "pagination_model": "page",
+      "identifier_schemes": [
+        "openalex",
+        "orcid"
+      ],
+      "canonical_identifier": "orcid",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "ror.institutions.search",
+      "capability": "institutions",
+      "path": "/ror/institutions/search",
+      "method": "POST",
+      "tier": "query",
+      "pagination_model": "cursor",
+      "identifier_schemes": [
+        "ror"
+      ],
+      "canonical_identifier": "ror",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "clinicaltrials.search",
+      "capability": "search",
+      "path": "/clinicaltrials/search",
+      "method": "POST",
+      "tier": "query",
+      "description": "Token paging via pageToken.",
+      "pagination_model": "token",
+      "identifier_schemes": [
+        "nct"
+      ],
+      "canonical_identifier": "nct",
+      "content_types": [
+        "application/json"
+      ]
+    },
+    {
+      "operation_id": "insight.semantic",
+      "capability": "semantic_search",
+      "path": "/insight",
+      "method": "POST",
+      "tier": "insight",
+      "pagination_model": "none",
+      "content_types": [
+        "application/json"
+      ]
+    }
+  ]
+}

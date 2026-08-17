@@ -24,8 +24,10 @@ import {
   type CitationSource,
   type Envelope,
   type ErrorBody,
+  type Capability,
   type IndexManifest,
   type Manifest,
+  type OperationSpec,
   type Receipt,
   type RetrievalProvenance,
   type TierName,
@@ -57,6 +59,69 @@ const TIERS: Record<TierName, TierSpec> = {
   query:   { path: "/query",   price_usd: 0.01,  unit: "call" },
   insight: { path: "/insight", price_usd: 0.002, unit: "call" },
 };
+
+// §1.1 / §1.2: what this merchant can do, and how to call it. `TIERS` above
+// stays the pricing view; operations reference a tier rather than restate a
+// price.
+const CAPABILITIES_OFFERED: Capability[] = ["fetch", "search", "semantic_search"];
+
+const OPERATIONS: OperationSpec[] = [
+  {
+    operation_id: "raw.fetch",
+    capability: "fetch",
+    path: "/raw",
+    method: "POST",
+    tier: "raw",
+    description: "Fetch corpus rows by identifier, or the first `limit` rows.",
+    input_schema: {
+      type: "object",
+      properties: {
+        ids: { type: "array", items: { type: "string" } },
+        limit: { type: "integer", minimum: 1 },
+      },
+    },
+    pagination_model: "none",
+    identifier_schemes: ["pubmed"],
+    canonical_identifier: "pubmed",
+    content_types: ["application/json"],
+  },
+  {
+    operation_id: "query.search",
+    capability: "search",
+    path: "/query",
+    method: "POST",
+    tier: "query",
+    description: "Structured filter over the demo corpus.",
+    input_schema: {
+      type: "object",
+      properties: {
+        contains: { type: "string" },
+        year_gte: { type: "integer" },
+      },
+    },
+    pagination_model: "none",
+    identifier_schemes: ["pubmed"],
+    canonical_identifier: "pubmed",
+    content_types: ["application/json"],
+  },
+  {
+    operation_id: "insight.semantic",
+    capability: "semantic_search",
+    path: "/insight",
+    method: "POST",
+    tier: "insight",
+    description: "Dense retrieval over the indexed corpus, with §3.2 provenance.",
+    input_schema: {
+      type: "object",
+      required: ["question"],
+      properties: { question: { type: "string" } },
+    },
+    pagination_model: "none",
+    identifier_schemes: ["pubmed"],
+    canonical_identifier: "pubmed",
+    content_types: ["application/json"],
+  },
+];
 
 // ---------- In-memory demo corpus ----------
 // A tiny set of "papers" so raw/query/insight have something to return.
@@ -315,6 +380,8 @@ app.get("/.well-known/feed402.json", (c) => {
     citation_types: ["source"],
     contact: "ops@example.com",
     index: INDEX,
+    capabilities: CAPABILITIES_OFFERED,
+    operations: OPERATIONS,
   };
   return c.json(manifest);
 });

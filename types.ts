@@ -53,6 +53,219 @@ export interface Manifest {
    * to expose retrieval internals.
    */
   index?: IndexManifest;
+  /**
+   * §1.1 (v0.3, optional) — coarse summary of what this merchant can do.
+   * A hint for agent filtering: an agent can skip a merchant whose
+   * capability set cannot serve its goal without reading every operation.
+   *
+   * SHOULD equal the distinct `capability` values in `operations` when both
+   * are present. Where they disagree, `operations` is authoritative, since
+   * it names concrete callable paths.
+   */
+  capabilities?: Capability[];
+  /**
+   * §1.2 (v0.3, optional) — the concrete operations this merchant exposes.
+   *
+   * `tiers` remains the pricing view and the fallback for tier-shaped
+   * agents. `operations` is the capability view, and is what a merchant
+   * serving many heterogeneous paths at the same tier needs in order to be
+   * discoverable. Operations reference a tier for their price rather than
+   * restating it.
+   */
+  operations?: OperationSpec[];
+}
+
+// ---------- §1.1: Capability vocabulary (v0.3) ----------
+
+/**
+ * The capability names this spec revision defines. Deliberately generic
+ * across data services: a capability describes *what an operation does*,
+ * never what domain it belongs to and never which upstream backs it.
+ */
+export const CAPABILITIES = [
+  "search",
+  "fetch",
+  "references",
+  "cited_by",
+  "authors",
+  "institutions",
+  "datasets",
+  "software",
+  "patents",
+  "vocabulary",
+  "full_text",
+  "structured_full_text",
+  "assets",
+  "bulk",
+  "incremental_sync",
+  "semantic_search",
+  "filters",
+  "pagination",
+] as const;
+
+export type KnownCapability = (typeof CAPABILITIES)[number];
+
+/**
+ * A capability name. The vocabulary is an open extension point under the
+ * §2.3 unknown-field rule: a merchant MAY advertise a name this revision
+ * does not define, and a conformant agent MUST degrade that to "an
+ * operation I do not know how to drive" rather than rejecting the manifest.
+ */
+export type Capability = KnownCapability | (string & {});
+
+/** Whether `name` is in the vocabulary defined by this spec revision. */
+export function isKnownCapability(name: string): name is KnownCapability {
+  return (CAPABILITIES as readonly string[]).includes(name);
+}
+
+// ---------- §1.2: Operation metadata (v0.3) ----------
+
+/**
+ * How an operation pages through results. All five are already in use by
+ * reference merchants: `offset` (Semantic Scholar, PubMed `retstart`),
+ * `page` (OpenAlex `page`/`per_page`), `token` (ClinicalTrials.gov
+ * `pageToken`), `cursor` (opaque resumable cursors), `none`.
+ */
+export type PaginationModel = "none" | "offset" | "page" | "cursor" | "token";
+
+/**
+ * A machine-readable schema. Either a URL that resolves to a JSON Schema
+ * document, or an inline JSON Schema object. Kept deliberately loose: the
+ * point is that an agent can construct a call, not that this spec pins a
+ * schema dialect.
+ */
+export type SchemaRef = string | Record<string, unknown>;
+
+export interface OperationSpec {
+  /**
+   * Stable identifier for the operation, distinct from `path`. A merchant
+   * MAY re-route or version a path; `operation_id` is what an agent caches
+   * and what appears in logs. MUST be unique within a manifest.
+   */
+  operation_id: string;
+  /** Which capability this operation fulfills. */
+  capability: Capability;
+  /** Concrete request path, e.g. `/openalex/works/search`. */
+  path: string;
+  /** HTTP method. Defaults to `POST` when omitted. */
+  method?: string;
+  /**
+   * Which entry of `tiers` prices this operation. Omitted only by a
+   * merchant that does not price per tier; agents then treat the operation
+   * as priced by the tier map's cheapest entry.
+   */
+  tier?: TierName;
+  description?: string;
+  /** Shape of the request body, so an agent can construct a call. */
+  input_schema?: SchemaRef;
+  /** Shape of `Envelope.data` for this operation. */
+  output_schema?: SchemaRef;
+  /** Defaults to `"none"` when omitted. */
+  pagination_model?: PaginationModel;
+  /**
+   * Identifier namespaces this operation accepts as input, e.g.
+   * `["doi", "pmid", "openalex"]`. Namespace strings are opaque to this
+   * spec; agents match them against what they hold.
+   */
+  identifier_schemes?: string[];
+  /**
+   * Which member of `identifier_schemes` is canonical for results, if any.
+   * Lets an agent pick a join key across merchants.
+   */
+  canonical_identifier?: string;
+  /** Media types this operation returns, e.g. `["application/json"]`. */
+  content_types?: string[];
+}
+
+// ---------- §1.3: Legacy `routes` migration (v0.3) ----------
+
+/**
+ * A route entry as emitted by the pre-0.3 reference gateway in its non-spec
+ * `routes` / `tier_routes` manifest fields. Retained so those manifests stay
+ * parseable through the deprecation window (SPEC §7.2).
+ *
+ * @deprecated since feed402/0.3 — emit `operations` instead.
+ */
+export interface LegacyRouteEntry {
+  id: string;
+  path: string;
+  method?: string;
+  tier?: string;
+  description?: string;
+  price?: { path?: string; price_usd?: number; unit?: string };
+  citation?: { source_prefix?: string; provider_url?: string; license?: string };
+}
+
+/**
+ * Manifest as emitted by the pre-0.3 gateway: the standard fields plus the
+ * two private enumeration fields.
+ *
+ * @deprecated since feed402/0.3
+ */
+export interface LegacyRoutedManifest extends Manifest {
+  /** @deprecated superseded by `operations`. */
+  routes?: LegacyRouteEntry[];
+  /** @deprecated derivable from `operations` by grouping on `tier`. */
+  tier_routes?: Record<string, LegacyRouteEntry[]>;
+}
+
+/**
+ * Best-effort capability inference for a legacy route that carries no
+ * declared capability.
+ *
+ * This is a lossy fallback for manifests written before the vocabulary
+ * existed. It distinguishes only `search` from `fetch`, because those are
+ * the only two intents recoverable from a path with any confidence. A
+ * merchant that wants to be discovered accurately MUST declare
+ * `operations` explicitly rather than rely on this.
+ */
+export function inferCapabilityFromRoute(route: LegacyRouteEntry): Capability {
+  const haystack = `${route.id} ${route.path}`.toLowerCase();
+  return /search|query/.test(haystack) ? "search" : "fetch";
+}
+
+/**
+ * Convert a legacy `routes` array into the standard operations list.
+ *
+ * Pure and additive: it never drops a route, and a route whose tier is not
+ * a recognized tier name keeps its path and id while leaving `tier`
+ * undefined, so the operation stays callable.
+ */
+export function operationsFromLegacyRoutes(
+  routes: readonly LegacyRouteEntry[],
+): OperationSpec[] {
+  return routes.map((r) => {
+    const op: OperationSpec = {
+      operation_id: r.id,
+      capability: inferCapabilityFromRoute(r),
+      path: r.path,
+    };
+    if (r.method) op.method = r.method;
+    if (r.tier === "raw" || r.tier === "query" || r.tier === "insight") {
+      op.tier = r.tier;
+    }
+    if (r.description) op.description = r.description;
+    return op;
+  });
+}
+
+/**
+ * Read a manifest's operations, synthesizing them from the deprecated
+ * `routes` field when the merchant has not migrated yet.
+ *
+ * Consumers SHOULD call this instead of reading `operations` directly, so
+ * that un-migrated merchants keep working for the whole deprecation window.
+ * Returns an empty array for a tier-only merchant, which is a valid shape:
+ * such a merchant is driven through `tiers` exactly as in 0.2.
+ */
+export function manifestOperations(manifest: LegacyRoutedManifest): OperationSpec[] {
+  if (manifest.operations && manifest.operations.length > 0) {
+    return manifest.operations;
+  }
+  if (manifest.routes && manifest.routes.length > 0) {
+    return operationsFromLegacyRoutes(manifest.routes);
+  }
+  return [];
 }
 
 // ---------- §4: Index manifest (v0.2) ----------

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "rows": [
+      { "id": "merged:cluster-7", "title": "Deduplicated and reranked result across two upstream merchants" }
+    ],
+    "count": 1
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "openalex:W111",
+      "provider": "example-openalex-proxy",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "CC0-1.0",
+      "canonical_url": "https://openalex.org/W111",
+      "result_index": [0]
+    },
+    {
+      "type": "source",
+      "source_id": "semanticscholar:222",
+      "provider": "example-s2-proxy",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "citation-only",
+      "canonical_url": "https://www.semanticscholar.org/paper/222",
+      "result_index": [0]
+    }
+  ],
+  "lineage": [
+    {
+      "step": 0,
+      "derived_object": "agent:merge-req-77#deduped",
+      "sources": [0, 1],
+      "transformation": "dedup",
+      "software": "example-merging-agent",
+      "software_version": "0.2.0",
+      "timestamp": "2026-08-17T10:30:02.000Z",
+      "notes": "openalex:W111 and semanticscholar:222 identified as the same underlying work by DOI"
+    },
+    {
+      "step": 1,
+      "derived_object": "merged:cluster-7",
+      "sources": ["agent:merge-req-77#deduped"],
+      "transformation": "rerank",
+      "software": "example-merging-agent",
+      "software_version": "0.2.0",
+      "timestamp": "2026-08-17T10:30:02.200Z"
+    }
+  ],
+  "receipt": {
+    "tier": "query",
+    "price_usd": 0.01,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

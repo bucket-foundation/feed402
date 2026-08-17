@@ -1,0 +1,54 @@
+{
+  "data": {
+    "question": "what warms the gulf stream?",
+    "summary": "Question: what warms the gulf stream? — Top context: heat transport in the Gulf Stream is driven by wind-forced circulation and thermohaline overturning.",
+    "top_k": [
+      { "source_id": "pubmed:111", "rank": 0 },
+      { "source_id": "pubmed:222", "rank": 1 }
+    ]
+  },
+  "citation": [
+    {
+      "type": "source",
+      "source_id": "pubmed:111",
+      "provider": "example-pubmed-proxy",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "public-domain",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/111"
+    },
+    {
+      "type": "source",
+      "source_id": "pubmed:222",
+      "provider": "example-pubmed-proxy",
+      "retrieved_at": "2026-08-17T10:30:00Z",
+      "license": "public-domain",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/222"
+    }
+  ],
+  "lineage": [
+    {
+      "step": 0,
+      "derived_object": "insight:req_01JBX3Z8QK#context",
+      "sources": [0, 1],
+      "transformation": "context_assembly",
+      "software": "x402-research-gateway",
+      "software_version": "0.6.2",
+      "timestamp": "2026-08-17T10:30:00.100Z",
+      "notes": "maxContextChars=4000 applied; 2 of 2 snippets retained"
+    },
+    {
+      "step": 1,
+      "derived_object": "insight:req_01JBX3Z8QK#answer",
+      "sources": ["insight:req_01JBX3Z8QK#context"],
+      "transformation": "summarization",
+      "software": "mock:template-v1",
+      "timestamp": "2026-08-17T10:30:01.400Z"
+    }
+  ],
+  "receipt": {
+    "tier": "insight",
+    "price_usd": 0.002,
+    "tx": "0xfeed402fixture",
+    "paid_at": "2026-08-17T10:30:01Z"
+  }
+}

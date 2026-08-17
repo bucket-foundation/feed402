@@ -139,6 +139,11 @@ export function validateManifest(doc: unknown): Report {
 
   if (doc.index !== undefined) f.push(...validateIndexManifest(doc.index));
   if (doc.rights !== undefined) f.push(...validateRights(doc.rights, "$.rights"));
+  if (doc.provenance_level !== undefined && !PROVENANCE_LEVELS.includes(doc.provenance_level as number)) {
+    f.push(
+      err("3.6", "$.provenance_level", `\`provenance_level\` must be one of ${PROVENANCE_LEVELS.join(", ")}`),
+    );
+  }
 
   f.push(...validateCapabilities(doc));
   f.push(...validateOperations(doc));
@@ -577,6 +582,154 @@ export function validateAssets(assets: unknown, path: string): Finding[] {
   return f;
 }
 
+// ---------- §3.6 execution provenance ----------
+
+const PROVENANCE_LEVELS = [0, 1, 2, 3];
+
+/**
+ * A query fingerprint that is exactly the query string, unsalted-hex, is
+ * dictionary-reversible and violates §3.6 Privacy's one-way requirement.
+ * We cannot prove a hash is salted from the ciphertext alone, so this
+ * catches only the clearest violation: a fingerprint field carrying
+ * human-readable text rather than a digest-shaped value.
+ */
+const DIGEST_SHAPED = /^([a-z0-9_-]+:)?[0-9a-fA-F]{16,}$/;
+
+function validateFingerprint(value: unknown, path: string, field: string): Finding[] {
+  if (typeof value !== "string") return [];
+  if (!DIGEST_SHAPED.test(value)) {
+    return [
+      err(
+        "3.6",
+        path,
+        `\`${field}\` must be a digest-shaped value (e.g. "sha256:<hex>"), not human-readable text; SPEC §3.6 Privacy requires a one-way construction`,
+      ),
+    ];
+  }
+  return [];
+}
+
+export function validateExecution(exec: unknown, path: string): Finding[] {
+  const f: Finding[] = [];
+  if (!isObject(exec)) return [err("3.6", path, "`execution` must be an object")];
+
+  if (exec.level !== undefined && !PROVENANCE_LEVELS.includes(exec.level as number)) {
+    f.push(err("3.6", `${path}.level`, `\`level\` must be one of ${PROVENANCE_LEVELS.join(", ")}`));
+  }
+
+  for (const key of [
+    "request_id",
+    "corpus_sha256",
+    "index_id",
+    "index_build",
+    "provider_release",
+    "retrieval_pipeline",
+    "software",
+    "software_version",
+    "git_commit",
+  ]) {
+    if (exec[key] !== undefined && typeof exec[key] !== "string") {
+      f.push(err("3.6", `${path}.${key}`, `\`${key}\` must be a string when present`));
+    }
+  }
+
+  for (const [field, value] of [
+    ["query_fingerprint", exec.query_fingerprint],
+    ["query_plan_fingerprint", exec.query_plan_fingerprint],
+    ["provider_request_fingerprint", exec.provider_request_fingerprint],
+    ["response_sha256", exec.response_sha256],
+  ] as const) {
+    if (value !== undefined && typeof value !== "string") {
+      f.push(err("3.6", `${path}.${field}`, `\`${field}\` must be a string when present`));
+    } else {
+      f.push(...validateFingerprint(value, `${path}.${field}`, field));
+    }
+  }
+
+  // A fingerprint carrying a credential-shaped query param leaks whatever it
+  // was meant to hash away. Cheap defense against pasting a raw URL in here.
+  f.push(...validatePublicUrl(exec.provider_request_fingerprint, "3.6", `${path}.provider_request_fingerprint`));
+
+  return f;
+}
+
+// ---------- §3.7 lineage ----------
+
+export function validateLineage(lineage: unknown, citationCount: number, path: string): Finding[] {
+  const f: Finding[] = [];
+  if (!Array.isArray(lineage)) return [err("3.7", path, "`lineage` must be an array when present")];
+
+  const knownObjects = new Set<string>();
+  lineage.forEach((raw, i) => {
+    const at = `${path}[${i}]`;
+    if (!isObject(raw)) {
+      f.push(err("3.7", at, "lineage entry must be an object"));
+      return;
+    }
+
+    if (typeof raw.step !== "number") {
+      f.push(err("3.7", `${at}.step`, "`step` is required and must be a number"));
+    } else if (raw.step !== i) {
+      f.push(warn("3.7", `${at}.step`, `\`step\` (${raw.step}) does not match its array position (${i})`));
+    }
+
+    for (const key of ["derived_object", "transformation"]) {
+      if (typeof raw[key] !== "string" || (raw[key] as string).length === 0) {
+        f.push(err("3.7", `${at}.${key}`, `required string field \`${key}\` is missing`));
+      }
+    }
+
+    if (!Array.isArray(raw.sources)) {
+      f.push(err("3.7", `${at}.sources`, "`sources` is required and must be an array"));
+    } else if (raw.sources.length === 0) {
+      f.push(err("3.7", `${at}.sources`, "`sources` must name at least one citation index or prior derived_object"));
+    } else {
+      raw.sources.forEach((s, j) => {
+        if (typeof s === "number") {
+          if (!Number.isInteger(s) || s < 0 || s >= citationCount) {
+            f.push(
+              err("3.7", `${at}.sources[${j}]`, `citation index ${s} is out of range for ${citationCount} citations`),
+            );
+          }
+        } else if (typeof s === "string") {
+          // A string source may name a prior step in this envelope, or a
+          // derived_object/source_id from another merchant's lineage
+          // (cross-merchant composition, SPEC §3.7). Only the former is
+          // checkable here; an unmatched string is a soft signal, not an
+          // error, since this envelope cannot see outside itself.
+          if (!knownObjects.has(s)) {
+            f.push(
+              warn(
+                "3.7",
+                `${at}.sources[${j}]`,
+                `"${s}" does not match an earlier step's \`derived_object\` in this envelope; assuming a cross-merchant reference`,
+              ),
+            );
+          }
+        } else {
+          f.push(err("3.7", `${at}.sources[${j}]`, "a source must be a citation index (number) or a derived_object (string)"));
+        }
+      });
+    }
+
+    for (const key of ["software", "software_version", "git_commit", "notes"]) {
+      if (raw[key] !== undefined && typeof raw[key] !== "string") {
+        f.push(err("3.7", `${at}.${key}`, `\`${key}\` must be a string when present`));
+      }
+    }
+
+    if (raw.timestamp !== undefined) {
+      if (typeof raw.timestamp !== "string" || !ISO_8601.test(raw.timestamp)) {
+        f.push(err("3.7", `${at}.timestamp`, "`timestamp` must be an ISO-8601 timestamp"));
+      }
+    }
+
+    if (typeof raw.derived_object === "string") knownObjects.add(raw.derived_object);
+  });
+
+  return f;
+}
+
 // ---------- §3 envelope ----------
 
 export interface EnvelopeOptions {
@@ -632,6 +785,11 @@ export function validateEnvelope(doc: unknown, opts: EnvelopeOptions = {}): Repo
   }
 
   citations.forEach((cit, i) => f.push(...validateCitation(cit, `$.citation[${i}]`)));
+
+  // --- §3.7 lineage
+  if (doc.lineage !== undefined) {
+    f.push(...validateLineage(doc.lineage, citations.length, "$.lineage"));
+  }
 
   // --- §7.2 deprecated aliases must agree with the array
   if (doc.citation_legacy !== undefined) {
@@ -752,6 +910,7 @@ function validateCitation(cit: unknown, path: string): Finding[] {
     }
   }
   if (cit.assets !== undefined) f.push(...validateAssets(cit.assets, `${path}.assets`));
+  if (cit.execution !== undefined) f.push(...validateExecution(cit.execution, `${path}.execution`));
   if (cit.result_index !== undefined) {
     if (!Array.isArray(cit.result_index) || cit.result_index.some((n) => !Number.isInteger(n) || n < 0)) {
       f.push(err("3.3", `${path}.result_index`, "`result_index` must be an array of non-negative integers"));

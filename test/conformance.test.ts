@@ -57,6 +57,11 @@ const ENVELOPE_FIXTURES: Array<[string, string]> = [
   ["query-assets-metadata-only.json", "query"],
   ["query-assets-oa-and-restricted.json", "query"],
   ["query-assets-fulltext-and-dataset.json", "query"],
+  ["query-execution-level0.json", "query"],
+  ["query-execution-level2-proxy.json", "query"],
+  ["insight-execution-level3-local-index.json", "insight"],
+  ["insight-lineage-gateway.json", "insight"],
+  ["query-lineage-merged-multi-source.json", "query"],
 ];
 
 for (const [name, tier] of ENVELOPE_FIXTURES) {
